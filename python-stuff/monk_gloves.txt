@@ -1,0 +1,1906 @@
+=== AbyssModArmourJewelleryAmanamuSuffixFireChaosResistance ===
++(13-17)% to Fire and Chaos Resistances => +(2-3)% to Maximum Fire Resistance
+                                        => +(13-17)% to Chaos Resistance
+
+=== AbyssModArmourJewelleryAmanamuSuffixStrengthAndIntelligence ===
++(9-15) to Strength and Intelligence => (7-9)% increased Strength and Intelligence
+
+=== AbyssModArmourJewelleryKurgalSuffixColdChaosResistance ===
++(13-17)% to Cold and Chaos Resistances => +(2-3)% to Maximum Cold Resistance
+                                        => +(13-17)% to Chaos Resistance
+
+=== AbyssModArmourJewelleryKurgalSuffixDexterityAndIntelligence ===
++(9-15) to Dexterity and Intelligence => (7-9)% increased Dexterity and Intelligence
+
+=== AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance ===
++(13-17)% to Lightning and Chaos Resistances => +(2-3)% to Maximum Lightning Resistance
+                                             => +(13-17)% to Chaos Resistance
+
+=== AbyssModArmourJewelleryUlamanSuffixStrengthAndDexterity ===
++(9-15) to Strength and Dexterity => (7-9)% increased Strength and Dexterity
+
+=== AbyssModFourCatKurgalSuffixManaCostEfficiency ===
+(6-10)% increased Mana Cost Efficiency => (6-10)% increased Reservation Efficiency of Skills
+
+=== AbyssModGlovesAmanamuSuffixCurseAreaOfEffect ===
+(12-20)% increased Area of Effect of Curses => Mark Skills have (15-25)% increased Use Speed
+
+=== AbyssModGlovesAmanamuSuffixDazeChance ===
+(10-20)% chance to Daze on Hit => Gain (11-15)% of Physical Damage as Extra Cold Damage against Dazed Enemies
+
+=== AbyssModGlovesAmanamuSuffixImmobilisationBuildUp ===
+(10-20)% increased Immobilisation buildup => (26-35)% increased Damage against Immobilised Enemies
+
+=== AbyssModGlovesAmanamuSuffixPercentOfLifeLeechInstant ===
+(8-15)% of Leech is Instant => Life Leech can Overflow Maximum Life
+
+=== AbyssModGlovesKurgalSuffixArcaneSurgeOnCriticalHit ===
+(10-15)% chance to Gain Arcane Surge when you deal a Critical Hit => (5-10)% chance to gain a Power Charge on Critical Hit
+
+=== AbyssModGlovesKurgalSuffixCastSpeedWhileOnFullMana ===
+(8-15)% increased Cast Speed when on Full Life => (17-23)% increased Attack Speed when on Full Life
+
+=== AbyssModGlovesUlamanSuffixAilmentMagnitude ===
+(10-20)% increased Magnitude of Ailments you inflict => (20-35)% increased Magnitude of Damaging Ailments you inflict with Critical Hits
+
+=== AbyssModGlovesUlamanSuffixBleedChance ===
+(20-30)% increased chance to inflict Bleeding => Chance to inflict Bleeding is calculated from your base chance to Poison instead
+
+=== AbyssModGlovesUlamanSuffixFrenzyChargeConsumedSkillSpeed ===
+(8-12)% increased Skill Speed if you've consumed a Frenzy Charge Recently => (13-17)% increased Attack Speed if you haven't been Hit Recently
+
+=== AbyssModGlovesUlamanSuffixIncisionChance ===
+(15-25)% chance for Attack Hits to apply Incision => Attack Hits Aggravate any Bleeding on targets which is older than (3-4) seconds
+
+=== AbyssModGlovesUlamanSuffixPoisonChance ===
+(20-30)% increased chance to Poison => Chance to Poison is calculated from your base chance to inflict Bleeding instead
+
+=== AddedColdDamage1 ===
+Adds 1 to (2-3) Cold damage to Attacks => Attacks Gain 10% of Damage as Extra Cold Damage
+
+=== AddedColdDamage2 ===
+Adds (3-4) to (5-8) Cold damage to Attacks => Attacks Gain 11% of Damage as Extra Cold Damage
+
+=== AddedColdDamage3 ===
+Adds (5-6) to (9-11) Cold damage to Attacks => Attacks Gain 12% of Damage as Extra Cold Damage
+
+=== AddedColdDamage4 ===
+Adds (7-8) to (12-14) Cold damage to Attacks => Attacks Gain 13% of Damage as Extra Cold Damage
+
+=== AddedColdDamage5 ===
+Adds (9-10) to (15-17) Cold damage to Attacks => Attacks Gain 14% of Damage as Extra Cold Damage
+
+=== AddedColdDamage6 ===
+Adds (11-13) to (18-21) Cold damage to Attacks => Attacks Gain (15-16)% of Damage as Extra Cold Damage
+
+=== AddedColdDamage7 ===
+Adds (14-15) to (22-24) Cold damage to Attacks => Attacks Gain (17-18)% of Damage as Extra Cold Damage
+
+=== AddedColdDamage8 ===
+Adds (16-20) to (25-31) Cold damage to Attacks => Attacks Gain (19-20)% of Damage as Extra Cold Damage
+
+=== AddedColdDamage9 ===
+Adds (21-24) to (32-37) Cold damage to Attacks => Attacks Gain (21-23)% of Damage as Extra Cold Damage
+
+=== AddedFireDamage1 ===
+Adds (1-2) to 3 Fire damage to Attacks => Attacks Gain 10% of Damage as Extra Fire Damage
+
+=== AddedFireDamage2 ===
+Adds (3-5) to (6-9) Fire damage to Attacks => Attacks Gain 11% of Damage as Extra Fire Damage
+
+=== AddedFireDamage3 ===
+Adds (6-8) to (10-13) Fire damage to Attacks => Attacks Gain 12% of Damage as Extra Fire Damage
+
+=== AddedFireDamage4 ===
+Adds (9-11) to (14-17) Fire damage to Attacks => Attacks Gain 13% of Damage as Extra Fire Damage
+
+=== AddedFireDamage5 ===
+Adds (12-13) to (18-20) Fire damage to Attacks => Attacks Gain 14% of Damage as Extra Fire Damage
+
+=== AddedFireDamage6 ===
+Adds (11-16) to (21-26) Fire damage to Attacks => Attacks Gain (15-16)% of Damage as Extra Fire Damage
+
+=== AddedFireDamage7 ===
+Adds (13-19) to (27-32) Fire damage to Attacks => Attacks Gain (17-18)% of Damage as Extra Fire Damage
+
+=== AddedFireDamage8 ===
+Adds (20-24) to (33-36) Fire damage to Attacks => Attacks Gain (19-20)% of Damage as Extra Fire Damage
+
+=== AddedFireDamage9 ===
+Adds (25-29) to (37-45) Fire damage to Attacks => Attacks Gain (21-23)% of Damage as Extra Fire Damage
+
+=== AddedLightningDamage1 ===
+Adds 1 to (4-6) Lightning damage to Attacks => Attacks Gain 10% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage2 ===
+Adds 1 to (10-15) Lightning damage to Attacks => Attacks Gain 11% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage3 ===
+Adds 1 to (16-22) Lightning damage to Attacks => Attacks Gain 12% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage4 ===
+Adds 1 to (23-27) Lightning damage to Attacks => Attacks Gain 13% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage5 ===
+Adds 1 to (28-32) Lightning damage to Attacks => Attacks Gain 14% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage6 ===
+Adds (1-2) to (33-40) Lightning damage to Attacks => Attacks Gain (15-16)% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage7 ===
+Adds (1-2) to (41-47) Lightning damage to Attacks => Attacks Gain (17-18)% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage8 ===
+Adds (1-3) to (48-59) Lightning damage to Attacks => Attacks Gain (19-20)% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamage9 ===
+Adds (1-4) to (60-71) Lightning damage to Attacks => Attacks Gain (21-23)% of Damage as Extra Lightning Damage
+
+=== AddedLightningDamageWhileUnarmedUniqueGloves_1 ===
+Adds 1 to (77-111) Lightning Damage to Unarmed Melee Hits => Adds 44 to 66 Cold Damage to Unarmed Melee Hits
+
+=== AddedPhysicalDamage1 ===
+Adds (1-2) to 3 Physical Damage to Attacks => Attacks Gain 10% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage2 ===
+Adds (2-3) to (4-6) Physical Damage to Attacks => Attacks Gain 11% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage3 ===
+Adds (2-4) to (5-8) Physical Damage to Attacks => Attacks Gain 12% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage4 ===
+Adds (4-6) to (8-11) Physical Damage to Attacks => Attacks Gain 13% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage5 ===
+Adds (5-7) to (9-13) Physical Damage to Attacks => Attacks Gain 14% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage6 ===
+Adds (6-10) to (12-17) Physical Damage to Attacks => Attacks Gain (15-16)% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage7 ===
+Adds (7-11) to (14-20) Physical Damage to Attacks => Attacks Gain (17-18)% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage8 ===
+Adds (10-15) to (18-26) Physical Damage to Attacks => Attacks Gain (19-20)% of Damage as Extra Physical Damage
+
+=== AddedPhysicalDamage9 ===
+Adds (12-19) to (22-32) Physical Damage to Attacks => Attacks Gain (21-23)% of Damage as Extra Physical Damage
+
+=== AlloyAttackAreaOfEffect1 ===
+(10-15)% increased Area of Effect for Attacks => 1% increased Area of Effect for Attacks per 10 Intelligence
+
+=== AlloyCastSpeedGloves1 ===
+(9-12)% increased Cast Speed => (10-30)% chance to gain a Power Charge when you Stun
+
+=== AlloyDamagingAilmentDuration1 ===
+(20-25)% increased Duration of Damaging Ailments on Enemies => (15-25)% increased Magnitude of Damaging Ailments you inflict with Critical Hits
+
+=== AlloyElementalPenetration1 ===
+Damage Penetrates (9-15)% Elemental Resistances => +(20-30)% to all Elemental Resistances
+
+=== AlloyRemnantPickupRange1 ===
+Remnants can be collected from (35-50)% further away => (17-23)% chance for Remnants you pick up to count as picking up an additional Remnant
+
+=== ArmourAppliesToElementalDamage1 ===
++(14-19)% of Armour also applies to Elemental Damage => +(10-12)% to all Elemental Resistances
+
+=== ArmourAppliesToElementalDamage2 ===
++(20-25)% of Armour also applies to Elemental Damage => +(13-15)% to all Elemental Resistances
+
+=== ArmourAppliesToElementalDamage3 ===
++(26-31)% of Armour also applies to Elemental Damage => +(16-18)% to all Elemental Resistances
+
+=== ArmourAppliesToElementalDamage4 ===
++(32-37)% of Armour also applies to Elemental Damage => +(19-21)% to all Elemental Resistances
+
+=== ArmourAppliesToElementalDamage5 ===
++(38-43)% of Armour also applies to Elemental Damage => +(22-24)% to all Elemental Resistances
+
+=== BaseUnarmedCriticalStrikeChanceUnique__2 ===
++(0.1-1.1)% to Unarmed Melee Attack Critical Hit Chance => +(0.8-1.5)% to Unarmed Melee Attack Critical Hit Chance
+
+=== ChaosResist1 ===
++(4-7)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                            => +(6-9)% to Chaos Resistance
+
+=== ChaosResist2 ===
++(8-11)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                             => +(10-13)% to Chaos Resistance
+
+=== ChaosResist3 ===
++(12-15)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                              => +(14-17)% to Chaos Resistance
+
+=== ChaosResist4 ===
++(16-19)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                              => +(18-21)% to Chaos Resistance
+
+=== ChaosResist5 ===
++(20-23)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                              => +(22-25)% to Chaos Resistance
+
+=== ChaosResist6 ===
++(24-27)% to Chaos Resistance => +2% to Maximum Chaos Resistance
+                              => +(22-25)% to Chaos Resistance
+
+=== ColdResist1 ===
++(6-10)% to Cold Resistance => +1% to Maximum Cold Resistance
+                            => +(11-15)% to Cold Resistance
+
+=== ColdResist2 ===
++(11-15)% to Cold Resistance => +1% to Maximum Cold Resistance
+                             => +(16-20)% to Cold Resistance
+
+=== ColdResist3 ===
++(16-20)% to Cold Resistance => +1% to Maximum Cold Resistance
+                             => +(21-25)% to Cold Resistance
+
+=== ColdResist4 ===
++(21-25)% to Cold Resistance => +2% to Maximum Cold Resistance
+                             => +(21-25)% to Cold Resistance
+
+=== ColdResist5 ===
++(26-30)% to Cold Resistance => +2% to Maximum Cold Resistance
+                             => +(26-30)% to Cold Resistance
+
+=== ColdResist6 ===
++(31-35)% to Cold Resistance => +2% to Maximum Cold Resistance
+                             => +(31-35)% to Cold Resistance
+
+=== ColdResist7 ===
++(36-40)% to Cold Resistance => +2% to Maximum Cold Resistance
+                             => +(36-40)% to Cold Resistance
+
+=== ColdResist8 ===
++(41-45)% to Cold Resistance => +3% to Maximum Cold Resistance
+                             => +(36-40)% to Cold Resistance
+
+=== CriticalMultiplier1 ===
+(10-14)% increased Critical Damage Bonus => +(0.5-1)% to Critical Hit Chance
+
+=== CriticalMultiplier2 ===
+(15-19)% increased Critical Damage Bonus => +(1.1-1.5)% to Critical Hit Chance
+
+=== CriticalMultiplier3 ===
+(20-24)% increased Critical Damage Bonus => +(1.6-2)% to Critical Hit Chance
+
+=== CriticalMultiplier4 ===
+(25-29)% increased Critical Damage Bonus => +(2.1-2.5)% to Critical Hit Chance
+
+=== CriticalMultiplier5 ===
+(30-34)% increased Critical Damage Bonus => +(2.5-3)% to Critical Hit Chance
+
+=== DecayInfluenceAilmentDuration1 ===
+(10-19)% increased Duration of Damaging Ailments on Enemies => (10-22)% increased Duration of Ailments on Enemies
+
+=== DecayInfluenceAilmentDuration2 ===
+(20-30)% increased Duration of Damaging Ailments on Enemies => (23-37)% increased Duration of Ailments on Enemies
+
+=== DecayInfluenceAilmentMagnitude1 ===
+(20-25)% increased Magnitude of Ailments you inflict => +(10-25) to Ailment Threshold
+                                                     => (10-20)% increased Elemental Ailment Threshold
+
+=== DecayInfluenceAilmentMagnitude2 ===
+(26-32)% increased Magnitude of Ailments you inflict => +(26-40) to Ailment Threshold
+                                                     => (21-35)% increased Elemental Ailment Threshold
+
+=== DecayInfluenceBleedMagnitude1 ===
+(20-29)% increased Magnitude of Bleeding you inflict => Enemies you kill have a (10-30)% chance to explode, dealing a tenth of their maximum Life as Physical damage
+
+=== DecayInfluenceBleedMagnitude2 ===
+(30-42)% increased Magnitude of Bleeding you inflict => Enemies you kill have a (31-50)% chance to explode, dealing a tenth of their maximum Life as Physical damage
+
+=== DecayInfluenceCurseMagnitude1 ===
+(15-21)% increased Curse Magnitudes => You can apply an additional Curse
+
+=== DecayInfluenceCurseMagnitude2 ===
+(22-29)% increased Curse Magnitudes => You can apply an additional Curse
+                                    => (5-15)% increased Curse Magnitudes
+
+=== DecayInfluenceExposureEffect1 ===
+(20-34)% increased Exposure Effect => Damage Penetrates (4-8)% Elemental Resistances
+
+=== DecayInfluenceExposureEffect2 ===
+(35-50)% increased Exposure Effect => Damage Penetrates (9-15)% Elemental Resistances
+
+=== DecayInfluenceFasterCurseActivation1 ===
+(20-30)% faster Curse Activation => Gain (1-10) Mana per Cursed Enemy Hit with Attacks
+
+=== DecayInfluenceFasterDamagingAilments1 ===
+Damaging Ailments deal damage (8-13)% faster => Enemies take (5-10)% increased Damage for each Elemental Ailment type among
+                                             => your Ailments on them
+
+=== DecayInfluenceFasterDamagingAilments2 ===
+Damaging Ailments deal damage (14-20)% faster => Enemies take (11-15)% increased Damage for each Elemental Ailment type among
+                                              => your Ailments on them
+
+=== DecayInfluenceFasterLeech1 ===
+Leech (8-12)% of Physical Attack Damage as Life => (15-35)% increased Damage while Leeching
+Leech Life (15-25)% faster                      =>
+
+=== DecayInfluenceIgniteMagnitude1 ===
+(20-34)% increased Ignite Magnitude => Enemies killed by your Hits are destroyed
+                                    => Burning Enemies you kill have a (10-30)% chance to Explode, dealing a
+                                    => tenth of their maximum Life as Fire Damage
+
+=== DecayInfluenceIgniteMagnitude2 ===
+(35-50)% increased Ignite Magnitude => Enemies killed by your Hits are destroyed
+                                    => Burning Enemies you kill have a (31-50)% chance to Explode, dealing a
+                                    => tenth of their maximum Life as Fire Damage
+
+=== DecayInfluenceIncreasedCurseDuration1 ===
+(50-99)% increased Curse Duration => Gain (1-10) Life per Cursed Enemy Hit with Attacks
+
+=== DecayInfluenceLeechAmount1 ===
+(30-40)% increased amount of Life Leeched => Leech (7-12)% of Physical Attack Damage as Life
+
+=== DecayInfluencePoisonMagnitude1 ===
+(20-29)% increased Magnitude of Poison you inflict => Enemies you kill have a (9-14)% chance to explode, dealing a quarter of their maximum Life as Chaos damage
+
+=== DecayInfluencePoisonMagnitude2 ===
+(30-42)% increased Magnitude of Poison you inflict => Enemies you kill have a (15-20)% chance to explode, dealing a quarter of their maximum Life as Chaos damage
+
+=== DecayInfluenceSlowerLeech1 ===
+Leech (8-12)% of Physical Attack Damage as Life => (15-35)% increased Evasion while Leeching
+Leech Life (15-25)% slower                      =>
+
+=== DecayInfluenceWitherMagnitude1 ===
+(15-24)% increased Withered Magnitude => Damage with Weapons Penetrates (5-9)% Chaos Resistance
+
+=== DecayInfluenceWitherMagnitude2 ===
+(25-35)% increased Withered Magnitude => Damage with Weapons Penetrates (10-17)% Chaos Resistance
+
+=== DemigodIncreasedSkillSpeed1 ===
+10% increased Skill Speed => 15% increased Attack Speed if you've dealt a Critical Hit Recently
+
+=== Dexterity1 ===
++(5-8) to Dexterity => +(15-18)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity2 ===
++(9-12) to Dexterity => +(19-22)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity3 ===
++(13-16) to Dexterity => +(23-26)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity4 ===
++(17-20) to Dexterity => +(27-30)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity5 ===
++(21-24) to Dexterity => +(31-35)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity6 ===
++(25-27) to Dexterity => +(36-40)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity7 ===
++(28-30) to Dexterity => +(41-45)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity8 ===
++(31-33) to Dexterity => +(46-50)% Surpassing chance to fire an additional Projectile
+
+=== Dexterity9 ===
++(34-36) to Dexterity => +(51-60)% Surpassing chance to fire an additional Projectile
+
+=== EnergyShieldRechargeRate1 ===
+(5-8)% increased Energy Shield Recharge Rate => (26-30)% faster start of Energy Shield Recharge
+
+=== EnergyShieldRechargeRate2 ===
+(9-11)% increased Energy Shield Recharge Rate => (31-35)% faster start of Energy Shield Recharge
+
+=== EnergyShieldRechargeRate3 ===
+(12-15)% increased Energy Shield Recharge Rate => (36-40)% faster start of Energy Shield Recharge
+
+=== EnergyShieldRechargeRate4 ===
+(16-19)% increased Energy Shield Recharge Rate => (41-45)% faster start of Energy Shield Recharge
+
+=== EnergyShieldRechargeRate5 ===
+(20-23)% increased Energy Shield Recharge Rate => (46-50)% faster start of Energy Shield Recharge
+
+=== EnergyShieldRechargeRate6 ===
+(24-27)% increased Energy Shield Recharge Rate => (51-55)% faster start of Energy Shield Recharge
+
+=== EssenceGoldDropped1 ===
+(10-15)% increased Quantity of Gold Dropped by Slain Enemies => Charms gain (0.13-0.27) charges per Second
+
+=== EssenceLightningRecoupLife1 ===
+(26-30)% of Lightning Damage taken Recouped as Life => (12-23)% of Damage taken from Deflected Hits Recouped as Life
+
+=== EssenceLocalRuneAndSoulCoreEffect1 ===
+60% increased effect of Socketed Augment Items => Life Flasks gain (0.13-0.27) charges per Second
+                                               => Mana Flasks gain (0.13-0.27) charges per Second
+
+=== EvasionGrantsDeflection1 ===
+Gain Deflection Rating equal to (8-11)% of Evasion Rating => Prevent +3% of Damage from Deflected Hits
+
+=== EvasionGrantsDeflection2 ===
+Gain Deflection Rating equal to (12-14)% of Evasion Rating => Prevent +4% of Damage from Deflected Hits
+
+=== EvasionGrantsDeflection3 ===
+Gain Deflection Rating equal to (15-17)% of Evasion Rating => Prevent +5% of Damage from Deflected Hits
+
+=== EvasionGrantsDeflection4 ===
+Gain Deflection Rating equal to (18-20)% of Evasion Rating => Prevent +6% of Damage from Deflected Hits
+
+=== EvasionGrantsDeflection5 ===
+Gain Deflection Rating equal to (21-23)% of Evasion Rating => Prevent +7% of Damage from Deflected Hits
+
+=== FireResist1 ===
++(6-10)% to Fire Resistance => +1% to Maximum Fire Resistance
+                            => +(11-15)% to Fire Resistance
+
+=== FireResist2 ===
++(11-15)% to Fire Resistance => +1% to Maximum Fire Resistance
+                             => +(16-20)% to Fire Resistance
+
+=== FireResist3 ===
++(16-20)% to Fire Resistance => +1% to Maximum Fire Resistance
+                             => +(21-25)% to Fire Resistance
+
+=== FireResist4 ===
++(21-25)% to Fire Resistance => +2% to Maximum Fire Resistance
+                             => +(21-25)% to Fire Resistance
+
+=== FireResist5 ===
++(26-30)% to Fire Resistance => +2% to Maximum Fire Resistance
+                             => +(26-30)% to Fire Resistance
+
+=== FireResist6 ===
++(31-35)% to Fire Resistance => +2% to Maximum Fire Resistance
+                             => +(31-35)% to Fire Resistance
+
+=== FireResist7 ===
++(36-40)% to Fire Resistance => +2% to Maximum Fire Resistance
+                             => +(36-40)% to Fire Resistance
+
+=== FireResist8 ===
++(41-45)% to Fire Resistance => +3% to Maximum Fire Resistance
+                             => +(36-40)% to Fire Resistance
+
+=== GlobalMeleeSkillGemLevel1 ===
++1 to Level of all Melee Skills => +(10-12)% to Quality of all Skills
+
+=== GlobalMeleeSkillGemLevel2 ===
++2 to Level of all Melee Skills => +1 to Level of all Melee Skills
+                                => +(10-12)% to Quality of all Skills
+
+=== IncreasedAccuracy1 ===
++(11-32) to Accuracy Rating => (12-14)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy2 ===
++(33-60) to Accuracy Rating => (15-17)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy3 ===
++(61-84) to Accuracy Rating => (18-20)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy4 ===
++(85-123) to Accuracy Rating => (21-23)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy5 ===
++(124-167) to Accuracy Rating => (24-26)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy6 ===
++(168-236) to Accuracy Rating => (27-29)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy7 ===
++(237-346) to Accuracy Rating => (30-32)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy8 ===
++(347-450) to Accuracy Rating => (33-35)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAccuracy9 ===
++(451-550) to Accuracy Rating => (36-38)% chance to Blind Enemies on Hit with Attacks
+
+=== IncreasedAttackSpeed1 ===
+(5-7)% increased Attack Speed => (8-12)% chance to gain Onslaught for 4 seconds on Hit
+
+=== IncreasedAttackSpeed2 ===
+(8-10)% increased Attack Speed => (14-18)% chance to gain Onslaught for 4 seconds on Hit
+
+=== IncreasedAttackSpeed3 ===
+(11-13)% increased Attack Speed => (20-24)% chance to gain Onslaught for 4 seconds on Hit
+
+=== IncreasedAttackSpeed4 ===
+(14-16)% increased Attack Speed => (26-30)% chance to gain Onslaught for 4 seconds on Hit
+
+=== IncreasedLife1 ===
++(10-19) to maximum Life => 5% less damage taken while on Low Life
+
+=== IncreasedLife10 ===
++(150-174) to maximum Life => 14% less damage taken while on Low Life
+
+=== IncreasedLife11 ===
++(175-189) to maximum Life => 15% less damage taken while on Low Life
+
+=== IncreasedLife12 ===
++(190-199) to maximum Life => 16% less damage taken while on Low Life
+
+=== IncreasedLife13 ===
++(200-214) to maximum Life => 17% less damage taken while on Low Life
+
+=== IncreasedLife2 ===
++(20-29) to maximum Life => 6% less damage taken while on Low Life
+
+=== IncreasedLife3 ===
++(30-39) to maximum Life => 7% less damage taken while on Low Life
+
+=== IncreasedLife4 ===
++(40-59) to maximum Life => 8% less damage taken while on Low Life
+
+=== IncreasedLife5 ===
++(60-69) to maximum Life => 9% less damage taken while on Low Life
+
+=== IncreasedLife6 ===
++(70-84) to maximum Life => 10% less damage taken while on Low Life
+
+=== IncreasedLife7 ===
++(85-99) to maximum Life => 11% less damage taken while on Low Life
+
+=== IncreasedLife8 ===
++(100-119) to maximum Life => 12% less damage taken while on Low Life
+
+=== IncreasedLife9 ===
++(120-149) to maximum Life => 13% less damage taken while on Low Life
+
+=== IncreasedMana1 ===
++(10-14) to maximum Mana => (10-11)% more Attack damage while on Low Mana
+
+=== IncreasedMana2 ===
++(15-24) to maximum Mana => (12-13)% more Attack damage while on Low Mana
+
+=== IncreasedMana3 ===
++(25-34) to maximum Mana => (14-15)% more Attack damage while on Low Mana
+
+=== IncreasedMana4 ===
++(35-54) to maximum Mana => (16-17)% more Attack damage while on Low Mana
+
+=== IncreasedMana5 ===
++(55-64) to maximum Mana => (18-19)% more Attack damage while on Low Mana
+
+=== IncreasedMana6 ===
++(65-79) to maximum Mana => (20-21)% more Attack damage while on Low Mana
+
+=== IncreasedMana7 ===
++(80-89) to maximum Mana => (22-23)% more Attack damage while on Low Mana
+
+=== IncreasedMana8 ===
++(90-104) to maximum Mana => (24-25)% more Attack damage while on Low Mana
+
+=== IncreasedMana9 ===
++(105-124) to maximum Mana => (26-27)% more Attack damage while on Low Mana
+
+=== Intelligence1 ===
++(5-8) to Intelligence => (5-8)% increased Cooldown Recovery Rate
+
+=== Intelligence2 ===
++(9-12) to Intelligence => (9-12)% increased Cooldown Recovery Rate
+
+=== Intelligence3 ===
++(13-16) to Intelligence => (13-16)% increased Cooldown Recovery Rate
+
+=== Intelligence4 ===
++(17-20) to Intelligence => (17-20)% increased Cooldown Recovery Rate
+
+=== Intelligence5 ===
++(21-24) to Intelligence => (21-24)% increased Cooldown Recovery Rate
+
+=== Intelligence6 ===
++(25-27) to Intelligence => (25-28)% increased Cooldown Recovery Rate
+
+=== Intelligence7 ===
++(28-30) to Intelligence => (29-32)% increased Cooldown Recovery Rate
+
+=== Intelligence8 ===
++(31-33) to Intelligence => 10% increased Cooldown Recovery Rate
+
+=== ItemFoundRarityIncrease1 ===
+(6-10)% increased Rarity of Items found => (15-20)% increased Quantity of Gold Dropped by Slain Enemies
+
+=== ItemFoundRarityIncrease2 ===
+(11-14)% increased Rarity of Items found => (21-25)% increased Quantity of Gold Dropped by Slain Enemies
+
+=== ItemFoundRarityIncrease3 ===
+(15-18)% increased Rarity of Items found => (26-30)% increased Quantity of Gold Dropped by Slain Enemies
+
+=== LifeGainPerTarget1 ===
+Gain 2 Life per Enemy Hit with Attacks => Gain (4-6) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently
+
+=== LifeGainPerTarget2 ===
+Gain 3 Life per Enemy Hit with Attacks => Gain (7-9) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently
+
+=== LifeGainPerTarget3 ===
+Gain 4 Life per Enemy Hit with Attacks => Gain (10-12) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently
+
+=== LifeGainPerTarget4 ===
+Gain 5 Life per Enemy Hit with Attacks => Gain (13-15) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently
+
+=== LifeGainedFromEnemyDeath1 ===
+Gain (4-6) Life per enemy killed => Recover 1% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath2 ===
+Gain (7-9) Life per enemy killed => Recover 1% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath3 ===
+Gain (10-18) Life per enemy killed => Recover 1% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath4 ===
+Gain (19-28) Life per enemy killed => Recover 2% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath5 ===
+Gain (29-40) Life per enemy killed => Recover 2% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath6 ===
+Gain (41-53) Life per enemy killed => Recover 2% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath7 ===
+Gain (54-68) Life per enemy killed => Recover 2% of maximum Life on Kill
+
+=== LifeGainedFromEnemyDeath8 ===
+Gain (69-84) Life per enemy killed => Recover 3% of maximum Life on Kill
+
+=== LifeLeech1 ===
+Leech (5-5.9)% of Physical Attack Damage as Life => Leech (8-8.9)% of Physical Attack Damage as Life
+                                                 => Leech Life (20-25)% slower
+
+=== LifeLeech2 ===
+Leech (6-6.9)% of Physical Attack Damage as Life => Leech (9-10.9)% of Physical Attack Damage as Life
+                                                 => Leech Life (20-25)% slower
+
+=== LifeLeech3 ===
+Leech (7-7.9)% of Physical Attack Damage as Life => Leech (11-11.9)% of Physical Attack Damage as Life
+                                                 => Leech Life (20-25)% slower
+
+=== LifeLeech4 ===
+Leech (8-8.9)% of Physical Attack Damage as Life => Leech (12-13.9)% of Physical Attack Damage as Life
+                                                 => Leech Life (20-25)% slower
+
+=== LifeLeech5 ===
+Leech (9-9.9)% of Physical Attack Damage as Life => Leech (14-15)% of Physical Attack Damage as Life
+                                                 => Leech Life (20-25)% slower
+
+=== LightningResist1 ===
++(6-10)% to Lightning Resistance => +1% to Maximum Lightning Resistance
+                                 => +(11-15)% to Lightning Resistance
+
+=== LightningResist2 ===
++(11-15)% to Lightning Resistance => +1% to Maximum Lightning Resistance
+                                  => +(16-20)% to Lightning Resistance
+
+=== LightningResist3 ===
++(16-20)% to Lightning Resistance => +1% to Maximum Lightning Resistance
+                                  => +(21-25)% to Lightning Resistance
+
+=== LightningResist4 ===
++(21-25)% to Lightning Resistance => +2% to Maximum Lightning Resistance
+                                  => +(21-25)% to Lightning Resistance
+
+=== LightningResist5 ===
++(26-30)% to Lightning Resistance => +2% to Maximum Lightning Resistance
+                                  => +(26-30)% to Lightning Resistance
+
+=== LightningResist6 ===
++(31-35)% to Lightning Resistance => +2% to Maximum Lightning Resistance
+                                  => +(31-35)% to Lightning Resistance
+
+=== LightningResist7 ===
++(36-40)% to Lightning Resistance => +2% to Maximum Lightning Resistance
+                                  => +(36-40)% to Lightning Resistance
+
+=== LightningResist8 ===
++(41-45)% to Lightning Resistance => +3% to Maximum Lightning Resistance
+                                  => +(36-40)% to Lightning Resistance
+
+=== LocalBaseArmourAndEnergyShield1 ===
++(9-16) to Armour               => Has +1 to Evasion Rating per player level
++(5-8) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEnergyShield2 ===
++(17-46) to Armour               => Has +2 to Evasion Rating per player level
++(9-15) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEnergyShield3 ===
++(47-71) to Armour                => Has +3 to Evasion Rating per player level
++(16-21) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEnergyShield4 ===
++(72-85) to Armour                => Has +4 to Evasion Rating per player level
++(22-25) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEvasionRating1 ===
++(9-16) to Armour         => Has +1 to Evasion Rating per player level
++(6-10) to Evasion Rating => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEvasionRating2 ===
++(17-46) to Armour         => Has +2 to Evasion Rating per player level
++(11-41) to Evasion Rating => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEvasionRating3 ===
++(47-71) to Armour         => Has +3 to Evasion Rating per player level
++(42-64) to Evasion Rating => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseArmourAndEvasionRating4 ===
++(72-85) to Armour         => Has +4 to Evasion Rating per player level
++(65-78) to Evasion Rating => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseEvasionRatingAndEnergyShield1 ===
++(6-10) to Evasion Rating       => Has +1 to Evasion Rating per player level
++(5-8) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseEvasionRatingAndEnergyShield2 ===
++(11-41) to Evasion Rating       => Has +2 to Evasion Rating per player level
++(9-15) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseEvasionRatingAndEnergyShield3 ===
++(42-64) to Evasion Rating        => Has +3 to Evasion Rating per player level
++(16-21) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalBaseEvasionRatingAndEnergyShield4 ===
++(65-78) to Evasion Rating        => Has +4 to Evasion Rating per player level
++(22-25) to maximum Energy Shield => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedArmourAndEnergyShield1 ===
+(15-26)% increased Armour and Energy Shield => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield2 ===
+(27-42)% increased Armour and Energy Shield => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield3 ===
+(43-55)% increased Armour and Energy Shield => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield4 ===
+(56-67)% increased Armour and Energy Shield => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield5 ===
+(68-79)% increased Armour and Energy Shield => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield6 ===
+(80-91)% increased Armour and Energy Shield => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShield7 ===
+(92-100)% increased Armour and Energy Shield => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife1 ===
+(6-13)% increased Armour and Energy Shield => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife2 ===
+(14-20)% increased Armour and Energy Shield => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife3 ===
+(21-26)% increased Armour and Energy Shield => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife4 ===
+(27-32)% increased Armour and Energy Shield => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife5 ===
+(33-38)% increased Armour and Energy Shield => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEnergyShieldAndLife6 ===
+(39-42)% increased Armour and Energy Shield => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life                    =>
+
+=== LocalIncreasedArmourAndEvasion1 ===
+(15-26)% increased Armour and Evasion => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion2 ===
+(27-42)% increased Armour and Evasion => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion3 ===
+(43-55)% increased Armour and Evasion => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion4 ===
+(56-67)% increased Armour and Evasion => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion5 ===
+(68-79)% increased Armour and Evasion => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion6 ===
+(80-91)% increased Armour and Evasion => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasion7 ===
+(92-100)% increased Armour and Evasion => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield1 ===
+(15-26)% increased Armour, Evasion and Energy Shield => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield2 ===
+(27-42)% increased Armour, Evasion and Energy Shield => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield3 ===
+(43-55)% increased Armour, Evasion and Energy Shield => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield4 ===
+(56-67)% increased Armour, Evasion and Energy Shield => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield5 ===
+(68-79)% increased Armour, Evasion and Energy Shield => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield6 ===
+(80-91)% increased Armour, Evasion and Energy Shield => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield7 ===
+(92-100)% increased Armour, Evasion and Energy Shield => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndEnergyShield8 ===
+(101-110)% increased Armour, Evasion and Energy Shield => (21-22)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedArmourAndEvasionAndLife1 ===
+(6-13)% increased Armour and Evasion => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life              =>
+
+=== LocalIncreasedArmourAndEvasionAndLife2 ===
+(14-20)% increased Armour and Evasion => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life              =>
+
+=== LocalIncreasedArmourAndEvasionAndLife3 ===
+(21-26)% increased Armour and Evasion => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life              =>
+
+=== LocalIncreasedArmourAndEvasionAndLife4 ===
+(27-32)% increased Armour and Evasion => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life              =>
+
+=== LocalIncreasedArmourAndEvasionAndLife5 ===
+(33-38)% increased Armour and Evasion => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life              =>
+
+=== LocalIncreasedArmourAndEvasionAndLife6 ===
+(39-42)% increased Armour and Evasion => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life              =>
+
+=== LocalIncreasedArmourAndLife1 ===
+(6-13)% increased Armour => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life  =>
+
+=== LocalIncreasedArmourAndLife2 ===
+(14-20)% increased Armour => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life  =>
+
+=== LocalIncreasedArmourAndLife3 ===
+(21-26)% increased Armour => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life  =>
+
+=== LocalIncreasedArmourAndLife4 ===
+(27-32)% increased Armour => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life  =>
+
+=== LocalIncreasedArmourAndLife5 ===
+(33-38)% increased Armour => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life  =>
+
+=== LocalIncreasedArmourAndLife6 ===
+(39-42)% increased Armour => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life  =>
+
+=== LocalIncreasedEnergyShield1 ===
++(10-17) to maximum Energy Shield => Has +1 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield2 ===
++(18-24) to maximum Energy Shield => Has +1 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield3 ===
++(25-30) to maximum Energy Shield => Has +2 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield4 ===
++(31-35) to maximum Energy Shield => Has +2 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield5 ===
++(36-41) to maximum Energy Shield => Has +3 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield6 ===
++(42-47) to maximum Energy Shield => Has +3 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShield7 ===
++(48-60) to maximum Energy Shield => Has +4 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEnergyShieldAndLife1 ===
+(6-13)% increased Energy Shield => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldAndLife2 ===
+(14-20)% increased Energy Shield => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldAndLife3 ===
+(21-26)% increased Energy Shield => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldAndLife4 ===
+(27-32)% increased Energy Shield => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldAndLife5 ===
+(33-38)% increased Energy Shield => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldAndLife6 ===
+(39-42)% increased Energy Shield => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life         =>
+
+=== LocalIncreasedEnergyShieldPercent1 ===
+(15-26)% increased Energy Shield => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent2 ===
+(27-42)% increased Energy Shield => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent3 ===
+(43-55)% increased Energy Shield => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent4 ===
+(56-67)% increased Energy Shield => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent5 ===
+(68-79)% increased Energy Shield => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent6 ===
+(80-91)% increased Energy Shield => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEnergyShieldPercent7 ===
+(92-100)% increased Energy Shield => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield1 ===
+(15-26)% increased Evasion and Energy Shield => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield2 ===
+(27-42)% increased Evasion and Energy Shield => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield3 ===
+(43-55)% increased Evasion and Energy Shield => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield4 ===
+(56-67)% increased Evasion and Energy Shield => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield5 ===
+(68-79)% increased Evasion and Energy Shield => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield6 ===
+(80-91)% increased Evasion and Energy Shield => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShield7 ===
+(92-100)% increased Evasion and Energy Shield => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife1 ===
+(6-13)% increased Evasion and Energy Shield => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife2 ===
+(14-20)% increased Evasion and Energy Shield => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife3 ===
+(21-26)% increased Evasion and Energy Shield => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife4 ===
+(27-32)% increased Evasion and Energy Shield => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife5 ===
+(33-38)% increased Evasion and Energy Shield => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndEnergyShieldAndLife6 ===
+(39-42)% increased Evasion and Energy Shield => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life                     =>
+
+=== LocalIncreasedEvasionAndLife1 ===
+(6-13)% increased Evasion Rating => 3% of Damage Taken Recouped as Life, Mana and Energy Shield
++(7-10) to maximum Life          =>
+
+=== LocalIncreasedEvasionAndLife2 ===
+(14-20)% increased Evasion Rating => 4% of Damage Taken Recouped as Life, Mana and Energy Shield
++(11-19) to maximum Life          =>
+
+=== LocalIncreasedEvasionAndLife3 ===
+(21-26)% increased Evasion Rating => 5% of Damage Taken Recouped as Life, Mana and Energy Shield
++(20-25) to maximum Life          =>
+
+=== LocalIncreasedEvasionAndLife4 ===
+(27-32)% increased Evasion Rating => 6% of Damage Taken Recouped as Life, Mana and Energy Shield
++(26-32) to maximum Life          =>
+
+=== LocalIncreasedEvasionAndLife5 ===
+(33-38)% increased Evasion Rating => 7% of Damage Taken Recouped as Life, Mana and Energy Shield
++(33-41) to maximum Life          =>
+
+=== LocalIncreasedEvasionAndLife6 ===
+(39-42)% increased Evasion Rating => 8% of Damage Taken Recouped as Life, Mana and Energy Shield
++(42-49) to maximum Life          =>
+
+=== LocalIncreasedEvasionRating1 ===
++(11-18) to Evasion Rating => Has +1 to Evasion Rating per player level
+                           => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating2 ===
++(19-46) to Evasion Rating => Has +1 to Evasion Rating per player level
+                           => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating3 ===
++(47-66) to Evasion Rating => Has +2 to Evasion Rating per player level
+                           => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating4 ===
++(67-87) to Evasion Rating => Has +2 to Evasion Rating per player level
+                           => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating5 ===
++(88-116) to Evasion Rating => Has +3 to Evasion Rating per player level
+                            => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating6 ===
++(117-146) to Evasion Rating => Has +3 to Evasion Rating per player level
+                             => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRating7 ===
++(147-176) to Evasion Rating => Has +4 to Evasion Rating per player level
+                             => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedEvasionRatingPercent1 ===
+(15-26)% increased Evasion Rating => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent2 ===
+(27-42)% increased Evasion Rating => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent3 ===
+(43-55)% increased Evasion Rating => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent4 ===
+(56-67)% increased Evasion Rating => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent5 ===
+(68-79)% increased Evasion Rating => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent6 ===
+(80-91)% increased Evasion Rating => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedEvasionRatingPercent7 ===
+(92-100)% increased Evasion Rating => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRating1 ===
++(16-27) to Armour => Has +1 to Evasion Rating per player level
+                   => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating2 ===
++(28-56) to Armour => Has +1 to Evasion Rating per player level
+                   => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating3 ===
++(57-77) to Armour => Has +2 to Evasion Rating per player level
+                   => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating4 ===
++(78-98) to Armour => Has +2 to Evasion Rating per player level
+                   => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating5 ===
++(99-127) to Armour => Has +3 to Evasion Rating per player level
+                    => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating6 ===
++(128-159) to Armour => Has +3 to Evasion Rating per player level
+                     => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRating7 ===
++(160-190) to Armour => Has +4 to Evasion Rating per player level
+                     => Has +1 to maximum Energy Shield per player level
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent1 ===
+(15-26)% increased Armour => (7-8)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent2 ===
+(27-42)% increased Armour => (9-10)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent3 ===
+(43-55)% increased Armour => (11-12)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent4 ===
+(56-67)% increased Armour => (13-14)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent5 ===
+(68-79)% increased Armour => (15-16)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent6 ===
+(80-91)% increased Armour => (17-18)% more Global Evasion Rating and Energy Shield
+
+=== LocalIncreasedPhysicalDamageReductionRatingPercent7 ===
+(92-100)% increased Armour => (19-20)% more Global Evasion Rating and Energy Shield
+
+=== ManaGainedFromEnemyDeath1 ===
+Gain (2-3) Mana per enemy killed => Recover 1% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath2 ===
+Gain (4-5) Mana per enemy killed => Recover 1% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath3 ===
+Gain (6-9) Mana per enemy killed => Recover 1% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath4 ===
+Gain (10-14) Mana per enemy killed => Recover 2% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath5 ===
+Gain (15-20) Mana per enemy killed => Recover 2% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath6 ===
+Gain (21-27) Mana per enemy killed => Recover 2% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath7 ===
+Gain (28-35) Mana per enemy killed => Recover 2% of maximum Mana on Kill
+
+=== ManaGainedFromEnemyDeath8 ===
+Gain (36-45) Mana per enemy killed => Recover 3% of maximum Mana on Kill
+
+=== ManaLeech1 ===
+Leech (4-4.9)% of Physical Attack Damage as Mana => Leech (6-7.9)% of Physical Attack Damage as Mana
+                                                 => Leech Mana (20-25)% slower
+
+=== ManaLeech2 ===
+Leech (5-5.9)% of Physical Attack Damage as Mana => Leech (8-8.9)% of Physical Attack Damage as Mana
+                                                 => Leech Mana (20-25)% slower
+
+=== ManaLeech3 ===
+Leech (6-6.9)% of Physical Attack Damage as Mana => Leech (9-10.9)% of Physical Attack Damage as Mana
+                                                 => Leech Mana (20-25)% slower
+
+=== ManaLeech4 ===
+Leech (7-7.9)% of Physical Attack Damage as Mana => Leech (11-11.9)% of Physical Attack Damage as Mana
+                                                 => Leech Mana (20-25)% slower
+
+=== ManaLeech5 ===
+Leech (8-8.9)% of Physical Attack Damage as Mana => Leech (12-13)% of Physical Attack Damage as Mana
+                                                 => Leech Mana (20-25)% slower
+
+=== MarksmanInfluenceChainToChainOffTerrain1 ===
+Projectiles have (10-19)% chance to Chain an additional time from terrain => Attacks Chain an additional time
+
+=== MarksmanInfluenceChainToChainOffTerrain2 ===
+Projectiles have (20-32)% chance to Chain an additional time from terrain => Attacks Chain 2 additional times
+
+=== MarksmanInfluenceChanceForAdditionalProjectileWhenForking1 ===
+Projectiles have (25-50)% chance for an additional Projectile when Forking => Projectiles have (45-64)% chance to Fork if you've dealt a Melee Hit in the past eight seconds
+
+=== MarksmanInfluenceChanceForAdditionalProjectileWhenForking2 ===
+Projectiles have (51-100)% chance for an additional Projectile when Forking => Projectiles have (65-85)% chance to Fork if you've dealt a Melee Hit in the past eight seconds
+
+=== MarksmanInfluenceChanceToPierce1 ===
+(25-50)% chance to Pierce an Enemy => Projectiles Pierce an additional Target
+
+=== MarksmanInfluenceChanceToPierce2 ===
+(51-100)% chance to Pierce an Enemy => Projectiles Pierce 2 additional Targets
+
+=== MarksmanInfluenceCriticalHitChance1 ===
+(16-21)% increased Critical Hit Chance => Hits against you have (30-39)% reduced Critical Damage Bonus
+
+=== MarksmanInfluenceCriticalHitChance2 ===
+(22-27)% increased Critical Hit Chance => Hits against you have (40-49)% reduced Critical Damage Bonus
+
+=== MarksmanInfluenceCriticalHitChance3 ===
+(28-34)% increased Critical Hit Chance => Hits against you have (50-60)% reduced Critical Damage Bonus
+
+=== MarksmanInfluenceIncreasedMarkDuration1 ===
+Mark Skills have (50-74)% increased Skill Effect Duration => When your Marks are Consumed, they have (10-19)% chance to Mark another Enemy within 3 metres
+
+=== MarksmanInfluenceIncreasedMarkDuration2 ===
+Mark Skills have (75-100)% increased Skill Effect Duration => When your Marks are Consumed, they have (20-29)% chance to Mark another Enemy within 3 metres
+
+=== MarksmanInfluenceMarkEffect1 ===
+(15-24)% increased Effect of your Mark Skills => (32-46)% increased Critical Hit Chance against Marked Enemies
+
+=== MarksmanInfluenceMarkEffect2 ===
+(25-39)% increased Effect of your Mark Skills => (47-61)% increased Critical Hit Chance against Marked Enemies
+
+=== MarksmanInfluenceMarkSkillLevels1 ===
++(1-2) to Level of all Mark Skills => Enemies you Mark take (1-5)% increased Damage
+
+=== MarksmanInfluenceMarkSkillLevels2 ===
++(3-4) to Level of all Mark Skills => Enemies you Mark take (6-10)% increased Damage
+
+=== MarksmanInfluenceMarkSkillUseSpeed1 ===
+Mark Skills have (13-23)% increased Use Speed => (10-19)% increased Damage with Hits against Marked Enemy
+
+=== MarksmanInfluenceMarkSkillUseSpeed2 ===
+Mark Skills have (24-39)% increased Use Speed => (20-29)% increased Damage with Hits against Marked Enemy
+
+=== MarksmanInfluenceProjectileDamage1 ===
+(11-20)% increased Projectile Damage => Melee Attacks fire an additional Projectile
+
+=== MarksmanInfluenceProjectileDamage2 ===
+(21-30)% increased Projectile Damage => Melee Attacks fire 2 additional Projectiles
+
+=== MarksmanInfluenceProjectileDamage3 ===
+(31-40)% increased Projectile Damage => Melee Attacks fire 3 additional Projectiles
+
+=== MarksmanInfluenceProjectileSkills1 ===
++1 to Level of all Projectile Skills => Projectiles have (25-44)% chance to Fork
+
+=== MarksmanInfluenceProjectileSkills2 ===
++2 to Level of all Projectile Skills => Projectiles have (45-65)% chance to Fork
+
+=== MarksmanInfluenceProjectileSpeed1 ===
+(11-20)% increased Projectile Speed => (1-2)% increased Projectile Damage per Power Charge
+
+=== MarksmanInfluenceProjectileSpeed2 ===
+(21-30)% increased Projectile Speed => (3-4)% increased Projectile Damage per Power Charge
+
+=== MarksmanInfluenceProjectileSpeed3 ===
+(31-40)% increased Projectile Speed => (5-6)% increased Projectile Damage per Power Charge
+
+=== MarksmanInfluenceSurpassingChanceAdditionalProjectiles1 ===
++(23-36)% Surpassing chance to fire an additional Projectile => Projectiles have (15-20)% chance to Shock
+
+=== MarksmanInfluenceSurpassingChanceAdditionalProjectiles2 ===
++(37-50)% Surpassing chance to fire an additional Projectile => Projectiles have (21-25)% chance to Shock
+
+=== MarksmanInfluenceSurpassingChanceAdditionalProjectiles3 ===
++(51-66)% Surpassing chance to fire an additional Projectile => Projectiles have (26-30)% chance to Shock
+
+=== ReducedLocalAttributeRequirements1 ===
+15% reduced Attribute Requirements => +(5-10) to all Attributes
+
+=== ReducedLocalAttributeRequirements2 ===
+20% reduced Attribute Requirements => +(11-15) to all Attributes
+
+=== ReducedLocalAttributeRequirements3 ===
+25% reduced Attribute Requirements => +(16-20) to all Attributes
+
+=== ReducedLocalAttributeRequirements4 ===
+30% reduced Attribute Requirements => +(21-25) to all Attributes
+
+=== ReducedLocalAttributeRequirements5 ===
+35% reduced Attribute Requirements => +(26-30) to all Attributes
+
+=== Strength1 ===
++(5-8) to Strength => (7-10)% increased Area of Effect for Attacks
+
+=== Strength2 ===
++(9-12) to Strength => (11-13)% increased Area of Effect for Attacks
+
+=== Strength3 ===
++(13-16) to Strength => (14-16)% increased Area of Effect for Attacks
+
+=== Strength4 ===
++(17-20) to Strength => (17-19)% increased Area of Effect for Attacks
+
+=== Strength5 ===
++(21-24) to Strength => (20-22)% increased Area of Effect for Attacks
+
+=== Strength6 ===
++(25-27) to Strength => (23-25)% increased Area of Effect for Attacks
+
+=== Strength7 ===
++(28-30) to Strength => (26-28)% increased Area of Effect for Attacks
+
+=== Strength8 ===
++(31-33) to Strength => (29-32)% increased Area of Effect for Attacks
+
+=== UniqueAddedChaosDamage5 ===
+Adds (19-23) to (31-37) Chaos Damage to Attacks => Attacks Gain (17-23)% of Damage as extra Chaos Damage
+
+=== UniqueAddedColdDamage1 ===
+Adds (3-5) to (6-8) Cold damage to Attacks => Attacks Gain (10-15)% of Damage as Extra Cold Damage
+
+=== UniqueAddedLightningDamage3 ===
+Adds 1 to (30-50) Lightning damage to Attacks => Attacks Gain (17-21)% of Damage as Extra Lightning Damage
+
+=== UniqueAddedPhysicalDamage2 ===
+Adds (3-5) to (8-10) Physical Damage to Attacks => Attacks Gain (11-15)% of Damage as Extra Physical Damage
+
+=== UniqueAddedPhysicalDamage3 ===
+Adds (2-3) to (5-6) Physical Damage to Attacks => Attacks Gain (10-15)% of Damage as Extra Physical Damage
+
+=== UniqueAddedPhysicalDamage4 ===
+Adds (6-10) to (12-16) Physical Damage to Attacks => Attacks Gain (10-15)% of Damage as Extra Physical Damage
+
+=== UniqueAllDamageCanPoison1 ===
+All Damage from Hits Contributes to Poison Magnitude => (30-40)% increased Magnitude of Poison you inflict with Critical Hits
+
+=== UniqueAttackAndCastSpeed1 ===
+(10-15)% reduced Attack and Cast Speed => (10-15)% reduced Attack and Cast Speed
+
+=== UniqueAttackerTakesDamage8 ===
+(20-31) to (32-49) Physical Thorns damage => (24-35) to (36-57) Cold Thorns damage
+
+=== UniqueBaseChanceToPoison1 ===
+(20-30)% chance to Poison on Hit => (20-30)% increased Magnitude of Chill you inflict
+
+=== UniqueBaseChanceToPoison2 ===
+(20-30)% chance to Poison on Hit => Critical Hits Poison the enemy
+
+=== UniqueBaseDamageOverrideForMaceAttacks1 ===
+Has 8 to 12 Physical damage, +3 to +4 per Boss's Face Broken => Has 9 to 14 Fire damage, +3 to +5 per Boss's Face Broken
+
+=== UniqueCannotImmobilise1 ===
+Cannot Immobilise enemies => Your Hits cannot Stun enemies
+
+=== UniqueChaosResist35 ===
++(17-23)% to Chaos Resistance => +2% to Maximum Chaos Resistance
+                              => +(17-23)% to Chaos Resistance
+
+=== UniqueChaosResist6 ===
++(7-17)% to Chaos Resistance => +1% to Maximum Chaos Resistance
+                             => +(7-17)% to Chaos Resistance
+
+=== UniqueChillEffect1 ===
+(20-30)% increased Magnitude of Chill you inflict => All Damage from Hits Contributes to Chill Magnitude
+
+=== UniqueChillImmunityWhenChilled1 ===
+You cannot be Chilled for 6 seconds after being Chilled => (15-20)% more damage taken while Cursed
+
+=== UniqueColdDamagePercent2 ===
+(10-20)% reduced Cold Damage => Attacks Gain (4-7)% of Damage as Extra Cold Damage
+
+=== UniqueColdResist1 ===
+-(20-10)% to Cold Resistance => (30-50)% increased Chill Duration on you
+
+=== UniqueColdResist24 ===
++(20-30)% to Cold Resistance => +(2-3)% to Maximum Cold Resistance
+                             => +(15-25)% to Cold Resistance
+
+=== UniqueColdResist25 ===
++(10-15)% to Cold Resistance => (30-50)% chance to gain Volatility on Kill
+
+=== UniqueColdResist30 ===
++(20-30)% to Cold Resistance => +2% to Maximum Cold Resistance
+                             => +(20-30)% to Cold Resistance
+
+=== UniqueColdResist9 ===
++(5-15)% to Cold Resistance => Gain (10-20)% of Fire damage as Extra Lightning damage
+
+=== UniqueCriticalMultiplier1 ===
+(10-15)% increased Critical Damage Bonus => (15-20)% increased Critical Damage Bonus
+
+=== UniqueCriticalMultiplier2 ===
+(20-30)% increased Critical Damage Bonus => +(1.5-2)% to Critical Hit Chance
+
+=== UniqueCriticalMultiplier3 ===
+(20-30)% increased Critical Damage Bonus => +(1-2)% to Critical Hit Chance
+
+=== UniqueCriticalStrikeChance14 ===
+(30-50)% increased Critical Hit Chance => (40-60)% increased Critical Hit Chance
+
+=== UniqueCriticalStrikeChance5 ===
+(20-30)% increased Critical Hit Chance => (20-30)% increased Critical Damage Bonus
+
+=== UniqueCriticalStrikeMultiplierOverride1 ===
+Your Critical Damage Bonus is 250% => Critical Hit chance for Attacks is (25-40)%
+
+=== UniqueCriticalsCannotConsumeImpale1 ===
+Critical Hits cannot Extract Impale => (25-35)% increased Thorns Critical Damage Bonus
+
+=== UniqueCullingStrike1 ===
+Culling Strike => Culling Strike
+
+=== UniqueDecimatingStrike1 ===
+Decimating Strike => Deal Double Damage to Enemies that are on Full Life
+
+=== UniqueDexterity10 ===
++(10-20) to Dexterity => +(20-40)% Surpassing chance to fire an additional Projectile
+
+=== UniqueDexterity19 ===
++(10-20) to Dexterity => +(45-60)% Surpassing chance to fire an additional Projectile
+
+=== UniqueDexterity24 ===
++(20-30) to Dexterity => +(25-50)% Surpassing chance to fire an additional Projectile
+
+=== UniqueDexterity31 ===
++(15-25) to Dexterity => (11-13)% increased Dexterity
+
+=== UniqueDexterity45 ===
++(13-23) to Dexterity => +(25-35)% Surpassing chance to fire an additional Projectile
+
+=== UniqueDoubleIgniteChance1 ===
+Flammability Magnitude is doubled => Enemies Ignited or Chilled by you have -(25-15)% to Elemental Resistances
+
+=== UniqueDoubleOnKillEffects1 ===
+On-Kill Effects happen twice => On-Kill Effects happen twice
+
+=== UniqueElementalDamageConvertToFire1 ===
+33% of Elemental Damage Converted to Fire Damage => Physical damage from Hits Contributes to Flammability and
+                                                 => Ignite Magnitudes, Freeze Buildup, and Shock Chance
+
+=== UniqueElementalDamageGainedAsCold1 ===
+Gain (5-10)% of Elemental Damage as Extra Cold Damage => Gain (6-15)% of Cold damage as Extra Physical damage
+
+=== UniqueElementalDamageGainedAsFire1 ===
+Gain (5-10)% of Elemental Damage as Extra Fire Damage => Gain (6-15)% of Fire damage as Extra Physical damage
+
+=== UniqueElementalDamageGainedAsLightning1 ===
+Gain (5-10)% of Elemental Damage as Extra Lightning Damage => Gain (6-15)% of Lightning damage as Extra Physical damage
+
+=== UniqueElementalPenetration1 ===
+Damage Penetrates 10% Elemental Resistances => +(15-25)% to all Elemental Resistances
+
+=== UniqueElementalPenetrationBelowZero1 ===
+Your Hits can Penetrate Elemental Resistances down to a minimum of -50% => Elemental Damage from your Hits is Resisted by the enemy's lowest Elemental Resistance
+
+=== UniqueEnemiesKilledCountAsYours1 ===
+20% increased Rarity of Items found                                            => 20% increased Rarity of Items found
+Your other Modifiers to Rarity of Items found do not apply                     => Your other Modifiers to Rarity of Items found do not apply
+Enemies in your Presence killed by anyone count as being killed by you instead => Enemies in your Presence killed by anyone count as being killed by you instead
+
+=== UniqueEnemyKnockbackDirectionReversed1 ===
+Knockback direction is reversed => Knockback direction is reversed
+
+=== UniqueFireDamageConvertToCold1 ===
+100% of Fire Damage Converted to Cold Damage => 100% of Fire damage Converted to Lightning damage
+
+=== UniqueFireDamageConvertToLightning1 ===
+100% of Fire damage Converted to Lightning damage => 100% of Lightning Damage Converted to Cold Damage
+
+=== UniqueFireDamagePercent2 ===
+(20-40)% increased Fire Damage => Attacks Gain (4-7)% of Damage as Extra Fire Damage
+
+=== UniqueFireResist2 ===
++(20-40)% to Fire Resistance => +(2-3)% to Maximum Fire Resistance
+                             => +(15-25)% to Fire Resistance
+
+=== UniqueFireResist7 ===
++(5-15)% to Fire Resistance => +1% to Maximum Fire Resistance
+                            => +(5-15)% to Fire Resistance
+
+=== UniqueFreezeDamageIncrease2 ===
+(40-50)% increased Freeze Buildup => All Damage from Hits Contributes to Freeze Buildup
+
+=== UniqueFreezeImmunityWhenFrozen1 ===
+You cannot be Frozen for 6 seconds after being Frozen => Enemies you Curse take (20-30)% increased Damage
+
+=== UniqueFullManaThreshold1 ===
+You count as on Full Mana while at 90% of maximum Mana or above => You are considered on Low Mana while at 50% of maximum Mana or below instead
+
+=== UniqueGainArmourEqualToStrength1 ===
++1 to Armour per Strength => 1% increased Area of Effect for Unarmed Attacks per 10 Intelligence
+
+=== UniqueGainChargesOnMaximumRage1 ===
+Gain a random Charge on reaching Maximum Rage, no more than once every (3-6) seconds => Recover (3-5)% of maximum Runic Ward on reaching Maximum Rage
+
+=== UniqueGainFearIncarnateOnCulling1 ===
+Gain 1 Fear Incarnate when you Cull a target => Gain 1 Fear Overwhelming when you Cull a target
+
+=== UniqueGiantsBlood1 ===
+Giant's Blood => Hollow Palm Technique
+
+=== UniqueIgniteImmunityWhenIgnited1 ===
+You cannot be Ignited for 6 seconds after being Ignited => (4-6)% reduced Movement Speed while Cursed
+
+=== UniqueImmobiliseIncreasedDamageTaken1 ===
+(30-50)% increased Damage against Immobilised Enemies => (25-35)% Surpassing chance per enemy Power to gain
+                                                      => Mountain's Teachings on Immobilising an enemy if
+                                                      => you have the Way of the Mountain Ascendancy Passive Skill
+
+=== UniqueImmobiliseThreshold1 ===
+Immobilise enemies at 50% buildup instead of 100% => Immobilise enemies at 50% buildup instead of 100%
+
+=== UniqueImpaleOnCriticalHit1 ===
+Critical Hits inflict Impale => Deal your Thorns damage to enemies you Critically Hit with Melee Attacks
+
+=== UniqueIncreasedAccuracy4 ===
++(60-100) to Accuracy Rating => (10-20)% chance to Blind Enemies on Hit with Attacks
+
+=== UniqueIncreasedAttackSpeed1 ===
+(4-6)% increased Attack Speed => (8-12)% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed11 ===
+(5-10)% increased Attack Speed => 10% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed13 ===
+(1-11)% increased Attack Speed => (10-15)% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed16 ===
+(7-17)% increased Attack Speed => (10-20)% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed2 ===
+(4-8)% increased Attack Speed => (10-15)% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed3 ===
+5% increased Attack Speed => 10% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed4 ===
+(5-10)% increased Attack Speed => 10% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeed7 ===
+5% reduced Attack Speed => 5% reduced Cast Speed
+
+=== UniqueIncreasedAttackSpeed8 ===
+(5-10)% increased Attack Speed => (30-40)% increased Culling Strike Threshold if you've dealt a Culling Strike Recently
+
+=== UniqueIncreasedAttackSpeed9 ===
+(5-10)% increased Attack Speed => (10-15)% chance to gain Onslaught for 4 seconds on Hit
+
+=== UniqueIncreasedAttackSpeedFullMana1 ===
+25% increased Attack Speed while on Full Mana => 25% more Attack damage while on Low Mana
+
+=== UniqueIncreasedAttackSpeedPerDexterity1 ===
+1% increased Attack Speed per 20 Dexterity => 1% increased Area of Effect per 20 Intelligence
+
+=== UniqueIncreasedCastSpeed6 ===
+(15-25)% reduced Cast Speed => (15-25)% reduced Attack Speed
+
+=== UniqueIncreasedCastSpeed7 ===
+(6-12)% increased Cast Speed => (9-15)% increased Attack Speed
+
+=== UniqueIncreasedLife10 ===
++(30-50) to maximum Life => (6-7)% less damage taken while on Low Life
+
+=== UniqueIncreasedLife15 ===
++(80-120) to maximum Life => +(130-160) to maximum Life
+
+=== UniqueIncreasedLife54 ===
++100 to maximum Life => (10-12)% less damage taken while on Low Life
+
+=== UniqueIncreasedLife58 ===
++(100-150) to maximum Life => (12-15)% less damage taken while on Low Life
+
+=== UniqueIncreasedLife6 ===
++(30-50) to maximum Life => (6-8)% more damage taken while on Low Life
+
+=== UniqueIncreasedLife9 ===
++(40-60) to maximum Life => (7-9)% less damage taken while on Low Life
+
+=== UniqueIncreasedMana48 ===
++(60-100) to maximum Mana => (15-25)% more Attack damage while on Low Mana
+
+=== UniqueIncreasedPhysicalDamagePercent1 ===
+(10-20)% increased Global Physical Damage => Attack Damage with Hits is Lucky while you are Surrounded
+
+=== UniqueIncreasedSkillSpeed1 ===
+(10-15)% increased Skill Speed => (13-20)% increased Attack Speed
+
+=== UniqueIncreasedSkillSpeed5 ===
+(10-15)% increased Skill Speed => (15-25)% increased Attack Speed if you've dealt a Critical Hit Recently
+
+=== UniqueIntelligence10 ===
++(10-20) to Intelligence => 15% increased Cooldown Recovery Rate
+
+=== UniqueIntelligence12 ===
++(10-20) to Intelligence => (10-15)% increased Cooldown Recovery Rate
+
+=== UniqueIntelligence18 ===
++(10-15) to Intelligence => 15% increased Cooldown Recovery Rate
+
+=== UniqueIntelligence19 ===
++(5-10) to Intelligence => (10-15)% increased Cooldown Recovery Rate
+
+=== UniqueIntelligence22 ===
++(20-30) to Intelligence => (20-25)% increased Cooldown Recovery Rate
+
+=== UniqueIntelligence31 ===
++(15-25) to Intelligence => (5-10)% increased Intelligence
+
+=== UniqueIntelligence34 ===
++(15-25) to Intelligence => (20-30)% increased Cooldown Recovery Rate
+
+=== UniqueItemFoundRarityIncrease1 ===
+(40-50)% increased Rarity of Items found => (50-80)% increased Quantity of Gold Dropped by Slain Enemies
+
+=== UniqueItemFoundRarityIncrease21 ===
+(10-15)% increased Rarity of Items found => (15-25)% increased Quantity of Gold Dropped by Slain Enemies
+
+=== UniqueLeechEnergyShieldInsteadofLife1 ===
+Life Leech is Converted to Energy Shield Leech => Mana Leech effects also Recover Energy Shield
+
+=== UniqueLifeDegenerationPercentGracePeriod3 ===
+Lose 5% of maximum Life per second => Lose 5% of maximum Mana per Second
+
+=== UniqueLifeFlaskNoRecovery1 ===
+Flasks do not recover Life => Recover 1% of maximum Runic Ward on Kill
+
+=== UniqueLifeGainedFromEnemyDeath11 ===
+Gain (30-50) Life per enemy killed => Recover 3% of maximum Life on Kill
+
+=== UniqueLifeGainedFromEnemyDeath3 ===
+Gain (7-10) Life per enemy killed => Recover 3% of maximum Life on Kill
+
+=== UniqueLifeGainedFromEnemyDeath4 ===
+Gain (20-30) Life per enemy killed => Recover 3% of maximum Life on Kill
+
+=== UniqueLifeLeech2 ===
+Leech 10% of Physical Attack Damage as Life => Leech (13-17)% of Physical Attack Damage as Life
+                                            => Leech Life (20-25)% slower
+
+=== UniqueLifeRegeneration12 ===
+(6-10) Life Regeneration per second => Regenerate (0.5-1.5)% of maximum Life per second
+
+=== UniqueLifeRegeneration23 ===
+(15-30) Life Regeneration per second => Regenerate (1.5-3)% of maximum Life per second
+
+=== UniqueLightningDamageCanElectrocute1 ===
+Lightning damage from Hits Contributes to Electrocution Buildup => All damage with Attacks Contributes to Electrocution Buildup
+
+=== UniqueLightningDamageToAttacksPerIntelligence1 ===
+Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence => Adds 6 to 8 Cold Damage to Attacks per 20 Dexterity
+
+=== UniqueLightningResist23 ===
++(30-50)% to Lightning Resistance => Gain (15-25)% of Lightning damage as Extra Cold damage
+
+=== UniqueLightningResist26 ===
++(25-35)% to Lightning Resistance => +2% to Maximum Lightning Resistance
+                                  => +(25-35)% to Lightning Resistance
+
+=== UniqueLightningResist28 ===
++(20-40)% to Lightning Resistance => +(2-3)% to Maximum Lightning Resistance
+                                  => +(15-25)% to Lightning Resistance
+
+=== UniqueLightningResist29 ===
++(1-33)% to Lightning Resistance => +(2-3)% to Maximum Cold Resistance
+                                 => +(10-25)% to Cold Resistance
+
+=== UniqueLocalArmourAndEvasionAndEnergyShield3 ===
+(150-200)% increased Armour, Evasion and Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEnergyShield21 ===
+(200-300)% increased Armour and Energy Shield => (20-25)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEnergyShield3 ===
+(30-50)% increased Armour and Energy Shield => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEnergyShield4 ===
+(40-60)% increased Armour and Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion1 ===
+(40-60)% increased Armour and Evasion => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion15 ===
+(50-70)% increased Armour and Evasion => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion19 ===
+(50-100)% increased Armour and Evasion => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion25 ===
+50% increased Armour and Evasion => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion30 ===
+(100-150)% increased Armour and Evasion => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedArmourAndEvasion7 ===
+(100-150)% increased Armour and Evasion => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEnergyShield10 ===
++(20-30) to maximum Energy Shield => Has +2 to Evasion Rating per player level
+                                  => Has +1 to maximum Energy Shield per player level
+
+=== UniqueLocalIncreasedEnergyShield11 ===
++20 to maximum Energy Shield => Has +1 to Evasion Rating per player level
+                             => Has +1 to maximum Energy Shield per player level
+
+=== UniqueLocalIncreasedEnergyShield4 ===
++(40-60) to maximum Energy Shield => +(60-80) to maximum Runic Ward
+
+=== UniqueLocalIncreasedEnergyShieldPercent2 ===
+(50-80)% increased Energy Shield => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEnergyShieldPercent20 ===
+(60-100)% increased Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEnergyShieldPercent25 ===
+(60-100)% increased Energy Shield => (15-25)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEnergyShieldPercent7 ===
+(30-50)% increased Energy Shield => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionAndEnergyShield17 ===
+(50-70)% increased Evasion and Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionAndEnergyShield19 ===
+(1-111)% increased Evasion and Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionAndEnergyShield2 ===
+(30-60)% increased Evasion and Energy Shield => +(30-50) to maximum Runic Ward
+
+=== UniqueLocalIncreasedEvasionAndEnergyShield4 ===
+(30-50)% increased Evasion and Energy Shield => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionRating4 ===
++(15-25) to Evasion Rating => Has +2 to Evasion Rating per player level
+                           => Has +1 to maximum Energy Shield per player level
+
+=== UniqueLocalIncreasedEvasionRatingPercent12 ===
+(60-80)% increased Evasion Rating => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionRatingPercent36 ===
+(200-300)% increased Evasion Rating => (20-25)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionRatingPercent6 ===
+(30-50)% increased Evasion Rating => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionRatingPercent7 ===
+(40-60)% increased Evasion Rating => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedEvasionRatingPercent8 ===
+(40-60)% increased Evasion Rating => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRating3 ===
++(15-25) to Armour => Has +1 to Evasion Rating per player level
+                   => Has +1 to maximum Energy Shield per player level
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRatingPercent11 ===
+(150-200)% increased Armour => (20-25)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRatingPercent23 ===
+(300-400)% increased Armour => +(70-100) to maximum Runic Ward
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRatingPercent30 ===
+(150-200)% increased Armour => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRatingPercent5 ===
+(30-60)% increased Armour => (10-15)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLocalIncreasedPhysicalDamageReductionRatingPercent6 ===
+(60-100)% increased Armour => (15-20)% more Global Evasion Rating and Energy Shield
+
+=== UniqueLoseRageOnMaximumRage1 ===
+Lose all Rage on reaching Maximum Rage => Lose all Rage on reaching Maximum Rage
+
+=== UniqueManaGainedFromEnemyDeath4 ===
+Gain (4-6) Mana per enemy killed => Recover 3% of maximum Mana on Kill
+
+=== UniqueManaGainedFromEnemyDeath5 ===
+Gain (20-30) Mana per enemy killed => Recover 3% of maximum Mana on Kill
+
+=== UniqueManaRegenerationRateIfCritRecently1 ===
+150% increased Mana Regeneration Rate if you've dealt a Critical Hit Recently => (100-150)% increased amount of Mana Leeched if you've dealt a Critical Hit Recently
+
+=== UniqueMaximumLifeOnKillPercent1 ===
+Lose 2% of maximum Life on Kill => Lose 2% of maximum Life on Kill
+
+=== UniqueMaximumManaIncrease3 ===
+(10-15)% reduced maximum Mana => Cannot Leech Mana
+
+=== UniqueMaximumRage1 ===
++(-10-10) to Maximum Rage => +(-10-10) to Maximum Rage
+
+=== UniqueMutatedVaalAddedMaximumEnergyShield ===
++(100-150) to maximum Energy Shield => (7-16)% increased maximum Energy Shield
+
+=== UniqueMutatedVaalArcaneSurgeEffect ===
+(20-40)% increased effect of Arcane Surge on you => Gain (16-24) Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently
+
+=== UniqueMutatedVaalChanceToBleed ===
+(30-50)% increased chance to inflict Bleeding => Attacks have (35-80)% chance to cause Bleeding
+
+=== UniqueMutatedVaalChillEffect ===
+(20-40)% increased Magnitude of Chill you inflict => (20-50)% chance to Avoid being Chilled
+
+=== UniqueMutatedVaalCurseEffectiveness ===
+(10-20)% increased Curse Magnitudes => (20-30)% reduced effect of Curses on you
+
+=== UniqueMutatedVaalDamagePerCurse ===
+(10-15)% increased Damage per Curse on you => (10-20)% increased Damage with Hits per Curse on Enemy
+
+=== UniqueMutatedVaalEnergyOnFullMana ===
+Meta Skills gain 25% increased Energy while on Full Mana => (25-45)% of Damage taken Recouped as Mana
+
+=== UniqueMutatedVaalFreezeDuration ===
+(10-20)% increased Freeze Duration on Enemies => Regenerate (5-15)% of maximum Life per second while Frozen
+
+=== UniqueMutatedVaalGlobalChanceToBlindOnHit ===
+(5-10)% Global chance to Blind Enemies on Hit => Dazes on Hit
+
+=== UniqueMutatedVaalGlobalChaosGemLevel ===
++1 to Level of all Chaos Skills => Attacks have added Chaos damage equal to (1-3)% of maximum Life
+
+=== UniqueMutatedVaalIgniteEffect1 ===
+(20-40)% increased Ignite Magnitude => (20-50)% chance to Avoid being Ignited
+
+=== UniqueMutatedVaalIncreasedAttackSpeed ===
+25% increased Attack Speed => Attack Skills have Added Lightning Damage equal to (1-5)% of maximum Mana
+
+=== UniqueMutatedVaalIncreasedLifePercent ===
+(5-10)% increased maximum Life => +(205-221) to maximum Life
+
+=== UniqueMutatedVaalLifeLeechAmount ===
+(20-25)% increased amount of Life Leeched => Life Leech effects are not removed when Unreserved Life is Filled
+
+=== UniqueMutatedVaalManaCostEfficiency ===
+25% increased Mana Cost Efficiency => (15-40)% reduced Mana Cost of Attacks
+
+=== UniqueMutatedVaalManaLeechPermyriad ===
+Leech (4-6)% of Physical Attack Damage as Mana => Recover (2-6)% of your maximum Mana when an Enemy dies in your Presence
+
+=== UniqueMutatedVaalMaxRageFromRageOnHitChance ===
+(12-16)% chance that if you would gain Rage on Hit, you instead gain up to your maximum Rage => Gain 1% of Physical Damage as Extra Fire Damage per Rage
+
+=== UniqueMutatedVaalMaximumLifeConvertedToEnergyShield ===
+(10-15)% of Maximum Life Converted to Energy Shield => (20-30)% increased Attack Damage while on Low Life
+
+=== UniqueMutatedVaalMaximumManaIncreasePercent ===
+(10-20)% increased maximum Mana => +(36-42) to maximum Mana
+                                => (15-35)% increased Attack Damage
+
+=== UniqueMutatedVaalMaximumRagePerGlorySkillUsed ===
++(8-10) maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds => Gain (1-3) Rage on Melee Hit
+
+=== UniqueMutatedVaalPoisonDurationIfConsumedFrenzyChargeRecently ===
+(30-40)% increased Duration of Poisons you inflict when you've consumed a Frenzy Charge Recently => (20-35)% increased Damage for each Poison on you up to a maximum of 75%
+                                                                                                 => Poison you inflict is Reflected to you
+
+=== UniqueMutatedVaalPoisonEffect ===
+(10-16)% increased Magnitude of Poison you inflict => Critical Hits Poison the enemy
+
+=== UniqueMutatedVaalPoisonEffectOnNonPoisoned ===
+(30-60)% increased Magnitude of Poison you inflict on targets that are not Poisoned => (10-60)% reduced Poison Duration on you
+
+=== UniqueMutatedVaalRecoverLifeOnKillingPoisonedEnemyPerPoison ===
+Recover (0.5-1)% of maximum Life per Poison affecting Enemies you Kill => +(12-23)% to Chaos Resistance per Poison on you
+                                                                       => Poison you inflict is Reflected to you
+
+=== UniqueMutatedVaalReducedPoisonDuration ===
+(40-60)% reduced Poison Duration on you => (17-25)% increased Movement Speed for each Poison on you up to a maximum of 50%
+                                        => Poison you inflict is Reflected to you
+
+=== UniqueMutatedVaalShockEffect ===
+(20-40)% increased Magnitude of Shock you inflict => (20-50)% chance to Avoid being Shocked
+
+=== UniqueMutatedVaalSkillCostEfficiency ===
+(20-30)% increased Cost Efficiency => Non-Channelling Skills Cost -(8-3) Mana
+
+=== UniqueMutatedVaalSpellLifeCostPercent ===
+(25-50)% of Spell Mana Cost Converted to Life Cost => Attacks have added Physical damage equal to (1-3)% of maximum Life
+
+=== UniqueNoManaRegenIfNotCritRecently1 ===
+Cannot Regenerate Mana if you haven't dealt a Critical Hit Recently => You have no Mana Regeneration
+
+=== UniqueNonherentRageLoss1 ===
+No Inherent loss of Rage => No Inherent loss of Rage
+
+=== UniqueOverrideWeaponBaseCritical1 ===
+Base Critical Hit Chance for Attacks with Weapons is 7% => +(3-6)% to Unarmed Melee Attack Critical Hit Chance
+
+=== UniquePoisonStackCount1 ===
+Targets can be affected by +1 of your Poisons at the same time => Targets can be affected by two of your Chills at the same time
+
+=== UniqueRageOnAnyHit1 ===
+Gain (3-6) Rage on Hit => Gain (6-8) Rage on Hit
+
+=== UniqueRageRegeneration1 ===
+Regenerate 5 Rage per second => Regenerate 5 Rage per second
+
+=== UniqueReducedLocalAttributeRequirements5 ===
+100% increased Attribute Requirements => 100% increased Attribute Requirements
+
+=== UniqueReflectCurseToSelf1 ===
+Curses you inflict are reflected back to you => Curses you inflict are reflected back to you
+
+=== UniqueSacrificeLifeToGainEnergyShield1 ===
+Sacrifice (5-15)% of maximum Life to gain that much Energy Shield when you Cast a Spell => Sacrifice (10-30)% of maximum Life to gain half that much Runic Ward when you Attack
+
+=== UniqueShareChargesWithAllies1 ===
+Share Charges with Allies in your Presence => (5-10)% chance to grant a Endurance Charge to Allies in your Presence on Hit
+                                           => (5-10)% chance to grant a Frenzy Charge to Allies in your Presence on Hit
+                                           => (5-10)% chance to grant a Power Charge to Allies in your Presence on Hit
+
+=== UniqueSlowEffect1 ===
+Debuffs you inflict have (20-30)% increased Slow Magnitude => (25-50)% increased Immobilisation buildup
+
+=== UniqueSpellDamage1 ===
+100% increased Spell Damage => 100% increased Attack Damage
+
+=== UniqueStrength23 ===
++(20-30) to Strength => (10-14)% increased Area of Effect for Attacks
+
+=== UniqueStrength41 ===
++(20-30) to Strength => (18-24)% increased Area of Effect for Attacks
+
+=== UniqueStrength47 ===
++(15-20) to Strength => (15-20)% increased Area of Effect for Attacks
+
+=== UniqueStrengthSatisfiesAllWeaponRequirements1 ===
+Strength can satisfy other Attribute Requirements of Melee Weapons and Melee Skills => Dexterity can satisfy other Attribute Requirements of Melee Weapons and Melee Skills
+
+=== UniqueStunDamageIncrease2 ===
+(20-30)% increased Stun Buildup => (20-30)% increased Immobilisation buildup
+
+=== UniqueUnarmedAttackDamagePerXStrength1 ===
+1% more Unarmed Damage per 5 Strength => Gain 1% of Unarmed Damage as extra Fire damage per 5 Intelligence
+
+=== UniqueVaalPact1 ===
+Vaal Pact => Eternal Youth
+
+
