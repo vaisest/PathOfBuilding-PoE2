@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Mirage duration",
 				text="{0:+d} seconds to Mirage duration"
 			},
 			[2]={
@@ -29,6 +30,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Mirage duration is {0} second",
 				text="Mirage duration is {0} second"
 			},
 			[3]={
@@ -42,6 +44,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirage duration is {0} seconds",
 				text="Mirage duration is {0} seconds"
 			}
 		},

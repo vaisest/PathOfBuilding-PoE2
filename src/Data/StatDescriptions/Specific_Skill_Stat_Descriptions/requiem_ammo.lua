@@ -25,6 +25,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Requiem lasts for {0} second",
 				text="Requiem lasts for {0} second"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requiem lasts for {0} seconds",
 				text="Requiem lasts for {0} seconds"
 			}
 		},
@@ -54,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0} anguish to use",
 				text="Requires {0} anguish to use"
 			}
 		},
@@ -74,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Accumulates {0} anguish per second",
 				text="Accumulates {0} anguish per second"
 			}
 		},

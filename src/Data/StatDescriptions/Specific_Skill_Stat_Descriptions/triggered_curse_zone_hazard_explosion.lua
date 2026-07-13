@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Explosion applies Supported [Curse] for {0} second on [HitDamage|Hit]",
 				text="Explosion applies Supported Curse for {0} second on Hit"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion applies Supported [Curse] for {0} seconds on [HitDamage|Hit]",
 				text="Explosion applies Supported Curse for {0} seconds on Hit"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is equal to that of the [Curse|Cursed] Ground",
 				text="Explosion radius is equal to that of the Cursed Ground"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base [Chaos] Damage equal to {0}% of your [Intelligence]",
 				text="Explosion deals base Chaos Damage equal to {0}% of your Intelligence"
 			}
 		},

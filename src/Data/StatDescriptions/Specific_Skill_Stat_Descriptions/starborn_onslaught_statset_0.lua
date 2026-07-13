@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -59,6 +61,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Fissure duration",
 				text="{0:+d} second to Fissure duration"
 			},
 			[2]={
@@ -76,6 +79,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Fissure duration",
 				text="{0:+d} seconds to Fissure duration"
 			},
 			[3]={
@@ -93,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} second",
 				text="Fissure duration is {0} second"
 			},
 			[4]={
@@ -110,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} seconds",
 				text="Fissure duration is {0} seconds"
 			}
 		},
@@ -127,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Calls down {0} Stars",
 				text="Calls down {0} Stars"
 			}
 		},
@@ -143,6 +150,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Fissure",
 				text="Limit {0} Fissure"
 			},
 			[2]={
@@ -152,6 +160,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},
@@ -175,6 +184,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Fissure",
 				text="Limit {0} Fissure"
 			},
 			[2]={
@@ -184,6 +194,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},

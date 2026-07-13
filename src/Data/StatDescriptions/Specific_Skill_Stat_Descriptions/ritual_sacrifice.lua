@@ -19,6 +19,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to [MonsterModifiers|Modifier] duration",
 				text="{0:+d} second to Modifier duration"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to [MonsterModifiers|Modifier] duration",
 				text="{0:+d} seconds to Modifier duration"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[MonsterModifiers|Modifier] duration is {0} second",
 				text="Modifier duration is {0} second"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[MonsterModifiers|Modifier] duration is {0} seconds",
 				text="Modifier duration is {0} seconds"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When used on yourself, removes {0}% of maximum Life to grant a random [MonsterModifiers|Monster Modifier], replacing any previous\n[MonsterModifiers|Modifier] gained this way",
 				text="When used on yourself, removes {0}% of maximum Life to grant a random Monster Modifier, replacing any previous\nModifier gained this way"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[DNT] Mushroom duration is {0} second",
 				text="DNT Mushroom duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT] Mushroom duration is {0} seconds",
 				text="DNT Mushroom duration is {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT] Maximum {0} Mushrooms",
 				text="DNT Maximum {0} Mushrooms"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT] Spawns {0} Mushrooms per Skill Use",
 				text="DNT Spawns {0} Mushrooms per Skill Use"
 			}
 		},

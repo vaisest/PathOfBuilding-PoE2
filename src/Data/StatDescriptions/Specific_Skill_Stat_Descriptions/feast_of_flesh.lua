@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Corpse] [Consume|Consumption] radius is {0} metre",
 				text="Corpse Consumption radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Corpse] [Consume|Consumption] radius is {0} metres",
 				text="Corpse Consumption radius is {0} metres"
 			}
 		},
@@ -52,6 +54,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Consume|Consumes] {0:+d} [Corpse]",
 				text="Consumes {0:+d} Corpse"
 			},
 			[2]={
@@ -62,6 +65,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] {0:+d} [Corpse|Corpses]",
 				text="Consumes {0:+d} Corpses"
 			},
 			[3]={
@@ -71,6 +75,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Consume|Consumes] up to 1 [Corpse]",
 				text="Consumes up to 1 Corpse"
 			},
 			[4]={
@@ -80,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] up to {0} [Corpse|Corpses]",
 				text="Consumes up to {0} Corpses"
 			}
 		},
@@ -108,6 +114,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Recover {0} Life and {1} Mana over {2} second per [Corpse] [Consume|Consumed]",
 				text="Recover {0} Life and {1} Mana over {2} second per Corpse Consumed"
 			},
 			[2]={
@@ -129,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0} Life and {1} Mana over {2} seconds per [Corpse] [Consume|Consumed]",
 				text="Recover {0} Life and {1} Mana over {2} seconds per Corpse Consumed"
 			}
 		},

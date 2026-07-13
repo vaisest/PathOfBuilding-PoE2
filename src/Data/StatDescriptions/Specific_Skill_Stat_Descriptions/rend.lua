@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="150% more Area of Effect",
 				text="150% more Area of Effect"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of damage [Gain|Gained] as [Lightning]",
 				text="Buff grants {0}% of damage Gained as Lightning"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of [Physical] damage [Gain|Gained] as [Lightning]",
 				text="Buff grants {0}% of Physical damage Gained as Lightning"
 			}
 		},

@@ -34,6 +34,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} Pustule",
 				text="Fires {0:+d} Pustule"
 			},
 			[2]={
@@ -51,6 +52,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} Pustules",
 				text="Fires {0:+d} Pustules"
 			},
 			[3]={
@@ -68,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Pustule",
 				text="Fires {0} Pustule"
 			},
 			[4]={
@@ -85,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Pustules",
 				text="Fires {0} Pustules"
 			}
 		},
@@ -104,6 +108,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0:+d} pustule",
 				text="Limit {0:+d} pustule"
 			},
 			[2]={
@@ -114,6 +119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0:+d} pustules",
 				text="Limit {0:+d} pustules"
 			},
 			[3]={
@@ -123,6 +129,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} pustule",
 				text="Limit {0} pustule"
 			},
 			[4]={
@@ -132,6 +139,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} pustules",
 				text="Limit {0} pustules"
 			}
 		},

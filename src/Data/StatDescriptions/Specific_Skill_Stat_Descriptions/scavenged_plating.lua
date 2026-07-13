@@ -21,6 +21,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to Scavenged Plating duration",
 				text="{0:+d} second to Scavenged Plating duration"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Scavenged Plating duration",
 				text="{0:+d} seconds to Scavenged Plating duration"
 			},
 			[3]={
@@ -48,6 +50,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Scavenged Plating duration is {0} second",
 				text="Scavenged Plating duration is {0} second"
 			},
 			[4]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Scavenged Plating duration is {0} seconds",
 				text="Scavenged Plating duration is {0} seconds"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Armour] per Scavenged Plating",
 				text="{0}% more Armour per Scavenged Plating"
 			},
 			[2]={
@@ -90,6 +95,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Armour] per Scavenged Plating",
 				text="{0}% less Armour per Scavenged Plating"
 			}
 		},
@@ -106,6 +112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Scavenged Plating",
 				text="Maximum {0} Scavenged Plating"
 			}
 		},
@@ -126,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} [Thorns] per Scavenged Plating",
 				text="{0} to {1} Thorns per Scavenged Plating"
 			}
 		},

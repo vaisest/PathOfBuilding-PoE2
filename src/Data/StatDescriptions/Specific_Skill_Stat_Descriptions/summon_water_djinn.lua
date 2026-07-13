@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers Navira's Calming when [Command|Commanded] to use a\nSkill, granting nearby [Allies] increased Mana Regeneration",
 				text="Triggers Navira's Calming when Commanded to use a\nSkill, granting nearby Allies increased Mana Regeneration"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers Navira's Calming when [Command|Commanded] to\nuse a Skill, granting nearby [Allies] {0}% increased\nMana Regeneration for 4 seconds",
 				text="Triggers Navira's Calming when Commanded to\nuse a Skill, granting nearby Allies {0}% increased\nMana Regeneration for 4 seconds"
 			}
 		},

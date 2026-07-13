@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[DNT-UNUSED] Stag Hoofbeat radius is {0} Metre",
 				text="DNT-UNUSED Stag Hoofbeat radius is {0} Metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Stag Hoofbeat radius is {0} Metres",
 				text="DNT-UNUSED Stag Hoofbeat radius is {0} Metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[DNT-UNUSED] Stags charge for {0} Hoofbeat",
 				text="DNT-UNUSED Stags charge for {0} Hoofbeat"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Stags charge for {0} Hoofbeats",
 				text="DNT-UNUSED Stags charge for {0} Hoofbeats"
 			}
 		},
@@ -76,6 +80,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[DNT-UNUSED] Maximum {0} Vivid Stag wisp",
 				text="DNT-UNUSED Maximum {0} Vivid Stag wisp"
 			},
 			[2]={
@@ -85,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Maximum {0} Vivid Stag wisps",
 				text="DNT-UNUSED Maximum {0} Vivid Stag wisps"
 			}
 		},

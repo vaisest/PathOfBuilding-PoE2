@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Bell duration is {0} second",
 				text="Bell duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bell duration is {0} seconds",
 				text="Bell duration is {0} seconds"
 			}
 		},
@@ -50,6 +52,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bell is destroyed after {0:+d} [HitDamage|Hits]",
 				text="Bell is destroyed after {0:+d} Hits"
 			},
 			[2]={
@@ -59,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bell is destroyed after {0} [HitDamage|Hits]",
 				text="Bell is destroyed after {0} Hits"
 			}
 		},
@@ -82,6 +86,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can be [AncestralBoost|Ancestrally Boosted] as though a [Strike]",
 				text="Can be Ancestrally Boosted as though a Strike"
 			}
 		},

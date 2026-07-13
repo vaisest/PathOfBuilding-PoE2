@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% of [Physical] [Attack] [LifeLeech|Leeched] as Life per [Rage]",
 				text="Grants {0}% of Physical Attack Leeched as Life per Rage"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[LifeLoss|Lose] {0}% of maximum Life per [Rage] per second while not losing [Rage]",
 				text="Lose {0}% of maximum Life per Rage per second while not losing Rage"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased [Rage] effect",
 				text="Grants {0}% increased Rage effect"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced [Rage] effect",
 				text="Grants {0}% reduced Rage effect"
 			}
 		},

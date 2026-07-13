@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion length is {0} metre",
 				text="Explosion length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion length is {0} metres",
 				text="Explosion length is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Gains added damage equal to {0}% of Main Hand Weapon Damage",
 				text="DNT-UNUSED Gains added damage equal to {0}% of Main Hand Weapon Damage"
 			}
 		},
@@ -71,6 +74,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} to active Shield Wall [Limit]",
 				text="{0:+d} to active Shield Wall Limit"
 			},
 			[2]={
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Shield Wall",
 				text="Limit {0} active Shield Wall"
 			},
 			[3]={
@@ -97,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Shield Walls",
 				text="Limit {0} active Shield Walls"
 			}
 		},
@@ -118,6 +124,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Wall duration is {0} second",
 				text="Wall duration is {0} second"
 			},
 			[2]={
@@ -131,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall duration is {0} seconds",
 				text="Wall duration is {0} seconds"
 			}
 		},
@@ -158,6 +166,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Wall Segment has {0} maximum Life",
 				text="Wall Segment has {0} maximum Life"
 			},
 			[2]={
@@ -171,6 +180,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall Segments have {0} maximum Life",
 				text="Wall Segments have {0} maximum Life"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Withered] duration is {0} second",
 				text="Withered duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Withered] duration is {0} seconds",
 				text="Withered duration is {0} seconds"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Withered|Withers] enemies in your [Presence] every second",
 				text="Withers enemies in your Presence every second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Withered|Withers] enemies in your [Presence] every {0} seconds",
 				text="Withers enemies in your Presence every {0} seconds"
 			}
 		},

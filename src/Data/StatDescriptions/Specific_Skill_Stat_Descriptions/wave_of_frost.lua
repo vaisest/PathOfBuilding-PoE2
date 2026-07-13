@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave length is {0} metre",
 				text="Wave length is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is {0} metres",
 				text="Wave length is {0} metres"
 			}
 		},

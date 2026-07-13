@@ -19,6 +19,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Spirit duration",
 				text="{0:+d} second to Spirit duration"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Spirit duration",
 				text="{0:+d} seconds to Spirit duration"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spirit duration is {0} second",
 				text="Spirit duration is {0} second"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spirit duration is {0} seconds",
 				text="Spirit duration is {0} seconds"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bound Undead retains up to four monster modifiers when summoned",
 				text="Bound Undead retains up to four monster modifiers when summoned"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cooldown is {0} seconds",
 				text="Cooldown is {0} seconds"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to [Buff] duration",
 				text="{0:+d} second to Buff duration"
 			},
 			[2]={
@@ -52,6 +54,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to [Buff] duration",
 				text="{0:+d} seconds to Buff duration"
 			},
 			[3]={
@@ -69,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[4]={
@@ -86,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},

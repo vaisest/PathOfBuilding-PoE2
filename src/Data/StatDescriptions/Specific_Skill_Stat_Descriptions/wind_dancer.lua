@@ -18,6 +18,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum stages",
 				text="{0} maximum stages"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a stage every {0} seconds",
 				text="Gain a stage every {0} seconds"
 			}
 		},
@@ -54,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Evasion] Rating per stage\nOn being [HitDamage|Hit] by an Enemy, consume all\nstages to trigger Gale Force",
 				text="{0}% more Evasion Rating per stage\nOn being Hit by an Enemy, consume all\nstages to trigger Gale Force"
 			},
 			[2]={
@@ -67,6 +70,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Evasion] Rating per stage\nOn being [HitDamage|Hit] by an Enemy, consume all\nstages to trigger Gale Force",
 				text="{0}% less Evasion Rating per stage\nOn being Hit by an Enemy, consume all\nstages to trigger Gale Force"
 			}
 		},

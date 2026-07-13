@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage",
 				text="Ignites as though dealing {0} to {1} Fire damage"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] enemies within {0} metre radius",
 				text="Ignites enemies within {0} metre radius"
 			}
 		},

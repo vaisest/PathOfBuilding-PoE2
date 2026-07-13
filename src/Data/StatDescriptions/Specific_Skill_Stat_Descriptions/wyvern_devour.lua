@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain [Flask] and [Charm] charges as though killing the enemy on [Corpse] consumption",
 				text="{0}% chance to gain Flask and Charm charges as though killing the enemy on Corpse consumption"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerates {0} life per enemy or\n[Corpse] consumed over 1 second",
 				text="Regenerates {0} life per enemy or\nCorpse consumed over 1 second"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes up to {0} additional [Corpse] near the target",
 				text="Consumes up to {0} additional Corpse near the target"
 			},
 			[2]={
@@ -92,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes up to {0} additional [Corpse|Corpses] near the target",
 				text="Consumes up to {0} additional Corpses near the target"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[DNT] Spore Cloud duration is {0} second",
 				text="DNT Spore Cloud duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT] Spore Cloud duration is {0} seconds",
 				text="DNT Spore Cloud duration is {0} seconds"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT] Spore Cloud deals {0} [Chaos] damage per second",
 				text="DNT Spore Cloud deals {0} Chaos damage per second"
 			}
 		},

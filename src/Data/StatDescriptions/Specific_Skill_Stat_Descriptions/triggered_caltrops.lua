@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Caltrop radius is {0} metre",
 				text="Caltrop radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Caltrop radius is {0} metres",
 				text="Caltrop radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Caltrops land within a {0} metre radius of [Projectile] impact",
 				text="Caltrops land within a {0} metre radius of Projectile impact"
 			}
 		},
@@ -86,6 +89,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Caltrop",
 				text="Creates {0} Caltrop"
 			},
 			[2]={
@@ -103,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0:d} Caltrops",
 				text="Creates {0:d} Caltrops"
 			}
 		},
@@ -125,6 +130,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Caltrop duration is {0} second",
 				text="Caltrop duration is {0} second"
 			},
 			[2]={
@@ -138,6 +144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Caltrop duration is {0} seconds",
 				text="Caltrop duration is {0} seconds"
 			}
 		},
@@ -154,6 +161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% of your [Dexterity] as [Physical] Damage on [HitDamage|Hit]",
 				text="Deals {0}% of your Dexterity as Physical Damage on Hit"
 			}
 		},
@@ -177,6 +185,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} active Caltrops",
 				text="Maximum {0} active Caltrops"
 			}
 		},

@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Warcry radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Warcry radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Rage] per enemy [Power] in range",
 				text="Gain {0} Rage per enemy Power in range"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] [ArmourBreak|Break] {0} [Armour] on [HitDamage|Hit]",
 				text="Empowered Attacks Break {0} Armour on Hit"
 			}
 		},

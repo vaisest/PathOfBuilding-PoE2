@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Volley length is {0} metre",
 				text="Volley length is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Volley length is {0} metres",
 				text="Volley length is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Volley width is {0} metre",
 				text="Volley width is {0} metre"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Volley width is {0} metres",
 				text="Volley width is {0} metres"
 			}
 		},
@@ -96,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Volleys",
 				text="{0} Volleys"
 			}
 		},
@@ -116,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} seconds between each Volley",
 				text="{0} seconds between each Volley"
 			}
 		},

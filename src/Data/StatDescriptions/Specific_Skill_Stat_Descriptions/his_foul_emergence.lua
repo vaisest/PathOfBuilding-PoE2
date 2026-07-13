@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Emergence radius is {0} metre",
 				text="Emergence radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Emergence radius is {0} metres",
 				text="Emergence radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to [WitheringGround|Withering Ground] duration",
 				text="{0:+d} second to Withering Ground duration"
 			},
 			[2]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to [WitheringGround|Withering Ground] duration",
 				text="{0:+d} seconds to Withering Ground duration"
 			},
 			[3]={
@@ -83,6 +87,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[WitheringGround|Withering Ground] duration is {0} second",
 				text="Withering Ground duration is {0} second"
 			},
 			[4]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[WitheringGround|Withering Ground] duration is {0} seconds",
 				text="Withering Ground duration is {0} seconds"
 			}
 		},

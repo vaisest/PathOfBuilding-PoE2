@@ -11,6 +11,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Chain|Chains] {0} time",
 				text="Chains {0} time"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain|Chains] {0} times",
 				text="Chains {0} times"
 			}
 		},

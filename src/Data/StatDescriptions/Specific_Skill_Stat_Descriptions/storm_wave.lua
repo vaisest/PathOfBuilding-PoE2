@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is +{0} metres",
 				text="Wave length is +{0} metres"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave length is {0} metre",
 				text="Wave length is {0} metre"
 			},
 			[3]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is {0} metres",
 				text="Wave length is {0} metres"
 			}
 		},
@@ -73,6 +76,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Wave width is {0:+d} metre",
 				text="Wave width is {0:+d} metre"
 			},
 			[2]={
@@ -90,6 +94,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Wave width is {0:+d} metres",
 				text="Wave width is {0:+d} metres"
 			},
 			[3]={
@@ -107,6 +112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave width is {0} metre",
 				text="Wave width is {0} metre"
 			},
 			[4]={
@@ -124,6 +130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave width is {0} metres",
 				text="Wave width is {0} metres"
 			}
 		},

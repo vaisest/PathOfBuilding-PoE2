@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Wall lasts {0} second",
 				text="Wall lasts {0} second"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall lasts {0} seconds",
 				text="Wall lasts {0} seconds"
 			}
 		},
@@ -93,6 +97,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[IceCrystals|Ice Crystals] have {0} maximum Life",
 				text="Ice Crystals have {0} maximum Life"
 			},
 			[2]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IceCrystals|Ice Crystal] has {0} maximum Life",
 				text="Ice Crystal has {0} maximum Life"
 			}
 		},

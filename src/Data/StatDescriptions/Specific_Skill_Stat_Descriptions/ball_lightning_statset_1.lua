@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[ElementalInfusion|Fire-Infused] explosion radius is {0} metre",
 				text="Fire-Infused explosion radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ElementalInfusion|Fire-Infused] explosion radius is {0} metres",
 				text="Fire-Infused explosion radius is {0} metres"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Creates [IgnitedGround|Ignited Ground] every {0} second",
 				text="Creates Ignited Ground every {0} second"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates [IgnitedGround|Ignited Ground] every {0} seconds",
 				text="Creates Ignited Ground every {0} seconds"
 			}
 		},
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ElementalInfusion|Fire-Infused] explosion deals {0} to {1} [Fire] damage",
 				text="Fire-Infused explosion deals {0} to {1} Fire damage"
 			}
 		},

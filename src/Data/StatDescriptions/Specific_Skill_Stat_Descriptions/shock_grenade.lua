@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fuse duration is {0} second",
 				text="Fuse duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fuse duration is {0} seconds",
 				text="Fuse duration is {0} seconds"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Conversion|Converts] {0}% of [Physical] Damage to [Lightning] Damage",
 				text="Converts {0}% of Physical Damage to Lightning Damage"
 			}
 		},
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Lightning] damage from [HitDamage|Hits] with this skill [Contributes] to [Electrocute|Electrocution] Buildup",
 				text="Lightning damage from Hits with this skill Contributes to Electrocution Buildup"
 			}
 		},
@@ -109,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Electrocute|Electrocution] buildup from [HitDamage|Hits] with this skill",
 				text="{0}% more Electrocution buildup from Hits with this skill"
 			},
 			[2]={
@@ -122,6 +129,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Electrocute|Electrocution] buildup from [HitDamage|Hits] with this skill",
 				text="{0}% less Electrocution buildup from Hits with this skill"
 			}
 		},
@@ -142,6 +150,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Electrocute|Electrocution] buildup [Debuff] duration is {0} second",
 				text="Electrocution buildup Debuff duration is {0} second"
 			},
 			[2]={
@@ -155,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Electrocute|Electrocution] buildup [Debuff] duration is {0} seconds",
 				text="Electrocution buildup Debuff duration is {0} seconds"
 			}
 		},

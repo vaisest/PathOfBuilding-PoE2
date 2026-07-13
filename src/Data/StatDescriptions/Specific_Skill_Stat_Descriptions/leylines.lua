@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deal {0}% more [Spell] damage while on a Leyline",
 				text="Deal {0}% more Spell damage while on a Leyline"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose {0} [Ward|Runic Ward] per second while on a Leyline\nCannot Recover [Ward|Runic Ward] while on a Leyline",
 				text="Lose {0} Runic Ward per second while on a Leyline\nCannot Recover Runic Ward while on a Leyline"
 			}
 		},
@@ -58,6 +60,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Leyline radius is {0} metre",
 				text="Leyline radius is {0} metre"
 			},
 			[2]={
@@ -71,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Leyline radius is {0} metres",
 				text="Leyline radius is {0} metres"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Leylines reappear a second after dissipating",
 				text="Leylines reappear a second after dissipating"
 			},
 			[2]={
@@ -104,6 +109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Leylines reappear {0} seconds after dissipating",
 				text="Leylines reappear {0} seconds after dissipating"
 			}
 		},

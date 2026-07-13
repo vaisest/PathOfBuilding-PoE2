@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[OilGround|Oil Ground] radius is {0} metre",
 				text="Oil Ground radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[OilGround|Oil Ground] radius is {0} metres",
 				text="Oil Ground radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[OilGround|Oil Ground] Duration is {0} second",
 				text="Oil Ground Duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[OilGround|Oil Ground] Duration is {0} seconds",
 				text="Oil Ground Duration is {0} seconds"
 			}
 		},

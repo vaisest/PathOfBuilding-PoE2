@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Gains a random Mote every second",
 				text="Gains a random Mote every second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a random Mote every {0} seconds",
 				text="Gains a random Mote every {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of each [Attributes|Attribute] of Mote is {0} plus the number of Skills you have which require that [Attributes|Attribute]\nSingle-[Attributes|Attribute] Skills grant twice as many maximum Motes",
 				text="Maximum of each Attribute of Mote is {0} plus the number of Skills you have which require that Attribute\nSingle-Attribute Skills grant twice as many maximum Motes"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased maximum Life per [Strength] Mote",
 				text="{0}% increased maximum Life per Strength Mote"
 			}
 		},
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Armour], [Evasion] and\n[EnergyShield|Energy Shield] per [Dexterity] Mote",
 				text="{0}% increased Armour, Evasion and\nEnergy Shield per Dexterity Mote"
 			}
 		},
@@ -92,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Life Regeneration rate per [Intelligence] Mote",
 				text="{0}% increased Life Regeneration rate per Intelligence Mote"
 			}
 		},
@@ -115,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Mana Regeneration rate per [Intelligence] Mote",
 				text="{0}% increased Mana Regeneration rate per Intelligence Mote"
 			}
 		},
@@ -131,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Intelligence Motes@{0}",
 				text="Maximum Intelligence Motes@{0}"
 			}
 		},
@@ -147,6 +155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Dexterity Motes@{0}",
 				text="Maximum Dexterity Motes@{0}"
 			}
 		},
@@ -163,6 +172,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Strength Motes@{0}",
 				text="Maximum Strength Motes@{0}"
 			}
 		},

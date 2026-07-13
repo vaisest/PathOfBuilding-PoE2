@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When [HitDamage|Hit] by an enemy, gain [Armour] equal to {0}% of\n[EnergyShield|Energy Shield] lost",
 				text="When Hit by an enemy, gain Armour equal to {0}% of\nEnergy Shield lost"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},

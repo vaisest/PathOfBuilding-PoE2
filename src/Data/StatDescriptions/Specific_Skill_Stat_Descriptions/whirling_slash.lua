@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Whirlwind] radius is {0} metre",
 				text="Whirlwind radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Whirlwind] radius is {0} metres",
 				text="Whirlwind radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}m to Radius per additional stage",
 				text="{0:+d}m to Radius per additional stage"
 			}
 		},
@@ -71,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elemental [Whirlwind|Whirlwinds] [Gain] {0}% of damage as damage of the corresponding [ElementalDamage|Type]",
 				text="Elemental Whirlwinds Gain {0}% of damage as damage of the corresponding Type"
 			}
 		},

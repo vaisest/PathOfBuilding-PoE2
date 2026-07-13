@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[AncientBlooms|Ancient Blooms] fade after {0} second if not picked up",
 				text="Ancient Blooms fade after {0} second if not picked up"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[AncientBlooms|Ancient Blooms] fade after {0} seconds if not picked up",
 				text="Ancient Blooms fade after {0} seconds if not picked up"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[AncientBlooms|Ancient Blooms] within 5m of you are revealed",
 				text="Ancient Blooms within 5m of you are revealed"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="An [AncientBlooms|Ancient Bloom] manifests within 8.5m of\n you every second",
 				text="An Ancient Bloom manifests within 8.5m of\n you every second"
 			},
 			[2]={
@@ -73,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="An [AncientBlooms|Ancient Bloom] manifests within 8.5m of\n you every {0} seconds",
 				text="An Ancient Bloom manifests within 8.5m of\n you every {0} seconds"
 			}
 		},
@@ -89,6 +94,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[AncientBlooms|Ancient Blooms] have {0}% increased effect",
 				text="Ancient Blooms have {0}% increased effect"
 			},
 			[2]={
@@ -102,6 +108,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[AncientBlooms|Ancient Blooms] have {0}% reduced effect",
 				text="Ancient Blooms have {0}% reduced effect"
 			}
 		},

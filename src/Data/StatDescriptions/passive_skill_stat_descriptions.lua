@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Devotion",
 				text="{0:+d} to Devotion"
 			}
 		},
@@ -32,6 +33,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Tribute",
 				text="{0:+d} to Tribute"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Tribute",
 				text="{0}% increased Tribute"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Tribute",
 				text="{0}% reduced Tribute"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Strength]",
 				text="{0:+d} to Strength"
 			}
 		},
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Strength]",
 				text="{0}% increased Strength"
 			},
 			[2]={
@@ -106,6 +112,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Strength]",
 				text="{0}% reduced Strength"
 			}
 		},
@@ -122,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Dexterity]",
 				text="{0:+d} to Dexterity"
 			}
 		},
@@ -138,6 +146,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Dexterity]",
 				text="{0}% increased Dexterity"
 			},
 			[2]={
@@ -151,6 +160,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Dexterity]",
 				text="{0}% reduced Dexterity"
 			}
 		},
@@ -167,6 +177,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Intelligence]",
 				text="{0:+d} to Intelligence"
 			}
 		},
@@ -183,6 +194,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Intelligence]",
 				text="{0}% increased Intelligence"
 			},
 			[2]={
@@ -196,6 +208,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Intelligence]",
 				text="{0}% reduced Intelligence"
 			}
 		},
@@ -216,6 +229,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0}% of maximum Mana per second",
 				text="Regenerate {0}% of maximum Mana per second"
 			}
 		},
@@ -236,6 +250,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0}% of maximum Mana per second per Power Charge",
 				text="Regenerate {0}% of maximum Mana per second per Power Charge"
 			}
 		},
@@ -252,6 +267,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum [Charges|Endurance Charges]",
 				text="{0:+d} to Maximum Endurance Charges"
 			}
 		},
@@ -268,6 +284,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum [Charges|Frenzy Charges]",
 				text="{0:+d} to Maximum Frenzy Charges"
 			}
 		},
@@ -284,6 +301,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum [Charges|Power Charges]",
 				text="{0:+d} to Maximum Power Charges"
 			}
 		},
@@ -300,6 +318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Physical Damage per Frenzy Charge",
 				text="{0}% increased Physical Damage per Frenzy Charge"
 			}
 		},
@@ -316,6 +335,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a [Charges|Frenzy Charge] on kill",
 				text="Gain a Frenzy Charge on kill"
 			}
 		},
@@ -332,6 +352,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[StatConversion|Converts] all [Evasion|Evasion Rating] to [Armour]",
 				text="Converts all Evasion Rating to Armour"
 			}
 		},
@@ -348,6 +369,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="75% of Damage Converted to Fire Damage\nDeal no Non-Fire Damage",
 				text="75% of Damage Converted to Fire Damage\nDeal no Non-Fire Damage"
 			}
 		},
@@ -364,6 +386,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[StatConversion|Convert] 100% of maximum [EnergyShield|Energy Shield] to maximum Mana\nMana Costs are Doubled",
 				text="Convert 100% of maximum Energy Shield to maximum Mana\nMana Costs are Doubled"
 			}
 		},
@@ -380,6 +403,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your [Totem] [Limit] is doubled\nNo [Charges|Charge] requirement for placing [Totem|Totems]\n[Totem|Totems] reserve 75 [Spirit] each",
 				text="Your Totem Limit is doubled\nNo Charge requirement for placing Totems\nTotems reserve 75 Spirit each"
 			}
 		},
@@ -396,6 +420,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum number of Spectres",
 				text="{0:+d} to Maximum number of Spectres"
 			}
 		},
@@ -412,6 +437,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum number of Skeletons",
 				text="{0:+d} to Maximum number of Skeletons"
 			}
 		},
@@ -428,6 +454,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum number of Summoned Raging Spirits",
 				text="{0:+d} to Maximum number of Summoned Raging Spirits"
 			}
 		},
@@ -444,6 +471,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Evasion|Evade] all Hits\n75% less [Evasion] Rating",
 				text="Can Evade all Hits\n75% less Evasion Rating"
 			}
 		},
@@ -460,6 +488,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="30% less [CriticalDamageBonus|Critical Damage Bonus] when on Full Life\n30% more Critical Damage Bonus when on [LowLife|Low Life]",
 				text="30% less Critical Damage Bonus when on Full Life\n30% more Critical Damage Bonus when on Low Life"
 			}
 		},
@@ -476,6 +505,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectile [Attack] Hits deal up to 30% more Damage to targets at the start of their movement, dealing less Damage to targets as the projectile travels farther",
 				text="Projectile Attack Hits deal up to 30% more Damage to targets at the start of their movement, dealing less Damage to targets as the projectile travels farther"
 			}
 		},
@@ -492,6 +522,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="If you would gain a [Charges|Charge], [Allies] in your [Presence] gain that [Charges|Charge] instead",
 				text="If you would gain a Charge, Allies in your Presence gain that Charge instead"
 			}
 		},
@@ -508,6 +539,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You have no Mana\nSkill Mana Costs [StatConversion|Converted] to Life Costs",
 				text="You have no Mana\nSkill Mana Costs Converted to Life Costs"
 			}
 		},
@@ -524,6 +556,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions Explode when reduced to [LowLife|Low Life], dealing 33% of their Life as Fire Damage to surrounding Enemies",
 				text="Minions Explode when reduced to Low Life, dealing 33% of their Life as Fire Damage to surrounding Enemies"
 			}
 		},
@@ -540,6 +573,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Create [Lightning] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Fire]\nCreate [Cold] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Lightning]\nCreate [Fire] [ElementalInfusion|Infusion] [Remnant|Remnants] instead of [Cold]",
 				text="Create Lightning Infusion Remnants instead of Fire\nCreate Cold Infusion Remnants instead of Lightning\nCreate Fire Infusion Remnants instead of Cold"
 			}
 		},
@@ -556,6 +590,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Life is 1\nImmune to [Chaos] Damage and [Bleeding]",
 				text="Maximum Life is 1\nImmune to Chaos Damage and Bleeding"
 			}
 		},
@@ -572,6 +607,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="50% more amount of [LifeLeech|Life Leeched]\n[LifeLeech|Leech Life] 67% less quickly\nCannot Recover Life other than from [LifeLeech|Leech]\n[LifeLeech|Life Leech] effects are not removed when [Reservation|Unreserved] Life is Filled",
 				text="50% more amount of Life Leeched\nLeech Life 67% less quickly\nCannot Recover Life other than from Leech\nLife Leech effects are not removed when Unreserved Life is Filled"
 			}
 		},
@@ -588,6 +624,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit Chance]",
 				text="{0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -601,6 +638,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit Chance]",
 				text="{0}% reduced Critical Hit Chance"
 			}
 		},
@@ -617,6 +655,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% Chance to Block [Attack] Damage while wielding a Staff",
 				text="{0:+d}% Chance to Block Attack Damage while wielding a Staff"
 			}
 		},
@@ -633,6 +672,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="All [DamageTypes|Damage] is taken from Mana before Life\n50% less Mana Recovery Rate",
 				text="All Damage is taken from Mana before Life\n50% less Mana Recovery Rate"
 			}
 		},
@@ -649,6 +689,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Accuracy] Rating is Doubled\nNever deal [Critical|Critical Hits]",
 				text="Accuracy Rating is Doubled\nNever deal Critical Hits"
 			}
 		},
@@ -665,6 +706,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [LightStun|Light Stunned]\nCannot Dodge Roll or Sprint",
 				text="Cannot be Light Stunned\nCannot Dodge Roll or Sprint"
 			}
 		},
@@ -681,6 +723,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can be allocated without connection to the tree",
 				text="Can be allocated without connection to the tree"
 			}
 		},
@@ -697,6 +740,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Strength|Strength] and [Dexterity|Dexterity]",
 				text="{0:+d} to Strength and Dexterity"
 			}
 		},
@@ -713,6 +757,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Strength|Strength] and [Intelligence|Intelligence]",
 				text="{0:+d} to Strength and Intelligence"
 			}
 		},
@@ -729,6 +774,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Dexterity|Dexterity] and [Intelligence|Intelligence]",
 				text="{0:+d} to Dexterity and Intelligence"
 			}
 		},
@@ -745,6 +791,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Blind] Enemies on [HitDamage|Hit]",
 				text="{0}% chance to Blind Enemies on Hit"
 			},
 			[2]={
@@ -754,6 +801,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Blind] Enemies on [HitDamage|Hit]",
 				text="Blind Enemies on Hit"
 			}
 		},
@@ -774,6 +822,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Skills fire an additional [Projectile|Projectile]",
 				text="Skills fire an additional Projectile"
 			},
 			[2]={
@@ -787,6 +836,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skills fire {1} additional [Projectile|Projectiles]",
 				text="Skills fire {1} additional Projectiles"
 			}
 		},
@@ -804,6 +854,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to maximum number of Summoned Golems",
 				text="{0:+d} to maximum number of Summoned Golems"
 			}
 		},
@@ -820,6 +871,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Warrior's starting point",
 				text="Can Allocate Passive Skills from the Warrior's starting point"
 			},
 			[2]={
@@ -829,6 +881,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Ranger's starting point",
 				text="Can Allocate Passive Skills from the Ranger's starting point"
 			},
 			[3]={
@@ -838,6 +891,7 @@ return {
 						[2]=3
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Sorceress's starting point",
 				text="Can Allocate Passive Skills from the Sorceress's starting point"
 			},
 			[4]={
@@ -847,6 +901,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Mercenary's starting point",
 				text="Can Allocate Passive Skills from the Mercenary's starting point"
 			},
 			[5]={
@@ -856,6 +911,7 @@ return {
 						[2]=5
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Templar's starting point",
 				text="Can Allocate Passive Skills from the Templar's starting point"
 			},
 			[6]={
@@ -865,6 +921,7 @@ return {
 						[2]=6
 					}
 				},
+				rawText="Can Allocate Passive Skills from the Shadow's starting point",
 				text="Can Allocate Passive Skills from the Shadow's starting point"
 			}
 		},
@@ -881,6 +938,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to create [ConsecratedGround|Consecrated Ground] on kill, lasting 8 seconds",
 				text="{0}% chance to create Consecrated Ground on kill, lasting 8 seconds"
 			},
 			[2]={
@@ -890,6 +948,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Create [ConsecratedGround|Consecrated Ground] on kill, lasting 8 seconds",
 				text="Create Consecrated Ground on kill, lasting 8 seconds"
 			}
 		},
@@ -910,6 +969,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="-{0} second to base [ESRecharge|Energy Shield Recharge] delay",
 				text="-{0} second to base Energy Shield Recharge delay"
 			},
 			[2]={
@@ -923,6 +983,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="-{0} seconds to base [ESRecharge|Energy Shield Recharge] delay",
 				text="-{0} seconds to base Energy Shield Recharge delay"
 			}
 		},
@@ -939,6 +1000,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Gain {0} Life [Flask] Charge per 2% Life spent",
 				text="Gain {0} Life Flask Charge per 2% Life spent"
 			},
 			[2]={
@@ -948,6 +1010,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} Life [Flask] Charges per 2% Life spent",
 				text="Gain {0} Life Flask Charges per 2% Life spent"
 			}
 		},
@@ -964,6 +1027,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]",
 				text="{0}% increased Armour, Evasion and Energy Shield"
 			},
 			[2]={
@@ -977,6 +1041,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Armour], [Evasion] and [EnergyShield|Energy Shield]",
 				text="{0}% reduced Armour, Evasion and Energy Shield"
 			}
 		},
@@ -997,6 +1062,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Adaptation|Adaptations] have a duration of {0} second",
 				text="Adaptations have a duration of {0} second"
 			},
 			[2]={
@@ -1010,6 +1076,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Adaptation|Adaptations] have a duration of {0} seconds",
 				text="Adaptations have a duration of {0} seconds"
 			}
 		},
@@ -1026,6 +1093,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Adaptation|Adapt] to the highest [ElementalDamage|Elemental Damage Type] of each [HitDamage|Hit] you take",
 				text="Adapt to the highest Elemental Damage Type of each Hit you take"
 			},
 			[2]={
@@ -1035,6 +1103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Adaptation|Adapt] {0} times to the highest [ElementalDamage|Elemental Damage Type] of each [HitDamage|Hit] you take",
 				text="Adapt {0} times to the highest Elemental Damage Type of each Hit you take"
 			}
 		},
@@ -1051,6 +1120,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% Chance to build an additional [Combo] on [HitDamage|Hit]",
 				text="{0}% Chance to build an additional Combo on Hit"
 			},
 			[2]={
@@ -1060,6 +1130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Build an additional [Combo] on [HitDamage|Hit]",
 				text="Build an additional Combo on Hit"
 			}
 		},
@@ -1076,6 +1147,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Bleeding] you inflict on [Pinned] Enemies is [Aggravate|Aggravated]",
 				text="Bleeding you inflict on Pinned Enemies is Aggravated"
 			}
 		},
@@ -1092,6 +1164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffEffect|Effect] of [ArcaneSurge|Arcane Surge] on you per ten percent missing Mana",
 				text="{0}% increased Effect of Arcane Surge on you per ten percent missing Mana"
 			}
 		},
@@ -1108,6 +1181,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] {0}% more Mana cost of [Trigger|Triggered Skills]",
 				text="DNT-UNUSED {0}% more Mana cost of Triggered Skills"
 			},
 			[2]={
@@ -1121,6 +1195,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[DNT-UNUSED] {0}% less Mana cost of [Trigger|Triggered Skills]",
 				text="DNT-UNUSED {0}% less Mana cost of Triggered Skills"
 			}
 		},
@@ -1141,6 +1216,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies in your [Presence|Presence] are [Slow|Slowed] by {0}%",
 				text="Enemies in your Presence are Slowed by {0}%"
 			}
 		},
@@ -1157,6 +1233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree",
 				text="Non-Keystone Passive Skills in Medium Radius of allocated Keystone Passive Skills can be allocated without being connected to your tree"
 			}
 		},
@@ -1173,6 +1250,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants [ThaumaturgicalDynamism|Thaumaturgical Dynamism]",
 				text="Grants Thaumaturgical Dynamism"
 			}
 		},
@@ -1189,6 +1267,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gem [Quality] grants Socketed Skills an additional effect",
 				text="Gem Quality grants Socketed Skills an additional effect"
 			}
 		},
@@ -1205,6 +1284,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damaging [Spell|Spells] consume a [Charges|Power Charge] if able to trigger Abyssal Apparition",
 				text="Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition"
 			}
 		},
@@ -1221,6 +1301,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skeletal [Minion|Minions] you would create instead grant you [LichSkeletalBuff|Umbral Souls] for each [Minion] you would have created",
 				text="Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created"
 			}
 		},
@@ -1237,6 +1318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% more Damage",
 				text="Spells consume a Power Charge if able to deal {0}% more Damage"
 			},
 			[2]={
@@ -1250,6 +1332,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Spell|Spells] consume a [Charges|Power Charge] if able to deal {0}% less Damage",
 				text="Spells consume a Power Charge if able to deal {0}% less Damage"
 			}
 		},
@@ -1266,6 +1349,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Walk the [OraclePaths|Paths Not Taken]",
 				text="Walk the Paths Not Taken"
 			}
 		},
@@ -1282,6 +1366,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Ignite|Ignites] you inflict have up to {0}% more [BuffMagnitude|Magnitude], at random",
 				text="DNT-UNUSED Ignites you inflict have up to {0}% more Magnitude, at random"
 			}
 		},
@@ -1298,6 +1383,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage against Enemies affected by Blood Boils",
 				text="{0}% more Damage against Enemies affected by Blood Boils"
 			},
 			[2]={
@@ -1311,6 +1397,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage against Enemies affected by Blood Boils",
 				text="{0}% less Damage against Enemies affected by Blood Boils"
 			}
 		},
@@ -1327,6 +1414,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an additional {0} [Spirit] for each empty available [Charm] slot you have",
 				text="Gain an additional {0} Spirit for each empty available Charm slot you have"
 			}
 		},
@@ -1343,6 +1431,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Every 2 [Rage] also grants {0}% more [Spell] damage",
 				text="Every 2 Rage also grants {0}% more Spell damage"
 			}
 		},
@@ -1359,6 +1448,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Cascadable|Cascadable] [Spell|Spells] have {0}% chance to [Cascadable|Echo]",
 				text="Cascadable Spells have {0}% chance to Echo"
 			}
 		},
@@ -1375,6 +1465,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Repeat|Repeatable] [Spell|Spells] have {0}% chance to [Repeat]",
 				text="Repeatable Spells have {0}% chance to Repeat"
 			}
 		},
@@ -1391,6 +1482,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="Cannot cause [Immobilised|Immobilisation] buildup",
 				text="Cannot cause Immobilisation buildup"
 			},
 			[2]={
@@ -1400,6 +1492,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Immobilised|Immobilisation] buildup",
 				text="{0}% more Immobilisation buildup"
 			},
 			[3]={
@@ -1413,6 +1506,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Immobilised|Immobilisation] buildup",
 				text="{0}% less Immobilisation buildup"
 			}
 		},
@@ -1429,6 +1523,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Targets [Curse|Cursed] by you have at least {0}% of Life [Reservation|Reserved]",
 				text="Targets Cursed by you have at least {0}% of Life Reserved"
 			}
 		},
@@ -1449,6 +1544,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0}% of your maximum [Rage] per second",
 				text="Regenerate {0}% of your maximum Rage per second"
 			}
 		},
@@ -1477,6 +1573,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="On [HitDamage|Hitting] an Enemy while a Life [Flask] is at full Charges, {0}% of its Charges are consumed\n[Gain] {1}% of damage as [Physical] damage for {2} second per Charge consumed this way",
 				text="On Hitting an Enemy while a Life Flask is at full Charges, {0}% of its Charges are consumed\nGain {1}% of damage as Physical damage for {2} second per Charge consumed this way"
 			},
 			[2]={
@@ -1498,6 +1595,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="On [HitDamage|Hitting] an Enemy while a Life [Flask] is at full Charges, {0}% of its Charges are consumed\n[Gain] {1}% of damage as [Physical] damage for {2} seconds per Charge consumed this way",
 				text="On Hitting an Enemy while a Life Flask is at full Charges, {0}% of its Charges are consumed\nGain {1}% of damage as Physical damage for {2} seconds per Charge consumed this way"
 			}
 		},
@@ -1516,6 +1614,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can equip a [Focus] while wielding a [Staff]",
 				text="You can equip a Focus while wielding a Staff"
 			}
 		},
@@ -1532,6 +1631,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [Combo] from all [Attack] [HitDamage|Hits]",
 				text="Gain Combo from all Attack Hits"
 			}
 		},
@@ -1548,6 +1648,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="All [FlamesOfChayula|Flames of Chayula] that you manifest are [BlueFlamesOfChayula|Blue]",
 				text="All Flames of Chayula that you manifest are Blue"
 			}
 		},
@@ -1564,6 +1665,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="All [FlamesOfChayula|Flames of Chayula] that you manifest are [PurpleFlamesOfChayula|Purple]",
 				text="All Flames of Chayula that you manifest are Purple"
 			}
 		},
@@ -1580,6 +1682,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="All [FlamesOfChayula|Flames of Chayula] that you manifest are [RedFlamesOfChayula|Red]",
 				text="All Flames of Chayula that you manifest are Red"
 			}
 		},
@@ -1596,6 +1699,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for Damage with [HitDamage|Hits] to be [Lucky]",
 				text="{0}% chance for Damage with Hits to be Lucky"
 			}
 		},
@@ -1612,6 +1716,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance when collecting an [ElementalInfusion|Elemental Infusion] to gain another different [ElementalInfusion|Elemental Infusion]",
 				text="{0}% chance when collecting an Elemental Infusion to gain another different Elemental Infusion"
 			},
 			[2]={
@@ -1621,6 +1726,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When collecting an [ElementalInfusion|Elemental Infusion], gain another different [ElementalInfusion|Elemental Infusion]",
 				text="When collecting an Elemental Infusion, gain another different Elemental Infusion"
 			}
 		},
@@ -1637,6 +1743,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain an Owl Feather on [Critical|Critical Hit]",
 				text="{0}% chance to gain an Owl Feather on Critical Hit"
 			}
 		},
@@ -1653,6 +1760,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skills have {0}% chance to not remove [Charges|Charges] but still count as consuming them",
 				text="Skills have {0}% chance to not remove Charges but still count as consuming them"
 			}
 		},
@@ -1669,6 +1777,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Chill] you inflict",
 				text="{0}% increased Magnitude of Chill you inflict"
 			},
 			[2]={
@@ -1682,6 +1791,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Chill] you inflict",
 				text="{0}% reduced Magnitude of Chill you inflict"
 			}
 		},
@@ -1698,6 +1808,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Take {0}% more Damage",
 				text="Take {0}% more Damage"
 			},
 			[2]={
@@ -1711,6 +1822,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Take {0}% less Damage",
 				text="Take {0}% less Damage"
 			}
 		},
@@ -1731,6 +1843,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants [Chronobuff|Sands of Time]",
 				text="Grants Sands of Time"
 			}
 		},
@@ -1748,6 +1861,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="4 seconds after being Damaged by an Enemy [HitDamage|Hit], take Damage equal to {0}% of that [HitDamage|Hit]'s Damage",
 				text="4 seconds after being Damaged by an Enemy Hit, take Damage equal to {0}% of that Hit's Damage"
 			}
 		},
@@ -1764,6 +1878,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for [Remnant|Remnants] you create to grant their effects twice",
 				text="{0}% chance for Remnants you create to grant their effects twice"
 			}
 		},
@@ -1780,6 +1895,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemy [Critical|Critical Hit Chance] against you is [Unlucky]",
 				text="Enemy Critical Hit Chance against you is Unlucky"
 			}
 		},
@@ -1796,6 +1912,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your [HitDamage|Hits] are [CrushingBlow|Crushing Blows]",
 				text="Your Hits are Crushing Blows"
 			}
 		},
@@ -1812,6 +1929,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% of Current [EnergyShield|Energy Shield] also grants [Physical|Physical Damage] reduction",
 				text="{0}% of Current Energy Shield also grants Physical Damage reduction"
 			},
 			[2]={
@@ -1821,6 +1939,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Current [EnergyShield|Energy Shield] also grants [Physical|Physical Damage] reduction",
 				text="Current Energy Shield also grants Physical Damage reduction"
 			},
 			[3]={
@@ -1830,6 +1949,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Current [EnergyShield|Energy Shield] also grants [Physical|Physical Damage] reduction",
 				text="{0}% of Current Energy Shield also grants Physical Damage reduction"
 			}
 		},
@@ -1846,6 +1966,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage of Enemies [HitDamage|Hitting] you is [Unlucky]",
 				text="Damage of Enemies Hitting you is Unlucky"
 			}
 		},
@@ -1862,6 +1983,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Daze] Enemies whose [HitDamage|Hits] you [Block] with a raised [Shield]",
 				text="{0}% chance to Daze Enemies whose Hits you Block with a raised Shield"
 			}
 		},
@@ -1878,6 +2000,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Enable Living Bomb",
 				text="DNT-UNUSED Enable Living Bomb"
 			}
 		},
@@ -1894,6 +2017,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies within 2 metres of you are Taunted",
 				text="Enemies within 2 metres of you are Taunted"
 			}
 		},
@@ -1910,6 +2034,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Enable Explosive Teleport",
 				text="DNT-UNUSED Enable Explosive Teleport"
 			}
 		},
@@ -1926,6 +2051,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Enable Hand Slam",
 				text="DNT-UNUSED Enable Hand Slam"
 			}
 		},
@@ -1942,6 +2068,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Enable Knife Toss",
 				text="DNT-UNUSED Enable Knife Toss"
 			}
 		},
@@ -1958,6 +2085,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Attribute Passive Skills can instead grant 5% increased Damage\nAttribute Passive Skills can instead grant 5% increased [Armour], [Evasion] and [EnergyShield|Energy Shield]\nAttribute Passive Skills can instead grant 5% increased Cost [Efficiency]",
 				text="Attribute Passive Skills can instead grant 5% increased Damage\nAttribute Passive Skills can instead grant 5% increased Armour, Evasion and Energy Shield\nAttribute Passive Skills can instead grant 5% increased Cost Efficiency"
 			}
 		},
@@ -1974,6 +2102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You have {0} Fortification",
 				text="You have {0} Fortification"
 			}
 		},
@@ -1990,6 +2119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [ESRecharge|Energy Shield Recharge Rate] while on [LowEnergyShield|Low Energy Shield]",
 				text="{0}% more Energy Shield Recharge Rate while on Low Energy Shield"
 			},
 			[2]={
@@ -2003,6 +2133,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [ESRecharge|Energy Shield Recharge Rate] while on [LowEnergyShield|Low Energy Shield]",
 				text="{0}% less Energy Shield Recharge Rate while on Low Energy Shield"
 			}
 		},
@@ -2019,6 +2150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Double [Adaptation] Effect",
 				text="Double Adaptation Effect"
 			}
 		},
@@ -2035,6 +2167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [ElementalDamage|Elemental Damage] is taken from Mana before Life",
 				text="{0}% of Elemental Damage is taken from Mana before Life"
 			}
 		},
@@ -2055,6 +2188,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage taken of each [ElementalDamage|Elemental Damage Type] per matching [Adaptation]",
 				text="{0}% less Damage taken of each Elemental Damage Type per matching Adaptation"
 			},
 			[2]={
@@ -2064,6 +2198,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage taken of each [ElementalDamage|Elemental Damage Type] per matching [Adaptation]",
 				text="{0}% more Damage taken of each Elemental Damage Type per matching Adaptation"
 			}
 		},
@@ -2080,6 +2215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Limit] for [ElementalDamage|Elemental] Skills",
 				text="{0:+d} to Limit for Elemental Skills"
 			}
 		},
@@ -2100,6 +2236,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Every second, inflict Withered on nearby Enemies for {0} seconds",
 				text="Every second, inflict Withered on nearby Enemies for {0} seconds"
 			}
 		},
@@ -2116,6 +2253,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased bonuses gained from Equipped [Focus]",
 				text="{0}% increased bonuses gained from Equipped Focus"
 			},
 			[2]={
@@ -2129,6 +2267,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced bonuses gained from Equipped [Focus]",
 				text="{0}% reduced bonuses gained from Equipped Focus"
 			}
 		},
@@ -2145,6 +2284,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Volatility] on inflicting an [ElementalAilments|Elemental Ailment]",
 				text="Gain {0} Volatility on inflicting an Elemental Ailment"
 			}
 		},
@@ -2161,6 +2301,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hit] damage is taken from Mana before Life if your current Mana is higher than your current Life",
 				text="Hit damage is taken from Mana before Life if your current Mana is higher than your current Life"
 			}
 		},
@@ -2177,6 +2318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Take no Damage from [Volatility]",
 				text="Take no Damage from Volatility"
 			}
 		},
@@ -2193,6 +2335,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [ElementalArchon|Elemental Archon] when you cast a [Spell] while on [HighInfernalFlame|High Infernal Flame]",
 				text="Gain Elemental Archon when you cast a Spell while on High Infernal Flame"
 			}
 		},
@@ -2209,6 +2352,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ElementalArchon|Elemental Archon] does not expire while on [HighInfernalFlame|High Infernal Flame]",
 				text="Elemental Archon does not expire while on High Infernal Flame"
 			}
 		},
@@ -2225,6 +2369,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose [ElementalArchon|Elemental Archon] on reaching maximum Infernal Flame",
 				text="Lose Elemental Archon on reaching maximum Infernal Flame"
 			}
 		},
@@ -2241,6 +2386,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can have two [Companion|Companions] of different types\n30% more [Reservation] [Efficiency] of [Companion] Skills\n20% less [Reservation] [Efficiency] of non-[Companion] Skills",
 				text="You can have two Companions of different types\n30% more Reservation Efficiency of Companion Skills\n20% less Reservation Efficiency of non-Companion Skills"
 			}
 		},
@@ -2257,6 +2403,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Dodge Roll cannot Avoid Damage\nTake 30% less [HitDamage|Damage from Hits] while Dodge Rolling",
 				text="Dodge Roll cannot Avoid Damage\nTake 30% less Damage from Hits while Dodge Rolling"
 			}
 		},
@@ -2273,6 +2420,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Bleeding] you inflict is [Aggravate|Aggravated]\nBase [Bleeding] Duration is 1 second\n50% more [BuffMagnitude|Magnitude] of [Bleeding] you inflict",
 				text="Bleeding you inflict is Aggravated\nBase Bleeding Duration is 1 second\n50% more Magnitude of Bleeding you inflict"
 			}
 		},
@@ -2289,6 +2437,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can inflict Bleeding on an Enemy up to 8 times\nYour Bleeding does not deal extra Damage while the Enemy is moving\n50% less Damage with Bleeding",
 				text="You can inflict Bleeding on an Enemy up to 8 times\nYour Bleeding does not deal extra Damage while the Enemy is moving\n50% less Damage with Bleeding"
 			}
 		},
@@ -2305,6 +2454,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="25% more Skill Speed while Off Hand is empty and you have\na [One-Handed] [MartialWeapon|Martial Weapon] equipped in your Main Hand",
 				text="25% more Skill Speed while Off Hand is empty and you have\na One-Handed Martial Weapon equipped in your Main Hand"
 			}
 		},
@@ -2321,6 +2471,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can wield [Two-Handed] [Axe|Axes], [Mace|Maces] and [Sword|Swords] in one hand\nTriple [Attributes|Attribute] requirements of [MartialWeapon|Martial Weapons]\nInherent Life granted by [Strength] is halved",
 				text="You can wield Two-Handed Axes, Maces and Swords in one hand\nTriple Attribute requirements of Martial Weapons\nInherent Life granted by Strength is halved"
 			}
 		},
@@ -2337,6 +2488,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Excess Life Recovery from Regeneration is applied to [EnergyShield|Energy Shield]\n[EnergyShield|Energy Shield] does not Recharge",
 				text="Excess Life Recovery from Regeneration is applied to Energy Shield\nEnergy Shield does not Recharge"
 			}
 		},
@@ -2353,6 +2505,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Leech] recovers based on [Chaos] Damage as well as [Physical] Damage",
 				text="Leech recovers based on Chaos Damage as well as Physical Damage"
 			}
 		},
@@ -2369,6 +2522,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Life [LifeLeech|Leeched] from [Empowered] Attacks is Instant",
 				text="Life Leeched from Empowered Attacks is Instant"
 			}
 		},
@@ -2385,6 +2539,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0}% increased Life Regeneration Rate",
 				text="Nearby Enemies have {0}% increased Life Regeneration Rate"
 			},
 			[2]={
@@ -2398,6 +2553,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies have {0}% reduced Life Regeneration Rate",
 				text="Nearby Enemies have {0}% reduced Life Regeneration Rate"
 			}
 		},
@@ -2414,6 +2570,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Increases and Reductions to Mana Regeneration Rate also apply to [Rage] Regeneration Rate",
 				text="Increases and Reductions to Mana Regeneration Rate also apply to Rage Regeneration Rate"
 			}
 		},
@@ -2430,6 +2587,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum [Block] chance is {0}%",
 				text="Maximum Block chance is {0}%"
 			}
 		},
@@ -2446,6 +2604,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased maximum Darkness per 1% [Chaos|Chaos Resistance]",
 				text="{0}% increased maximum Darkness per 1% Chaos Resistance"
 			}
 		},
@@ -2462,6 +2621,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] {0:+d} to maximum Mana per fifty [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items]",
 				text="DNT-UNUSED {0:+d} to maximum Mana per fifty Item Evasion on Equipped Armour Items"
 			}
 		},
@@ -2478,6 +2638,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] [Gain] {0}% of Elemental Damage as Extra Chaos Damage",
 				text="Minions Gain {0}% of Elemental Damage as Extra Chaos Damage"
 			}
 		},
@@ -2494,6 +2655,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Movement Speed Penalty while Actively [Block|Blocking]",
 				text="{0}% increased Movement Speed Penalty while Actively Blocking"
 			},
 			[2]={
@@ -2507,6 +2669,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Movement Speed Penalty while Actively [Block|Blocking]",
 				text="{0}% reduced Movement Speed Penalty while Actively Blocking"
 			}
 		},
@@ -2523,6 +2686,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] [Empowered] by Owl Feathers have {0}% more [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Attacks Empowered by Owl Feathers have {0}% more Critical Damage Bonus"
 			}
 		},
@@ -2539,6 +2703,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skills have {0:+d} to [Rage] cost",
 				text="Skills have {0:+d} to Rage cost"
 			}
 		},
@@ -2555,6 +2720,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Maximum [Rage]",
 				text="{0:+d} to Maximum Rage"
 			}
 		},
@@ -2571,6 +2737,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectile Barrages have no spread",
 				text="Projectile Barrages have no spread"
 			}
 		},
@@ -2595,6 +2762,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving",
 				text="For each colour of Socketed Support Gem that is most numerous, gain:\nRed: Hits against you have no Critical Damage Bonus\nBlue: Skills have {1}% more cost\nGreen: {2}% more Movement Speed Penalty from using Skills while Moving"
 			},
 			[2]={
@@ -2616,6 +2784,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% more Movement Speed Penalty from using Skills while Moving",
 				text="For each colour of Socketed Support Gem that is most numerous, gain:\nRed: Hits against you have no Critical Damage Bonus\nBlue: Skills have {1}% less cost\nGreen: {2}% more Movement Speed Penalty from using Skills while Moving"
 			},
 			[3]={
@@ -2641,6 +2810,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% less cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving",
 				text="For each colour of Socketed Support Gem that is most numerous, gain:\nRed: Hits against you have no Critical Damage Bonus\nBlue: Skills have {1}% less cost\nGreen: {2}% less Movement Speed Penalty from using Skills while Moving"
 			},
 			[4]={
@@ -2662,6 +2832,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="For each colour of Socketed Support Gem that is most numerous, gain:\n•Red: [HitDamage|Hits] against you have no [CriticalDamageBonus|Critical Damage Bonus]\n•Blue: Skills have {1}% more cost\n•Green: {2}% less Movement Speed Penalty from using Skills while Moving",
 				text="For each colour of Socketed Support Gem that is most numerous, gain:\nRed: Hits against you have no Critical Damage Bonus\nBlue: Skills have {1}% more cost\nGreen: {2}% less Movement Speed Penalty from using Skills while Moving"
 			}
 		},
@@ -2680,6 +2851,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Non-[Rarity|Unique] Time-Lost [Jewel|Jewels] have {0}% increased radius",
 				text="Non-Unique Time-Lost Jewels have {0}% increased radius"
 			}
 		},
@@ -2696,6 +2868,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your [Offering|Offerings] can target Enemies in [CullingStrike|Culling] range",
 				text="Your Offerings can target Enemies in Culling range"
 			}
 		},
@@ -2712,6 +2885,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your [Offering|Offerings] affect you instead of your [Minion|Minions]",
 				text="Your Offerings affect you instead of your Minions"
 			}
 		},
@@ -2728,6 +2902,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[InevitableCriticalHits|Inevitable Critical Hits]",
 				text="Inevitable Critical Hits"
 			}
 		},
@@ -2744,6 +2919,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more maximum Life",
 				text="{0}% more maximum Life"
 			},
 			[2]={
@@ -2757,6 +2933,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less maximum Life",
 				text="{0}% less maximum Life"
 			}
 		},
@@ -2773,6 +2950,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more maximum Mana",
 				text="{0}% more maximum Mana"
 			},
 			[2]={
@@ -2786,6 +2964,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less maximum Mana",
 				text="{0}% less maximum Mana"
 			}
 		},
@@ -2802,6 +2981,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Physical] Damage",
 				text="{0}% increased Physical Damage"
 			},
 			[2]={
@@ -2815,6 +2995,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Physical] Damage",
 				text="{0}% reduced Physical Damage"
 			}
 		},
@@ -2831,6 +3012,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Physical] [Spell] [Critical] [HitDamage|Hits] build [Pinned|Pin]",
 				text="Physical Spell Critical Hits build Pin"
 			}
 		},
@@ -2847,6 +3029,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Pinned] Enemies cannot deal [Critical|Critical Hits]",
 				text="Pinned Enemies cannot deal Critical Hits"
 			}
 		},
@@ -2863,6 +3046,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your Hits cannot be [Evasion|Evaded] by [Pinned] Enemies",
 				text="Your Hits cannot be Evaded by Pinned Enemies"
 			}
 		},
@@ -2879,6 +3063,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Projectile] [Attack|Attacks] always [Chain] to [Mark|Marked] Enemies with {0}% increased [Chain|Chaining Distance]",
 				text="DNT-UNUSED Projectile Attacks always Chain to Marked Enemies with {0}% increased Chaining Distance"
 			}
 		},
@@ -2895,6 +3080,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Rage] when you use a Life [Flask]",
 				text="Gain {0} Rage when you use a Life Flask"
 			}
 		},
@@ -2911,6 +3097,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Freeze] you inflict has up to {0}% increased duration, at random",
 				text="DNT-UNUSED Freeze you inflict has up to {0}% increased duration, at random"
 			}
 		},
@@ -2931,6 +3118,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Remnant|Remnants] you create reappear once, {0} second after being collected",
 				text="Remnants you create reappear once, {0} second after being collected"
 			},
 			[2]={
@@ -2944,6 +3132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Remnant|Remnants] you create reappear once, {0} seconds after being collected",
 				text="Remnants you create reappear once, {0} seconds after being collected"
 			}
 		},
@@ -2960,6 +3149,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Sacrifice|Sacrificing] [EnergyShield|Energy Shield] does not interrupt [ESRecharge|Recharge]",
 				text="Sacrificing Energy Shield does not interrupt Recharge"
 			}
 		},
@@ -2976,6 +3166,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Shock|Shock] you inflict",
 				text="{0}% increased Magnitude of Shock you inflict"
 			},
 			[2]={
@@ -2989,6 +3180,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Shock|Shock] you inflict",
 				text="{0}% reduced Magnitude of Shock you inflict"
 			}
 		},
@@ -3005,6 +3197,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased cost of Skills per [SoulCore|Soul Core] in your equipment",
 				text="{0}% increased cost of Skills per Soul Core in your equipment"
 			},
 			[2]={
@@ -3018,6 +3211,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced cost of Skills per [SoulCore|Soul Core] in your equipment",
 				text="{0}% reduced cost of Skills per Soul Core in your equipment"
 			}
 		},
@@ -3038,6 +3232,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Sacrifice] {0}% of maximum [EnergyShield|Energy Shield] when you Cast a [Spell]",
 				text="Sacrifice {0}% of maximum Energy Shield when you Cast a Spell"
 			},
 			[2]={
@@ -3051,6 +3246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Sacrifice] {0}% of maximum [EnergyShield|Energy Shield] when you Cast a [Spell]\n[Spell|Spells] for which this [Sacrifice] was fully made deal {1}% more Damage",
 				text="Sacrifice {0}% of maximum Energy Shield when you Cast a Spell\nSpells for which this Sacrifice was fully made deal {1}% more Damage"
 			},
 			[3]={
@@ -3068,6 +3264,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Sacrifice] {0}% of maximum [EnergyShield|Energy Shield] when you Cast a [Spell]\n[Spell|Spells] for which this [Sacrifice] was fully made deal {1}% less Damage",
 				text="Sacrifice {0}% of maximum Energy Shield when you Cast a Spell\nSpells for which this Sacrifice was fully made deal {1}% less Damage"
 			}
 		},
@@ -3085,6 +3282,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your [EnergyShield|Energy Shield] starts at zero",
 				text="Your Energy Shield starts at zero"
 			}
 		},
@@ -3101,6 +3299,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem|Totems] you place grant [TacticianTotemBuff|Embankment Auras]",
 				text="Totems you place grant Embankment Auras"
 			}
 		},
@@ -3117,6 +3316,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="There is no [Limit] on the number of [Banner|Banners] you can place",
 				text="There is no Limit on the number of Banners you can place"
 			}
 		},
@@ -3133,6 +3333,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants [UnravellingBuff|Unravelling]",
 				text="Grants Unravelling"
 			}
 		},
@@ -3149,6 +3350,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Companion|Companions] gain added [Attack] damage equal to {0}% of your main hand Weapon's damage",
 				text="Companions gain added Attack damage equal to {0}% of your main hand Weapon's damage"
 			}
 		},
@@ -3165,6 +3367,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Phasing",
 				text="Phasing"
 			}
 		},
@@ -3181,6 +3384,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Offering|Offerings] created by [CullingStrike|Culling] Enemies have {0}% increased [BuffEffect|Effect] per [Power] of [CullingStrike|Culled] Enemy",
 				text="Offerings created by Culling Enemies have {0}% increased Effect per Power of Culled Enemy"
 			}
 		},
@@ -3197,6 +3401,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="No path found to your Class' starting location",
 				text="No path found to your Class' starting location"
 			},
 			[2]={
@@ -3206,6 +3411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Allocated Passive Skills between this Socket and your Class' starting location",
 				text="{0} Allocated Passive Skills between this Socket and your Class' starting location"
 			}
 		},
@@ -3222,6 +3428,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain no inherent bonus from [Dexterity]\n1% increased [Armour|Armour] per 2 Dexterity",
 				text="Gain no inherent bonus from Dexterity\n1% increased Armour per 2 Dexterity"
 			}
 		},
@@ -3238,6 +3445,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="5% of [Physical] Damage prevented [Recoup|Recouped] as [EnergyShield|Energy Shield] per enemy [Power]\n[EnergyShield|Energy Shield] does not [ESRecharge|Recharge]\nYou cannot Recover [EnergyShield|Energy Shield] from Regeneration\nYou cannot Recover [EnergyShield|Energy Shield] to above [Armour]",
 				text="5% of Physical Damage prevented Recouped as Energy Shield per enemy Power\nEnergy Shield does not Recharge\nYou cannot Recover Energy Shield from Regeneration\nYou cannot Recover Energy Shield to above Armour"
 			}
 		},
@@ -3254,6 +3462,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain no inherent bonus from [Intelligence]\n1% increased [Evasion|Evasion Rating] per 2 Intelligence",
 				text="Gain no inherent bonus from Intelligence\n1% increased Evasion Rating per 2 Intelligence"
 			}
 		},
@@ -3270,6 +3479,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain no inherent bonus from [Strength]\n1% increased [EnergyShield|Energy Shield] per 2 Strength",
 				text="Gain no inherent bonus from Strength\n1% increased Energy Shield per 2 Strength"
 			}
 		},
@@ -3286,6 +3496,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When taking damage from [HitDamage|Hits], 20% of Life Loss is prevented, then 150% of Life Loss prevented this way is Lost over 4 seconds",
 				text="When taking damage from Hits, 20% of Life Loss is prevented, then 150% of Life Loss prevented this way is Lost over 4 seconds"
 			}
 		},
@@ -3302,6 +3513,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Invoke|Invocation] Skills instead [Trigger] [Spell|Spells] every 2 seconds\n[Invoke|Invocation] Skills cannot gain [Energy] while [Trigger|Triggering] [Spell|Spells]\n[Invoke|Invoked] Spells consume 50% less [Energy]",
 				text="Invocation Skills instead Trigger Spells every 2 seconds\nInvocation Skills cannot gain Energy while Triggering Spells\nInvoked Spells consume 50% less Energy"
 			}
 		},
@@ -3318,6 +3530,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack] Projectiles always inflict Bleeding and Maim, and Knock Back Enemies\nProjectiles cannot Pierce, Fork or Chain",
 				text="Attack Projectiles always inflict Bleeding and Maim, and Knock Back Enemies\nProjectiles cannot Pierce, Fork or Chain"
 			}
 		},
@@ -3334,6 +3547,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You are Blind\nBlind does not affect your Light Radius\n25% more [Melee] [Critical|Critical Hit] Chance while Blinded",
 				text="You are Blind\nBlind does not affect your Light Radius\n25% more Melee Critical Hit Chance while Blinded"
 			}
 		},
@@ -3350,6 +3564,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Using Warcries is Instant\nWarcries share their Cooldown",
 				text="Using Warcries is Instant\nWarcries share their Cooldown"
 			}
 		},
@@ -3366,6 +3581,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [Charges|Power Charges] instead of [Charges|Frenzy Charges]\nGain [Charges|Frenzy Charges] instead of [Charges|Endurance Charges]\nGain [Charges|Endurance Charges] instead of [Charges|Power Charges]",
 				text="Gain Power Charges instead of Frenzy Charges\nGain Frenzy Charges instead of Endurance Charges\nGain Endurance Charges instead of Power Charges"
 			}
 		},
@@ -3382,6 +3598,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Every second, Consume a nearby Corpse to Recover 5% of maximum Life and Mana\n10% more Damage taken if you haven't Consumed a Corpse [Recently]",
 				text="Every second, Consume a nearby Corpse to Recover 5% of maximum Life and Mana\n10% more Damage taken if you haven't Consumed a Corpse Recently"
 			}
 		},
@@ -3398,6 +3615,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="All Damage taken bypasses Energy Shield\n50% of Elemental Damage taken as Chaos Damage\n+5% to maximum Chaos Resistance",
 				text="All Damage taken bypasses Energy Shield\n50% of Elemental Damage taken as Chaos Damage\n+5% to maximum Chaos Resistance"
 			}
 		},
@@ -3414,6 +3632,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Recover [EnergyShield|Energy Shield] to above Armour\n3% of Physical Damage prevented from Hits Recently is Regenerated as [EnergyShield|Energy Shield] per second",
 				text="Cannot Recover Energy Shield to above Armour\n3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second"
 			}
 		},
@@ -3430,6 +3649,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="100% more Maximum [Rage]\nRegenerate 1 [Rage] per second per 4 [Rage] spent [Recently]\nNo [Rage] effect",
 				text="100% more Maximum Rage\nRegenerate 1 Rage per second per 4 Rage spent Recently\nNo Rage effect"
 			}
 		},
@@ -3446,6 +3666,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skills that have dealt a [Critical|Critical Hit] in the past 8 seconds deal 40% more Elemental Damage with Hits\nYour [Critical|Critical Hits] do not deal extra Damage",
 				text="Skills that have dealt a Critical Hit in the past 8 seconds deal 40% more Elemental Damage with Hits\nYour Critical Hits do not deal extra Damage"
 			}
 		},
@@ -3462,6 +3683,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Life Recovery from [Flask|Flasks] also applies to Energy Shield\n30% less Life Recovery from [Flask|Flasks]",
 				text="Life Recovery from Flasks also applies to Energy Shield\n30% less Life Recovery from Flasks"
 			}
 		},
@@ -3478,6 +3700,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Life [LifeRecharge|Recharges] instead of [ESRecharge|Energy Shield]\n50% less Life Recovery from [Flask|Flasks]",
 				text="Life Recharges instead of Energy Shield\n50% less Life Recovery from Flasks"
 			}
 		},
@@ -3494,6 +3717,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Fire] [Spell|Spells] [Conversion|Convert] 100% of Fire Damage to [Chaos|Chaos Damage]\n[Chaos|Chaos Damage] from [Fire] [Spell|Spells] [Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes]\n[Ignite] inflicted with [Fire] [Spell|Spells] deals [Chaos|Chaos Damage] instead of Fire Damage",
 				text="Fire Spells Convert 100% of Fire Damage to Chaos Damage\nChaos Damage from Fire Spells Contributes to Flammability and Ignite Magnitudes\nIgnite inflicted with Fire Spells deals Chaos Damage instead of Fire Damage"
 			}
 		},
@@ -3510,6 +3734,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mana Recovery from Regeneration is not applied\n1 Rage Regenerated for every 25 Mana Regeneration per Second\nSkills Cost +3 Rage",
 				text="Mana Recovery from Regeneration is not applied\n1 Rage Regenerated for every 25 Mana Regeneration per Second\nSkills Cost +3 Rage"
 			}
 		},
@@ -3526,6 +3751,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chance to [Evasion|Evade] is [Unlucky]\nChance to [Deflect] is [Lucky]",
 				text="Chance to Evade is Unlucky\nChance to Deflect is Lucky"
 			}
 		},
@@ -3542,6 +3768,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Take 50% less Damage over Time if you've started taking Damage over Time in the past second\nTake 50% more Damage over Time if you haven't started taking Damage over Time in the past second",
 				text="Take 50% less Damage over Time if you've started taking Damage over Time in the past second\nTake 50% more Damage over Time if you haven't started taking Damage over Time in the past second"
 			}
 		},
@@ -3558,6 +3785,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled",
 				text="You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled"
 			}
 		},
@@ -3574,6 +3802,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can apply an additional [Curse]\nDouble Activation Delay of [Curse|Curses]",
 				text="You can apply an additional Curse\nDouble Activation Delay of Curses"
 			}
 		},
@@ -3590,6 +3819,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Attack] as though using a [Quarterstaff] while both of your hand slots are empty\n[UnarmedAttack|Unarmed Attacks] that would use an [Equipped] [Quarterstaff]'s damage have:\n• Base [UnarmedDamage|Unarmed] [Physical] damage replaced with damage based on their Skill Level\n• 1% more [Attack] Speed per 75 [ItemEvasion|Item Evasion] on [EquipArmour|Equipped Armour Items]\n• +0.1% to [Critical|Critical Hit Chance] per 10 [ItemEnergyShield|Item Energy Shield] on [EquipArmour|Equipped Armour Items]",
 				text="Can Attack as though using a Quarterstaff while both of your hand slots are empty\nUnarmed Attacks that would use an Equipped Quarterstaff's damage have:\nBase Unarmed Physical damage replaced with damage based on their Skill Level\n1% more Attack Speed per 75 Item Evasion on Equipped Armour Items\n+0.1% to Critical Hit Chance per 10 Item Energy Shield on Equipped Armour Items"
 			}
 		},
@@ -3606,6 +3836,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When your Hits Impale Enemies, also Impale other Enemies near them\nInflict 4 additional Impales on Enemies you Impale\nFor 4 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them",
 				text="When your Hits Impale Enemies, also Impale other Enemies near them\nInflict 4 additional Impales on Enemies you Impale\nFor 4 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them"
 			}
 		},
@@ -3622,6 +3853,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain no inherent bonus from [Strength]\n1% increased [Projectile] [Attack] damage per 2 [Strength]",
 				text="Gain no inherent bonus from Strength\n1% increased Projectile Attack damage per 2 Strength"
 			}
 		},
@@ -3638,6 +3870,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain no inherent bonus from [Strength]\n1% increased [Spell] damage per 2 [Strength]",
 				text="Gain no inherent bonus from Strength\n1% increased Spell damage per 2 Strength"
 			}
 		},
@@ -3654,6 +3887,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You deal 1% more Damage per 2 total [Power|Power] of your Undead Minions\nUndead Minions have 25% less maximum Life",
 				text="You deal 1% more Damage per 2 total Power of your Undead Minions\nUndead Minions have 25% less maximum Life"
 			}
 		},
@@ -3670,6 +3904,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mana Recovery from Regeneration [Overflow|Overflows] maximum Mana\n50% less Mana Regeneration Rate",
 				text="Mana Recovery from Regeneration Overflows maximum Mana\n50% less Mana Regeneration Rate"
 			}
 		},
@@ -3686,6 +3921,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can equip a non-[ItemRarity|Unique] [Sceptre] while wielding a [Talisman]\n50% less [Spirit]\nNon-[Minion] Skills have 50% less [Reservation] [Efficiency]",
 				text="You can equip a non-Unique Sceptre while wielding a Talisman\n50% less Spirit\nNon-Minion Skills have 50% less Reservation Efficiency"
 			}
 		},
@@ -3702,6 +3938,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies and Enemies Share Charges with you\nEnemies Hitting you have 10% chance to gain an Endurance, \nFrenzy or Power Charge",
 				text="Nearby Allies and Enemies Share Charges with you\nEnemies Hitting you have 10% chance to gain an Endurance, \nFrenzy or Power Charge"
 			}
 		},
@@ -3718,6 +3955,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="80% of Maximum Mana is Converted to twice that much [Armour]",
 				text="80% of Maximum Mana is Converted to twice that much Armour"
 			}
 		},
@@ -3734,6 +3972,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 2 Grasping Vines each second while stationary\n2% chance to deal Double Damage per Grasping Vine\n1% less Damage taken per Grasping Vine",
 				text="Gain 2 Grasping Vines each second while stationary\n2% chance to deal Double Damage per Grasping Vine\n1% less Damage taken per Grasping Vine"
 			}
 		},
@@ -3750,6 +3989,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot use [Charm|Charms]\n30% more Recovery from [Flask|Flasks]",
 				text="Cannot use Charms\n30% more Recovery from Flasks"
 			}
 		},
@@ -3766,6 +4006,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="40% more [Attack] Damage if Accuracy Rating is higher than Maximum Life\nNever deal [Critical|Critical Hits]",
 				text="40% more Attack Damage if Accuracy Rating is higher than Maximum Life\nNever deal Critical Hits"
 			}
 		},
@@ -3782,6 +4023,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+100% of [Armour] applies to [ElementalDamage|Elemental Damage]\n[Armour] does not apply to [Physical|Physical Damage]\n-15% to all maximum Elemental Resistances",
 				text="+100% of Armour applies to Elemental Damage\nArmour does not apply to Physical Damage\n-15% to all maximum Elemental Resistances"
 			}
 		},
@@ -3798,6 +4040,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="3% more [Spell|Spell] Damage per [Charges|Power Charge]\nGain [Charges|Power Charges] instead of [Charges|Frenzy Charges]",
 				text="3% more Spell Damage per Power Charge\nGain Power Charges instead of Frenzy Charges"
 			}
 		},
@@ -3814,6 +4057,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="-1 to maximum number of Summoned Totems\nYou can have an additional Brand Attached to an Enemy",
 				text="-1 to maximum number of Summoned Totems\nYou can have an additional Brand Attached to an Enemy"
 			}
 		},
@@ -3830,6 +4074,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="100% chance to Defend with 200% of Armour\nMaximum Damage Reduction for any Damage Type is 50%",
 				text="100% chance to Defend with 200% of Armour\nMaximum Damage Reduction for any Damage Type is 50%"
 			}
 		},
@@ -3846,6 +4091,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Ignite, Chill, Freeze or Shock\n[Critical|Critical Hits] inflict Scorch, Brittle and Sapped",
 				text="Cannot Ignite, Chill, Freeze or Shock\nCritical Hits inflict Scorch, Brittle and Sapped"
 			}
 		},
@@ -3862,6 +4108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can't use Helmets\nYour [Critical|Critical Hit] Chance is Lucky\nYour Damage with [Critical|Critical Hits] is Lucky\nEnemies' Damage with [Critical|Critical Hits] against you is Lucky",
 				text="Can't use Helmets\nYour Critical Hit Chance is Lucky\nYour Damage with Critical Hits is Lucky\nEnemies' Damage with Critical Hits against you is Lucky"
 			}
 		},
@@ -3878,6 +4125,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ignore [Attributes|Attribute] Requirements\nGain no inherent bonuses from [Attributes]",
 				text="Ignore Attribute Requirements\nGain no inherent bonuses from Attributes"
 			}
 		},
@@ -3894,6 +4142,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate 1 Life per second per 16 Life spent in the past 4 seconds\n20% more Life Cost of Skills",
 				text="Regenerate 1 Life per second per 16 Life spent in the past 4 seconds\n20% more Life Cost of Skills"
 			}
 		},
@@ -3910,6 +4159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="50% of Cold and Lightning Damage taken as Fire Damage\n50% less Cold Resistance\n50% less Lightning Resistance",
 				text="50% of Cold and Lightning Damage taken as Fire Damage\n50% less Cold Resistance\n50% less Lightning Resistance"
 			}
 		},
@@ -3926,6 +4176,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] do one of the following at random:\n• [Fork] an additional time\n• [Chain] an additional time\n• [Chain] from Terrain an additional time\n• Cannot collide with targets",
 				text="Projectiles do one of the following at random:\nFork an additional time\nChain an additional time\nChain from Terrain an additional time\nCannot collide with targets"
 			}
 		},
@@ -3942,6 +4193,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="-25% to maximum Chance to Block [Attack] Damage\n-25% to maximum Chance to Block Spell Damage\n+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block [Attack] Damage",
 				text="-25% to maximum Chance to Block Attack Damage\n-25% to maximum Chance to Block Spell Damage\n+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block Attack Damage"
 			}
 		},
@@ -3958,6 +4210,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+10% to all Elemental Resistances and maximum Elemental Resistances while affected by a Non-Vaal Guard Skill\n20% additional Physical Damage Reduction while affected by a Non-Vaal Guard Skill\n20% more Damage taken if a Non-Vaal Guard Buff was lost [Recently]",
 				text="+10% to all Elemental Resistances and maximum Elemental Resistances while affected by a Non-Vaal Guard Skill\n20% additional Physical Damage Reduction while affected by a Non-Vaal Guard Skill\n20% more Damage taken if a Non-Vaal Guard Buff was lost Recently"
 			}
 		},
@@ -3974,6 +4227,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Storm|Storm] and [Plant|Plant] [Spell|Spells]:\n• deal 50% more damage\n• cost 50% less\n• have 75% less duration",
 				text="Storm and Plant Spells:\ndeal 50% more damage\ncost 50% less\nhave 75% less duration"
 			}
 		},

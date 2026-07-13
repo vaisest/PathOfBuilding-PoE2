@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explodes a [Curse] on enemies in a {0} metre radius",
 				text="Explodes a Curse on enemies in a {0} metre radius"
 			}
 		},
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Explosions per cast",
 				text="Maximum {0} Explosions per cast"
 			}
 		},

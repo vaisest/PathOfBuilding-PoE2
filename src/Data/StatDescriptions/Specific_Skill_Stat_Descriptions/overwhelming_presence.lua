@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies in your [Presence] have {0}% increased\n[AilmentThreshold|Elemental Ailment Threshold]",
 				text="Enemies in your Presence have {0}% increased\nElemental Ailment Threshold"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies in your [Presence] have {0}% reduced\n[AilmentThreshold|Elemental Ailment Threshold]",
 				text="Enemies in your Presence have {0}% reduced\nElemental Ailment Threshold"
 			}
 		},
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies in your [Presence] have {0}% increased [StunThreshold|Stun Threshold]",
 				text="Enemies in your Presence have {0}% increased Stun Threshold"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies in your [Presence] have {0}% reduced [StunThreshold|Stun Threshold]",
 				text="Enemies in your Presence have {0}% reduced Stun Threshold"
 			}
 		},

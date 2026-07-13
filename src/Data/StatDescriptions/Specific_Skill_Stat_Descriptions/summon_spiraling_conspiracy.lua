@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Raven Flock's Skills have {0}% increased Area of Effect",
 				text="Raven Flock's Skills have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -26,6 +27,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Raven Flock's Skills have {0}% reduced Area of Effect",
 				text="Raven Flock's Skills have {0}% reduced Area of Effect"
 			}
 		},
@@ -46,6 +48,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="A Raven joins the Flock every {0} second while a Rare or Unique enemy is in your [Presence]",
 				text="A Raven joins the Flock every {0} second while a Rare or Unique enemy is in your Presence"
 			},
 			[2]={
@@ -59,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A Raven joins the Flock every {0} seconds while a Rare or Unique enemy is in your [Presence]",
 				text="A Raven joins the Flock every {0} seconds while a Rare or Unique enemy is in your Presence"
 			}
 		},
@@ -75,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A Raven joins the Flock for every {0} total [Power] of enemies slain by you or your [Minion|Minions]",
 				text="A Raven joins the Flock for every {0} total Power of enemies slain by you or your Minions"
 			}
 		},

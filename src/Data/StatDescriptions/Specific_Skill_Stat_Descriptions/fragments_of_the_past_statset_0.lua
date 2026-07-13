@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to eruption radius",
 				text="{0:+d} metre to eruption radius"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to eruption radius",
 				text="{0:+d} metres to eruption radius"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Eruption radius is {0} metre",
 				text="Eruption radius is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Eruption radius is {0} metres",
 				text="Eruption radius is {0} metres"
 			}
 		},
@@ -79,6 +83,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Volcano",
 				text="Limit {0} Volcano"
 			},
 			[2]={
@@ -88,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Volcanoes",
 				text="Limit {0} Volcanoes"
 			}
 		},
@@ -108,6 +114,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Volcano duration is {0} second",
 				text="Volcano duration is {0} second"
 			},
 			[2]={
@@ -121,6 +128,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Volcano duration is {0} seconds",
 				text="Volcano duration is {0} seconds"
 			}
 		},
@@ -137,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initial eruption [Trigger|Triggers] [IceFragment|Ice Fragments] with\n{0} additional [Projectile|Projectiles]",
 				text="Initial eruption Triggers Ice Fragments with\n{0} additional Projectiles"
 			}
 		},
@@ -158,6 +167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] [IceFragment|Ice Fragments] every {0:+d} seconds",
 				text="Triggers Ice Fragments every {0:+d} seconds"
 			},
 			[2]={
@@ -171,6 +181,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Trigger|Triggers] [IceFragment|Ice Fragments] every second",
 				text="Triggers Ice Fragments every second"
 			},
 			[3]={
@@ -184,6 +195,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] [IceFragment|Ice Fragments] every {0} seconds",
 				text="Triggers Ice Fragments every {0} seconds"
 			}
 		},

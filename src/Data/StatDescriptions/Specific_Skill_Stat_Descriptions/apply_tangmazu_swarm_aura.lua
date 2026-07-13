@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Damage radius is {0} metre",
 				text="Damage radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage radius is {0} metres",
 				text="Damage radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per Raven",
 				text="{0}% more Area of Effect per Raven"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage over time per Raven",
 				text="{0}% more Damage over time per Raven"
 			}
 		},

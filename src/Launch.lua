@@ -18,6 +18,8 @@ jit.opt.start('maxtrace=4000','maxmcode=8192')
 collectgarbage("setpause", 400)
 
 function launch:OnInit()
+	local debugger = require("debugger"):start("127.0.0.1:12306")
+	-- debugger:event("wait")  -- Uncomment this line if you want PoB to wait until the debugger is attached.
 	self.devMode = false
 	self.installedMode = false
 	self.versionNumber = "?"

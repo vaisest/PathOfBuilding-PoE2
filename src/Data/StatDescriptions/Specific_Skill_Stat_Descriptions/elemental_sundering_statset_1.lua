@@ -26,6 +26,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to Explosion radius",
 				text="{0:+d} metre to Explosion radius"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to Explosion radius",
 				text="{0:+d} metres to Explosion radius"
 			},
 			[3]={
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[4]={
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -94,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] for pulses originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% more damage with Hits for pulses originating\nfrom a Unique enemy"
 			},
 			[2]={
@@ -107,6 +112,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] for pulses originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% less damage with Hits for pulses originating\nfrom a Unique enemy"
 			}
 		},

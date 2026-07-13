@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies with [BloodLoss|Blood Loss] you kill explode",
 				text="Enemies with Blood Loss you kill explode"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Deals {0:+d}% of exploded enemy's [BloodLoss|Blood Loss]\nas unscalable [Physical] [Attack] Damage",
 				text="Deals {0:+d}% of exploded enemy's Blood Loss\nas unscalable Physical Attack Damage"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% of exploded enemy's [BloodLoss|Blood Loss]\nas unscalable [Physical] [Attack] Damage",
 				text="Deals {0}% of exploded enemy's Blood Loss\nas unscalable Physical Attack Damage"
 			}
 		},

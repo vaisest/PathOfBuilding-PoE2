@@ -25,6 +25,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -54,6 +56,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] Fiery Explosion, Arcing Bolt, or Icy Wave on [Melee] [Critical|Critical Hit]",
 				text="{0}% chance to Trigger Fiery Explosion, Arcing Bolt, or Icy Wave on Melee Critical Hit"
 			},
 			[2]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] Fiery Explosion, Arcing Bolt, or Icy Wave on [Melee] [Critical|Critical Hit]",
 				text="Triggers Fiery Explosion, Arcing Bolt, or Icy Wave on Melee Critical Hit"
 			}
 		},

@@ -20,6 +20,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chills] enemies as though dealing {0} to {1} [Cold] damage",
 				text="Chills enemies as though dealing {0} to {1} Cold damage"
 			}
 		},
@@ -41,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chills] enemies within {0} metre radius",
 				text="Chills enemies within {0} metre radius"
 			}
 		},

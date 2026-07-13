@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Daze] on enemies to deal {0}% more damage",
 				text="Consumes Daze on enemies to deal {0}% more damage"
 			},
 			[2]={
@@ -65,6 +68,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Consume|Consumes] [Daze] on enemies to deal {0}% less damage",
 				text="Consumes Daze on enemies to deal {0}% less damage"
 			}
 		},

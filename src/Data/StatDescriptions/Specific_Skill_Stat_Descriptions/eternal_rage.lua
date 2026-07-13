@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} [Rage] per second",
 				text="Regenerate {0} Rage per second"
 			}
 		},

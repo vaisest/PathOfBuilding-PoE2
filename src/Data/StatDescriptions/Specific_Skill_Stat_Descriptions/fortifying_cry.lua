@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Warcry radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Warcry radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Guard] duration is {0} second",
 				text="Guard duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Guard] duration is {0} seconds",
 				text="Guard duration is {0} seconds"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Trigger] Shield Wave once per enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Can Trigger Shield Wave once per enemy Power in\nrange, counting up to {1} Power"
 			},
 			[2]={
@@ -108,6 +113,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Trigger] Shield Wave once per {0} enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Can Trigger Shield Wave once per {0} enemy Power in\nrange, counting up to {1} Power"
 			}
 		},
@@ -129,6 +135,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0} [Guard] for every 5 enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Grants {0} Guard for every 5 enemy Power in\nrange, counting up to {1} Power"
 			}
 		},

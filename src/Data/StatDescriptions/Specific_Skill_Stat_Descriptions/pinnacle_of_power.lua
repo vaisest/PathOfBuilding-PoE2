@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds per [Charges|Power Charge] Consumed",
 				text="Buff duration is {0} seconds per Power Charge Consumed"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d}% more [ElementalDamage|Elemental Damage] per [Charges|Power Charge] Consumed",
 				text="{0:+d}% more Elemental Damage per Power Charge Consumed"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [ElementalDamage|Elemental Damage] per [Charges|Power Charge] Consumed\n[Buff] causes all [ElementalDamage|Elemental Damage] to [Contributes|Contribute] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Shock] chance, and [Freeze] buildup",
 				text="{0}% more Elemental Damage per Power Charge Consumed\nBuff causes all Elemental Damage to Contribute to Flammability and Ignite Magnitudes, Shock chance, and Freeze buildup"
 			}
 		},

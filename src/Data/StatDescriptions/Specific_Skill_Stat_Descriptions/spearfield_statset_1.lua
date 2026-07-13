@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spears that have existed for at\nleast 0.5 seconds deal {0}% more Damage",
 				text="Spears that have existed for at\nleast 0.5 seconds deal {0}% more Damage"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Spears that have existed for at\nleast 0.5 seconds deal {0}% less Damage",
 				text="Spears that have existed for at\nleast 0.5 seconds deal {0}% less Damage"
 			}
 		},

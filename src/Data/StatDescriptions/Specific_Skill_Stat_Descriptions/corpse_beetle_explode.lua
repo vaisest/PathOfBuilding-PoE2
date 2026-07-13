@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to explosion radius",
 				text="{0:+d} metre to explosion radius"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to explosion radius",
 				text="{0:+d} metres to explosion radius"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},

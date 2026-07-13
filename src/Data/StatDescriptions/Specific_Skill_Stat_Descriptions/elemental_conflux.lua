@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} second duration between [ElementalDamage|Element] randomisations",
 				text="{0} second duration between Element randomisations"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% more damage with the affected [ElementalDamage|Element]",
 				text="Buff grants {0}% more damage with the affected Element"
 			},
 			[2]={
@@ -51,6 +53,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% less damage with the affected [ElementalDamage|Element]",
 				text="Buff grants {0}% less damage with the affected Element"
 			}
 		},

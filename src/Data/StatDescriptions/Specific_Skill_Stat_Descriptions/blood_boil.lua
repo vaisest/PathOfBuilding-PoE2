@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spreads [CorruptedBlood|Corrupted Blood] to targets within@{0}m",
 				text="Spreads Corrupted Blood to targets within@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Inflicts a stack of [CorruptedBlood|Corrupted Blood] on targets within {0} metre per Blood Boil on slain Enemy",
 				text="Inflicts a stack of Corrupted Blood on targets within {0} metre per Blood Boil on slain Enemy"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts a stack of [CorruptedBlood|Corrupted Blood] on targets within {0} metres per Blood Boil on slain Enemy",
 				text="Inflicts a stack of Corrupted Blood on targets within {0} metres per Blood Boil on slain Enemy"
 			}
 		},
@@ -72,6 +75,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to [CorruptedBlood|Corrupted Blood] duration",
 				text="{0:+d} second to Corrupted Blood duration"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to [CorruptedBlood|Corrupted Blood] duration",
 				text="{0:+d} seconds to Corrupted Blood duration"
 			},
 			[3]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] duration is {0} second",
 				text="Corrupted Blood duration is {0} second"
 			},
 			[4]={
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] duration is {0} seconds",
 				text="Corrupted Blood duration is {0} seconds"
 			}
 		},

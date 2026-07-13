@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune trigger radius@{0}m",
 				text="Rune trigger radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Rune trigger radius is {0} metre",
 				text="Rune trigger radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune trigger radius is {0} metres",
 				text="Rune trigger radius is {0} metres"
 			}
 		},
@@ -69,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to rune duration",
 				text="{0:+d} seconds to rune duration"
 			},
 			[2]={
@@ -82,6 +86,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Rune duration is {0} second",
 				text="Rune duration is {0} second"
 			},
 			[3]={
@@ -95,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune duration is {0} seconds",
 				text="Rune duration is {0} seconds"
 			}
 		},

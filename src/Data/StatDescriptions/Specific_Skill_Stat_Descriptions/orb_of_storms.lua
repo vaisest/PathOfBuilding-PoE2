@@ -25,6 +25,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Orb radius is {0} metre",
 				text="Orb radius is {0} metre"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orb radius is {0} metres",
 				text="Orb radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Orb duration is {0} second",
 				text="Orb duration is {0} second"
 			},
 			[2]={
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orb duration is {0} seconds",
 				text="Orb duration is {0} seconds"
 			}
 		},
@@ -94,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Orb of Storms",
 				text="Limit {0} Orb of Storms"
 			}
 		},
@@ -110,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orb Limit@{0}",
 				text="Orb Limit@{0}"
 			}
 		},

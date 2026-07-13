@@ -25,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado spits out {0} copies of [Projectile|Projectiles] fired into it",
 				text="Tornado spits out {0} copies of Projectiles fired into it"
 			}
 		},
@@ -43,6 +44,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} to [Limit] of Tornadoes",
 				text="+{0} to Limit of Tornadoes"
 			},
 			[2]={
@@ -52,6 +54,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Tornado",
 				text="Limit {0} Tornado"
 			},
 			[3]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Tornadoes",
 				text="Limit {0} Tornadoes"
 			}
 		},
@@ -81,6 +85,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum Tornado duration is {0} second",
 				text="Maximum Tornado duration is {0} second"
 			},
 			[2]={
@@ -94,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Tornado duration is {0} seconds",
 				text="Maximum Tornado duration is {0} seconds"
 			}
 		},
@@ -124,6 +130,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Tornado disappears after being [HitDamage|Hit] once",
 				text="Tornado disappears after being Hit once"
 			},
 			[2]={
@@ -133,6 +140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado disappears after being [HitDamage|Hit] {0} times",
 				text="Tornado disappears after being Hit {0} times"
 			}
 		},
@@ -153,6 +161,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Copied [Projectile|Projectiles] deal {0:+d}% more damage",
 				text="Copied Projectiles deal {0:+d}% more damage"
 			},
 			[2]={
@@ -166,6 +175,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Copied [Projectile|Projectiles] deal {0}% more damage",
 				text="Copied Projectiles deal {0}% more damage"
 			},
 			[3]={
@@ -183,6 +193,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Copied [Projectile|Projectiles] deal {0}% less damage",
 				text="Copied Projectiles deal {0}% less damage"
 			}
 		},
@@ -204,6 +215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Copied [Projectile|Projectiles] have a maximum travel distance of {0} metres",
 				text="Copied Projectiles have a maximum travel distance of {0} metres"
 			}
 		},

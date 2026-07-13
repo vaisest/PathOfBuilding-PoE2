@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0} [CorruptedBlood|Corrupted Blood] Debuffs",
 				text="Inflicts {0} Corrupted Blood Debuffs"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] deals {0} [Physical] damage per second",
 				text="Corrupted Blood deals {0} Physical damage per second"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] duration is {0} second",
 				text="Corrupted Blood duration is {0} second"
 			},
 			[2]={
@@ -72,6 +75,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] duration is {0} seconds",
 				text="Corrupted Blood duration is {0} seconds"
 			}
 		},

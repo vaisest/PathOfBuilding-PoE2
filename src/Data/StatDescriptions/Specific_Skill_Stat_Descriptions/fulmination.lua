@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict [Shock|Shock]",
 				text="Cannot inflict Shock"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] up to 8 enemies",
 				text="Hits up to 8 enemies"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional [HitDamage|Hits] deal {0}% more damage",
 				text="Additional Hits deal {0}% more damage"
 			},
 			[2]={
@@ -57,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional [HitDamage|Hits] deal {0}% less damage\nAdditional [HitDamage|Hits] convert 100% of [Physical] and\n[ElementalDamage|Elemental] damage to [Lightning]",
 				text="Additional Hits deal {0}% less damage\nAdditional Hits convert 100% of Physical and\nElemental damage to Lightning"
 			}
 		},

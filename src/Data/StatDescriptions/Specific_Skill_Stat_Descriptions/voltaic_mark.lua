@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark|Marked] enemy becomes [Electrocute|Electrocuted] when\n[HitDamage|Hit] while [PrimedElectrocution|Primed for Electrocution]",
 				text="Marked enemy becomes Electrocuted when\nHit while Primed for Electrocution"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -69,6 +72,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Mark] duration is {0} second",
 				text="Mark duration is {0} second"
 			},
 			[2]={
@@ -82,6 +86,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark] duration is {0} seconds",
 				text="Mark duration is {0} seconds"
 			}
 		},
@@ -112,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of damage [Gain|Gained] as [Lightning] damage",
 				text="Buff grants {0}% of damage Gained as Lightning damage"
 			}
 		},
@@ -128,6 +134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy have\n{0}% more chance to [Shock]",
 				text="Hits against Marked enemy have\n{0}% more chance to Shock"
 			},
 			[2]={
@@ -141,6 +148,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy have\n{0}% less chance to [Shock]",
 				text="Hits against Marked enemy have\n{0}% less chance to Shock"
 			}
 		},
@@ -158,6 +166,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Shock] has {0:+d}% increased [BuffEffect|effect] on [Mark|Marked] enemy",
 				text="Shock has {0:+d}% increased effect on Marked enemy"
 			},
 			[2]={
@@ -167,6 +176,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Shock] has {0}% increased [BuffEffect|effect] on [Mark|Marked] enemy",
 				text="Shock has {0}% increased effect on Marked enemy"
 			},
 			[3]={
@@ -180,6 +190,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Shock] has {0}% reduced [BuffEffect|effect] on [Mark|Marked] enemy",
 				text="Shock has {0}% reduced effect on Marked enemy"
 			}
 		},
@@ -197,6 +208,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0:+d}% increased [Electrocute] buildup",
 				text="Hits against Marked enemy cause {0:+d}% increased Electrocute buildup"
 			},
 			[2]={
@@ -206,6 +218,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0}% increased [Electrocute] buildup",
 				text="Hits against Marked enemy cause {0}% increased Electrocute buildup"
 			},
 			[3]={
@@ -219,6 +232,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0}% reduced [Electrocute] buildup",
 				text="Hits against Marked enemy cause {0}% reduced Electrocute buildup"
 			}
 		},

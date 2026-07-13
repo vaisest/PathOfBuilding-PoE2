@@ -19,6 +19,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Wisp duration",
 				text="{0:+d} second to Wisp duration"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Wisp duration",
 				text="{0:+d} seconds to Wisp duration"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wisp duration is {0} second",
 				text="Wisp duration is {0} second"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wisp duration is {0} seconds",
 				text="Wisp duration is {0} seconds"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tamed Beast retains up to four monster modifiers when summoned",
 				text="Tamed Beast retains up to four monster modifiers when summoned"
 			}
 		},

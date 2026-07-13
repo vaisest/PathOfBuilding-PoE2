@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Detonates [Corpse|Corpses] in a radius of {0} metre",
 				text="Detonates Corpses in a radius of {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Detonates [Corpse|Corpses] in a radius of {0} metres",
 				text="Detonates Corpses in a radius of {0} metres"
 			}
 		},

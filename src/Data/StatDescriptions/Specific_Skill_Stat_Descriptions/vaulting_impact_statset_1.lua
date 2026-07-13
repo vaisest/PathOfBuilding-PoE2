@@ -31,6 +31,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies [BrokenStance|Broken Stance] on [HitDamage|Hit] against [Daze|Dazed] enemies",
 				text="Applies Broken Stance on Hit against Dazed enemies"
 			}
 		},
@@ -51,6 +52,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[BrokenStance|Broken Stance] has {0} second duration, or until [Daze] is removed",
 				text="Broken Stance has {0} second duration, or until Daze is removed"
 			}
 		},
@@ -68,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[BrokenStance|Broken Stance] is removed after the affected enemy takes {0:+d} [HitDamage|Hits]",
 				text="Broken Stance is removed after the affected enemy takes {0:+d} Hits"
 			},
 			[2]={
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[BrokenStance|Broken Stance] is removed after the affected enemy takes {0} [HitDamage|Hits]",
 				text="Broken Stance is removed after the affected enemy takes {0} Hits"
 			}
 		},

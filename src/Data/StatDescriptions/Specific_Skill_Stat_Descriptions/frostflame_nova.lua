@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to wave radius",
 				text="{0:+d} metre to wave radius"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to wave radius",
 				text="{0:+d} metres to wave radius"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave radius is {0} metre",
 				text="Wave radius is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave radius is {0} metres",
 				text="Wave radius is {0} metres"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Freeze|Freeze] Buildup for each 1% of enemy's [AilmentThreshold|Ailment Threshold] dealt by the affected [Ignite] per second",
 				text="{0}% more Freeze Buildup for each 1% of enemy's Ailment Threshold dealt by the affected Ignite per second"
 			}
 		},
@@ -99,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] enemies every 0.5 seconds until affected [Ignite] expires",
 				text="Hits enemies every 0.5 seconds until affected Ignite expires"
 			}
 		},

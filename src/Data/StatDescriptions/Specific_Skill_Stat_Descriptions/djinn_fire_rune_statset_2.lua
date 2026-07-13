@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado@{0}m",
 				text="Tornado@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Tornado radius is {0} metre",
 				text="Tornado radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado radius is {0} metres",
 				text="Tornado radius is {0} metres"
 			}
 		},
@@ -69,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to tornado duration",
 				text="{0:+d} seconds to tornado duration"
 			},
 			[2]={
@@ -82,6 +86,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Tornado duration is {0} second",
 				text="Tornado duration is {0} second"
 			},
 			[3]={
@@ -95,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado duration is {0} seconds",
 				text="Tornado duration is {0} seconds"
 			}
 		},
@@ -115,6 +121,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Tornadoes [HitDamage|Hit] enemies once per second",
 				text="Tornadoes Hit enemies once per second"
 			},
 			[2]={
@@ -128,6 +135,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornadoes [HitDamage|Hit] enemies every {0} seconds",
 				text="Tornadoes Hit enemies every {0} seconds"
 			}
 		},

@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cloud radius is {0} metre",
 				text="Cloud radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cloud radius is {0} metres",
 				text="Cloud radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cloud duration is {0} second",
 				text="Cloud duration is {0} second"
 			},
 			[2]={
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cloud duration is {0} seconds",
 				text="Cloud duration is {0} seconds"
 			}
 		},

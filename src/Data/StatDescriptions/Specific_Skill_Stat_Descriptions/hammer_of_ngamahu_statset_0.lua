@@ -28,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], fires twice as many [Projectile|Projectiles] with {0}% more attack speed",
 				text="While Dual Wielding, fires twice as many Projectiles with {0}% more attack speed"
 			},
 			[2]={
@@ -41,6 +42,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], fires twice as many [Projectile|Projectiles] with {0}% less attack speed",
 				text="While Dual Wielding, fires twice as many Projectiles with {0}% less attack speed"
 			}
 		},
@@ -61,6 +63,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -74,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},

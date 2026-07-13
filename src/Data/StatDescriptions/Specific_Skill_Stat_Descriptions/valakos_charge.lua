@@ -26,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] after you take a total of {0} [Lightning] [HitDamage|Hit Damage]",
 				text="Triggers after you take a total of {0} Lightning Hit Damage"
 			}
 		},
@@ -53,6 +54,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Can target Enemies within {0} metre",
 				text="Can target Enemies within {0} metre"
 			},
 			[2]={
@@ -66,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can target Enemies within {0} metres",
 				text="Can target Enemies within {0} metres"
 			}
 		},

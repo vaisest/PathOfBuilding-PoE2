@@ -25,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="-{1} seconds to bolt cooldown",
 				text="-{1} seconds to bolt cooldown"
 			},
 			[2]={
@@ -42,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates a bolt of lightning when you [HitDamage|Hit] with [UnarmedDamage|Unarmed] [Melee] damage, no more than {0} time every {1} seconds",
 				text="Creates a bolt of lightning when you Hit with Unarmed Melee damage, no more than {0} time every {1} seconds"
 			},
 			[3]={
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates a bolt of lightning when you [HitDamage|Hit] with [UnarmedDamage|Unarmed] [Melee] damage, no more than {0} times every {1} seconds",
 				text="Creates a bolt of lightning when you Hit with Unarmed Melee damage, no more than {0} times every {1} seconds"
 			}
 		},
@@ -87,6 +90,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Bolt impact radius is {0} metre",
 				text="Bolt impact radius is {0} metre"
 			},
 			[2]={
@@ -100,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolt impact radius is {0} metres",
 				text="Bolt impact radius is {0} metres"
 			}
 		},
@@ -116,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Bolt [Physical] Damage\n[Conversion|Converted] to [Lightning] Damage",
 				text="{0}% of Bolt Physical Damage\nConverted to Lightning Damage"
 			}
 		},

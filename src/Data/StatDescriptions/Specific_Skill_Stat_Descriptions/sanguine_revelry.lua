@@ -11,6 +11,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spawn a [Remnant] on [HitDamage|Hitting] a [Bleeding] enemy, no more than once per second",
 				text="Spawn a Remnant on Hitting a Bleeding enemy, no more than once per second"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on [HitDamage|Hitting] a [Bleeding] enemy, no more than once every {0} seconds",
 				text="Spawn a Remnant on Hitting a Bleeding enemy, no more than once every {0} seconds"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Spawn a [Remnant] on killing a [Bleeding] enemy",
 				text="{0}% chance to Spawn a Remnant on killing a Bleeding enemy"
 			},
 			[2]={
@@ -49,6 +52,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on killing a [Bleeding] enemy",
 				text="Spawn a Remnant on killing a Bleeding enemy"
 			}
 		},
@@ -65,6 +69,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each [Remnant] grants {0} [Rage]",
 				text="Each Remnant grants {0} Rage"
 			}
 		},
@@ -85,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each [Remnant] causes you to recover {0}% of maximum Life per 5 Current [Rage]",
 				text="Each Remnant causes you to recover {0}% of maximum Life per 5 Current Rage"
 			}
 		},

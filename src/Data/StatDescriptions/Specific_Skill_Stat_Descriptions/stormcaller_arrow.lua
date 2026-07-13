@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="If any target [HitDamage|Hit] by Bolt is [Shock|Shocked], also [Shock|Shocks] all Enemies within a {0} metre radius",
 				text="If any target Hit by Bolt is Shocked, also Shocks all Enemies within a {0} metre radius"
 			}
 		},
@@ -80,6 +83,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Arrow duration is {0} second",
 				text="Arrow duration is {0} second"
 			},
 			[2]={
@@ -93,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow duration is {0} seconds",
 				text="Arrow duration is {0} seconds"
 			}
 		},

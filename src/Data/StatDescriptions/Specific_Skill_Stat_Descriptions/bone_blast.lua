@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ritual radius@{0}m",
 				text="Ritual radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ritual radius is {0} metre",
 				text="Ritual radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ritual radius is {0} metres",
 				text="Ritual radius is {0} metres"
 			}
 		},
@@ -68,6 +71,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Ritual duration is {0} second",
 				text="Ritual duration is {0} second"
 			},
 			[2]={
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ritual duration is {0} seconds",
 				text="Ritual duration is {0} seconds"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Mirror width is {0} metre",
 				text="Mirror width is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirror width is {0} metres",
 				text="Mirror width is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Length between mirrors is {0} metre",
 				text="Length between mirrors is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Length between mirrors is {0} metres",
 				text="Length between mirrors is {0} metres"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Mirror duration is {0} second",
 				text="Mirror duration is {0} second"
 			},
 			[2]={
@@ -108,6 +113,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirror duration is {0} seconds",
 				text="Mirror duration is {0} seconds"
 			}
 		},
@@ -124,6 +130,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0} Raven departs when [Command|Commanded]",
 				text="{0} Raven departs when Commanded"
 			},
 			[2]={
@@ -133,6 +140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Ravens depart when [Command|Commanded]",
 				text="{0} Ravens depart when Commanded"
 			}
 		},
@@ -160,6 +168,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Flock [HitDamage|Hits] every second",
 				text="Flock Hits every second"
 			},
 			[2]={
@@ -173,6 +182,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Flock [HitDamage|Hits] every {0} seconds",
 				text="Flock Hits every {0} seconds"
 			}
 		},

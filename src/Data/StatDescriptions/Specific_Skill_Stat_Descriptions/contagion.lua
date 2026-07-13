@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Spread radius is {0} metre",
 				text="Spread radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spread radius is {0} metres",
 				text="Spread radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Debuff] duration is {0} second",
 				text="Debuff duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] duration is {0} seconds",
 				text="Debuff duration is {0} seconds"
 			}
 		},

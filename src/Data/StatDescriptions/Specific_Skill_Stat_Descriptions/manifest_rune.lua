@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Verisium Manifestation [Limit]",
 				text="{0:+d} to Verisium Manifestation Limit"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Summoned Verisium Manifestation",
 				text="Limit {0} Summoned Verisium Manifestation"
 			},
 			[3]={
@@ -30,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Summoned Verisium Manifestations",
 				text="Limit {0} Summoned Verisium Manifestations"
 			}
 		},
@@ -51,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}s to Manifestation duration",
 				text="{0:+d}s to Manifestation duration"
 			},
 			[2]={
@@ -64,6 +68,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Manifestation duration is {0} second",
 				text="Manifestation duration is {0} second"
 			},
 			[3]={
@@ -77,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Manifestation duration is {0} seconds",
 				text="Manifestation duration is {0} seconds"
 			}
 		},

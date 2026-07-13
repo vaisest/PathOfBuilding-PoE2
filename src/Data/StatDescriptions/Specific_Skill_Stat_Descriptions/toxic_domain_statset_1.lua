@@ -28,6 +28,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to Pustule [DetonationTime|Detonation] radius",
 				text="{0:+d} metre to Pustule Detonation radius"
 			},
 			[2]={
@@ -42,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to Pustule [DetonationTime|Detonation] radius",
 				text="{0:+d} metres to Pustule Detonation radius"
 			},
 			[3]={
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Pustule [DetonationTime|Detonation] radius is {0} metre",
 				text="Pustule Detonation radius is {0} metre"
 			},
 			[4]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pustule [DetonationTime|Detonation] radius is {0} metres",
 				text="Pustule Detonation radius is {0} metres"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Pustule [DetonationTime|Detonates] after {0} second",
 				text="Pustule Detonates after {0} second"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pustule [DetonationTime|Detonates] after {0} seconds",
 				text="Pustule Detonates after {0} seconds"
 			}
 		},
@@ -121,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] always [Poison]",
 				text="Hits always Poison"
 			}
 		},
@@ -137,6 +144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pustules store expected damage of [Poison|Poisons] inflicted on them",
 				text="Pustules store expected damage of Poisons inflicted on them"
 			}
 		},
@@ -157,6 +165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] grants up to {1}% more explosion Damage",
 				text="Stored Poison grants up to {1}% more explosion Damage"
 			}
 		},
@@ -182,6 +191,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metre to base explosion radius",
 				text="Stored Poison adds up to {1} metre to base explosion radius"
 			},
 			[2]={
@@ -199,6 +209,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metres to base explosion radius",
 				text="Stored Poison adds up to {1} metres to base explosion radius"
 			}
 		},

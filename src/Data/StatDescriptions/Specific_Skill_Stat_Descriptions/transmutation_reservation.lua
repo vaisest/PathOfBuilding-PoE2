@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] Transmutation Explosion on picking up a [Remnant]",
 				text="Trigger Transmutation Explosion on picking up a Remnant"
 			}
 		},

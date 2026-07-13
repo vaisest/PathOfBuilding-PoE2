@@ -11,6 +11,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Chain|Chains] once per [Charges|Frenzy Charge] Consumed",
 				text="Chains once per Frenzy Charge Consumed"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain|Chains] {0} times per [Charges|Frenzy Charge] Consumed",
 				text="Chains {0} times per Frenzy Charge Consumed"
 			}
 		},
@@ -36,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per [Charges|Frenzy Charge] Consumed",
 				text="{0}% more Damage per Frenzy Charge Consumed"
 			},
 			[2]={
@@ -49,6 +52,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per [Charges|Frenzy Charge] Consumed",
 				text="{0}% less Damage per Frenzy Charge Consumed"
 			}
 		},
@@ -65,6 +69,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage if a [Charges|Frenzy Charge] was Consumed",
 				text="{0}% more Damage if a Frenzy Charge was Consumed"
 			},
 			[2]={
@@ -78,6 +83,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage if a [Charges|Frenzy Charge] was Consumed",
 				text="{0}% less Damage if a Frenzy Charge was Consumed"
 			}
 		},

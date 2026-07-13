@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} additional Fury on [Attack] [HitDamage|Hit]",
 				text="Gain {0} additional Fury on Attack Hit"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Fury on [Attack] [HitDamage|Hit], no\nmore than once per Skill use",
 				text="Gain 1 Fury on Attack Hit, no\nmore than once per Skill use"
 			}
 		},
@@ -37,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Fury",
 				text="{0} maximum Fury"
 			}
 		},
@@ -57,6 +60,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second per Fury",
 				text="Buff duration is {0} second per Fury"
 			},
 			[2]={
@@ -70,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds per Fury",
 				text="Buff duration is {0} seconds per Fury"
 			}
 		},
@@ -87,6 +92,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% more damage",
 				text="Buff grants {0}% more damage"
 			},
 			[2]={
@@ -96,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants [Onslaught] and {0}% more damage",
 				text="Buff grants Onslaught and {0}% more damage"
 			}
 		},
@@ -112,6 +119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Attack] speed",
 				text="Buff grants {0}% increased Attack speed"
 			}
 		},
@@ -128,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased movement speed",
 				text="Buff grants {0}% increased movement speed"
 			}
 		},
@@ -148,6 +157,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] causes you to lose {0}% of maximum Life per second",
 				text="Buff causes you to lose {0}% of maximum Life per second"
 			}
 		},

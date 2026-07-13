@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Clone explosions inflict {0} additional [CriticalWeakness|Critical Weakness] on [HitDamage|Hit]",
 				text="Clone explosions inflict {0} additional Critical Weakness on Hit"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage for each previous time this Skill has been used consecutively, up to 300%",
 				text="{0}% more damage for each previous time this Skill has been used consecutively, up to 300%"
 			},
 			[2]={
@@ -80,6 +84,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage for each previous time this Skill has been used consecutively, up to 300%",
 				text="{0}% less damage for each previous time this Skill has been used consecutively, up to 300%"
 			}
 		},

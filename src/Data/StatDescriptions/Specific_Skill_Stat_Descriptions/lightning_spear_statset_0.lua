@@ -31,6 +31,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spear cannot [Pierce|Pierce], [Fork|Fork], [Chain|Chain] or [Return|Return]\nModifiers to the number of [Projectile|Projectiles] fired only affect\nthe maximum number of lightning bolt [Projectile|Projectiles]",
 				text="Spear cannot Pierce, Fork, Chain or Return\nModifiers to the number of Projectiles fired only affect\nthe maximum number of lightning bolt Projectiles"
 			}
 		},
@@ -47,6 +48,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Splits towards {0} targets when Consuming a [Charges|Frenzy Charge]",
 				text="Splits towards {0} targets when Consuming a Frenzy Charge"
 			}
 		},
@@ -63,6 +65,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more damage when Consuming a [Charges|Frenzy Charge]",
 				text="Deals {0}% more damage when Consuming a Frenzy Charge"
 			}
 		},

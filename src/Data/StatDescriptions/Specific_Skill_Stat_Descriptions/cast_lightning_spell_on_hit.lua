@@ -26,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can only socket [Lightning] [Spell|Spells]\nTriggers all Socketed [Spell|Spells] and loses all [Energy|Energy] on reaching maximum [Energy|Energy]",
 				text="Can only socket Lightning Spells\nTriggers all Socketed Spells and loses all Energy on reaching maximum Energy"
 			}
 		},

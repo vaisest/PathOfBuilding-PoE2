@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summons {0} Spirit Wolves\n Wolves dash at enemies over 8 seconds",
 				text="Summons {0} Spirit Wolves\n Wolves dash at enemies over 8 seconds"
 			}
 		},

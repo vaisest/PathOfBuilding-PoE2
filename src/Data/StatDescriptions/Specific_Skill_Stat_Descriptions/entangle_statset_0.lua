@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Fissure length is {0} metre",
 				text="Fissure length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure length is {0} metres",
 				text="Fissure length is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Attaches Vines to enemies within {0} metre",
 				text="Attaches Vines to enemies within {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Attaches Vines to enemies within {0} metres",
 				text="Attaches Vines to enemies within {0} metres"
 			}
 		},
@@ -92,6 +96,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Fissure [Limit]",
 				text="{0:+d} to Fissure Limit"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Fissure",
 				text="Limit {0} Fissure"
 			},
 			[3]={
@@ -110,6 +116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},
@@ -130,6 +137,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fissure duration is {0} second",
 				text="Fissure duration is {0} second"
 			},
 			[2]={
@@ -143,6 +151,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} seconds",
 				text="Fissure duration is {0} seconds"
 			}
 		},
@@ -163,6 +172,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Attaches a Vine every second",
 				text="Attaches a Vine every second"
 			},
 			[2]={
@@ -176,6 +186,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Attaches a Vine every {0} seconds",
 				text="Attaches a Vine every {0} seconds"
 			}
 		},
@@ -196,6 +207,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Plant|Overgrown] fissures expire {0}% slower",
 				text="Overgrown fissures expire {0}% slower"
 			}
 		},
@@ -212,6 +224,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure [Limit]@{0}",
 				text="Fissure Limit@{0}"
 			}
 		},

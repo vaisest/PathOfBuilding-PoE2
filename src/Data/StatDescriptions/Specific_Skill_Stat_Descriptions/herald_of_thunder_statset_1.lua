@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Bolt impact radius is {0} metre",
 				text="Bolt impact radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolt impact radius is {0} metres",
 				text="Bolt impact radius is {0} metres"
 			}
 		},
@@ -61,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Bolt [Physical] Damage\n[Conversion|Converted] to [Lightning] Damage",
 				text="{0}% of Bolt Physical Damage\nConverted to Lightning Damage"
 			}
 		},

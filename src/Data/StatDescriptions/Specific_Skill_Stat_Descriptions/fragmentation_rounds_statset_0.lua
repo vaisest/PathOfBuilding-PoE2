@@ -39,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} fragments per shot",
 				text="Fires {0} fragments per shot"
 			},
 			[2]={
@@ -56,6 +57,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} fragments per shot",
 				text="Fires {0:+d} fragments per shot"
 			}
 		},
@@ -74,6 +76,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Bolts [Pierce] {0} Target",
 				text="Bolts Pierce {0} Target"
 			},
 			[2]={
@@ -87,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts [Pierce] {0} Targets",
 				text="Bolts Pierce {0} Targets"
 			}
 		},

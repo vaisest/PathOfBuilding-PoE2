@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fissure duration is {0} second",
 				text="Fissure duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} seconds",
 				text="Fissure duration is {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Fissure",
 				text="Limit {0} Fissure"
 			},
 			[2]={
@@ -58,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},
@@ -74,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure [Limit]@{0}",
 				text="Fissure Limit@{0}"
 			}
 		},
@@ -90,6 +95,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends {0} [Rage] to create 2 additional fissures if possible",
 				text="Spends {0} Rage to create 2 additional fissures if possible"
 			}
 		},

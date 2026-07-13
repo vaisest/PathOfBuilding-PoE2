@@ -22,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires bolts at enemies within a {0} metre radius",
 				text="Fires bolts at enemies within a {0} metre radius"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} lodged spear",
 				text="Limit {0} lodged spear"
 			},
 			[2]={
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} lodged spears",
 				text="Limit {0} lodged spears"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Lodged spear duration is {0} second",
 				text="Lodged spear duration is {0} second"
 			},
 			[2]={
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lodged spear duration is {0} seconds",
 				text="Lodged spear duration is {0} seconds"
 			}
 		},
@@ -96,6 +101,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Bolts [Chain] to {0} enemy",
 				text="Bolts Chain to {0} enemy"
 			},
 			[2]={
@@ -105,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts [Chain] to {0} enemies",
 				text="Bolts Chain to {0} enemies"
 			}
 		},
@@ -121,6 +128,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lodged spear limit@{0}",
 				text="Lodged spear limit@{0}"
 			}
 		},
@@ -137,6 +145,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fires a bolt every second",
 				text="Fires a bolt every second"
 			},
 			[2]={
@@ -150,6 +159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires a bolt every {0} seconds",
 				text="Fires a bolt every {0} seconds"
 			}
 		},

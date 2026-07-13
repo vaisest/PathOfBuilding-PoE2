@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Crash Lightning radius is {0} metre",
 				text="Crash Lightning radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Crash Lightning radius is {0} metres",
 				text="Crash Lightning radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Modifiers to Area of Effect also apply to Spell Damage",
 				text="Modifiers to Area of Effect also apply to Spell Damage"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Area of Effect apply to Spell Damage instead",
 				text="Modifiers to Area of Effect apply to Spell Damage instead"
 			}
 		},
@@ -85,6 +89,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Pulses {0} time before final strike",
 				text="Pulses {0} time before final strike"
 			},
 			[2]={
@@ -94,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulses {0} times before final strike",
 				text="Pulses {0} times before final strike"
 			}
 		},
@@ -114,6 +120,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Final strike occurs after {0} second",
 				text="Final strike occurs after {0} second"
 			},
 			[2]={
@@ -127,6 +134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Final strike occurs after {0} seconds",
 				text="Final strike occurs after {0} seconds"
 			}
 		},

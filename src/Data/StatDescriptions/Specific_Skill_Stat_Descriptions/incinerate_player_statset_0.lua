@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cone length is {0} metre",
 				text="Cone length is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length is {0} metres",
 				text="Cone length is {0} metres"
 			}
 		},
@@ -61,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] from a single use of this Skill [CompoundIgnite|Compound] if not\nfrom [IgnitedGround|Ignited Ground]",
 				text="Ignites from a single use of this Skill Compound if not\nfrom Ignited Ground"
 			}
 		},
@@ -81,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} [Fire] Damage per second",
 				text="Deals {0} Fire Damage per second"
 			}
 		},
@@ -101,6 +105,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Exposure|Fire Exposure] duration is {0} second",
 				text="Fire Exposure duration is {0} second"
 			},
 			[2]={
@@ -114,6 +119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure|Fire Exposure] duration is {0} seconds",
 				text="Fire Exposure duration is {0} seconds"
 			}
 		},
@@ -130,6 +136,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Gains {0} second of fuel per Mana spent",
 				text="Gains {0} second of fuel per Mana spent"
 			},
 			[2]={
@@ -139,6 +146,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} milliseconds of fuel per Mana spent",
 				text="Gains {0} milliseconds of fuel per Mana spent"
 			}
 		},
@@ -160,6 +168,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} seconds of Maximum fuel",
 				text="+{0} seconds of Maximum fuel"
 			},
 			[2]={
@@ -173,6 +182,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can store up to {0} second of fuel",
 				text="Can store up to {0} second of fuel"
 			},
 			[3]={
@@ -186,6 +196,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can store up to {0} seconds of fuel",
 				text="Can store up to {0} seconds of fuel"
 			}
 		},
@@ -206,6 +217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts stacking [Exposure|Fire Exposure] at maximum stages, reducing [Resistances|Fire Resistance] by {0}% per stack, up to a maximum of {1}%",
 				text="Inflicts stacking Fire Exposure at maximum stages, reducing Fire Resistance by {0}% per stack, up to a maximum of {1}%"
 			}
 		},
@@ -234,6 +246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage, every 0.075 seconds",
 				text="Ignites as though dealing {0} to {1} Fire damage, every 0.075 seconds"
 			}
 		},

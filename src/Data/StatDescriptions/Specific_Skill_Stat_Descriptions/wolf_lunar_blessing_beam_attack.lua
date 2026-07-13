@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional Moonbeam target search radius@{0}m",
 				text="Additional Moonbeam target search radius@{0}m"
 			}
 		},
@@ -79,6 +82,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Calls down a Moonbeam on the target [HitDamage|Hit] and up to {0} other target within {1} metre",
 				text="Calls down a Moonbeam on the target Hit and up to {0} other target within {1} metre"
 			},
 			[2]={
@@ -96,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Calls down a Moonbeam on the target [HitDamage|Hit] and up to {0} other target within {1} metres",
 				text="Calls down a Moonbeam on the target Hit and up to {0} other target within {1} metres"
 			},
 			[3]={
@@ -113,6 +118,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Calls down a Moonbeam on the target [HitDamage|Hit] and up to {0} other targets within {1} metre",
 				text="Calls down a Moonbeam on the target Hit and up to {0} other targets within {1} metre"
 			},
 			[4]={
@@ -130,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Calls down a Moonbeam on the target [HitDamage|Hit] and up to {0} other targets within {1} metres",
 				text="Calls down a Moonbeam on the target Hit and up to {0} other targets within {1} metres"
 			}
 		},

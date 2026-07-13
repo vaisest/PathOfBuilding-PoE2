@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sacrifices {0}% of a damageable [Minion|Minion's] maximum life to deal that much [Physical] damage",
 				text="Sacrifices {0}% of a damageable Minion's maximum life to deal that much Physical damage"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Damage radius is {0} metre",
 				text="Damage radius is {0} metre"
 			},
 			[2]={
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage radius is {0} metres",
 				text="Damage radius is {0} metres"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall deals {0} [Fire] Damage per second",
 				text="Wall deals {0} Fire Damage per second"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Lingering [Ignite] duration is {0} second",
 				text="Lingering Ignite duration is {0} second"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lingering [Ignite] duration is {0} seconds",
 				text="Lingering Ignite duration is {0} seconds"
 			}
 		},
@@ -68,6 +71,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Wall duration is {0} second",
 				text="Wall duration is {0} second"
 			},
 			[2]={
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall duration is {0} seconds",
 				text="Wall duration is {0} seconds"
 			}
 		},
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] which pass through the wall deal {0} to {1} Added [Fire] Damage",
 				text="Projectiles which pass through the wall deal {0} to {1} Added Fire Damage"
 			}
 		},
@@ -122,6 +128,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] which pass through the [ElementalInfusion|Infused] wall deal {0} to {1} Added [Lightning] Damage",
 				text="Projectiles which pass through the Infused wall deal {0} to {1} Added Lightning Damage"
 			}
 		},
@@ -139,6 +146,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] which pass through the wall gain extra {0}% damage as [Fire]",
 				text="Projectiles which pass through the wall gain extra {0}% damage as Fire"
 			}
 		},
@@ -159,6 +167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lingering [Ignite] deals {0} [Fire] Damage per second",
 				text="Lingering Ignite deals {0} Fire Damage per second"
 			}
 		},
@@ -179,6 +188,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lingering [Ignite] damage per second@{0}",
 				text="Lingering Ignite damage per second@{0}"
 			}
 		},
@@ -213,6 +223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage",
 				text="Ignites as though dealing {0} to {1} Fire damage"
 			}
 		},
@@ -235,6 +246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} metres to Wall length",
 				text="+{0} metres to Wall length"
 			},
 			[2]={
@@ -248,6 +260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall length is {0} metres",
 				text="Wall length is {0} metres"
 			}
 		},

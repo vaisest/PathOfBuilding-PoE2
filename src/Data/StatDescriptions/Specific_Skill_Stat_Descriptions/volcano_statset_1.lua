@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to impact radius",
 				text="{0:+d} metre to impact radius"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to impact radius",
 				text="{0:+d} metres to impact radius"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] every second, or when [Slam|Slammed]",
 				text="Fires Projectiles every second, or when Slammed"
 			},
 			[2]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] every {0} seconds, or when [Slam|Slammed]",
 				text="Fires Projectiles every {0} seconds, or when Slammed"
 			}
 		},
@@ -112,6 +118,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initial eruption fires {0} additional\n[Projectile|Projectiles] per additional Stage",
 				text="Initial eruption fires {0} additional\nProjectiles per additional Stage"
 			}
 		},
@@ -128,6 +135,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Volcano is destroyed after {0} [Slam]",
 				text="Volcano is destroyed after {0} Slam"
 			},
 			[2]={
@@ -137,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Volcano is destroyed after {0} [Slam|Slams]",
 				text="Volcano is destroyed after {0} Slams"
 			}
 		},

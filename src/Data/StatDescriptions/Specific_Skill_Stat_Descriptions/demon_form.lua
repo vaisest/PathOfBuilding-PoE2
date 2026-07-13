@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Cast Speed while in Demon Form",
 				text="{0}% increased Cast Speed while in Demon Form"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% decreased Cast Speed while in Demon Form",
 				text="{0}% decreased Cast Speed while in Demon Form"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Level of all [Spell|Spell] Skills while in Demon Form",
 				text="{0:+d} to Level of all Spell Skills while in Demon Form"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[LifeLoss|Lose] {0}% of maximum Life per second per Demonflame",
 				text="Lose {0}% of maximum Life per second per Demonflame"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Life [LifeLoss|Loss] per second per Demonflame",
 				text="{0} Life Loss per second per Demonflame"
 			}
 		},
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deal {0}% more [Spell] damage per Demonflame",
 				text="Deal {0}% more Spell damage per Demonflame"
 			},
 			[2]={
@@ -105,6 +111,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deal {0}% less [Spell] damage per Demonflame",
 				text="Deal {0}% less Spell damage per Demonflame"
 			}
 		},

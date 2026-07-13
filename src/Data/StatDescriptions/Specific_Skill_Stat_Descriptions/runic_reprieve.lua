@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% of damage from [Block|Blocked] [HitDamage|Hits]",
 				text="You take {0}% of damage from Blocked Hits"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% of damage from [Block|Blocked] [HitDamage|Hits]",
 				text="You take {0}% of damage from Blocked Hits"
 			}
 		},
@@ -37,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose [Ward|Runic Ward] on [Block] equal to the damage you took from that [HitDamage|Hit]",
 				text="Lose Runic Ward on Block equal to the damage you took from that Hit"
 			}
 		},
@@ -54,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0:+d}% of maximum [Ward|Runic Ward] to be able to use this Skill",
 				text="Requires {0:+d}% of maximum Runic Ward to be able to use this Skill"
 			},
 			[2]={
@@ -63,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires at least {0}% of maximum [Ward|Runic Ward] to be able to use this Skill",
 				text="Requires at least {0}% of maximum Runic Ward to be able to use this Skill"
 			}
 		},

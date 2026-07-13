@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Blast radius is {0} metre",
 				text="Blast radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blast radius is {0} metres",
 				text="Blast radius is {0} metres"
 			}
 		},

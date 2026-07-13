@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Blast length is {0} metre",
 				text="Blast length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blast length is {0} metres",
 				text="Blast length is {0} metres"
 			}
 		},
@@ -52,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% [SurpassChance|Surpassing] chance to grant a [Charges|Power Charge] on\n[HeavyStun|Heavy Stun], modified by [Power|Monster Power]",
 				text="{0:+d}% Surpassing chance to grant a Power Charge on\nHeavy Stun, modified by Monster Power"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% [SurpassChance|Surpassing] chance to grant a [Charges|Power Charge] on\n[HeavyStun|Heavy Stun], modified by [Power|Monster Power]",
 				text="{0}% Surpassing chance to grant a Power Charge on\nHeavy Stun, modified by Monster Power"
 			}
 		},

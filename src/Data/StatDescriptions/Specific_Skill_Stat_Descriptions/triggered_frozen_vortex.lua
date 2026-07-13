@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Vortex radius is {0} metre",
 				text="Vortex radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vortex radius is {0} metres",
 				text="Vortex radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Vortexes last for {0} second",
 				text="Vortexes last for {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vortexes last for {0} seconds",
 				text="Vortexes last for {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vortex deals {0}% of Overkill Damage from the [HitDamage|Hit] which [Trigger|Triggered] it as [Cold] Damage over time",
 				text="Vortex deals {0}% of Overkill Damage from the Hit which Triggered it as Cold Damage over time"
 			}
 		},

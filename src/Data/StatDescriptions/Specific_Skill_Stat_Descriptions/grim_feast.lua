@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Remnant|Remnants] store {0}% of [Minion] maximum Life",
 				text="Remnants store {0}% of Minion maximum Life"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can store up to {0} collected [Minion] Life",
 				text="You can store up to {0} collected Minion Life"
 			}
 		},

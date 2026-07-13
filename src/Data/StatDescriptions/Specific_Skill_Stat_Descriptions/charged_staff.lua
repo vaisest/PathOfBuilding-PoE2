@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0} to {1} Added [Quarterstaff|Quarterstaff] [Attack|Attack] [Lightning|Lightning] damage per [Charges|Power Charge] Consumed, up to your maximum [Charges|Power Charges]",
 				text="Buff grants {0} to {1} Added Quarterstaff Attack Lightning damage per Power Charge Consumed, up to your maximum Power Charges"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff duration is {0} seconds per [Charges|Power Charge] Consumed",
 				text="Buff duration is {0} seconds per Power Charge Consumed"
 			}
 		},

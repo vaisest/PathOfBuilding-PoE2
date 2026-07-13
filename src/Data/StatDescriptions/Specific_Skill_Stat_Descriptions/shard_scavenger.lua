@@ -11,6 +11,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Instantly reloads your [Crossbow] and restores one cooldown use for your [Grenade|Grenades] upon [Consume|Consuming]\n[Freeze], [Shock], [Ignite], or [ArmourBreak|Fully Broken Armour]\nMinimum duration between consumptions is {0} second",
 				text="Instantly reloads your Crossbow and restores one cooldown use for your Grenades upon Consuming\nFreeze, Shock, Ignite, or Fully Broken Armour\nMinimum duration between consumptions is {0} second"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Instantly reloads your [Crossbow] and restores one cooldown use for your [Grenade|Grenades] upon [Consume|Consuming]\n[Freeze], [Shock], [Ignite], or [ArmourBreak|Fully Broken Armour]\nMinimum duration between consumptions is {0} seconds",
 				text="Instantly reloads your Crossbow and restores one cooldown use for your Grenades upon Consuming\nFreeze, Shock, Ignite, or Fully Broken Armour\nMinimum duration between consumptions is {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -57,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},

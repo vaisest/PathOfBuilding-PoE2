@@ -15,6 +15,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Can store {0:+d} Bolts",
 				text="Can store {0:+d} Bolts"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can store up to {0} Bolts",
 				text="Can store up to {0} Bolts"
 			}
 		},

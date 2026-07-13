@@ -19,6 +19,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Minions [Ignite|Ignite] Enemies within a radius of {1} metre as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life",
 				text="Minions Ignite Enemies within a radius of {1} metre as though dealt Base Fire Damage equal to {0}% of Minion's Maximum Life"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions [Ignite|Ignite] Enemies within a radius of {1} metres as though dealt Base [Fire] Damage equal to {0}% of Minion's Maximum Life",
 				text="Minions Ignite Enemies within a radius of {1} metres as though dealt Base Fire Damage equal to {0}% of Minion's Maximum Life"
 			}
 		},

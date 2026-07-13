@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius@{0}m",
 				text="Explosion radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -64,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosions deal {0}% more Damage per Bloodstone Lance",
 				text="Explosions deal {0}% more Damage per Bloodstone Lance"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosions with at least 5 Bloodstone Lances have {0}% increased Area of Effect per Bloodstone Lance",
 				text="Explosions with at least 5 Bloodstone Lances have {0}% increased Area of Effect per Bloodstone Lance"
 			}
 		},
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[LifeLeech|Leech] {0}% of [Physical] [Attack] Damage as Life from Explosions with at least 10 Bloodstone Lances",
 				text="Leech {0}% of Physical Attack Damage as Life from Explosions with at least 10 Bloodstone Lances"
 			}
 		},
@@ -112,6 +118,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bloodstone Lances are shattered based on {0}% of your [Presence] area",
 				text="Bloodstone Lances are shattered based on {0}% of your Presence area"
 			}
 		},

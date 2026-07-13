@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Bolts [Pierce] {0} Target",
 				text="Bolts Pierce {0} Target"
 			},
 			[2]={
@@ -29,6 +30,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts [Pierce] {0} Targets",
 				text="Bolts Pierce {0} Targets"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ruzhan deals {0}% more damage for each damaging Skill you've used [Recently]",
 				text="Ruzhan deals {0}% more damage for each damaging Skill you've used Recently"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] with Ruzhan's Zealotry when you use a\ndamaging Skill with a 4 second cooldown, inflicting\nenemies [Strike|Struck] with [Exposure]",
 				text="Attacks with Ruzhan's Zealotry when you use a\ndamaging Skill with a 4 second cooldown, inflicting\nenemies Struck with Exposure"
 			}
 		},

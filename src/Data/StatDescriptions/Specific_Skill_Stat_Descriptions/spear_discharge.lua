@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} metres to explosion radius per previous explosion",
 				text="+{0} metres to explosion radius per previous explosion"
 			}
 		},
@@ -71,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [Physical] damage [Conversion|Converted] to the consumed [Infusion]'s type",
 				text="{0}% of Physical damage Converted to the consumed Infusion's type"
 			}
 		},

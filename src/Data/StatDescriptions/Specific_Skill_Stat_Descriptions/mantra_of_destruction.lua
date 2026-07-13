@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is up to {0} second, or until your next [Attack]",
 				text="Buff duration is up to {0} second, or until your next Attack"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is up to {0} seconds, or until your next [Attack]",
 				text="Buff duration is up to {0} seconds, or until your next Attack"
 			}
 		},
@@ -67,6 +69,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[PurpleFlamesOfChayula|Purple Flames of Chayula] Duration is {0} second",
 				text="Purple Flames of Chayula Duration is {0} second"
 			},
 			[2]={
@@ -80,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[PurpleFlamesOfChayula|Purple Flames of Chayula] Duration is {0} seconds",
 				text="Purple Flames of Chayula Duration is {0} seconds"
 			}
 		},

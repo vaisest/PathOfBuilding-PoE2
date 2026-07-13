@@ -37,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts shatter on impact, dealing Damage in a {0} metre cone",
 				text="Bolts shatter on impact, dealing Damage in a {0} metre cone"
 			}
 		},
@@ -57,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} fragments per shot",
 				text="Fires {0} fragments per shot"
 			}
 		},
@@ -75,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased [Ignite] duration for each Fragment in a single hit",
 				text="{0:+d}% increased Ignite duration for each Fragment in a single hit"
 			},
 			[2]={
@@ -84,6 +87,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Ignite] duration for each Fragment in a single hit",
 				text="{0}% increased Ignite duration for each Fragment in a single hit"
 			}
 		},

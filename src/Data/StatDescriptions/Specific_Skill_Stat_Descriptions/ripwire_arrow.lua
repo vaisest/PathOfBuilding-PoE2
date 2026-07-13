@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Bolt impact radius is {0} metre",
 				text="Bolt impact radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolt impact radius is {0} metres",
 				text="Bolt impact radius is {0} metres"
 			}
 		},
@@ -61,6 +63,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Modifiers to number of [Projectile|Projectiles] fired instead apply\nto number of [HitDamage|Hits] per salvo",
 				text="Modifiers to number of Projectiles fired instead apply\nto number of Hits per salvo"
 			},
 			[2]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] {0} times per salvo\nModifiers to number of [Projectile|Projectiles] fired instead apply\nto number of [HitDamage|Hits] per salvo",
 				text="Hits {0} times per salvo\nModifiers to number of Projectiles fired instead apply\nto number of Hits per salvo"
 			}
 		},
@@ -86,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits per salvo@{0}",
 				text="Hits per salvo@{0}"
 			}
 		},

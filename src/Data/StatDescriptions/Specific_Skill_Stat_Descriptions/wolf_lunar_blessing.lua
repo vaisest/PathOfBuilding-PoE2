@@ -27,6 +27,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Knockback|Knocks back] enemies in a {0} metre radius",
 				text="Knocks back enemies in a {0} metre radius"
 			}
 		},
@@ -59,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} second, plus {2} seconds per [Rage] spent",
 				text="Buff duration is {0} second, plus {2} seconds per Rage spent"
 			},
 			[2]={
@@ -84,6 +86,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds, plus {2} seconds per [Rage] spent",
 				text="Buff duration is {0} seconds, plus {2} seconds per Rage spent"
 			}
 		},
@@ -110,6 +113,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0:+d}% of damage [Gain|Gained] as [Cold] damage",
 				text="Buff grants {0:+d}% of damage Gained as Cold damage"
 			},
 			[2]={
@@ -119,6 +123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of damage [Gain|Gained] as [Cold] damage",
 				text="Buff grants {0}% of damage Gained as Cold damage"
 			}
 		},
@@ -135,6 +140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Attack] speed",
 				text="Buff grants {0}% increased Attack speed"
 			}
 		},
@@ -151,6 +157,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased movement speed",
 				text="Buff grants {0}% increased movement speed"
 			}
 		},

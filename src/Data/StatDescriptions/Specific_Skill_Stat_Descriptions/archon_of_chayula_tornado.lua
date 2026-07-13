@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Tornado radius is {0} metre",
 				text="Tornado radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado radius is {0} metres",
 				text="Tornado radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to Tornado duration",
 				text="{0:+d} second to Tornado duration"
 			},
 			[2]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Tornado duration",
 				text="{0:+d} seconds to Tornado duration"
 			},
 			[3]={
@@ -83,6 +87,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Tornado duration is {0} second",
 				text="Tornado duration is {0} second"
 			},
 			[4]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado duration is {0} seconds",
 				text="Tornado duration is {0} seconds"
 			}
 		},

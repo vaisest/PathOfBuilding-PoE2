@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Pillar radius is {0} metre",
 				text="Pillar radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pillar radius is {0} metres",
 				text="Pillar radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Ignite]",
 				text="Cannot Ignite"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Flame Pillars deal Damage equal to the highest expected remaining Damage of the [Consume|Consumed] [Ignite|Ignites]",
 				text="Flame Pillars deal Damage equal to the highest expected remaining Damage of the Consumed Ignites"
 			},
 			[2]={
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Flame Pillars deal Damage equal to {0}% of the highest expected remaining Damage of the [Consume|Consumed] [Ignite|Ignites]",
 				text="Flame Pillars deal Damage equal to {0}% of the highest expected remaining Damage of the Consumed Ignites"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While the [Buff] is active, automatically [Block] from all directions and inflict [ParriedDebuff|Parried] to [Block|Blocked] enemies",
 				text="While the Buff is active, automatically Block from all directions and inflict Parried to Blocked enemies"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% more [StunThreshold|Stun Threshold] while [Buff] is active",
 				text="{0:+d}% more Stun Threshold while Buff is active"
 			},
 			[2]={
@@ -70,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [StunThreshold|Stun Threshold] while [Buff] is active",
 				text="{0}% more Stun Threshold while Buff is active"
 			},
 			[3]={
@@ -83,6 +88,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [StunThreshold|Stun Threshold] while [Buff] is active",
 				text="{0}% less Stun Threshold while Buff is active"
 			}
 		},
@@ -100,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% more [StunThreshold|Stun Threshold] while [Buff] is active per 10 [Ward|Runic Ward] spent",
 				text="{0:+d}% more Stun Threshold while Buff is active per 10 Runic Ward spent"
 			},
 			[2]={
@@ -109,6 +116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [StunThreshold|Stun Threshold] while [Buff] is active per 10 [Ward|Runic Ward] spent",
 				text="{0}% more Stun Threshold while Buff is active per 10 Runic Ward spent"
 			},
 			[3]={
@@ -122,6 +130,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [StunThreshold|Stun Threshold] while [Buff] is active per 10 [Ward|Runic Ward] spent",
 				text="{0}% less Stun Threshold while Buff is active per 10 Runic Ward spent"
 			}
 		},
@@ -145,6 +154,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried Debuff] makes targets take {0}% more [Attack] Damage",
 				text="Parried Debuff makes targets take {0}% more Attack Damage"
 			},
 			[2]={
@@ -158,6 +168,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[ParriedDebuff|Parried Debuff] makes targets take {0}% less [Attack] Damage",
 				text="Parried Debuff makes targets take {0}% less Attack Damage"
 			}
 		},
@@ -179,6 +190,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] lasts for an additional {0:+d} seconds",
 				text="Parried Debuff lasts for an additional {0:+d} seconds"
 			},
 			[2]={
@@ -192,6 +204,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} second",
 				text="Parried Debuff duration is {0} second"
 			},
 			[3]={
@@ -205,6 +218,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} seconds",
 				text="Parried Debuff duration is {0} seconds"
 			}
 		},

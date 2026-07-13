@@ -19,6 +19,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to [Debuff] duration",
 				text="{0:+d} second to Debuff duration"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to [Debuff] duration",
 				text="{0:+d} seconds to Debuff duration"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] duration is {0} second",
 				text="Debuff duration is {0} second"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] duration is {0} seconds",
 				text="Debuff duration is {0} seconds"
 			}
 		},

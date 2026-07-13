@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spike duration is {0} second",
 				text="Spike duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spike duration is {0} seconds",
 				text="Spike duration is {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] take {0}% increased damage from [HitDamage|Hits] while shielded",
 				text="Minions take {0}% increased damage from Hits while shielded"
 			},
 			[2]={
@@ -62,6 +65,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Minion|Minions] take {0}% reduced damage from [HitDamage|Hits] while shielded",
 				text="Minions take {0}% reduced damage from Hits while shielded"
 			}
 		},
@@ -78,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Absorbs first [HitDamage|Hit] dealing over {0}% of [Minion|Minion's] maximum life",
 				text="Absorbs first Hit dealing over {0}% of Minion's maximum life"
 			}
 		},

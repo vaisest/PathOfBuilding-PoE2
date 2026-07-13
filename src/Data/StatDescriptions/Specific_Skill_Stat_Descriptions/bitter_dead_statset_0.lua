@@ -25,6 +25,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Transformation radius is {0} metre",
 				text="Transformation radius is {0} metre"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Transformation radius is {0} metres",
 				text="Transformation radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Transforms {0:+d} [Corpse]",
 				text="Transforms {0:+d} Corpse"
 			},
 			[2]={
@@ -65,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Transforms {0:+d} [Corpse|Corpses]",
 				text="Transforms {0:+d} Corpses"
 			},
 			[3]={
@@ -74,6 +78,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Transforms up to {0} [Corpse]",
 				text="Transforms up to {0} Corpse"
 			},
 			[4]={
@@ -83,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Transforms up to {0} [Corpse|Corpses]",
 				text="Transforms up to {0} Corpses"
 			}
 		},
@@ -103,6 +109,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Core duration is {0} second",
 				text="Core duration is {0} second"
 			},
 			[2]={
@@ -116,6 +123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Core duration is {0} seconds",
 				text="Core duration is {0} seconds"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metre",
 				text="Banner Aura radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metres",
 				text="Banner Aura radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% more [Attack] damage",
 				text="Aura grants {0}% more Attack damage"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% less [Attack] damage",
 				text="Aura grants {0}% less Attack damage"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% increased [Accuracy|Accuracy Rating]",
 				text="Aura grants {0}% increased Accuracy Rating"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% reduced [Accuracy|Accuracy Rating]",
 				text="Aura grants {0}% reduced Accuracy Rating"
 			}
 		},
@@ -109,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% increased [Attack] Speed",
 				text="Aura grants {0}% increased Attack Speed"
 			},
 			[2]={
@@ -122,6 +129,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% reduced [Attack] Speed",
 				text="Aura grants {0}% reduced Attack Speed"
 			}
 		},
@@ -142,6 +150,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Banner duration is {0} second",
 				text="Banner duration is {0} second"
 			},
 			[2]={
@@ -155,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner duration is {0} seconds",
 				text="Banner duration is {0} seconds"
 			}
 		},

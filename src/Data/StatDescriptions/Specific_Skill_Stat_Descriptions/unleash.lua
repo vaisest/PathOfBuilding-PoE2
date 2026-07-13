@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} second",
 				text="Maximum Buff duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} seconds",
 				text="Maximum Buff duration is {0} seconds"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [Empowered] Skill's cast time is added to this Skill's cooldown",
 				text="{0}% of Empowered Skill's cast time is added to this Skill's cooldown"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered] [Spell] [Repeat|Repeats] {0} additional time",
 				text="Empowered Spell Repeats {0} additional time"
 			},
 			[2]={
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Spell] [Repeat|Repeats] {0} times",
 				text="Empowered Spell Repeats {0} times"
 			}
 		},

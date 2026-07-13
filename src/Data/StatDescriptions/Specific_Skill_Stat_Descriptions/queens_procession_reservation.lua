@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm deals {0}% more [HitDamage|Damage] per Swarm's Advance",
 				text="Swarm deals {0}% more Damage per Swarm's Advance"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm radius is {0} metres",
 				text="Swarm radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Swarm [HitDamage|Hits] all targets in area every {0} second",
 				text="Swarm Hits all targets in area every {0} second"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm [HitDamage|Hits] all targets in area every {0} seconds",
 				text="Swarm Hits all targets in area every {0} seconds"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate apply to [HitDamage|Hit] frequency",
 				text="Modifiers to Cooldown Recovery Rate apply to Hit frequency"
 			}
 		},
@@ -104,6 +109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="If Swarm [HitDamage|Hits] any targets, you take {0} to {1} [Physical] [HitDamage|Damage] and gain 1 Swarm's Advance, to a maximum of {2}",
 				text="If Swarm Hits any targets, you take {0} to {1} Physical Damage and gain 1 Swarm's Advance, to a maximum of {2}"
 			}
 		},
@@ -122,6 +128,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage taken this way applies {0}% more [HeavyStunPlayer|Stun] buildup to you",
 				text="Damage taken this way applies {0}% more Stun buildup to you"
 			}
 		},
@@ -142,6 +149,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HeavyStunPlayer|Stun] Buildup cannot empty while you have Swarm's Advance\nLose all Swarm's Advance {0} seconds after you finish sprinting",
 				text="Stun Buildup cannot empty while you have Swarm's Advance\nLose all Swarm's Advance {0} seconds after you finish sprinting"
 			}
 		},

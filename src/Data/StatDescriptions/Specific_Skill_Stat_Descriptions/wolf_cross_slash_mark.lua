@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Mark] duration is {0} second",
 				text="Mark duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark] duration is {0} seconds",
 				text="Mark duration is {0} seconds"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark|Marked] target takes {0}% increased damage for each of its enemies within 6 metres of it, up to {1}%",
 				text="Marked target takes {0}% increased damage for each of its enemies within 6 metres of it, up to {1}%"
 			}
 		},

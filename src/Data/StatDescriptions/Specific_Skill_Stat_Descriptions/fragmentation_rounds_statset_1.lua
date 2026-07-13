@@ -37,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -50,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -66,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] for explosions originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% more damage with Hits for explosions originating\nfrom a Unique enemy"
 			},
 			[2]={
@@ -79,6 +82,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] for explosions originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% less damage with Hits for explosions originating\nfrom a Unique enemy"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on enemies [HitDamage|Hit] to\ntrigger a secondary explosion at their location\nSecondary explosions cannot [Consume] [Freeze]",
 				text="Consumes Freeze on enemies Hit to\ntrigger a secondary explosion at their location\nSecondary explosions cannot Consume Freeze"
 			}
 		},

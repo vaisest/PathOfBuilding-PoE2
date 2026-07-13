@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[ConsecratedGround|Consecrated Ground] radius is {0} metre",
 				text="Consecrated Ground radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ConsecratedGround|Consecrated Ground] radius is {0} metres",
 				text="Consecrated Ground radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ConsecratedGround|Consecrated Ground] duration is {0} second",
 				text="Consecrated Ground duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ConsecratedGround|Consecrated Ground] duration is {0} seconds",
 				text="Consecrated Ground duration is {0} seconds"
 			}
 		},

@@ -45,7 +45,7 @@ local function processStatFile(name, changeOutLocation)
 			elseif curLang and not line:match('table_only') then
 				local statLimits, quality, text, special = line:match('([%d%-#| !]+)%s*([%w_]*)%s*"(.-)"%s*(.*)')
 				if statLimits then
-					local desc = { text = sanitiseText(escapeGGGString(text)):gsub("\\([^nb])", "\\n%1"), limit = { } }
+					local desc = { text = sanitiseText(escapeGGGString(text)):gsub("\\([^nb])", "\\n%1"), limit = {}, rawText = text }
 					for statLimit in statLimits:gmatch("[!%d%-#|]+") do
 						local limit = { }
 						

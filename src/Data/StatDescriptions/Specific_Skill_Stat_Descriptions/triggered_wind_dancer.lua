@@ -19,6 +19,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to explosion radius",
 				text="{0:+d} metre to explosion radius"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to explosion radius",
 				text="{0:+d} metres to explosion radius"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more area of effect per stage",
 				text="{0}% more area of effect per stage"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less area of effect per stage",
 				text="{0}% less area of effect per stage"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage per stage",
 				text="{0}% more damage per stage"
 			},
 			[2]={
@@ -129,6 +136,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage per stage",
 				text="{0}% less damage per stage"
 			}
 		},
@@ -145,6 +153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Knockback] distance per stage",
 				text="{0}% more Knockback distance per stage"
 			},
 			[2]={
@@ -158,6 +167,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Knockback] distance per stage",
 				text="{0}% less Knockback distance per stage"
 			}
 		},

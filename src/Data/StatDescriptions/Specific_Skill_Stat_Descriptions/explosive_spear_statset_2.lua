@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to Explosion length",
 				text="{0:+d} metre to Explosion length"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to Explosion length",
 				text="{0:+d} metres to Explosion length"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion length is {0} metre",
 				text="Explosion length is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion length is {0} metres",
 				text="Explosion length is {0} metres"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion width is {0} metre",
 				text="Explosion width is {0} metre"
 			},
 			[2]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion width is {0} metres",
 				text="Explosion width is {0} metres"
 			}
 		},
@@ -117,6 +123,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to [IgnitedGround|Ignited Ground] radius",
 				text="{0:+d} metre to Ignited Ground radius"
 			},
 			[2]={
@@ -131,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to [IgnitedGround|Ignited Ground] radius",
 				text="{0:+d} metres to Ignited Ground radius"
 			},
 			[3]={
@@ -144,6 +152,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metre",
 				text="Ignited Ground radius is {0} metre"
 			},
 			[4]={
@@ -157,6 +166,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metres",
 				text="Ignited Ground radius is {0} metres"
 			}
 		},
@@ -191,6 +201,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} second",
 				text="Ignited Ground duration is {0} second"
 			},
 			[2]={
@@ -204,6 +215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} seconds",
 				text="Ignited Ground duration is {0} seconds"
 			}
 		},
@@ -220,6 +232,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] [Ignite|Ignites] enemies as though dealing the explosion's damage",
 				text="Ignited Ground Ignites enemies as though dealing the explosion's damage"
 			}
 		},

@@ -20,6 +20,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{2:+d}% maximum [ElementalDamage|Elemental] [Exposure] applied",
 				text="{2:+d}% maximum Elemental Exposure applied"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initially applies {0}% [ElementalDamage|Elemental] [Exposure] and {1}% [Exposure] per pulse, up to a maximum of {2}%",
 				text="Initially applies {0}% Elemental Exposure and {1}% Exposure per pulse, up to a maximum of {2}%"
 			}
 		},
@@ -66,6 +68,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Pulse and explosion radius are {0} metre",
 				text="Pulse and explosion radius are {0} metre"
 			},
 			[2]={
@@ -79,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse and explosion radius are {0} metres",
 				text="Pulse and explosion radius are {0} metres"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Frost Bomb",
 				text="Limit {0} Frost Bomb"
 			}
 		},
@@ -115,6 +120,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Exposure] duration is {0} second",
 				text="Exposure duration is {0} second"
 			},
 			[2]={
@@ -128,6 +134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure] duration is {0} seconds",
 				text="Exposure duration is {0} seconds"
 			}
 		},
@@ -148,6 +155,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Orb duration is {0} second",
 				text="Orb duration is {0} second"
 			},
 			[2]={
@@ -161,6 +169,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orb duration is {0} seconds",
 				text="Orb duration is {0} seconds"
 			}
 		},
@@ -177,6 +186,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Cannot apply [Exposure] to enemies of level higher than {0}",
 				text="Cannot apply Exposure to enemies of level higher than {0}"
 			}
 		},
@@ -207,6 +217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Frost Bomb Limit@{0}",
 				text="Frost Bomb Limit@{0}"
 			}
 		},

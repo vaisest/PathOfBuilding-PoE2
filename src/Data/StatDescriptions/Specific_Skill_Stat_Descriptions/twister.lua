@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Twister radius is {0} metre",
 				text="Twister radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Twister radius is {0} metres",
 				text="Twister radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Twister duration is {0} second",
 				text="Twister duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Twister duration is {0} seconds",
 				text="Twister duration is {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Twister [HitDamage|Hits] at {0}% of [Attack] speed",
 				text="Twister Hits at {0}% of Attack speed"
 			}
 		},
@@ -107,6 +112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes [Whirlwind|Whirlwinds] to create an additional twister and deal {0}% more damage per [Whirlwind] stage",
 				text="Consumes Whirlwinds to create an additional twister and deal {0}% more damage per Whirlwind stage"
 			}
 		},
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elemental twisters [Gain] {0}% of damage as damage of the corresponding [ElementalDamage|Type]",
 				text="Elemental twisters Gain {0}% of damage as damage of the corresponding Type"
 			}
 		},
@@ -143,6 +150,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Twisters fired at the same time can [HitDamage|Hit] the same\ntarget no more than once per second",
 				text="Twisters fired at the same time can Hit the same\ntarget no more than once per second"
 			},
 			[2]={
@@ -156,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Twisters fired at the same time can [HitDamage|Hit] the same\ntarget no more than once every {0} seconds",
 				text="Twisters fired at the same time can Hit the same\ntarget no more than once every {0} seconds"
 			}
 		},
@@ -172,6 +181,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for an additional twister",
 				text="{0}% chance for an additional twister"
 			}
 		},
@@ -192,6 +202,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Twister [HitDamage|Hit] interval@{0}s",
 				text="Twister Hit interval@{0}s"
 			}
 		},

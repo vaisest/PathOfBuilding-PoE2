@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metre",
 				text="Banner Aura radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metres",
 				text="Banner Aura radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% more [Armour] and [Evasion|Evasion Rating]",
 				text="Aura grants {0}% more Armour and Evasion Rating"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% less [Armour] and [Evasion|Evasion Rating]",
 				text="Aura grants {0}% less Armour and Evasion Rating"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% increased movement speed",
 				text="Aura grants {0}% increased movement speed"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% reduced movement speed",
 				text="Aura grants {0}% reduced movement speed"
 			}
 		},
@@ -113,6 +119,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Banner duration is {0} second",
 				text="Banner duration is {0} second"
 			},
 			[2]={
@@ -126,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner duration is {0} seconds",
 				text="Banner duration is {0} seconds"
 			}
 		},
@@ -142,6 +150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% more [Armour] and [Evasion]",
 				text="Aura grants {0}% more Armour and Evasion"
 			},
 			[2]={
@@ -155,6 +164,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% less [Armour] and [Evasion]",
 				text="Aura grants {0}% less Armour and Evasion"
 			}
 		},

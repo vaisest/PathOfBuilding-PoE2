@@ -21,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This [Minion] uses your [CullingStrike|Culling Strike] threshold",
 				text="This Minion uses your Culling Strike threshold"
 			}
 		},

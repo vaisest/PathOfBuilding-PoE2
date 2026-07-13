@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] for each stage",
 				text="{0}% more Damage with Hits for each stage"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] for each stage",
 				text="{0}% less Damage with Hits for each stage"
 			}
 		},
@@ -89,6 +93,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} maximum Stage",
 				text="{0:+d} maximum Stage"
 			},
 			[2]={
@@ -102,6 +107,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} maximum Stages",
 				text="{0:+d} maximum Stages"
 			},
 			[3]={
@@ -115,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages\nChannelling ends 1 second after reaching maximum Stages\nReleases 1 [Aftershock|Aftershock] per Stage",
 				text="Maximum {0} Stages\nChannelling ends 1 second after reaching maximum Stages\nReleases 1 Aftershock per Stage"
 			}
 		},

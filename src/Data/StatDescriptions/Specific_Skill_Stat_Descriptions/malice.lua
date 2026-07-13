@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0} second",
 				text="Critical Weakness duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0} seconds",
 				text="Critical Weakness duration is {0} seconds"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Applies [CriticalWeakness|Critical Weakness] to enemies every {0} second",
 				text="Applies Critical Weakness to enemies every {0} second"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies [CriticalWeakness|Critical Weakness] to enemies every {0} seconds",
 				text="Applies Critical Weakness to enemies every {0} seconds"
 			}
 		},

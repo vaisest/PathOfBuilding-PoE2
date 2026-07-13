@@ -21,6 +21,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to Impact radius",
 				text="{0:+d} metre to Impact radius"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to Impact radius",
 				text="{0:+d} metres to Impact radius"
 			},
 			[3]={
@@ -48,6 +50,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[4]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},

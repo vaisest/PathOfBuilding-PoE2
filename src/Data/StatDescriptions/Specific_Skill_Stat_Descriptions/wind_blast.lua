@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cone length is {0} metre",
 				text="Cone length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length is {0} metres",
 				text="Cone length is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Daze|Dazes] on [HitDamage|Hit]",
 				text="Dazes on Hit"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Daze] on [HitDamage|Hit]",
 				text="{0}% chance to Daze on Hit"
 			}
 		},

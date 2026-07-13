@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Modifiers to Area of Effect also apply to Spell Damage",
 				text="Modifiers to Area of Effect also apply to Spell Damage"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Area of Effect apply to Spell Damage instead",
 				text="Modifiers to Area of Effect apply to Spell Damage instead"
 			}
 		},
@@ -89,6 +93,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Meteor lands after {0} second",
 				text="Meteor lands after {0} second"
 			},
 			[2]={
@@ -102,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Meteor lands after {0} seconds",
 				text="Meteor lands after {0} seconds"
 			}
 		},

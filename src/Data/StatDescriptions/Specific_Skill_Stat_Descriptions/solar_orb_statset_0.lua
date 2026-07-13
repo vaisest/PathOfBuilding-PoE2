@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Orb] duration is {0} second",
 				text="Orb duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Orb] duration is {0} seconds",
 				text="Orb duration is {0} seconds"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Solar Orb",
 				text="Limit {0} Solar Orb"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Solar Orbs",
 				text="Limit {0} Solar Orbs"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orb Limit@{0}",
 				text="Orb Limit@{0}"
 			}
 		},

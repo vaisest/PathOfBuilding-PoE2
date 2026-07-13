@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Gain a Ghost Shroud every second",
 				text="Gain a Ghost Shroud every second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Ghost Shroud every {0} seconds",
 				text="Gain a Ghost Shroud every {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nGhost Shroud gain frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nGhost Shroud gain frequency"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Ghost Shrouds",
 				text="Maximum {0} Ghost Shrouds"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When [HitDamage|Hit], lose a Ghost Shroud \nRegenerate [EnergyShield|Energy Shield] equal to {0}% of your [Evasion|Evasion Rating] per second if you have lost a Ghost Shroud [Recently]",
 				text="When Hit, lose a Ghost Shroud \nRegenerate Energy Shield equal to {0}% of your Evasion Rating per second if you have lost a Ghost Shroud Recently"
 			}
 		},

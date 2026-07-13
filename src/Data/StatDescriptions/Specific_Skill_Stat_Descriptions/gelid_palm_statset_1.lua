@@ -25,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="-{1} seconds to burst cooldown",
 				text="-{1} seconds to burst cooldown"
 			},
 			[2]={
@@ -42,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates an icy burst when you [HitDamage|Hit] with [UnarmedDamage|Unarmed] [Melee] damage, no more than {0} time every {1} seconds",
 				text="Creates an icy burst when you Hit with Unarmed Melee damage, no more than {0} time every {1} seconds"
 			},
 			[3]={
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates an icy burst when you [HitDamage|Hit] with [UnarmedDamage|Unarmed] [Melee] damage, no more than {0} times every {1} seconds",
 				text="Creates an icy burst when you Hit with Unarmed Melee damage, no more than {0} times every {1} seconds"
 			}
 		},
@@ -87,6 +90,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ice burst radius is {0} metre",
 				text="Ice burst radius is {0} metre"
 			},
 			[2]={
@@ -100,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice burst radius is {0} metres",
 				text="Ice burst radius is {0} metres"
 			}
 		},

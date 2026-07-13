@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Immolation radius is {0} metre",
 				text="Immolation radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Immolation radius is {0} metres",
 				text="Immolation radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Flame Breath [Gain|Gains] {0}% of\ndamage as [Lightning] damage",
 				text="Empowered Flame Breath Gains {0}% of\ndamage as Lightning damage"
 			}
 		},
@@ -71,6 +74,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered] Flame Breath costs {0}% less [Rage] per second",
 				text="Empowered Flame Breath costs {0}% less Rage per second"
 			}
 		},

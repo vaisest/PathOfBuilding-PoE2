@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cone length is {0} metre",
 				text="Cone length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length is {0} metres",
 				text="Cone length is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per [Charges|Power Charge] Consumed",
 				text="{0}% more Damage per Power Charge Consumed"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per [Charges|Power Charge] Consumed",
 				text="{0}% less Damage per Power Charge Consumed"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage if a [Charges|Power Charge] was Consumed",
 				text="{0}% more Damage if a Power Charge was Consumed"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage if a [Charges|Power Charge] was Consumed",
 				text="{0}% less Damage if a Power Charge was Consumed"
 			}
 		},
@@ -109,6 +115,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectile] per [Charges|Power Charge] Consumed",
 				text="Fires {0} Projectile per Power Charge Consumed"
 			},
 			[2]={
@@ -118,6 +125,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectiles] per [Charges|Power Charge] Consumed",
 				text="Fires {0} Projectiles per Power Charge Consumed"
 			}
 		},

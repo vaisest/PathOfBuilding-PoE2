@@ -16,6 +16,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0:+d} second",
 				text="Critical Weakness duration is {0:+d} second"
 			},
 			[2]={
@@ -30,6 +31,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0:+d} seconds",
 				text="Critical Weakness duration is {0:+d} seconds"
 			},
 			[3]={
@@ -43,6 +45,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0} second",
 				text="Critical Weakness duration is {0} second"
 			},
 			[4]={
@@ -56,6 +59,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CriticalWeakness|Critical Weakness] duration is {0} seconds",
 				text="Critical Weakness duration is {0} seconds"
 			}
 		},

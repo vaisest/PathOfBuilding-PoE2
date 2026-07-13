@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Removes damage delayed by [PhasedForm|Phased Form]",
 				text="Removes damage delayed by Phased Form"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} afterimages",
 				text="Maximum {0} afterimages"
 			}
 		},
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates an afterimage every {0} seconds",
 				text="Creates an afterimage every {0} seconds"
 			}
 		},

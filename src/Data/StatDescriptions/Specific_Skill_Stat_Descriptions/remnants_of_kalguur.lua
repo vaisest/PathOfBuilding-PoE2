@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to spawn a [Remnant] on [Stun|Stunning] an Enemy",
 				text="{0:+d}% chance to spawn a Remnant on Stunning an Enemy"
 			},
 			[2]={
@@ -29,6 +30,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0}% chance to spawn a [Remnant] on [Stun|Stunning] an Enemy, no more than once per second",
 				text="{0}% chance to spawn a Remnant on Stunning an Enemy, no more than once per second"
 			},
 			[3]={
@@ -46,6 +48,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to spawn a [Remnant] on [Stun|Stunning] an Enemy, no more than once every {1} seconds",
 				text="{0}% chance to spawn a Remnant on Stunning an Enemy, no more than once every {1} seconds"
 			},
 			[4]={
@@ -59,6 +62,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spawn a [Remnant] on [Stun|Stunning] an Enemy, no more than once per second",
 				text="Spawn a Remnant on Stunning an Enemy, no more than once per second"
 			},
 			[5]={
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on [Stun|Stunning] an Enemy, no more than once every {1} seconds",
 				text="Spawn a Remnant on Stunning an Enemy, no more than once every {1} seconds"
 			}
 		},
@@ -94,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to spawn a [Remnant] on killing an enemy",
 				text="{0:+d}% chance to spawn a Remnant on killing an enemy"
 			},
 			[2]={
@@ -103,6 +109,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to spawn a [Remnant] on killing an enemy",
 				text="{0}% chance to spawn a Remnant on killing an enemy"
 			},
 			[3]={
@@ -112,6 +119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on killing an enemy",
 				text="Spawn a Remnant on killing an enemy"
 			}
 		},
@@ -128,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each [Remnant] grants {0} [Ward|Runic Ward]",
 				text="Each Remnant grants {0} Runic Ward"
 			}
 		},

@@ -26,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a Stage every second, up to a maximum of {1} Stages",
 				text="Gains a Stage every second, up to a maximum of {1} Stages"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a Stage every {0} seconds, up to a maximum of {1} Stages",
 				text="Gains a Stage every {0} seconds, up to a maximum of {1} Stages"
 			}
 		},

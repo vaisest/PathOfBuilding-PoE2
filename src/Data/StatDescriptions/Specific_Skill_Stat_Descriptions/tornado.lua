@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Tornado radius is {0} metre",
 				text="Tornado radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado radius is {0} metres",
 				text="Tornado radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} damage per second of each absorbed\n[ElementalDamage|Elemental Damage] type",
 				text="Deals {0} damage per second of each absorbed\nElemental Damage type"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to Tornado duration",
 				text="{0:+d} second to Tornado duration"
 			},
 			[2]={
@@ -90,6 +94,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Tornado duration",
 				text="{0:+d} seconds to Tornado duration"
 			},
 			[3]={
@@ -103,6 +108,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Tornado duration is {0} second",
 				text="Tornado duration is {0} second"
 			},
 			[4]={
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado duration is {0} seconds",
 				text="Tornado duration is {0} seconds"
 			}
 		},
@@ -136,6 +143,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Cold] damage per second if [ChilledGround|Chilled Ground] absorbed@{0}",
 				text="Cold damage per second if Chilled Ground absorbed@{0}"
 			}
 		},
@@ -156,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Fire] damage per second if [Ignited Ground|Ignited Ground] absorbed@{0}",
 				text="Fire damage per second if Ignited Ground absorbed@{0}"
 			}
 		},
@@ -176,6 +185,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Lightning] damage per second if [ShockedGround|Shocked Ground] absorbed@{0}",
 				text="Lightning damage per second if Shocked Ground absorbed@{0}"
 			}
 		},
@@ -193,6 +203,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} to [Limit] of Tornadoes",
 				text="+{0} to Limit of Tornadoes"
 			},
 			[2]={
@@ -202,6 +213,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Tornado",
 				text="Limit {0} Tornado"
 			},
 			[3]={
@@ -211,6 +223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Tornadoes",
 				text="Limit {0} Tornadoes"
 			}
 		},
@@ -234,6 +247,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado [Limit]@{0}",
 				text="Tornado Limit@{0}"
 			}
 		},

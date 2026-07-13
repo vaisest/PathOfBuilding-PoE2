@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune creation radius@{0}m",
 				text="Rune creation radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates runes within a {0} metre radius",
 				text="Creates runes within a {0} metre radius"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Rune",
 				text="Limit {0} Rune"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Runes",
 				text="Limit {0} Runes"
 			}
 		},
@@ -76,6 +80,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} Rune",
 				text="Creates {0} Rune"
 			},
 			[2]={
@@ -85,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Runes",
 				text="Creates {0} Runes"
 			}
 		},

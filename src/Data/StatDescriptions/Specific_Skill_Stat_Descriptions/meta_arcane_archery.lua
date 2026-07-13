@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Gains {0} [Energy] per ten Mana spent on ranged [Attack|Attacks]",
 				text="DNT-UNUSED Gains {0} Energy per ten Mana spent on ranged Attacks"
 			}
 		},

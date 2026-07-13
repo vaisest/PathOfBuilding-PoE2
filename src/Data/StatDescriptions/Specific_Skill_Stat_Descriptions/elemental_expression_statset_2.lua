@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires {0} [Projectile]",
 				text="Fires {0} Projectile"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectiles]",
 				text="Fires {0} Projectiles"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Haemocrystal radius is {0} metre",
 				text="Haemocrystal radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Haemocrystal radius is {0} metres",
 				text="Haemocrystal radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Haemocrystals explode after {0} second",
 				text="Haemocrystals explode after {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Haemocrystals explode after {0} seconds",
 				text="Haemocrystals explode after {0} seconds"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Haemocrystals are randomly created within {0} metre of the [Consume|Consumed] [Bleeding]",
 				text="Haemocrystals are randomly created within {0} metre of the Consumed Bleeding"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Haemocrystals are randomly created within {0} metres of the [Consume|Consumed] [Bleeding]",
 				text="Haemocrystals are randomly created within {0} metres of the Consumed Bleeding"
 			}
 		},
@@ -117,6 +123,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Haemocrystals deal Damage equal to the highest expected remaining Damage of the [Consume|Consumed] [Bleeding]",
 				text="Haemocrystals deal Damage equal to the highest expected remaining Damage of the Consumed Bleeding"
 			},
 			[2]={
@@ -126,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Haemocrystals deal Damage equal to {0}% of the highest expected remaining Damage of the [Consume|Consumed] [Bleeding]",
 				text="Haemocrystals deal Damage equal to {0}% of the highest expected remaining Damage of the Consumed Bleeding"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolt range@{0}m",
 				text="Bolt range@{0}m"
 			}
 		},
@@ -39,6 +40,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Bolts target enemies within {0:+d} metre",
 				text="Bolts target enemies within {0:+d} metre"
 			},
 			[2]={
@@ -56,6 +58,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Bolts target enemies within {0:+d} metres",
 				text="Bolts target enemies within {0:+d} metres"
 			},
 			[3]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts target enemies within {0} metre",
 				text="Bolts target enemies within {0} metre"
 			},
 			[4]={
@@ -90,6 +94,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts target enemies within {0} metres",
 				text="Bolts target enemies within {0} metres"
 			}
 		},

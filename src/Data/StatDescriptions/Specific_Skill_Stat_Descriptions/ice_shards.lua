@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Shards arm after {0} second",
 				text="Shards arm after {0} second"
 			},
 			[2]={
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shards arm after {0} seconds",
 				text="Shards arm after {0} seconds"
 			}
 		},
@@ -106,6 +110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shards deal up to {0}% more damage {2} seconds after arming",
 				text="Shards deal up to {0}% more damage {2} seconds after arming"
 			},
 			[2]={
@@ -131,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shards deal up to {0}% less damage {2} seconds after arming",
 				text="Shards deal up to {0}% less damage {2} seconds after arming"
 			},
 			[3]={
@@ -153,6 +159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shards deal up to {0:+d}% more Damage after arming",
 				text="Shards deal up to {0:+d}% more Damage after arming"
 			}
 		},
@@ -171,6 +178,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} active shard",
 				text="Maximum {0} active shard"
 			},
 			[2]={
@@ -180,6 +188,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} active shards",
 				text="Maximum {0} active shards"
 			}
 		},

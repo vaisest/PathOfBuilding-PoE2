@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Curse] duration is {0} second",
 				text="Curse duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] duration is {0} seconds",
 				text="Curse duration is {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] applies {0} Fragility",
 				text="Curse applies {0} Fragility"
 			}
 		},
@@ -65,6 +68,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [Mark|Marked] target",
 				text="Limit {0} Marked target"
 			},
 			[2]={
@@ -74,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [Mark|Marked] targets",
 				text="Limit {0} Marked targets"
 			}
 		},

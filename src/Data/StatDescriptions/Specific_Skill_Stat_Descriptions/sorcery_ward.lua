@@ -25,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Barrier recharges after {0} seconds",
 				text="Barrier recharges after {0} seconds"
 			}
 		},
@@ -42,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Barrier can take [ElementalDamage|Elemental Damage] equal to {0:+d}% of your [Armour] and [Evasion|Evasion Rating]",
 				text="Barrier can take Elemental Damage equal to {0:+d}% of your Armour and Evasion Rating"
 			},
 			[2]={
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ElementalDamage|Elemental Damage] from [HitDamage|Hits] is taken from the Barrier before your Life, Mana or [EnergyShield|Energy Shield]\nBarrier can take [ElementalDamage|Elemental Damage] equal to {0}% of your [Armour] and [Evasion|Evasion Rating], up to a maximum of 32,000",
 				text="Elemental Damage from Hits is taken from the Barrier before your Life, Mana or Energy Shield\nBarrier can take Elemental Damage equal to {0}% of your Armour and Evasion Rating, up to a maximum of 32,000"
 			}
 		},

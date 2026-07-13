@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per 50 [Strength]",
 				text="{0}% more Damage per 50 Strength"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per 50 [Strength]",
 				text="{0}% less Damage per 50 Strength"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals [Physical] Damage equal to {0}% [ArmourBreak|Broken Armour] of the target [Trigger|Triggered] from\nDoes not take into account [ArmourOverbreak|Overbroken Armour]",
 				text="Deals Physical Damage equal to {0}% Broken Armour of the target Triggered from\nDoes not take into account Overbroken Armour"
 			}
 		},

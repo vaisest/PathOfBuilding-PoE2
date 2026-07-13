@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} Metres to initial cast radius",
 				text="+{0} Metres to initial cast radius"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Initial cast radius is {0} metre",
 				text="Initial cast radius is {0} metre"
 			},
 			[3]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initial cast radius is {0} metres",
 				text="Initial cast radius is {0} metres"
 			}
 		},
@@ -69,6 +72,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Debuff] duration is {0} second",
 				text="Debuff duration is {0} second"
 			},
 			[2]={
@@ -82,6 +86,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] duration is {0} seconds",
 				text="Debuff duration is {0} seconds"
 			}
 		},
@@ -98,6 +103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff|Debuffed] targets [LifeLoss|lose life] equal to {0}% of [HitDamage|Hit Damage] dealt to them while [Debuff|Debuffed] when [Debuff] expires\n [CullingStrike|Culls] enemies if [Debuff] reaches [CullingStrike|Culling Strike] Threshold",
 				text="Debuffed targets lose life equal to {0}% of Hit Damage dealt to them while Debuffed when Debuff expires\n Culls enemies if Debuff reaches Culling Strike Threshold"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Aggravate] [Bleeding] on [HitDamage|Hit]",
 				text="{0}% chance to Aggravate Bleeding on Hit"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Aggravate] [Bleeding] on [HitDamage|Hit]",
 				text="Aggravate Bleeding on Hit"
 			}
 		},

@@ -20,6 +20,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} [Cold] damage per second",
 				text="Deals {0} Cold damage per second"
 			}
 		},
@@ -40,6 +41,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Rune radius is {0} metre",
 				text="Rune radius is {0} metre"
 			},
 			[2]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune radius is {0} metres",
 				text="Rune radius is {0} metres"
 			}
 		},
@@ -73,6 +76,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Rune duration is {0} second",
 				text="Rune duration is {0} second"
 			},
 			[2]={
@@ -86,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune duration is {0} seconds",
 				text="Rune duration is {0} seconds"
 			}
 		},

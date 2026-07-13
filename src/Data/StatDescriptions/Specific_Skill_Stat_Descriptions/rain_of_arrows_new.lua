@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Rain radius is {0} metre",
 				text="Rain radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rain radius is {0} metres",
 				text="Rain radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Arrow impact radius is {0} metre",
 				text="Arrow impact radius is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow impact radius is {0} metres",
 				text="Arrow impact radius is {0} metres"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} arrow rain",
 				text="Maximum {0} arrow rain"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} arrow rains",
 				text="Maximum {0} arrow rains"
 			}
 		},
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrows fall {0}% faster",
 				text="Arrows fall {0}% faster"
 			},
 			[2]={
@@ -136,6 +143,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Arrows fall {0}% slower",
 				text="Arrows fall {0}% slower"
 			}
 		},
@@ -156,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="One arrow lands every {0} seconds",
 				text="One arrow lands every {0} seconds"
 			}
 		},
@@ -172,6 +181,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0}% more Arrows if a [Charges|Frenzy Charge] was consumed",
 				text="Fires {0}% more Arrows if a Frenzy Charge was consumed"
 			}
 		},
@@ -188,6 +198,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0}% more Arrows if a [Charges|Frenzy Charge] was consumed",
 				text="Fires {0}% more Arrows if a Frenzy Charge was consumed"
 			}
 		},
@@ -204,6 +215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to [Projectile] speed apply to arrow landing frequency",
 				text="Modifiers to Projectile speed apply to arrow landing frequency"
 			}
 		},

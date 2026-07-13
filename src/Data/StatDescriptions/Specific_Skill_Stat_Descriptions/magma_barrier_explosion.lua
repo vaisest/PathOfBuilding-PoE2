@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Magma Spray radius is {0} metre",
 				text="Magma Spray radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Magma Spray radius is {0} metres",
 				text="Magma Spray radius is {0} metres"
 			}
 		},

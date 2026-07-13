@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact and [JaggedGround|Jagged Ground] radius are {0} metre",
 				text="Impact and Jagged Ground radius are {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact and [JaggedGround|Jagged Ground] radius are {0} metres",
 				text="Impact and Jagged Ground radius are {0} metres"
 			}
 		},

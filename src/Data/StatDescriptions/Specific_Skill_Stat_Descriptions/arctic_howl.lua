@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Warcry radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Warcry radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -107,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants [Allies] {0} to {1} added [Cold] damage to [Attack|Attacks]",
 				text="Buff grants Allies {0} to {1} added Cold damage to Attacks"
 			}
 		},
@@ -124,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants [Allies] {0}% increased [Freeze] buildup",
 				text="Buff grants Allies {0}% increased Freeze buildup"
 			}
 		},
@@ -144,6 +150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] deal {0} to {1} additional [Cold] damage",
 				text="Empowered Attacks deal {0} to {1} additional Cold damage"
 			}
 		},
@@ -165,6 +172,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Empowered] [Slam|Slams] create [ChilledGround|Chilled Ground] for {0} second",
 				text="Empowered Slams create Chilled Ground for {0} second"
 			},
 			[2]={
@@ -178,6 +186,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Slam|Slams] create [ChilledGround|Chilled Ground] for {0} seconds",
 				text="Empowered Slams create Chilled Ground for {0} seconds"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to spawn a [Remnant] on killing an enemy",
 				text="{0}% chance to spawn a Remnant on killing an enemy"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on killing an enemy",
 				text="Spawn a Remnant on killing an enemy"
 			}
 		},
@@ -36,6 +38,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spawn a [Remnant] on [Critical|Critically Hitting] a target, no more than once per second",
 				text="Spawn a Remnant on Critically Hitting a target, no more than once per second"
 			},
 			[2]={
@@ -49,6 +52,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on [Critical|Critically Hitting] a target, no more than once every {0} seconds",
 				text="Spawn a Remnant on Critically Hitting a target, no more than once every {0} seconds"
 			}
 		},
@@ -65,6 +69,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spawn a [Remnant] on [HitDamage|Hitting] a target, no more than once per second",
 				text="Spawn a Remnant on Hitting a target, no more than once per second"
 			},
 			[2]={
@@ -78,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a [Remnant] on [HitDamage|Hitting] a target, no more than once every {0} seconds",
 				text="Spawn a Remnant on Hitting a target, no more than once every {0} seconds"
 			}
 		},
@@ -94,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each [Remnant] grants {0} Life",
 				text="Each Remnant grants {0} Life"
 			}
 		},

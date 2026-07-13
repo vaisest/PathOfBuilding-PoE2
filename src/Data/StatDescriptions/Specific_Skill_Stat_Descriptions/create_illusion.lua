@@ -25,6 +25,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Illusion duration is {0} second",
 				text="Illusion duration is {0} second"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Illusion duration is {0} seconds",
 				text="Illusion duration is {0} seconds"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to create an additional [Remnant]",
 				text="{0:+d}% chance to create an additional Remnant"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create an additional [Remnant]",
 				text="{0}% chance to create an additional Remnant"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to grant an additional [Charges|Power Charge] when killed",
 				text="{0}% chance to grant an additional Power Charge when killed"
 			},
 			[2]={
@@ -97,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants an additional [Charges|Power Charge] when killed",
 				text="Grants an additional Power Charge when killed"
 			},
 			[3]={
@@ -110,6 +116,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d}% chance to grant an additional [Charges|Power Charge] when killed",
 				text="{0:+d}% chance to grant an additional Power Charge when killed"
 			}
 		},

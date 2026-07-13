@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Bolts",
 				text="Fires {0} Bolts"
 			}
 		},
@@ -86,6 +89,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Charged Bolt duration is {0} second",
 				text="Charged Bolt duration is {0} second"
 			},
 			[2]={
@@ -99,6 +103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Charged Bolt duration is {0} seconds",
 				text="Charged Bolt duration is {0} seconds"
 			}
 		},

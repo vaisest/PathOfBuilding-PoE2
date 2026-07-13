@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Non-Channelling [Spell|Spells] [Gain] {0}% of Damage as extra [Lightning] damage for each 100 maximum Mana you have",
 				text="Non-Channelling Spells Gain {0}% of Damage as extra Lightning damage for each 100 maximum Mana you have"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Non-Channelling [Spell|Spells] cost an additional {0}% of your maximum Mana",
 				text="Non-Channelling Spells cost an additional {0}% of your maximum Mana"
 			}
 		},

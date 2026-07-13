@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Stun] buildup on [HitDamage|Hit]\nper Fragility on the target",
 				text="{0}% more Stun buildup on Hit\nper Fragility on the target"
 			},
 			[2]={
@@ -65,6 +68,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0}% less [Stun] buildup on [HitDamage|Hit]\nper Fragility on the target",
 				text="{0}% less Stun buildup on Hit\nper Fragility on the target"
 			}
 		},

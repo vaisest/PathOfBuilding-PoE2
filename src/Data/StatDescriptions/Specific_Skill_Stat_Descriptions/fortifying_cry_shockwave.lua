@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Attack is [Trigger|Triggered] by Fortifying Cry and counts as [Empowered] by it",
 				text="This Attack is Triggered by Fortifying Cry and counts as Empowered by it"
 			}
 		},
@@ -43,6 +44,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -72,6 +75,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Damage with [Warcry|Warcries] affect this Skill",
 				text="Modifiers to Damage with Warcries affect this Skill"
 			}
 		},

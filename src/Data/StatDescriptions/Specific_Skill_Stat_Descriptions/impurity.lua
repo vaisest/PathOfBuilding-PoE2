@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Aura] grants {0:+d}% to [Chaos|Chaos] Resistance",
 				text="Aura grants {0:+d}% to Chaos Resistance"
 			}
 		},

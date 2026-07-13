@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to wave length",
 				text="{0:+d} metres to wave length"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave length is {0} metre",
 				text="Wave length is {0} metre"
 			},
 			[3]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is {0} metres",
 				text="Wave length is {0} metres"
 			}
 		},

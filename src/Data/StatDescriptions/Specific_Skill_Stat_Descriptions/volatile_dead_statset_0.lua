@@ -12,6 +12,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes {0:+d} [Corpse]",
 				text="Consumes {0:+d} Corpse"
 			},
 			[2]={
@@ -22,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes {0:+d} [Corpses]",
 				text="Consumes {0:+d} Corpses"
 			},
 			[3]={
@@ -31,6 +33,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes up to {0} [Corpse]",
 				text="Consumes up to {0} Corpse"
 			},
 			[4]={
@@ -40,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes up to {0} [Corpse|Corpses]",
 				text="Consumes up to {0} Corpses"
 			}
 		},
@@ -60,6 +64,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Core duration is {0} second",
 				text="Core duration is {0} second"
 			},
 			[2]={
@@ -73,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Core duration is {0} seconds",
 				text="Core duration is {0} seconds"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Aura] grants {0}% increased [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="Aura grants {0}% increased Energy Shield Recharge Rate"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Aura] grants {0}% reduced [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="Aura grants {0}% reduced Energy Shield Recharge Rate"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Aura] grants {0:+d} to [TotalPlus|Total] Maximum [EnergyShield|Energy Shield]",
 				text="Aura grants {0:+d} to Total Maximum Energy Shield"
 			}
 		},

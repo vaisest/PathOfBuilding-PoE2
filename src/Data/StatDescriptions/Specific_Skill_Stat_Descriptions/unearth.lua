@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length@{0}m",
 				text="Cone length@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cone length is {0} metre",
 				text="Cone length is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length is {0} metres",
 				text="Cone length is {0} metres"
 			}
 		},
@@ -72,6 +75,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Bone Construct duration",
 				text="{0:+d} second to Bone Construct duration"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Bone Construct duration",
 				text="{0:+d} seconds to Bone Construct duration"
 			},
 			[3]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bone Construct duration is {0} second",
 				text="Bone Construct duration is {0} second"
 			},
 			[4]={
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bone Construct duration is {0} seconds",
 				text="Bone Construct duration is {0} seconds"
 			}
 		},
@@ -148,6 +155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% increased Movement Speed",
 				text="Minions have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -157,6 +165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% increased Movement Speed",
 				text="Minions have {0}% increased Movement Speed"
 			},
 			[3]={
@@ -170,6 +179,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Minion|Minions] have {0}% reduced Movement Speed",
 				text="Minions have {0}% reduced Movement Speed"
 			}
 		},
@@ -186,6 +196,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Reviving] [Minion|Minions] can only create\n one Bone Construct per death",
 				text="Reviving Minions can only create\n one Bone Construct per death"
 			}
 		},

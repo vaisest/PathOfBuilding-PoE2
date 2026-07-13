@@ -15,6 +15,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Skills can use your undead [Reviving] [Minion|Minions] in\nplace of [Corpse|Corpses]\n[Minion|Minions] [Reviving|Revive] {0}% more slowly",
 				text="Skills can use your undead Reviving Minions in\nplace of Corpses\nMinions Revive {0}% more slowly"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] [Reviving|Revive] {0:+d}% more quickly",
 				text="Minions Revive {0:+d}% more quickly"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Erupting blade creation radius@{0}m",
 				text="Erupting blade creation radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates erupting blades within {0} metre radius",
 				text="Creates erupting blades within {0} metre radius"
 			}
 		},
@@ -52,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0:+d} erupting blades",
 				text="Creates {0:+d} erupting blades"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} erupting blade",
 				text="Creates {0} erupting blade"
 			},
 			[3]={
@@ -70,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} erupting blades",
 				text="Creates {0} erupting blades"
 			}
 		},

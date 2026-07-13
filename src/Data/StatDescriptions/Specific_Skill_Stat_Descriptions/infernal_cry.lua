@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] [Gain] {0}% of damage as extra [Fire] damage",
 				text="Empowered Attacks Gain {0}% of damage as extra Fire damage"
 			}
 		},
@@ -43,6 +44,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Warcry radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Warcry radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Destabilises Enemies for {0} second",
 				text="Destabilises Enemies for {0} second"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Destabilises Enemies for {0} seconds",
 				text="Destabilises Enemies for {0} seconds"
 			}
 		},

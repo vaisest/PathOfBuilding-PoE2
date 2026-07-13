@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metre",
 				text="Ignited Ground radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metres",
 				text="Ignited Ground radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains Radius over the Ground Spear's lifetime, up to {0}% more at the end of the Spear's lifetime",
 				text="Gains Radius over the Ground Spear's lifetime, up to {0}% more at the end of the Spear's lifetime"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Loses Radius over the Ground Spear's lifetime, up to {0}% less at the end of the Spear's lifetime",
 				text="Loses Radius over the Ground Spear's lifetime, up to {0}% less at the end of the Spear's lifetime"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Generates {0}% of [Ward|Runic Ward] spent as [Glory] for this Skill",
 				text="Generates {0}% of Runic Ward spent as Glory for this Skill"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} [TemporaryMinion|Temporary Minion]",
 				text="Creates {0} Temporary Minion"
 			},
 			[2]={
@@ -36,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} [TemporaryMinion|Temporary Minions]",
 				text="Creates {0} Temporary Minions"
 			}
 		},
@@ -52,6 +55,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [TemporaryMinion|Temporary Minion]",
 				text="Limit {0} Temporary Minion"
 			},
 			[2]={
@@ -61,6 +65,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [TemporaryMinion|Temporary Minions]",
 				text="Limit {0} Temporary Minions"
 			}
 		},
@@ -88,6 +93,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -101,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},

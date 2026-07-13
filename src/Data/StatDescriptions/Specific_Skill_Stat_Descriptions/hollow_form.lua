@@ -22,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Images can be created within {0} metre radius of you",
 				text="Images can be created within {0} metre radius of you"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Creating an Image spends Socketed Skill's Cost",
 				text="Creating an Image spends Socketed Skill's Cost"
 			},
 			[2]={
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creating an Image spends {0}% of Socketed Skill's Cost",
 				text="Creating an Image spends {0}% of Socketed Skill's Cost"
 			}
 		},
@@ -63,6 +66,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes a [Charges|Power Charge] to create {0} additional Image",
 				text="Consumes a Power Charge to create {0} additional Image"
 			},
 			[2]={
@@ -72,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes a [Charges|Power Charge] to create {0} additional Images",
 				text="Consumes a Power Charge to create {0} additional Images"
 			}
 		},

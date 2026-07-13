@@ -26,6 +26,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to Pulse radius",
 				text="{0:+d} metre to Pulse radius"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to Pulse radius",
 				text="{0:+d} metres to Pulse radius"
 			},
 			[3]={
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse radius is {0} metre",
 				text="Pulse radius is {0} metre"
 			},
 			[4]={
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse radius is {0} metres",
 				text="Pulse radius is {0} metres"
 			}
 		},
@@ -94,6 +98,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Consume|Consumes] one [ElementalAilments|Ailment]",
 				text="Consumes one Ailment"
 			},
 			[2]={
@@ -103,6 +108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] up to {0} [ElementalAilments|Ailments]",
 				text="Consumes up to {0} Ailments"
 			}
 		},

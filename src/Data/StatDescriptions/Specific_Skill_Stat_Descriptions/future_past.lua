@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants each of Hindsight, Foresight, and\nSight Beyond Sight, in sequence\nHindsight lasts for a {0} second duration",
 				text="Grants each of Hindsight, Foresight, and\nSight Beyond Sight, in sequence\nHindsight lasts for a {0} second duration"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Beyond Sight duration",
 				text="{0:+d} seconds to Beyond Sight duration"
 			},
 			[2]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Foresight prevents Dodge Roll from Avoiding [HitDamage|Hits] and lasts until immediately before you are [HitDamage|Hit] while Dodge Rolling\nSight Beyond Sight makes you unable to die and lasts for a {0} second duration\nFully recover Life when you gain Sight Beyond Sight",
 				text="Foresight prevents Dodge Roll from Avoiding Hits and lasts until immediately before you are Hit while Dodge Rolling\nSight Beyond Sight makes you unable to die and lasts for a {0} second duration\nFully recover Life when you gain Sight Beyond Sight"
 			}
 		},

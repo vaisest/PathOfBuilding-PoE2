@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] Manifest Rune on [HitDamage|Hitting] with an [Attack]",
 				text="Trigger Manifest Rune on Hitting with an Attack"
 			}
 		},

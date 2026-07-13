@@ -22,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vines can stretch to a {0} metre length before breaking",
 				text="Vines can stretch to a {0} metre length before breaking"
 			}
 		},
@@ -42,6 +43,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Each attached Vine [Slow|Slows] enemy by {0}%",
 				text="Each attached Vine Slows enemy by {0}%"
 			}
 		},
@@ -62,6 +64,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Vines remain attached for up to {0} second",
 				text="Vines remain attached for up to {0} second"
 			},
 			[2]={
@@ -75,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vines remain attached for up to {0} seconds",
 				text="Vines remain attached for up to {0} seconds"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can attach {0} Vine to each enemy",
 				text="Can attach {0} Vine to each enemy"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can attach up to {0} Vines to each enemy",
 				text="Can attach up to {0} Vines to each enemy"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Plant|Overgrown] fissures can attach up to {0} additional Vine",
 				text="Overgrown fissures can attach up to {0} additional Vine"
 			},
 			[2]={
@@ -125,6 +132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Plant|Overgrown] fissures can attach up to {0} additional Vines",
 				text="Overgrown fissures can attach up to {0} additional Vines"
 			}
 		},

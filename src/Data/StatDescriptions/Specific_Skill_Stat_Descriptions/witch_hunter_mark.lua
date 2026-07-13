@@ -16,6 +16,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="[DNT-UNUSED] {0}% chance for [Mark|Marked] Enemies to generate a Hunters' [Remnant] when [Critical|Critically Hit]",
 				text="DNT-UNUSED {0}% chance for Marked Enemies to generate a Hunters' Remnant when Critically Hit"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Mark|Marked] Enemies generate a Hunters' [Remnant] when [Critical|Critically Hit]",
 				text="DNT-UNUSED Marked Enemies generate a Hunters' Remnant when Critically Hit"
 			}
 		},
@@ -45,6 +47,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Buff] granted by [Remnant|Remnants] from Humanoid Enemies grants {0}% increased Movement Speed and {1}% increased [Attack] and Cast Speed",
 				text="DNT-UNUSED Buff granted by Remnants from Humanoid Enemies grants {0}% increased Movement Speed and {1}% increased Attack and Cast Speed"
 			}
 		},
@@ -62,6 +65,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Buff granted by [Remnant|Remnants] from Constructed Enemies grants {0}% of [Evasion] gained as [Armour]",
 				text="DNT-UNUSED Buff granted by Remnants from Constructed Enemies grants {0}% of Evasion gained as Armour"
 			}
 		},
@@ -78,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Remnant|Remnants] from Beastial Enemies restore {0} [Flask] and [Charm] charges when collected",
 				text="DNT-UNUSED Remnants from Beastial Enemies restore {0} Flask and Charm charges when collected"
 			}
 		},
@@ -98,6 +103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Buff] granted by [Remnant|Remnants] from Demonic Enemies grants {0}% of Life regenerated per second",
 				text="DNT-UNUSED Buff granted by Remnants from Demonic Enemies grants {0}% of Life regenerated per second"
 			}
 		},
@@ -114,6 +120,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Buff] granted by [Remnant|Remnants] from Undead Enemies prevents your Life from being reduced to 0",
 				text="DNT-UNUSED Buff granted by Remnants from Undead Enemies prevents your Life from being reduced to 0"
 			}
 		},
@@ -134,6 +141,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Mark] duration is {0} second",
 				text="Mark duration is {0} second"
 			},
 			[2]={
@@ -147,6 +155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark] duration is {0} seconds",
 				text="Mark duration is {0} seconds"
 			}
 		},

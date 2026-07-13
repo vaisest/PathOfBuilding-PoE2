@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Fractures [ChilledGround|Chilled Ground] within {0} metre",
 				text="Fractures Chilled Ground within {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fractures [ChilledGround|Chilled Ground] within {0} metres",
 				text="Fractures Chilled Ground within {0} metres"
 			}
 		},

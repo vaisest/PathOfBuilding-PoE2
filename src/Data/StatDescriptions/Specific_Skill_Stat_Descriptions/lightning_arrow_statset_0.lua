@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Beam targeting radius is {0} metre",
 				text="Beam targeting radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beam targeting radius is {0} metres",
 				text="Beam targeting radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires beams at up to {0:+d} additional Enemy near the target",
 				text="Fires beams at up to {0:+d} additional Enemy near the target"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires beams at up to {0:+d} additional Enemies near the target",
 				text="Fires beams at up to {0:+d} additional Enemies near the target"
 			},
 			[3]={
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires beams at up to {0} additional Enemy near the target",
 				text="Fires beams at up to {0} additional Enemy near the target"
 			},
 			[4]={
@@ -94,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires beams at up to {0} additional Enemies near the target",
 				text="Fires beams at up to {0} additional Enemies near the target"
 			}
 		},

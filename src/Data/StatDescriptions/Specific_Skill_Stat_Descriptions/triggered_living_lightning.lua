@@ -11,6 +11,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="This Skill is [Trigger|Triggered] on dealing [Lightning] Damage with Supported Skill",
 				text="This Skill is Triggered on dealing Lightning Damage with Supported Skill"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} chance to [Trigger] this Skill on dealing [Lightning] Damage with Supported Skill",
 				text="{0} chance to Trigger this Skill on dealing Lightning Damage with Supported Skill"
 			}
 		},
@@ -36,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates 1 Minion\nLevel of Minions is based on Level of [Trigger|Triggering] Skill",
 				text="Creates 1 Minion\nLevel of Minions is based on Level of Triggering Skill"
 			}
 		},
@@ -56,6 +59,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Minion] duration is {0} second",
 				text="Minion duration is {0} second"
 			},
 			[2]={
@@ -69,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion] duration is {0} seconds",
 				text="Minion duration is {0} seconds"
 			}
 		},
@@ -85,6 +90,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [Minion]",
 				text="Limit {0} Minion"
 			},
 			[2]={
@@ -94,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [Minion|Minions]",
 				text="Limit {0} Minions"
 			}
 		},
@@ -110,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] convert {0}% of [Physical] damage to [Lightning] damage",
 				text="Minions convert {0}% of Physical damage to Lightning damage"
 			}
 		},
@@ -130,6 +138,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Minion|Minions] [Attack] every second",
 				text="Minions Attack every second"
 			},
 			[2]={
@@ -143,6 +152,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] [Attack] every {0} seconds",
 				text="Minions Attack every {0} seconds"
 			}
 		},
@@ -159,6 +169,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Minion|Minions] disperse after {0} [Attack]",
 				text="Minions disperse after {0} Attack"
 			},
 			[2]={
@@ -168,6 +179,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] disperse after {0} [Attack|Attacks]",
 				text="Minions disperse after {0} Attacks"
 			}
 		},

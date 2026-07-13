@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Collapse deals [Melee] damage",
 				text="Collapse deals Melee damage"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Whirlwind] radius is {0} metre",
 				text="Whirlwind radius is {0} metre"
 			},
 			[2]={
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Whirlwind] radius is {0} metres",
 				text="Whirlwind radius is {0} metres"
 			}
 		},
@@ -71,6 +74,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Whirlwind] duration is {0} second",
 				text="Whirlwind duration is {0} second"
 			},
 			[2]={
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Whirlwind] duration is {0} seconds",
 				text="Whirlwind duration is {0} seconds"
 			}
 		},
@@ -104,6 +109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}m to Radius per additional stage",
 				text="{0:+d}m to Radius per additional stage"
 			}
 		},
@@ -127,6 +133,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [Whirlwind]",
 				text="Limit {0} Whirlwind"
 			},
 			[2]={
@@ -136,6 +143,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [Whirlwind|Whirlwinds]",
 				text="Limit {0} Whirlwinds"
 			}
 		},
@@ -153,6 +161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elemental [Whirlwind|Whirlwinds] [Gain] +{0}% of damage as damage of the corresponding [DamageTypes|Type]",
 				text="Elemental Whirlwinds Gain +{0}% of damage as damage of the corresponding Type"
 			},
 			[2]={
@@ -162,6 +171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elemental [Whirlwind|Whirlwinds] [Gain] {0}% of damage as damage of the corresponding [ElementalDamage|Type]",
 				text="Elemental Whirlwinds Gain {0}% of damage as damage of the corresponding Type"
 			}
 		},

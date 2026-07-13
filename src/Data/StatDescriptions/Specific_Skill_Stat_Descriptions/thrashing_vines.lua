@@ -23,6 +23,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to vine length",
 				text="{0:+d} metre to vine length"
 			},
 			[2]={
@@ -37,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to vine length",
 				text="{0:+d} metres to vine length"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Vine length is {0} metre",
 				text="Vine length is {0} metre"
 			},
 			[4]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vine length is {0} metres",
 				text="Vine length is {0} metres"
 			}
 		},
@@ -83,6 +87,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Vine growth area radius is {0} metre",
 				text="Vine growth area radius is {0} metre"
 			},
 			[2]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vine growth area radius is {0} metres",
 				text="Vine growth area radius is {0} metres"
 			}
 		},
@@ -119,6 +125,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Plant|Overgrown] vines are {0}% larger",
 				text="Overgrown vines are {0}% larger"
 			}
 		},
@@ -135,6 +142,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Time between vine growths is {0}% of this Skill's Cast Time",
 				text="Time between vine growths is {0}% of this Skill's Cast Time"
 			}
 		},
@@ -151,6 +159,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} vine growth area",
 				text="Limit {0} vine growth area"
 			},
 			[2]={
@@ -160,6 +169,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} vine growth areas",
 				text="Limit {0} vine growth areas"
 			}
 		},
@@ -180,6 +190,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vines grow for {0} second duration",
 				text="Vines grow for {0} second duration"
 			}
 		},
@@ -203,6 +214,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Plant|Overgrown] vines deal {0}% more damage",
 				text="Overgrown vines deal {0}% more damage"
 			}
 		},
@@ -230,6 +242,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Vines grow facing nearby targets, no more than once per\nsecond for each target",
 				text="Vines grow facing nearby targets, no more than once per\nsecond for each target"
 			},
 			[2]={
@@ -243,6 +256,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vines grow facing nearby targets, no more than once per\n{0} seconds for each target",
 				text="Vines grow facing nearby targets, no more than once per\n{0} seconds for each target"
 			}
 		},

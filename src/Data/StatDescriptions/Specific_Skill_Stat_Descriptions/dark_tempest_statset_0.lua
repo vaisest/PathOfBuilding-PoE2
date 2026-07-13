@@ -26,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Mana and Life spent while in the storm is\nadded to this Skill's Mana Cost per Second",
 				text="{0}% of Mana and Life spent while in the storm is\nadded to this Skill's Mana Cost per Second"
 			}
 		},

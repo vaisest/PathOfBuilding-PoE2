@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Wardbound [Minion] [Limit]",
 				text="{0:+d} to Wardbound Minion Limit"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Summoned Wardbound [Minion]",
 				text="Limit {0} Summoned Wardbound Minion"
 			},
 			[3]={
@@ -30,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Summoned Wardbound [Minion|Minions]",
 				text="Limit {0} Summoned Wardbound Minions"
 			}
 		},
@@ -51,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}s to [Minion] duration",
 				text="{0:+d}s to Minion duration"
 			},
 			[2]={
@@ -64,6 +68,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Minion] duration is {0} second",
 				text="Minion duration is {0} second"
 			},
 			[3]={
@@ -77,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion] duration is {0} seconds",
 				text="Minion duration is {0} seconds"
 			}
 		},
@@ -101,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} [Spell|Spell] casts before dispersing",
 				text="{0:+d} Spell casts before dispersing"
 			},
 			[2]={
@@ -110,6 +117,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Minion|Minions] disperse after casting {0} [Spell|Spells]",
 				text="Minions disperse after casting {0} Spells"
 			},
 			[3]={
@@ -119,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] disperse after casting {0} [Spell|Spells]",
 				text="Minions disperse after casting {0} Spells"
 			}
 		},
@@ -135,6 +144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon one Wardbound [Minion] on Skill use and an additional [Minion] for each additional {0} [Ward|Runic Ward] spent",
 				text="Summon one Wardbound Minion on Skill use and an additional Minion for each additional {0} Runic Ward spent"
 			}
 		},

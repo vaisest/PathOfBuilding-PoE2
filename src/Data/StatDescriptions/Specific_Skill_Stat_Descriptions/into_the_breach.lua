@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[FlamesOfChayula|Flames of Chayula] fade after {0} second if not picked up",
 				text="Flames of Chayula fade after {0} second if not picked up"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[FlamesOfChayula|Flames of Chayula] fade after {0} seconds if not picked up",
 				text="Flames of Chayula fade after {0} seconds if not picked up"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[FlamesOfChayula|Flame of Chayula] within 5m of you are revealed",
 				text="Flame of Chayula within 5m of you are revealed"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[FlamesOfChayula|Flames of Chayula] have {0}% increased effect",
 				text="Flames of Chayula have {0}% increased effect"
 			},
 			[2]={
@@ -73,6 +77,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[FlamesOfChayula|Flames of Chayula] have {0}% reduced effect",
 				text="Flames of Chayula have {0}% reduced effect"
 			}
 		},

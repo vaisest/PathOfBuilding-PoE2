@@ -42,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires lightning bolts at targets within {0} metre radius",
 				text="Fires lightning bolts at targets within {0} metre radius"
 			}
 		},
@@ -62,6 +63,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} bolt",
 				text="Fires {0:+d} bolt"
 			},
 			[2]={
@@ -75,6 +77,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} bolts",
 				text="Fires {0:+d} bolts"
 			},
 			[3]={
@@ -88,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} bolt",
 				text="Fires {0} bolt"
 			},
 			[4]={
@@ -101,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} bolts",
 				text="Fires {0} bolts"
 			}
 		},

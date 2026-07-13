@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metre",
 				text="Banner Aura radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner [Aura] radius is {0} metres",
 				text="Banner Aura radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0:+d}% to all [MaximumResistances|Maximum Elemental Resistances]",
 				text="Aura grants {0:+d}% to all Maximum Elemental Resistances"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% more [AilmentThreshold|Elemental Ailment Threshold]",
 				text="Aura grants {0}% more Elemental Ailment Threshold"
 			},
 			[2]={
@@ -80,6 +84,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% less [AilmentThreshold|Elemental Ailment Threshold]",
 				text="Aura grants {0}% less Elemental Ailment Threshold"
 			}
 		},
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0} [Flask] charges per second",
 				text="Aura grants {0} Flask charges per second"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% more [StunThreshold|Stun Threshold] and\n[AilmentThreshold|Elemental Ailment Threshold]",
 				text="Aura grants {0}% more Stun Threshold and\nElemental Ailment Threshold"
 			},
 			[2]={
@@ -129,6 +136,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% less [StunThreshold|Stun Threshold] and\n[AilmentThreshold|Elemental Ailment Threshold]",
 				text="Aura grants {0}% less Stun Threshold and\nElemental Ailment Threshold"
 			}
 		},
@@ -149,6 +157,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Banner duration is {0} second",
 				text="Banner duration is {0} second"
 			},
 			[2]={
@@ -162,6 +171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Banner duration is {0} seconds",
 				text="Banner duration is {0} seconds"
 			}
 		},

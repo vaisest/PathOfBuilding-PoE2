@@ -22,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Attaches Shards to enemies within a {0} metre radius",
 				text="Attaches Shards to enemies within a {0} metre radius"
 			}
 		},

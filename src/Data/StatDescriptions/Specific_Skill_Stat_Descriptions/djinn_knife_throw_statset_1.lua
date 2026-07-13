@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Eruption radius is {0} metre",
 				text="Eruption radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Eruption radius is {0} metres",
 				text="Eruption radius is {0} metres"
 			}
 		},

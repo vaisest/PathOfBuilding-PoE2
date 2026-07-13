@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] radius is {0} metre",
 				text="Shocked Ground radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] radius is {0} metres",
 				text="Shocked Ground radius is {0} metres"
 			}
 		},
@@ -52,6 +54,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Creates [ShockedGround|Shocked Ground] with a {1} second duration",
 				text="Creates Shocked Ground with a {1} second duration"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Has a {0}% chance to create [ShockedGround|Shocked Ground] with a {1} second duration",
 				text="Has a {0}% chance to create Shocked Ground with a {1} second duration"
 			},
 			[3]={
@@ -86,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates [ShockedGround|Shocked Ground] with a {1} second duration",
 				text="Creates Shocked Ground with a {1} second duration"
 			},
 			[4]={
@@ -103,6 +108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Has a {0}% chance to create [ShockedGround|Shocked Ground] with a {1} second duration",
 				text="Has a {0}% chance to create Shocked Ground with a {1} second duration"
 			}
 		},

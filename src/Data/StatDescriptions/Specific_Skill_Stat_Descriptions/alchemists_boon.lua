@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of recovery from your [Flask|Flasks] is also\ngranted to [Allies] in your [Presence]",
 				text="{0}% of recovery from your Flasks is also\ngranted to Allies in your Presence"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants you {0} [Flask] charges per second",
 				text="Grants you {0} Flask charges per second"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0} [Guard]",
 				text="Grants {0} Guard"
 			}
 		},
@@ -64,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0} to {1} [Cold|Cold] [Thorns|Thorns] damage",
 				text="Grants {0} to {1} Cold Thorns damage"
 			}
 		},

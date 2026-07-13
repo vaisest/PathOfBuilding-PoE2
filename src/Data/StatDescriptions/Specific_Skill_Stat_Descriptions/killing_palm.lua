@@ -19,6 +19,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Culling a monster grants {2} [Charges|Power Charge]",
 				text="Culling a monster grants {2} Power Charge"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
 				text="Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charges"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
 				text="Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charge"
 			},
 			[4]={
@@ -70,6 +73,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
 				text="Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charge"
 			},
 			[5]={
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
 				text="Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charge\nUnique monsters grant {2} Power Charges"
 			},
 			[6]={
@@ -104,6 +109,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
 				text="Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charge"
 			},
 			[7]={
@@ -121,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
 				text="Normal and Magic monsters grant {0} Power Charge\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charges"
 			},
 			[8]={
@@ -138,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
 				text="Normal and Magic monsters grant {0} Power Charges\nRare monsters grant {1} Power Charges\nUnique monsters grant {2} Power Charges"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Storm radius is {0} metre",
 				text="Storm radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Storm radius is {0} metres",
 				text="Storm radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to Impact radius",
 				text="{0:+d} metre to Impact radius"
 			},
 			[2]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to Impact radius",
 				text="{0:+d} metres to Impact radius"
 			},
 			[3]={
@@ -83,6 +87,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[4]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -123,6 +129,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Storm duration is {0} second",
 				text="Storm duration is {0} second"
 			},
 			[2]={
@@ -136,6 +143,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Storm duration is {0} seconds",
 				text="Storm duration is {0} seconds"
 			}
 		},
@@ -156,6 +164,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Hits one target every {0} second",
 				text="Hits one target every {0} second"
 			},
 			[2]={
@@ -169,6 +178,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits one target every {0} seconds",
 				text="Hits one target every {0} seconds"
 			}
 		},
@@ -189,6 +199,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} second",
 				text="Can Hit each enemy only once every {0} second"
 			},
 			[2]={
@@ -202,6 +213,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} seconds",
 				text="Can Hit each enemy only once every {0} seconds"
 			}
 		},
@@ -225,6 +237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Drench enemies above level {0}",
 				text="Cannot Drench enemies above level {0}"
 			}
 		},
@@ -241,6 +254,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Drenched enemies receive {0}% more [Freeze] buildup",
 				text="Drenched enemies receive {0}% more Freeze buildup"
 			}
 		},
@@ -257,6 +271,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Drenched enemies have {0}% more chance to be [Shock|Shocked]",
 				text="Drenched enemies have {0}% more chance to be Shocked"
 			}
 		},
@@ -273,6 +288,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Thunderstorm Limit@{0}",
 				text="Thunderstorm Limit@{0}"
 			}
 		},
@@ -293,6 +309,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Drenched lingers for {0} second duration",
 				text="Drenched lingers for {0} second duration"
 			}
 		},
@@ -316,6 +333,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Thunderstorm",
 				text="Limit {0} Thunderstorm"
 			},
 			[2]={
@@ -325,6 +343,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Thunderstorms",
 				text="Limit {0} Thunderstorms"
 			}
 		},

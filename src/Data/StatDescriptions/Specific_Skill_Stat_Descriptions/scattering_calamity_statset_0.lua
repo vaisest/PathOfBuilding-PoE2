@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Duration between launching Wellsprites is {0} second",
 				text="Duration between launching Wellsprites is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Duration between launching Wellsprites is {0} seconds",
 				text="Duration between launching Wellsprites is {0} seconds"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Hover duration is {0} second",
 				text="Hover duration is {0} second"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hover duration is {0} seconds",
 				text="Hover duration is {0} seconds"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can accumulate up to {0} Wellsprites\nModifiers to number of [Projectile|Projectiles] instead\napply to number of Wellsprites accumulated",
 				text="Can accumulate up to {0} Wellsprites\nModifiers to number of Projectiles instead\napply to number of Wellsprites accumulated"
 			}
 		},
@@ -97,6 +102,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d}% more Damage for each previous Wellsprite fired in sequence",
 				text="{0:+d}% more Damage for each previous Wellsprite fired in sequence"
 			},
 			[2]={
@@ -110,6 +116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each previous Wellsprite fired in sequence",
 				text="{0}% more Damage for each previous Wellsprite fired in sequence"
 			},
 			[3]={
@@ -127,6 +134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% less Damage for each previous Wellsprite fired in sequence",
 				text="{0}% less Damage for each previous Wellsprite fired in sequence"
 			}
 		},

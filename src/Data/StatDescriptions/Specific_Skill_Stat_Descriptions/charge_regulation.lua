@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]",
 				text="{0}% more Critical Hit Chance while\nyou have a Power Charge"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Critical|Critical Hit] Chance while\nyou have a [Charges|Power Charge]",
 				text="{0}% less Critical Hit Chance while\nyou have a Power Charge"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Armour], [Evasion] and [EnergyShield|Energy Shield] while you have an [Charges|Endurance Charge]",
 				text="{0}% more Armour, Evasion and Energy Shield while you have an Endurance Charge"
 			},
 			[2]={
@@ -53,6 +56,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Armour], [Evasion] and [EnergyShield|Energy Shield] while you have an [Charges|Endurance Charge]",
 				text="{0}% less Armour, Evasion and Energy Shield while you have an Endurance Charge"
 			}
 		},
@@ -69,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [SkillSpeed|Skill Speed] while you have a [Charges|Frenzy Charge]",
 				text="{0}% more Skill Speed while you have a Frenzy Charge"
 			},
 			[2]={
@@ -82,6 +87,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [SkillSpeed|Skill Speed] while you have a [Charges|Frenzy Charge]",
 				text="{0}% less Skill Speed while you have a Frenzy Charge"
 			}
 		},
@@ -98,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [SkillSpeed|Skill Speed] while you have a [Charges|Frenzy Charge]",
 				text="{0}% increased Skill Speed while you have a Frenzy Charge"
 			},
 			[2]={
@@ -111,6 +118,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [SkillSpeed|Skill Speed] while you have a [Charges|Frenzy Charge]",
 				text="{0}% reduced Skill Speed while you have a Frenzy Charge"
 			}
 		},
@@ -127,6 +135,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Consumes one of each [Charges|Charge] every second",
 				text="Consumes one of each Charge every second"
 			},
 			[2]={
@@ -140,6 +149,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes one of each [Charges|Charge] every {0} seconds",
 				text="Consumes one of each Charge every {0} seconds"
 			}
 		},

@@ -24,6 +24,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectiles] in a circle",
 				text="Fires {0} Projectiles in a circle"
 			}
 		},
@@ -46,6 +47,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Projectile] duration is {0} second",
 				text="Projectile duration is {0} second"
 			},
 			[2]={
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile] duration is {0} seconds",
 				text="Projectile duration is {0} seconds"
 			}
 		},
@@ -79,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Cast Time",
 				text="{0:+d} seconds to Cast Time"
 			}
 		},
@@ -106,6 +110,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Projectiles fired at the same time can [HitDamage|Hit] the same\ntarget no more than once per second",
 				text="Projectiles fired at the same time can Hit the same\ntarget no more than once per second"
 			},
 			[2]={
@@ -119,6 +124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles fired at the same time can [HitDamage|Hit] the same\ntarget no more than once every {0} seconds",
 				text="Projectiles fired at the same time can Hit the same\ntarget no more than once every {0} seconds"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Bubble radius is {0} metre",
 				text="Bubble radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bubble radius is {0} metres",
 				text="Bubble radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] duration is {0} second",
 				text="Chilled Ground duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] duration is {0} seconds",
 				text="Chilled Ground duration is {0} seconds"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Bubble duration is {0} second",
 				text="Bubble duration is {0} second"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bubble duration is {0} seconds",
 				text="Bubble duration is {0} seconds"
 			}
 		},
@@ -132,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Absorbs {0:+d}% of damage dealt by enemies outside the bubble",
 				text="Absorbs {0:+d}% of damage dealt by enemies outside the bubble"
 			},
 			[2]={
@@ -141,6 +148,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Absorbs {0}% of damage dealt by enemies outside the bubble",
 				text="Absorbs {0}% of damage dealt by enemies outside the bubble"
 			}
 		},
@@ -157,6 +165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bubble has {0} maximum Life per 100 of your maximum Mana",
 				text="Bubble has {0} maximum Life per 100 of your maximum Mana"
 			}
 		},

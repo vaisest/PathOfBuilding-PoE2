@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% of Explosion [Physical|Physical] Damage\n[Conversion|Converted] to [Cold|Cold] Damage",
 				text="{0}% of Explosion Physical Damage\nConverted to Cold Damage"
 			}
 		},
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies you [Shatter] explode",
 				text="Enemies you Shatter explode"
 			}
 		},

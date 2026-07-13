@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Burst radius is {0} metre",
 				text="Burst radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burst radius is {0} metres",
 				text="Burst radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave length is {0} metre",
 				text="Wave length is {0} metre"
 			},
 			[2]={
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is {0} metres",
 				text="Wave length is {0} metres"
 			}
 		},
@@ -101,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes {0} Bursts",
 				text="Causes {0} Bursts"
 			}
 		},

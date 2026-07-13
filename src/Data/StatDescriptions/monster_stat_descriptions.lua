@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] Immune",
 				text="Curse Immune"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Hexproof]",
 				text="Hexproof"
 			}
 		},
@@ -43,6 +45,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burns Ground on Death",
 				text="Burns Ground on Death"
 			}
 		},
@@ -59,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chills Ground on Death",
 				text="Chills Ground on Death"
 			}
 		},
@@ -75,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spreads Tar on Death",
 				text="Spreads Tar on Death"
 			}
 		},
@@ -91,6 +96,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spreads Caustic Ground on Death",
 				text="Spreads Caustic Ground on Death"
 			}
 		},
@@ -107,6 +113,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can raise Magic monsters",
 				text="Can raise Magic monsters"
 			},
 			[2]={
@@ -116,6 +123,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="Can raise Rare or Magic monsters",
 				text="Can raise Rare or Magic monsters"
 			},
 			[3]={
@@ -125,6 +133,7 @@ return {
 						[2]=3
 					}
 				},
+				rawText="Can raise Unique, Rare or Magic monsters",
 				text="Can raise Unique, Rare or Magic monsters"
 			}
 		},
@@ -141,6 +150,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Avoids [Freeze|Frozen]",
 				text="Avoids Frozen"
 			},
 			[2]={
@@ -150,6 +160,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [Freeze|Frozen]",
 				text="Cannot be Frozen"
 			}
 		},
@@ -166,6 +177,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Avoids [Chill|Chilled]",
 				text="Avoids Chilled"
 			},
 			[2]={
@@ -175,6 +187,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [Chill|Chilled]",
 				text="Cannot be Chilled"
 			}
 		},
@@ -191,6 +204,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Avoids [Ignite|Ignited]",
 				text="Avoids Ignited"
 			},
 			[2]={
@@ -200,6 +214,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [Ignite|Ignited]",
 				text="Cannot be Ignited"
 			}
 		},
@@ -216,6 +231,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Avoids [Shock|Shocked]",
 				text="Avoids Shocked"
 			},
 			[2]={
@@ -225,6 +241,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [Shock|Shocked]",
 				text="Cannot be Shocked"
 			}
 		},
@@ -241,6 +258,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spikes on Death",
 				text="Spikes on Death"
 			}
 		},
@@ -257,6 +275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice Spears on Death",
 				text="Ice Spears on Death"
 			}
 		},
@@ -273,6 +292,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Casts Lightning Nova",
 				text="Casts Lightning Nova"
 			}
 		},
@@ -289,6 +309,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Casts Fire Nova",
 				text="Casts Fire Nova"
 			}
 		},
@@ -305,6 +326,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Removes [Flask] Charges",
 				text="Removes Flask Charges"
 			}
 		},
@@ -321,6 +343,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes [Bleeding|Bleeding]",
 				text="Causes Bleeding"
 			}
 		},
@@ -337,6 +360,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies take increased Damage",
 				text="Enemies take increased Damage"
 			}
 		},
@@ -353,6 +377,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies are affected by Temporal Chains",
 				text="Enemies are affected by Temporal Chains"
 			}
 		},
@@ -369,6 +394,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies take Damage when using Movement skills",
 				text="Enemies take Damage when using Movement skills"
 			}
 		},
@@ -385,6 +411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enrages on [LowLife|Low Life]",
 				text="Enrages on Low Life"
 			}
 		},
@@ -401,6 +428,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be Slowed",
 				text="Cannot be Slowed"
 			}
 		},
@@ -417,6 +445,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be Life-[LifeLeech|Leeched]",
 				text="Cannot be Life-Leeched"
 			}
 		},
@@ -433,6 +462,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ignores Summoning Towers",
 				text="Ignores Summoning Towers"
 			}
 		},
@@ -449,6 +479,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Resilient to Cold Towers",
 				text="Resilient to Cold Towers"
 			}
 		},
@@ -465,6 +496,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Resilient to Fire Towers",
 				text="Resilient to Fire Towers"
 			}
 		},
@@ -481,6 +513,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Resilient to Lightning Towers",
 				text="Resilient to Lightning Towers"
 			}
 		},
@@ -497,6 +530,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Resilient to Physical Towers",
 				text="Resilient to Physical Towers"
 			}
 		},
@@ -513,6 +547,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Empowered by Molten Gold",
 				text="Empowered by Molten Gold"
 			}
 		},
@@ -529,6 +564,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Slow|Slowing] Potency of [Debuff|Debuffs] on me",
 				text="{0}% more Slowing Potency of Debuffs on me"
 			},
 			[2]={
@@ -542,6 +578,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Slow|Slowing] Potency of [Debuff|Debuffs] on me",
 				text="{0}% less Slowing Potency of Debuffs on me"
 			}
 		},
@@ -558,6 +595,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -571,6 +609,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -587,6 +626,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blocks Projectiles while charging",
 				text="Blocks Projectiles while charging"
 			}
 		},

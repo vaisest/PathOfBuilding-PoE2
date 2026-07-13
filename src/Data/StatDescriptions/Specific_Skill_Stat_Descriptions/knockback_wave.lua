@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave radius is {0} metre",
 				text="Wave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave radius is {0} metres",
 				text="Wave radius is {0} metres"
 			}
 		},

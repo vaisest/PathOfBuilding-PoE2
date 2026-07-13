@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Gouge length is {0} metre",
 				text="Gouge length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gouge length is {0} metres",
 				text="Gouge length is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to gouge width",
 				text="{0:+d} metre to gouge width"
 			},
 			[2]={
@@ -70,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to gouge width",
 				text="{0:+d} metres to gouge width"
 			},
 			[3]={
@@ -83,6 +87,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Gouge width is {0} metre",
 				text="Gouge width is {0} metre"
 			},
 			[4]={
@@ -96,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gouge width is {0} metres",
 				text="Gouge width is {0} metres"
 			}
 		},
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Flings [IceFragment|Ice Fragments] within {0} metres",
 				text="Flings Ice Fragments within {0} metres"
 			}
 		},

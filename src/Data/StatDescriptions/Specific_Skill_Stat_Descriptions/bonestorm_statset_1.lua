@@ -37,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -50,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -66,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per [Charges|Power Charge] Consumed",
 				text="{0}% more Area of Effect per Power Charge Consumed"
 			},
 			[2]={
@@ -79,6 +82,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect per [Charges|Power Charge] Consumed",
 				text="{0}% less Area of Effect per Power Charge Consumed"
 			}
 		},
@@ -99,6 +103,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="+{0} metre to explosion radius if a\n[Charges|Power Charge] was Consumed",
 				text="+{0} metre to explosion radius if a\nPower Charge was Consumed"
 			},
 			[2]={
@@ -112,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} metres to explosion radius if a\n[Charges|Power Charge] was Consumed",
 				text="+{0} metres to explosion radius if a\nPower Charge was Consumed"
 			}
 		},

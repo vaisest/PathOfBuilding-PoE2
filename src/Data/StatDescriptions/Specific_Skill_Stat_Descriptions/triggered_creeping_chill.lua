@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] radius is {0} metre",
 				text="Chilled Ground radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] radius is {0} metres",
 				text="Chilled Ground radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Created [ChilledGround|Chilled Ground] [Chill|Chills] as though dealing damage equal to {0}% of the [IceCrystals|Ice Crystal]'s maximum Life",
 				text="Created Chilled Ground Chills as though dealing damage equal to {0}% of the Ice Crystal's maximum Life"
 			}
 		},

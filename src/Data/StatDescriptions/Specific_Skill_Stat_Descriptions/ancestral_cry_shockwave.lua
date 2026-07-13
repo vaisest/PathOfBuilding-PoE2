@@ -37,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Slam] radius is {0} metre",
 				text="Slam radius is {0} metre"
 			},
 			[2]={
@@ -50,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Slam] radius is {0} metres",
 				text="Slam radius is {0} metres"
 			}
 		},
@@ -66,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Conversion|Converts] {0}% of [Physical] damage to [Fire] damage",
 				text="Converts {0}% of Physical damage to Fire damage"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Static Shocks target enemies within {0} metre of affected target",
 				text="Static Shocks target enemies within {0} metre of affected target"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Static Shocks target enemies within {0} metres of affected target",
 				text="Static Shocks target enemies within {0} metres of affected target"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Static Shocks duration is {0} second",
 				text="Static Shocks duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Static Shocks duration is {0} seconds",
 				text="Static Shocks duration is {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Static Shocks pulses towards up to {0} enemy",
 				text="Static Shocks pulses towards up to {0} enemy"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Static Shocks pulses towards up to {0} enemies",
 				text="Static Shocks pulses towards up to {0} enemies"
 			}
 		},
@@ -113,6 +119,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Static Shocks pulse every second",
 				text="Static Shocks pulse every second"
 			},
 			[2]={
@@ -126,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Static Shocks pulse every {0} seconds",
 				text="Static Shocks pulse every {0} seconds"
 			}
 		},
@@ -142,6 +150,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} attached Static Shocks",
 				text="Maximum {0} attached Static Shocks"
 			},
 			[2]={
@@ -151,6 +160,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} attached Static Shocks",
 				text="Maximum {0} attached Static Shocks"
 			}
 		},

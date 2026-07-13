@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You have [CullingStrike|Culling Strike] against [Rarity|Rare] and [Rarity|Unique] enemies that have been in your [Presence] for a total of at least {0} seconds",
 				text="You have Culling Strike against Rare and Unique enemies that have been in your Presence for a total of at least {0} seconds"
 			}
 		},
@@ -32,6 +33,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You deal {0}% more [HitDamage|Hit] damage to [Rarity|Rare] and [Rarity|Unique] enemies for every 2 seconds they have ever been in your [Presence], up to {1}%",
 				text="You deal {0}% more Hit damage to Rare and Unique enemies for every 2 seconds they have ever been in your Presence, up to {1}%"
 			},
 			[2]={
@@ -45,6 +47,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You deal {0}% more [HitDamage|Hit] damage to [Rarity|Rare] and [Rarity|Unique] enemies for every 2 seconds they have ever been in your [Presence], up to {1}%",
 				text="You deal {0}% more Hit damage to Rare and Unique enemies for every 2 seconds they have ever been in your Presence, up to {1}%"
 			}
 		},

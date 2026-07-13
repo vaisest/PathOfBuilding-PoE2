@@ -25,6 +25,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="A Mirror appears in your [Presence] every second",
 				text="A Mirror appears in your Presence every second"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A Mirror appears in your [Presence] every {0} seconds",
 				text="A Mirror appears in your Presence every {0} seconds"
 			}
 		},
@@ -54,6 +56,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Mirror of Refraction",
 				text="Limit {0} Mirror of Refraction"
 			},
 			[2]={
@@ -63,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Mirrors of Refraction",
 				text="Limit {0} Mirrors of Refraction"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Projectiles which shatter Mirrors are copied {0:+d} time",
 				text="Projectiles which shatter Mirrors are copied {0:+d} time"
 			},
 			[2]={
@@ -90,6 +95,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles which shatter Mirrors are copied {0:+d} times",
 				text="Projectiles which shatter Mirrors are copied {0:+d} times"
 			},
 			[3]={
@@ -99,6 +105,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Projectiles which shatter Mirrors are copied {0:+d} time",
 				text="Projectiles which shatter Mirrors are copied {0:+d} time"
 			},
 			[4]={
@@ -108,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles which shatter Mirrors are copied {0} times",
 				text="Projectiles which shatter Mirrors are copied {0} times"
 			}
 		},
@@ -128,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirrors persist for {0} second duration",
 				text="Mirrors persist for {0} second duration"
 			}
 		},
@@ -144,6 +153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nMirror appearance frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nMirror appearance frequency"
 			}
 		},

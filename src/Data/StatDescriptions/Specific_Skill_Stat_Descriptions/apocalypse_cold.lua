@@ -32,6 +32,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Hailstorm radius is {0} metre",
 				text="Hailstorm radius is {0} metre"
 			},
 			[2]={
@@ -45,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hailstorm radius is {0} metres",
 				text="Hailstorm radius is {0} metres"
 			}
 		},
@@ -65,6 +67,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Hail impact radius is {0} metre",
 				text="Hail impact radius is {0} metre"
 			},
 			[2]={
@@ -78,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hail impact radius is {0} metres",
 				text="Hail impact radius is {0} metres"
 			}
 		},
@@ -98,6 +102,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Modifiers to Area of Effect also apply to Spell Damage",
 				text="Modifiers to Area of Effect also apply to Spell Damage"
 			},
 			[2]={
@@ -111,6 +116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Area of Effect apply to Spell Damage instead",
 				text="Modifiers to Area of Effect apply to Spell Damage instead"
 			}
 		},
@@ -128,6 +134,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Hailstorm creates {0} chunk of ice",
 				text="Hailstorm creates {0} chunk of ice"
 			},
 			[2]={
@@ -137,6 +144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hailstorm creates {0} chunks of ice",
 				text="Hailstorm creates {0} chunks of ice"
 			}
 		},

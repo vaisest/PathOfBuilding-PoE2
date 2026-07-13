@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Can [Block] [HitDamage|Damage] from enemies within {0} metre",
 				text="Can Block Damage from enemies within {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Block] [HitDamage|Damage] from enemies within {0} metres",
 				text="Can Block Damage from enemies within {0} metres"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Can [Block] [Projectile] [HitDamage|Damage] from enemies within {0} metre",
 				text="Can Block Projectile Damage from enemies within {0} metre"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Block] [Projectile] [HitDamage|Damage] from enemies within {0} metres",
 				text="Can Block Projectile Damage from enemies within {0} metres"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried Debuff] makes targets take {0}% more [Attack] Damage",
 				text="Parried Debuff makes targets take {0}% more Attack Damage"
 			},
 			[2]={
@@ -90,6 +95,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[ParriedDebuff|Parried Debuff] makes targets take {0}% less [Attack] Damage",
 				text="Parried Debuff makes targets take {0}% less Attack Damage"
 			}
 		},
@@ -111,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] lasts for an additional {0:+d} seconds",
 				text="Parried Debuff lasts for an additional {0:+d} seconds"
 			},
 			[2]={
@@ -124,6 +131,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} second",
 				text="Parried Debuff duration is {0} second"
 			},
 			[3]={
@@ -137,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} seconds",
 				text="Parried Debuff duration is {0} seconds"
 			}
 		},
@@ -171,6 +180,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Added [Physical] Damage per 5 [Evasion|Evasion Rating] on [Buckler]",
 				text="{0} to {1} Added Physical Damage per 5 Evasion Rating on Buckler"
 			}
 		},

@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased duration of socketed [Curse|Curses]",
 				text="{0:+d}% increased duration of socketed Curses"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased duration of socketed [Curse|Curses]",
 				text="{0}% increased duration of socketed Curses"
 			},
 			[3]={
@@ -34,6 +36,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced duration of socketed [Curse|Curses]",
 				text="{0}% reduced duration of socketed Curses"
 			}
 		},
@@ -51,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased [BuffMagnitude|Magnitudes] of socketed [Curse|Curses]",
 				text="{0:+d}% increased Magnitudes of socketed Curses"
 			},
 			[2]={
@@ -60,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Curse] [BuffMagnitude|Magnitudes]",
 				text="{0}% increased Curse Magnitudes"
 			},
 			[3]={
@@ -73,6 +78,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Curse] [BuffMagnitude|Magnitudes]",
 				text="{0}% reduced Curse Magnitudes"
 			}
 		},
@@ -90,6 +96,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased Effect of Socketed [Mark|Marks]",
 				text="{0:+d}% increased Effect of Socketed Marks"
 			},
 			[2]={
@@ -99,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Socketed [Mark|Marks]",
 				text="{0}% increased Effect of Socketed Marks"
 			},
 			[3]={
@@ -112,6 +120,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Socketed [Mark|Marks]",
 				text="{0}% reduced Effect of Socketed Marks"
 			}
 		},

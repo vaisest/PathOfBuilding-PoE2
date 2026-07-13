@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires {0} Shard [Projectile|Projectile] per second",
 				text="Fires {0} Shard Projectile per second"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Shard [Projectile|Projectiles] per second",
 				text="Fires {0} Shard Projectiles per second"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Gain|Gains] {0}% of [HitDamage|damage] as damage of the corresponding\n[ElementalDamage|Type] when passing over an [ElementalGround|Elemental Ground Effect] or [Orb]",
 				text="Gains {0}% of damage as damage of the corresponding\nType when passing over an Elemental Ground Effect or Orb"
 			}
 		},
@@ -68,6 +71,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Each use of this Skill deals {0}% less damage with its\nfirst [HitDamage|Hit] against each enemy",
 				text="Each use of this Skill deals {0}% less damage with its\nfirst Hit against each enemy"
 			},
 			[2]={
@@ -77,6 +81,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each use of this Skill deals {0}% more damage with its\nfirst [HitDamage|Hit] against each enemy",
 				text="Each use of this Skill deals {0}% more damage with its\nfirst Hit against each enemy"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} second",
 				text="Ignited Ground duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} seconds",
 				text="Ignited Ground duration is {0} seconds"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage",
 				text="Ignites as though dealing {0} to {1} Fire damage"
 			}
 		},

@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bathed in the blood of {1} sacrificed in the name of Xibaqua(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal",
 				text="Bathed in the blood of {1} sacrificed in the name of Xibaqua(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal"
 			},
 			[2]={
@@ -44,6 +45,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Bathed in the blood of {1} sacrificed in the name of Zerphi(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal",
 				text="Bathed in the blood of {1} sacrificed in the name of Zerphi(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal"
 			},
 			[3]={
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bathed in the blood of {1} sacrificed in the name of Ahuana(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal",
 				text="Bathed in the blood of {1} sacrificed in the name of Ahuana(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal"
 			},
 			[4]={
@@ -86,6 +89,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bathed in the blood of {1} sacrificed in the name of Doryani(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal",
 				text="Bathed in the blood of {1} sacrificed in the name of Doryani(Ahuana-Xibaqua)\nPassives in radius are Conquered by the Vaal"
 			},
 			[5]={
@@ -107,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commanded leadership over {1} warriors under Kaom(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui",
 				text="Commanded leadership over {1} warriors under Kaom(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui"
 			},
 			[6]={
@@ -128,6 +133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commanded leadership over {1} warriors under Rakiata(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui",
 				text="Commanded leadership over {1} warriors under Rakiata(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui"
 			},
 			[7]={
@@ -149,6 +155,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Commanded leadership over {1} warriors under Kiloava(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui",
 				text="Commanded leadership over {1} warriors under Kiloava(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui"
 			},
 			[8]={
@@ -170,6 +177,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commanded leadership over {1} warriors under Akoya(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui",
 				text="Commanded leadership over {1} warriors under Akoya(Akoya-Rakiata)\nPassives in radius are Conquered by the Karui"
 			},
 			[9]={
@@ -191,6 +199,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Denoted service of {1} dekhara in the akhara of Deshret(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh",
 				text="Denoted service of {1} dekhara in the akhara of Deshret(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh"
 			},
 			[10]={
@@ -212,6 +221,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Denoted service of {1} dekhara in the akhara of Balbala(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh",
 				text="Denoted service of {1} dekhara in the akhara of Balbala(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh"
 			},
 			[11]={
@@ -233,6 +243,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Denoted service of {1} dekhara in the akhara of Asenath(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh",
 				text="Denoted service of {1} dekhara in the akhara of Asenath(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh"
 			},
 			[12]={
@@ -254,6 +265,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Denoted service of {1} dekhara in the akhara of Nasima(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh",
 				text="Denoted service of {1} dekhara in the akhara of Nasima(Asenath-Nasima)\nPassives in radius are Conquered by the Maraketh"
 			},
 			[13]={
@@ -275,6 +287,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Carved to glorify {1} new faithful converted by High Templar Venarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars",
 				text="Carved to glorify {1} new faithful converted by High Templar Venarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars"
 			},
 			[14]={
@@ -296,6 +309,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Carved to glorify {1} new faithful converted by High Templar Maxarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars",
 				text="Carved to glorify {1} new faithful converted by High Templar Maxarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars"
 			},
 			[15]={
@@ -317,6 +331,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Carved to glorify {1} new faithful converted by High Templar Dominus(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars",
 				text="Carved to glorify {1} new faithful converted by High Templar Dominus(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars"
 			},
 			[16]={
@@ -338,6 +353,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Carved to glorify {1} new faithful converted by High Templar Avarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars",
 				text="Carved to glorify {1} new faithful converted by High Templar Avarius(Avarius-Maxarius)\nPassives in radius are Conquered by the Templars"
 			},
 			[17]={
@@ -363,6 +379,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commissioned {1} coins to commemorate Cadiro(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire",
 				text="Commissioned {1} coins to commemorate Cadiro(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire"
 			},
 			[18]={
@@ -388,6 +405,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commissioned {1} coins to commemorate Victario(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire",
 				text="Commissioned {1} coins to commemorate Victario(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire"
 			},
 			[19]={
@@ -413,6 +431,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Commissioned {1} coins to commemorate Chitus(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire",
 				text="Commissioned {1} coins to commemorate Chitus(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire"
 			},
 			[20]={
@@ -438,6 +457,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Commissioned {1} coins to commemorate Caspiro(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire",
 				text="Commissioned {1} coins to commemorate Caspiro(Cadiro-Victario)\nPassives in radius are Conquered by the Eternal Empire"
 			},
 			[21]={
@@ -459,6 +479,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Remembrancing {1} songworthy deeds by the line of Vorana(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur",
 				text="Remembrancing {1} songworthy deeds by the line of Vorana(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur"
 			},
 			[22]={
@@ -480,6 +501,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Remembrancing {1} songworthy deeds by the line of Medved(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur",
 				text="Remembrancing {1} songworthy deeds by the line of Medved(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur"
 			},
 			[23]={
@@ -501,6 +523,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Remembrancing {1} songworthy deeds by the line of Olroth(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur",
 				text="Remembrancing {1} songworthy deeds by the line of Olroth(Vorana-Olroth)\nPassives in radius are Conquered by the Kalguur"
 			},
 			[24]={
@@ -522,6 +545,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorifying the defilement of {1} souls in tribute to Amanamu(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\n[UnstableDesecration|Desecration makes this item unstable]",
 				text="Glorifying the defilement of {1} souls in tribute to Amanamu(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable"
 			},
 			[25]={
@@ -543,6 +567,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorifying the defilement of {1} souls in tribute to Kulemak(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\n[UnstableDesecration|Desecration makes this item unstable]",
 				text="Glorifying the defilement of {1} souls in tribute to Kulemak(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable"
 			},
 			[26]={
@@ -564,6 +589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorifying the defilement of {1} souls in tribute to Kurgal(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\n[UnstableDesecration|Desecration makes this item unstable]",
 				text="Glorifying the defilement of {1} souls in tribute to Kurgal(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable"
 			},
 			[27]={
@@ -585,6 +611,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorifying the defilement of {1} souls in tribute to Tecrod(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\n[UnstableDesecration|Desecration makes this item unstable]",
 				text="Glorifying the defilement of {1} souls in tribute to Tecrod(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable"
 			},
 			[28]={
@@ -606,6 +633,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorifying the defilement of {1} souls in tribute to Ulaman(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\n[UnstableDesecration|Desecration makes this item unstable]",
 				text="Glorifying the defilement of {1} souls in tribute to Ulaman(Amanamu-Ulaman)\nPassives in radius are Conquered by the Abyssals\nDesecration makes this item unstable"
 			}
 		},
@@ -625,6 +653,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Only affects Passives in Very Small Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Very Small Ring(Very Small-Massive Ring)"
 			},
 			[2]={
@@ -634,6 +663,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="Only affects Passives in Small Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Small Ring(Very Small-Massive Ring)"
 			},
 			[3]={
@@ -643,6 +673,7 @@ return {
 						[2]=3
 					}
 				},
+				rawText="Only affects Passives in Medium-Small Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Medium-Small Ring(Very Small-Massive Ring)"
 			},
 			[4]={
@@ -652,6 +683,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="Only affects Passives in Medium Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Medium Ring(Very Small-Massive Ring)"
 			},
 			[5]={
@@ -661,6 +693,7 @@ return {
 						[2]=5
 					}
 				},
+				rawText="Only affects Passives in Medium-Large Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Medium-Large Ring(Very Small-Massive Ring)"
 			},
 			[6]={
@@ -670,6 +703,7 @@ return {
 						[2]=6
 					}
 				},
+				rawText="Only affects Passives in Large Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Large Ring(Very Small-Massive Ring)"
 			},
 			[7]={
@@ -679,6 +713,7 @@ return {
 						[2]=7
 					}
 				},
+				rawText="Only affects Passives in Very Large Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Very Large Ring(Very Small-Massive Ring)"
 			},
 			[8]={
@@ -688,6 +723,7 @@ return {
 						[2]=8
 					}
 				},
+				rawText="Only affects Passives in Massive Ring(Very Small-Massive Ring)",
 				text="Only affects Passives in Massive Ring(Very Small-Massive Ring)"
 			}
 		},
@@ -704,6 +740,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area Damage per 10 Devotion",
 				text="{0}% increased Area Damage per 10 Devotion"
 			},
 			[2]={
@@ -717,6 +754,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area Damage per 10 Devotion",
 				text="{0}% reduced Area Damage per 10 Devotion"
 			}
 		},
@@ -733,6 +771,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Channelling Skills deal {0}% increased Damage per 10 Devotion",
 				text="Channelling Skills deal {0}% increased Damage per 10 Devotion"
 			},
 			[2]={
@@ -746,6 +785,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Channelling Skills deal {0}% reduced Damage per 10 Devotion",
 				text="Channelling Skills deal {0}% reduced Damage per 10 Devotion"
 			}
 		},
@@ -762,6 +802,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Elemental Damage per 10 Devotion",
 				text="{0}% increased Elemental Damage per 10 Devotion"
 			},
 			[2]={
@@ -775,6 +816,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Elemental Damage per 10 Devotion",
 				text="{0}% reduced Elemental Damage per 10 Devotion"
 			}
 		},
@@ -791,6 +833,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to all Elemental Resistances per 10 Devotion",
 				text="{0:+d}% to all Elemental Resistances per 10 Devotion"
 			}
 		},
@@ -811,6 +854,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Non-Aura Hexes expire upon reaching {1:+d}% of base Effect",
 				text="Non-Aura Hexes expire upon reaching {1:+d}% of base Effect"
 			},
 			[2]={
@@ -824,6 +868,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Non-Aura Hexes expire upon reaching 200% of base Effect",
 				text="Non-Aura Hexes expire upon reaching 200% of base Effect"
 			}
 		},
@@ -841,6 +886,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Mana Cost of Skills per 10 Devotion",
 				text="{0}% increased Mana Cost of Skills per 10 Devotion"
 			},
 			[2]={
@@ -854,6 +900,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Mana Cost of Skills per 10 Devotion",
 				text="{0}% reduced Mana Cost of Skills per 10 Devotion"
 			}
 		},
@@ -874,6 +921,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Mana per Second per 10 Devotion",
 				text="Regenerate {0} Mana per Second per 10 Devotion"
 			}
 		},
@@ -890,6 +938,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions have +{0} to Accuracy Rating per 10 Devotion",
 				text="Minions have +{0} to Accuracy Rating per 10 Devotion"
 			}
 		},
@@ -906,6 +955,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Minion [Attack] and Cast Speed per 10 Devotion",
 				text="{0}% increased Minion Attack and Cast Speed per 10 Devotion"
 			},
 			[2]={
@@ -919,6 +969,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Minion [Attack] and Cast Speed per 10 Devotion",
 				text="{0}% reduced Minion Attack and Cast Speed per 10 Devotion"
 			}
 		},
@@ -935,6 +986,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased effect of Non-Curse Auras per 10 Devotion",
 				text="{0}% increased effect of Non-Curse Auras per 10 Devotion"
 			},
 			[2]={
@@ -948,6 +1000,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced effect of Non-Curse Auras per 10 Devotion",
 				text="{0}% reduced effect of Non-Curse Auras per 10 Devotion"
 			}
 		},
@@ -964,6 +1017,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of Non-Damaging Ailments you inflict per 10 Devotion",
 				text="{0}% increased Magnitude of Non-Damaging Ailments you inflict per 10 Devotion"
 			},
 			[2]={
@@ -977,6 +1031,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of Non-Damaging Ailments you inflict per 10 Devotion",
 				text="{0}% reduced Magnitude of Non-Damaging Ailments you inflict per 10 Devotion"
 			}
 		},
@@ -993,6 +1048,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Duration of [Curse|Curses] on you per 10 Devotion",
 				text="{0}% increased Duration of Curses on you per 10 Devotion"
 			},
 			[2]={
@@ -1006,6 +1062,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Duration of [Curse|Curses] on you per 10 Devotion",
 				text="{0}% reduced Duration of Curses on you per 10 Devotion"
 			}
 		},
@@ -1022,6 +1079,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% reduced Elemental Ailment Duration on you per 10 Devotion",
 				text="{0}% reduced Elemental Ailment Duration on you per 10 Devotion"
 			},
 			[2]={
@@ -1035,6 +1093,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% increased Elemental Ailment Duration on you per 10 Devotion",
 				text="{0}% increased Elemental Ailment Duration on you per 10 Devotion"
 			}
 		},
@@ -1051,6 +1110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped Shield per 10 Devotion",
 				text="{0}% increased Armour, Evasion and Energy Shield from Equipped Shield per 10 Devotion"
 			},
 			[2]={
@@ -1064,6 +1124,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Armour], [Evasion] and [EnergyShield|Energy Shield] from Equipped Shield per 10 Devotion",
 				text="{0}% reduced Armour, Evasion and Energy Shield from Equipped Shield per 10 Devotion"
 			}
 		},
@@ -1080,6 +1141,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Brand Damage per 10 Devotion",
 				text="{0}% increased Brand Damage per 10 Devotion"
 			},
 			[2]={
@@ -1093,6 +1155,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Brand Damage per 10 Devotion",
 				text="{0}% reduced Brand Damage per 10 Devotion"
 			}
 		},
@@ -1109,6 +1172,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Totem Damage per 10 Devotion",
 				text="{0}% increased Totem Damage per 10 Devotion"
 			},
 			[2]={
@@ -1122,6 +1186,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Totem Damage per 10 Devotion",
 				text="{0}% reduced Totem Damage per 10 Devotion"
 			}
 		},

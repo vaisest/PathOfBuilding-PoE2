@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Will [Consume] a [DivineFragment|Fragment of Divinity] within 3 metres of you or targeted location when you leap to become [Empowered]",
 				text="Will Consume a Fragment of Divinity within 3 metres of you or targeted location when you leap to become Empowered"
 			}
 		},

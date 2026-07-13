@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} seconds between Blessings",
 				text="{0} seconds between Blessings"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nBlessing frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nBlessing frequency"
 			}
 		},
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blessing recovers {0} Life and removes [Curse|Curses] and [ElementalAilments|Elemental Ailments]",
 				text="Blessing recovers {0} Life and removes Curses and Elemental Ailments"
 			}
 		},

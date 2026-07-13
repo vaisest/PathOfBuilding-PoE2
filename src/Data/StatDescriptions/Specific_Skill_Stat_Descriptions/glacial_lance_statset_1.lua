@@ -26,6 +26,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to Explosion length",
 				text="{0:+d} metre to Explosion length"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to Explosion length",
 				text="{0:+d} metres to Explosion length"
 			},
 			[3]={
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion length is {0} metre",
 				text="Explosion length is {0} metre"
 			},
 			[4]={
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion length is {0} metres",
 				text="Explosion length is {0} metres"
 			}
 		},

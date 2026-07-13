@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Buff causes [Lightning] [Spell|Spells] that cost Mana to [Chain] an additional time",
 				text="Buff causes Lightning Spells that cost Mana to Chain an additional time"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff causes [Lightning] [Spell|Spells] that cost Mana to [Chain] {0} additional times",
 				text="Buff causes Lightning Spells that cost Mana to Chain {0} additional times"
 			}
 		},
@@ -41,6 +43,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Buff causes [Lightning|Lightning] [Spell|Spells] that cost Mana to also [Chain|Chain] to {0:+d} target when [Chain|Chaining], but not [Chain|Chain] further from them",
 				text="Buff causes Lightning Spells that cost Mana to also Chain to {0:+d} target when Chaining, but not Chain further from them"
 			},
 			[2]={
@@ -50,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff causes [Lightning|Lightning] [Spell|Spells] that cost Mana to also [Chain|Chain] to {0:+d} targets when [Chain|Chaining], but not [Chain|Chain] further from them",
 				text="Buff causes Lightning Spells that cost Mana to also Chain to {0:+d} targets when Chaining, but not Chain further from them"
 			}
 		},
@@ -66,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] from [Empowered] [Lightning|Lightning] [Spell|Spells] [Fork|Fork]",
 				text="Projectiles from Empowered Lightning Spells Fork"
 			}
 		},
@@ -82,6 +87,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered] Spells [Split] to {0} additional target",
 				text="Empowered Spells Split to {0} additional target"
 			},
 			[2]={
@@ -91,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Spells [Split] to {0} additional targets",
 				text="Empowered Spells Split to {0} additional targets"
 			}
 		},
@@ -107,6 +114,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Mana and Life spent while in the storm is\nadded to this Skill's Mana Cost per Second",
 				text="{0}% of Mana and Life spent while in the storm is\nadded to this Skill's Mana Cost per Second"
 			}
 		},

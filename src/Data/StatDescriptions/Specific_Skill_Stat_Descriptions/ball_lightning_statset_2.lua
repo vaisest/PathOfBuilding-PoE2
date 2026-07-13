@@ -16,6 +16,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to [IgnitedGround|Ignited Ground] radius",
 				text="{0:+d} metre to Ignited Ground radius"
 			},
 			[2]={
@@ -30,6 +31,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to [IgnitedGround|Ignited Ground] radius",
 				text="{0:+d} metres to Ignited Ground radius"
 			},
 			[3]={
@@ -43,6 +45,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metre",
 				text="Ignited Ground radius is {0} metre"
 			},
 			[4]={
@@ -56,6 +59,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius is {0} metres",
 				text="Ignited Ground radius is {0} metres"
 			}
 		},
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] radius@{0}m",
 				text="Ignited Ground radius@{0}m"
 			}
 		},
@@ -96,6 +101,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} second",
 				text="Ignited Ground duration is {0} second"
 			},
 			[2]={
@@ -109,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IgnitedGround|Ignited Ground] duration is {0} seconds",
 				text="Ignited Ground duration is {0} seconds"
 			}
 		},
@@ -136,6 +143,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage",
 				text="Ignites as though dealing {0} to {1} Fire damage"
 			}
 		},

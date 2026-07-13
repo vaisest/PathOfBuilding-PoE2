@@ -15,6 +15,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shocking Rift radius is {0} metre",
 				text="Shocking Rift radius is {0} metre"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shocking Rift radius is {0} metres",
 				text="Shocking Rift radius is {0} metres"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shocking Rift pull radius is {0} metre",
 				text="Shocking Rift pull radius is {0} metre"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shocking Rift pull radius is {0} metres",
 				text="Shocking Rift pull radius is {0} metres"
 			}
 		},
@@ -77,6 +81,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Shocking Rift",
 				text="Limit {0} Shocking Rift"
 			},
 			[2]={
@@ -86,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Shocking Rifts",
 				text="Limit {0} Shocking Rifts"
 			}
 		},
@@ -102,6 +108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per pulse performed",
 				text="{0}% more Damage per pulse performed"
 			},
 			[2]={
@@ -111,6 +118,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per pulse performed",
 				text="{0}% less Damage per pulse performed"
 			}
 		},
@@ -131,6 +139,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Pulses apply [Hinder] for {0} second",
 				text="Pulses apply Hinder for {0} second"
 			},
 			[2]={
@@ -144,6 +153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulses apply [Hinder] for {0} seconds",
 				text="Pulses apply Hinder for {0} seconds"
 			}
 		},
@@ -164,6 +174,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shocking Rift pulses every second, up to {1} times",
 				text="Shocking Rift pulses every second, up to {1} times"
 			},
 			[2]={
@@ -181,6 +192,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shocking Rift pulses every {0} seconds, up to {1} times",
 				text="Shocking Rift pulses every {0} seconds, up to {1} times"
 			}
 		},
@@ -198,6 +210,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased pulse speed for each [Shock] [Consume|Consumed] by the rift",
 				text="{0}% increased pulse speed for each Shock Consumed by the rift"
 			},
 			[2]={
@@ -207,6 +220,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced pulse speed for each [Shock] [Consume|Consumed] by the rift",
 				text="{0}% reduced pulse speed for each Shock Consumed by the rift"
 			}
 		},

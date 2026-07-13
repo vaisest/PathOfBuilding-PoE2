@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} second delay between Visages",
 				text="{0} second delay between Visages"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nVisage appearance frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nVisage appearance frequency"
 			}
 		},
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Visage frequency per [Spell] Visages could cast",
 				text="{0}% more Visage frequency per Spell Visages could cast"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Visage frequency per [Spell] Visages could cast",
 				text="{0}% less Visage frequency per Spell Visages could cast"
 			}
 		},
@@ -76,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Casting the matching [Spell] before the next\nVisage appears [Empowered|Empowers] that [Spell]\n[Empowered] Spells deal {0}% more damage",
 				text="Casting the matching Spell before the next\nVisage appears Empowers that Spell\nEmpowered Spells deal {0}% more damage"
 			},
 			[2]={
@@ -89,6 +94,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Casting the matching [Spell] before the next\nVisage appears [Empowered|Empowers] that [Spell]\n[Empowered] Spells deal {0}% less damage",
 				text="Casting the matching Spell before the next\nVisage appears Empowers that Spell\nEmpowered Spells deal {0}% less damage"
 			}
 		},

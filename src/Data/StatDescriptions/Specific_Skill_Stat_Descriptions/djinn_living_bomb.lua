@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} active Brands",
 				text="Limit {0} active Brands"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Brands",
 				text="Limit {0} active Brands"
 			}
 		},

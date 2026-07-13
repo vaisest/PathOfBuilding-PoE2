@@ -21,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Electrocute|Electrocution] buildup from [HitDamage|Hits] with this skill",
 				text="{0}% more Electrocution buildup from Hits with this skill"
 			},
 			[2]={
@@ -34,6 +35,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Electrocute|Electrocution] buildup from [HitDamage|Hits] with this skill",
 				text="{0}% less Electrocution buildup from Hits with this skill"
 			}
 		},
@@ -61,6 +63,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Rune explosion radius is {0} metre",
 				text="Rune explosion radius is {0} metre"
 			},
 			[2]={
@@ -74,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune explosion radius is {0} metres",
 				text="Rune explosion radius is {0} metres"
 			}
 		},

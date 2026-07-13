@@ -25,6 +25,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Duration of the Apocalypse is {0} second",
 				text="Duration of the Apocalypse is {0} second"
 			},
 			[2]={
@@ -38,6 +39,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Duration of the Apocalypse is {0} seconds",
 				text="Duration of the Apocalypse is {0} seconds"
 			}
 		},
@@ -66,6 +68,7 @@ return {
 						[2]=-1000
 					}
 				},
+				rawText="{0:-d} second between [Trigger|Triggers]",
 				text="{0:-d} second between Triggers"
 			},
 			[2]={
@@ -80,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:-d} seconds between [Trigger|Triggers]",
 				text="{0:-d} seconds between Triggers"
 			},
 			[3]={
@@ -93,6 +97,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Trigger|Triggers] one of three disasters every {0} second",
 				text="Triggers one of three disasters every {0} second"
 			},
 			[4]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] one of three disasters every {0} seconds",
 				text="Triggers one of three disasters every {0} seconds"
 			}
 		},
@@ -123,6 +129,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced frequency of [Trigger|Triggers]",
 				text="{0}% reduced frequency of Triggers"
 			},
 			[2]={
@@ -133,6 +140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased frequency of [Trigger|Triggers]",
 				text="{0}% increased frequency of Triggers"
 			},
 			[3]={
@@ -142,6 +150,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced frequency of [Trigger|Triggers]",
 				text="{0}% reduced frequency of Triggers"
 			},
 			[4]={
@@ -151,6 +160,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased frequency of [Trigger|Triggers]",
 				text="{0}% increased frequency of Triggers"
 			}
 		},

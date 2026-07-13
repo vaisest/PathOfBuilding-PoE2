@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ManaLeech|Leeches] {0} Mana",
 				text="Leeches {0} Mana"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mana [ManaLeech|Leeched] per cast@{0}",
 				text="Mana Leeched per cast@{0}"
 			}
 		},

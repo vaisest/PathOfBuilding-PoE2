@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Zombie duration is {0} second",
 				text="Zombie duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Zombie duration is {0} seconds",
 				text="Zombie duration is {0} seconds"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowered] Zombies take {0}% less damage",
 				text="Empowered Zombies take {0}% less damage"
 			},
 			[2]={
@@ -64,6 +67,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered|Empowered] Zombies take {0}% more damage",
 				text="Empowered Zombies take {0}% more damage"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Zombies deal {0}% more damage with [HitDamage|Hits]",
 				text="Empowered Zombies deal {0}% more damage with Hits"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered] Zombies deal {0}% less damage with [HitDamage|Hits]",
 				text="Empowered Zombies deal {0}% less damage with Hits"
 			}
 		},
@@ -109,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Zombies have {0}% more movement speed",
 				text="Empowered Zombies have {0}% more movement speed"
 			},
 			[2]={
@@ -122,6 +129,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered] Zombies have {0}% less movement speed",
 				text="Empowered Zombies have {0}% less movement speed"
 			}
 		},
@@ -138,6 +146,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased effect of [Empowered|Empowerment] on Raised Zombies",
 				text="{0}% increased effect of Empowerment on Raised Zombies"
 			},
 			[2]={
@@ -151,6 +160,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced effect of [Empowered|Empowerment] on Raised Zombies",
 				text="{0}% reduced effect of Empowerment on Raised Zombies"
 			}
 		},

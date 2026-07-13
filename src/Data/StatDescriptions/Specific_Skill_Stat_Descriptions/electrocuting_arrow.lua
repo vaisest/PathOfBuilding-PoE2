@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Chain]",
 				text="Cannot Chain"
 			}
 		},
@@ -32,6 +33,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Pierce]",
 				text="Cannot Pierce"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against targets with attached Rods gain {0}% of Damage as extra [Lightning|Lightning Damage]",
 				text="Hits against targets with attached Rods gain {0}% of Damage as extra Lightning Damage"
 			}
 		},
@@ -72,6 +75,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Arrow duration",
 				text="{0:+d} second to Arrow duration"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Arrow duration",
 				text="{0:+d} seconds to Arrow duration"
 			},
 			[3]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow duration is {0} second",
 				text="Arrow duration is {0} second"
 			},
 			[4]={
@@ -123,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow duration is {0} seconds",
 				text="Arrow duration is {0} seconds"
 			}
 		},
@@ -140,6 +147,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Targets with attached Rods take {0}% increased damage",
 				text="Targets with attached Rods take {0}% increased damage"
 			},
 			[2]={
@@ -153,6 +161,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Targets with attached Rods take {0}% reduced damage",
 				text="Targets with attached Rods take {0}% reduced damage"
 			}
 		},

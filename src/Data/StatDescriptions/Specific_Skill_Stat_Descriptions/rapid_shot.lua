@@ -25,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot fire or reload for {0} seconds on\nreaching maximum [Heat]",
 				text="Cannot fire or reload for {0} seconds on\nreaching maximum Heat"
 			}
 		},

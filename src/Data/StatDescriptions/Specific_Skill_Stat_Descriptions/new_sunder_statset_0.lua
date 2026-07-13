@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave length is {0} metre",
 				text="Wave length is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave length is {0} metres",
 				text="Wave length is {0} metres"
 			}
 		},
@@ -63,6 +65,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave causes Shockwaves from up to {0} Enemies in each Area",
 				text="Wave causes Shockwaves from up to {0} Enemies in each Area"
 			}
 		},
@@ -79,6 +82,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [SunderedArmour|Sundered Armour] on hitting\n[ArmourBreak|Fully Armour Broken] targets, causing {0}% additional\nincreased [Physical] damage taken",
 				text="Inflicts Sundered Armour on hitting\nFully Armour Broken targets, causing {0}% additional\nincreased Physical damage taken"
 			}
 		},
@@ -99,6 +103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[SunderedArmour|Sundered Armour] has {0} second duration, or until [ArmourBreak|Fully Broken Armour] is removed",
 				text="Sundered Armour has {0} second duration, or until Fully Broken Armour is removed"
 			}
 		},

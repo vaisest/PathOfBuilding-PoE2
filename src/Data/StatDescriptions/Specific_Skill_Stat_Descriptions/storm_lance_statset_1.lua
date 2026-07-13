@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires bolts at enemies within a {0} metre radius",
 				text="Fires bolts at enemies within a {0} metre radius"
 			}
 		},
@@ -42,6 +43,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] duration is {0} second",
 				text="Shocked Ground duration is {0} second"
 			},
 			[2]={
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] duration is {0} seconds",
 				text="Shocked Ground duration is {0} seconds"
 			}
 		},
@@ -75,6 +78,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Lodged spear duration is {0} second",
 				text="Lodged spear duration is {0} second"
 			},
 			[2]={
@@ -88,6 +92,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lodged spear duration is {0} seconds",
 				text="Lodged spear duration is {0} seconds"
 			}
 		},
@@ -104,6 +109,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fires a bolt every second",
 				text="Fires a bolt every second"
 			},
 			[2]={
@@ -117,6 +123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires a bolt every {0} seconds",
 				text="Fires a bolt every {0} seconds"
 			}
 		},

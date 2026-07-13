@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Thrust length is {0} metre",
 				text="Thrust length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Thrust length is {0} metres",
 				text="Thrust length is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Thrust width is {0} metre",
 				text="Thrust width is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Thrust width is {0} metres",
 				text="Thrust width is {0} metres"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Requires {0} [Charges|Frenzy Charge] to use",
 				text="Requires {0} Frenzy Charge to use"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0} [Charges|Frenzy Charges] to use",
 				text="Requires {0} Frenzy Charges to use"
 			}
 		},

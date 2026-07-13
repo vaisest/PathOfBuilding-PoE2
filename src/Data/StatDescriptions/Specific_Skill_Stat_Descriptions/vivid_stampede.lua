@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius@{0}m",
 				text="Shockwave radius@{0}m"
 			}
 		},
@@ -39,6 +40,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to Shockwave radius",
 				text="{0:+d} metre to Shockwave radius"
 			},
 			[2]={
@@ -56,6 +58,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to Shockwave radius",
 				text="{0:+d} metres to Shockwave radius"
 			},
 			[3]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[4]={
@@ -90,6 +94,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -107,6 +112,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Stags leap once",
 				text="Stags leap once"
 			},
 			[2]={
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stags leap {0} times",
 				text="Stags leap {0} times"
 			}
 		},
@@ -136,6 +143,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] duration is {0} second",
 				text="Shocked Ground duration is {0} second"
 			},
 			[2]={
@@ -149,6 +157,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] duration is {0} seconds",
 				text="Shocked Ground duration is {0} seconds"
 			}
 		},

@@ -48,6 +48,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to Toxic Bloom radius",
 				text="{0:+d} metre to Toxic Bloom radius"
 			},
 			[2]={
@@ -62,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to Toxic Bloom radius",
 				text="{0:+d} metres to Toxic Bloom radius"
 			},
 			[3]={
@@ -75,6 +77,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Toxic Bloom Radius is {0} metre",
 				text="Toxic Bloom Radius is {0} metre"
 			},
 			[4]={
@@ -88,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Toxic Bloom Radius is {0} metres",
 				text="Toxic Bloom Radius is {0} metres"
 			}
 		},
@@ -108,6 +112,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Toxic Bloom duration is {0} second",
 				text="Toxic Bloom duration is {0} second"
 			},
 			[2]={
@@ -121,6 +126,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Toxic Bloom duration is {0} seconds",
 				text="Toxic Bloom duration is {0} seconds"
 			}
 		},
@@ -144,6 +150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each enemy can have up to 1 Pustule attached",
 				text="Each enemy can have up to 1 Pustule attached"
 			}
 		},
@@ -160,6 +167,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Effects of Toxic Bloom Linger on you for 1 second",
 				text="Effects of Toxic Bloom Linger on you for 1 second"
 			},
 			[2]={
@@ -173,6 +181,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Effects of Toxic Bloom Linger on you for {0} seconds",
 				text="Effects of Toxic Bloom Linger on you for {0} seconds"
 			}
 		},
@@ -193,6 +202,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} life per second",
 				text="Regenerate {0} life per second"
 			}
 		},
@@ -213,6 +223,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Skill costs are decreased by {0}%",
 				text="Skill costs are decreased by {0}%"
 			},
 			[2]={
@@ -222,6 +233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skill costs are increased by {0}%",
 				text="Skill costs are increased by {0}%"
 			}
 		},
@@ -238,6 +250,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Projectile] [HitDamage|Hits] attach a Pustule",
 				text="Projectile Hits attach a Pustule"
 			},
 			[2]={
@@ -247,6 +260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for [Projectile] [HitDamage|Hits] to attach a Pustule",
 				text="{0}% chance for Projectile Hits to attach a Pustule"
 			}
 		},

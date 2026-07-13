@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Mark] duration is {0} second",
 				text="Mark duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark] duration is {0} seconds",
 				text="Mark duration is {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark|Marked] target receives [HeavyStun|Heavy Stun] buildup equal to\n{0}% of [BloodLoss|Blood Loss]",
 				text="Marked target receives Heavy Stun buildup equal to\n{0}% of Blood Loss"
 			}
 		},
@@ -65,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[MarkActivate|Activates] when [Mark|Marked] enemy is [HeavyStun|Heavy Stunned]\n[MarkActivate|Activates] when [Mark|Marked] enemy dies if they had at least {0}% [HeavyStun|Heavy Stun] buildup from [BloodLoss|Blood Loss]\n[Trigger|Triggers] blood explosion when [MarkActivate|Activated]",
 				text="Activates when Marked enemy is Heavy Stunned\nActivates when Marked enemy dies if they had at least {0}% Heavy Stun buildup from Blood Loss\nTriggers blood explosion when Activated"
 			}
 		},

@@ -18,6 +18,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Applies a socketed [Mark] to {0} Enemy every five seconds",
 				text="Applies a socketed Mark to {0} Enemy every five seconds"
 			},
 			[2]={
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies a socketed [Mark] to {0} Enemies every five seconds",
 				text="Applies a socketed Mark to {0} Enemies every five seconds"
 			}
 		},
@@ -47,6 +49,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Applies socketed [Mark|Marks] to Enemies within {0} metre",
 				text="Applies socketed Marks to Enemies within {0} metre"
 			},
 			[2]={
@@ -60,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies socketed [Mark|Marks] to Enemies within {0} metres",
 				text="Applies socketed Marks to Enemies within {0} metres"
 			}
 		},

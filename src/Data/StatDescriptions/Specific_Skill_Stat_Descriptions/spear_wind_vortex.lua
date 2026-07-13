@@ -22,6 +22,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Damages and draws in Enemies within {0} metre",
 				text="Damages and draws in Enemies within {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damages and draws in Enemies within {0} metres",
 				text="Damages and draws in Enemies within {0} metres"
 			}
 		},

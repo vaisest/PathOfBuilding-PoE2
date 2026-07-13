@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[AilmentSpread|Spreads] the most Damaging [Poison] on enemies you kill in a {0} metre radius",
 				text="Spreads the most Damaging Poison on enemies you kill in a {0} metre radius"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Hinder] enemies on spreading [Poison] to them",
 				text="{0}% chance to Hinder enemies on spreading Poison to them"
 			}
 		},

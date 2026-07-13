@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to swarm [Attack] radius",
 				text="{0:+d} metres to swarm Attack radius"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarms [Attack] enemies within {0} metre radius of you",
 				text="Swarms Attack enemies within {0} metre radius of you"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spawn a new Swarm once every second",
 				text="Spawn a new Swarm once every second"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawn a new Swarm once every {0} seconds",
 				text="Spawn a new Swarm once every {0} seconds"
 			}
 		},
@@ -89,6 +93,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Swarm duration is {0} second",
 				text="Swarm duration is {0} second"
 			},
 			[2]={
@@ -102,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm duration is {0} seconds",
 				text="Swarm duration is {0} seconds"
 			}
 		},
@@ -118,6 +124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nSwarm spawning frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nSwarm spawning frequency"
 			}
 		},
@@ -148,6 +155,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} active Swarm",
 				text="Limit {0} active Swarm"
 			},
 			[2]={
@@ -157,6 +165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Swarms",
 				text="Limit {0} active Swarms"
 			}
 		},

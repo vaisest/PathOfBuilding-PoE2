@@ -20,6 +20,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} [Cold] damage",
 				text="Deals {0} to {1} Cold damage"
 			}
 		},
@@ -41,6 +42,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -54,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},

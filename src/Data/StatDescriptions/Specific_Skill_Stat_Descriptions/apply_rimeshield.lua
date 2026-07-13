@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ice Armour radius is {0} metre",
 				text="Ice Armour radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice Armour radius is {0} metres",
 				text="Ice Armour radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Ice Armour duration is {0} second",
 				text="Ice Armour duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice Armour duration is {0} seconds",
 				text="Ice Armour duration is {0} seconds"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ice Armour grants {0}% reduced damage taken from [HitDamage|Hits]",
 				text="Ice Armour grants {0}% reduced damage taken from Hits"
 			},
 			[2]={
@@ -97,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice Armour grants {0}% increased damage taken from [HitDamage|Hits]",
 				text="Ice Armour grants {0}% increased damage taken from Hits"
 			}
 		},
@@ -124,6 +130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice Armour deals {0} to {1} [Cold] damage to enemies",
 				text="Ice Armour deals {0} to {1} Cold damage to enemies"
 			}
 		},

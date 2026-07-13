@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each enemy can have up to 1 Pustule attached",
 				text="Each enemy can have up to 1 Pustule attached"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] grants up to {1}% more explosion Damage",
 				text="Stored Poison grants up to {1}% more explosion Damage"
 			}
 		},

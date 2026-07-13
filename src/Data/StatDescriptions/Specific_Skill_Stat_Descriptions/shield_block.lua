@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shield Bash causes {0}% more [HeavyStun|Heavy Stun] buildup",
 				text="Shield Bash causes {0}% more Heavy Stun buildup"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shield Bash causes {0}% less [HeavyStun|Heavy Stun] buildup",
 				text="Shield Bash causes {0}% less Heavy Stun buildup"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shield Bash always [LightStun|Light Stuns]\nShield Bash [Daze|Dazes] if holding a Tower Shield",
 				text="Shield Bash always Light Stuns\nShield Bash Dazes if holding a Tower Shield"
 			}
 		},
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] lasts for an additional {0:+d} seconds",
 				text="Parried Debuff lasts for an additional {0:+d} seconds"
 			},
 			[2]={
@@ -74,6 +78,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} second",
 				text="Parried Debuff duration is {0} second"
 			},
 			[3]={
@@ -87,6 +92,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ParriedDebuff|Parried] [Debuff] duration is {0} seconds",
 				text="Parried Debuff duration is {0} seconds"
 			}
 		},
@@ -103,6 +109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shield Bash can't be [Evasion|Evaded]",
 				text="Shield Bash can't be Evaded"
 			}
 		},
@@ -123,6 +130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shield Bash deals {0} to {1} [Physical|Physical] Damage per 5 [Armour|Armour] on [Shield|Shield]",
 				text="Shield Bash deals {0} to {1} Physical Damage per 5 Armour on Shield"
 			}
 		},

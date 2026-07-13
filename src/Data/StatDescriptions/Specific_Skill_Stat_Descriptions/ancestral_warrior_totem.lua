@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem|Totem] uses its own Two Handed [Mace], dealing\n{0} to {1} base [Physical|Physical] damage",
 				text="Totem uses its own Two Handed Mace, dealing\n{0} to {1} base Physical damage"
 			}
 		},

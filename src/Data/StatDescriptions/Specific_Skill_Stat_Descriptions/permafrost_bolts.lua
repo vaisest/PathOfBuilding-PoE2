@@ -32,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts shatter on impact, dealing Damage in a {0} metre cone",
 				text="Bolts shatter on impact, dealing Damage in a {0} metre cone"
 			}
 		},
@@ -56,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} fragments per shot",
 				text="Fires {0} fragments per shot"
 			},
 			[2]={
@@ -73,6 +75,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires {0:+d} fragments per shot",
 				text="Fires {0:+d} fragments per shot"
 			}
 		},

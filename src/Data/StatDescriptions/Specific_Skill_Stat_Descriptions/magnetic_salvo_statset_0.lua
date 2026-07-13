@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -64,6 +66,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires up to {0:+d} missile",
 				text="Fires up to {0:+d} missile"
 			},
 			[2]={
@@ -81,6 +84,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires up to {0:+d} missiles",
 				text="Fires up to {0:+d} missiles"
 			},
 			[3]={
@@ -98,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires up to {0} missiles",
 				text="Fires up to {0} missiles"
 			}
 		},

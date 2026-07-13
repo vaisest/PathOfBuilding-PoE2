@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Decay deals {0} [Chaos] damage per second",
 				text="Decay deals {0} Chaos damage per second"
 			}
 		},
@@ -39,6 +40,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Decay duration is {0} second",
 				text="Decay duration is {0} second"
 			},
 			[2]={
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Decay duration is {0} seconds",
 				text="Decay duration is {0} seconds"
 			}
 		},

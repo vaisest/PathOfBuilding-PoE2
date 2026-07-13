@@ -35,6 +35,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} fragments per shot",
 				text="Fires {0} fragments per shot"
 			}
 		},
@@ -52,6 +53,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Beam [Chain|Chains] to {0} enemy",
 				text="Beam Chains to {0} enemy"
 			},
 			[2]={
@@ -61,6 +63,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beam [Chain|Chains] to {0} enemies",
 				text="Beam Chains to {0} enemies"
 			}
 		},

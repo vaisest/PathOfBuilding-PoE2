@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can fire up to {0} [Projectile|Projectiles]",
 				text="Can fire up to {0} Projectiles"
 			}
 		},
@@ -36,6 +37,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Debuff] duration is {0} second",
 				text="Debuff duration is {0} second"
 			},
 			[2]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] duration is {0} seconds",
 				text="Debuff duration is {0} seconds"
 			}
 		},

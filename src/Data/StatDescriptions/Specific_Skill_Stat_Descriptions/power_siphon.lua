@@ -16,6 +16,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to grant an additional [Charges|Power Charge] on [CullingStrike|Cull]",
 				text="{0}% chance to grant an additional Power Charge on Cull"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants an additional [Charges|Power Charge] on [CullingStrike|Cull]",
 				text="Grants an additional Power Charge on Cull"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion and [ChilledGround|Chilled Ground] radius are {0} metre",
 				text="Explosion and Chilled Ground radius are {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion and [ChilledGround|Chilled Ground] radius are {0} metres",
 				text="Explosion and Chilled Ground radius are {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] duration is {0} second",
 				text="Chilled Ground duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ChilledGround|Chilled Ground] duration is {0} seconds",
 				text="Chilled Ground duration is {0} seconds"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Cast Time",
 				text="{0:+d} seconds to Cast Time"
 			}
 		},

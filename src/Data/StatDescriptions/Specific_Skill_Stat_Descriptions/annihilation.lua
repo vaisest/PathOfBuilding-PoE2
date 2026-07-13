@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -64,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] a total of {0} times over {1} seconds",
 				text="Hits a total of {0} times over {1} seconds"
 			}
 		},
@@ -85,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="100% of Physical Damage Converted to other Damage Types matching the Supported [Curse] Gem's Tags",
 				text="100% of Physical Damage Converted to other Damage Types matching the Supported Curse Gem's Tags"
 			}
 		},

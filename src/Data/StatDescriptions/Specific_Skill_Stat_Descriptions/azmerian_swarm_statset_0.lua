@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon an Azmerian Swarm when you kill a target affected by an [ElementalAilments|Elemental Ailment]",
 				text="Summon an Azmerian Swarm when you kill a target affected by an Elemental Ailment"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to summon an Azmerian Swarm when you kill a target affected by an [ElementalAilments|Elemental Ailment]",
 				text="{0}% chance to summon an Azmerian Swarm when you kill a target affected by an Elemental Ailment"
 			}
 		},
@@ -36,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to summon an Azmerian Swarm when you [HitDamage|Hit] a Rare or Unique target affected by an [ElementalAilments|Elemental Ailment]",
 				text="{0}% chance to summon an Azmerian Swarm when you Hit a Rare or Unique target affected by an Elemental Ailment"
 			}
 		},
@@ -53,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0:+d} Azmerian Swarms",
 				text="Maximum {0:+d} Azmerian Swarms"
 			},
 			[2]={
@@ -62,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Azmerian Swarms",
 				text="Maximum {0} Azmerian Swarms"
 			}
 		},
@@ -78,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarms have {0}% chance to inflict 1 [FaerieFire|Faerie Fire] on [HitDamage|Hit]",
 				text="Swarms have {0}% chance to inflict 1 Faerie Fire on Hit"
 			}
 		},
@@ -94,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarms [Conversion|Convert] {0}% of [Physical] Damage to a random [ElementalDamage|Element]",
 				text="Swarms Convert {0}% of Physical Damage to a random Element"
 			}
 		},
@@ -114,6 +121,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Swarm duration is {0} second",
 				text="Swarm duration is {0} second"
 			},
 			[2]={
@@ -127,6 +135,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm duration is {0} seconds",
 				text="Swarm duration is {0} seconds"
 			}
 		},
@@ -150,6 +159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarms have 1% increased [Attack] Speed\nper {0} of your [Dexterity]",
 				text="Swarms have 1% increased Attack Speed\nper {0} of your Dexterity"
 			}
 		},
@@ -166,6 +176,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarms deal {0}% more Damage with [HitDamage|Hits] for each type of [ElementalAilments|Elemental Ailment] on target",
 				text="Swarms deal {0}% more Damage with Hits for each type of Elemental Ailment on target"
 			}
 		},

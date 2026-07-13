@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Reservation for summoning Spectres",
 				text="{0}% increased Reservation for summoning Spectres"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Reservation for summoning Spectres",
 				text="{0}% reduced Reservation for summoning Spectres"
 			}
 		},

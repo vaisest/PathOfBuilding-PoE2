@@ -20,6 +20,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0:+d}% more [Freeze] buildup",
 				text="Hits against Marked enemy cause {0:+d}% more Freeze buildup"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0}% more [Freeze] buildup",
 				text="Hits against Marked enemy cause {0}% more Freeze buildup"
 			},
 			[3]={
@@ -50,6 +52,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] against [Mark|Marked] enemy cause {0}% less [Freeze] buildup",
 				text="Hits against Marked enemy cause {0}% less Freeze buildup"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark|Marked] enemy becomes [Frozen] when\n[HitDamage|Hit] while [PrimedFreeze|Primed for Freeze]",
 				text="Marked enemy becomes Frozen when\nHit while Primed for Freeze"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Mark] duration is {0} second",
 				text="Mark duration is {0} second"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark] duration is {0} seconds",
 				text="Mark duration is {0} seconds"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of damage [Gain|Gained] as [Cold] damage",
 				text="Buff grants {0}% of damage Gained as Cold damage"
 			}
 		},
@@ -150,6 +157,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -163,6 +171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},

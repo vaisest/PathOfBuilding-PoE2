@@ -37,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires Bolts at every Enemy within a {0} metre radius",
 				text="Fires Bolts at every Enemy within a {0} metre radius"
 			}
 		},
@@ -57,6 +58,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Bolt explosion radius is {0} metre",
 				text="Bolt explosion radius is {0} metre"
 			},
 			[2]={
@@ -70,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolt explosion radius is {0} metres",
 				text="Bolt explosion radius is {0} metres"
 			}
 		},

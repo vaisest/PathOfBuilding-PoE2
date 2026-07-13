@@ -16,6 +16,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to creation radius",
 				text="{0:+d} metre to creation radius"
 			},
 			[2]={
@@ -30,6 +31,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to creation radius",
 				text="{0:+d} metres to creation radius"
 			},
 			[3]={
@@ -43,6 +45,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Creation radius is {0} metre",
 				text="Creation radius is {0} metre"
 			},
 			[4]={
@@ -56,6 +59,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creation radius is {0} metres",
 				text="Creation radius is {0} metres"
 			}
 		},
@@ -73,6 +77,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0:+d} [IceCrystals|Grim Pillar]",
 				text="Creates {0:+d} Grim Pillar"
 			},
 			[2]={
@@ -83,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0:+d} [IceCrystals|Grim Pillars]",
 				text="Creates {0:+d} Grim Pillars"
 			},
 			[3]={
@@ -92,6 +98,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} [IceCrystals|Grim Pillars]",
 				text="Creates {0} Grim Pillars"
 			},
 			[4]={
@@ -101,6 +108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} [IceCrystals|Grim Pillars]",
 				text="Creates {0} Grim Pillars"
 			}
 		},
@@ -122,6 +130,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="{0:+d} metre to eruption radius",
 				text="{0:+d} metre to eruption radius"
 			},
 			[2]={
@@ -136,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to eruption radius",
 				text="{0:+d} metres to eruption radius"
 			},
 			[3]={
@@ -149,6 +159,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Eruption radius is {0} metre",
 				text="Eruption radius is {0} metre"
 			},
 			[4]={
@@ -162,6 +173,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Eruption radius is {0} metres",
 				text="Eruption radius is {0} metres"
 			}
 		},
@@ -182,6 +194,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[IceCrystals|Grim Pillar] duration is {0} second",
 				text="Grim Pillar duration is {0} second"
 			},
 			[2]={
@@ -195,6 +208,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IceCrystals|Grim Pillar] duration is {0} seconds",
 				text="Grim Pillar duration is {0} seconds"
 			}
 		},
@@ -215,6 +229,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[IceCrystals|Grim Pillars] have {0} maximum Life",
 				text="Grim Pillars have {0} maximum Life"
 			},
 			[2]={
@@ -228,6 +243,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[IceCrystals|Grim Pillar] has {0} maximum Life",
 				text="Grim Pillar has {0} maximum Life"
 			}
 		},
@@ -245,6 +261,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [IceCrystals|Grim Pillars]",
 				text="Limit {0} Grim Pillars"
 			},
 			[2]={
@@ -254,6 +271,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [IceCrystals|Grim Pillars]",
 				text="Limit {0} Grim Pillars"
 			}
 		},

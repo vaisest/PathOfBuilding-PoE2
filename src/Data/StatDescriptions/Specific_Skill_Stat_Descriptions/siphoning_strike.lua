@@ -37,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -50,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},

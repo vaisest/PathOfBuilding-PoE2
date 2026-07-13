@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Spear thrown per [Attack]",
 				text="Limit {0} Spear thrown per Attack"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Spears thrown per [Attack]",
 				text="Limit {0} Spears thrown per Attack"
 			}
 		},

@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Warcry] radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Warcry] radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Freeze|Frozen] explosion radius is {0} metre",
 				text="Frozen explosion radius is {0} metre"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Freeze|Frozen] explosion radius is {0} metres",
 				text="Frozen explosion radius is {0} metres"
 			}
 		},
@@ -93,6 +97,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Intimidate|Indimidation] duration is {0} second",
 				text="Indimidation duration is {0} second"
 			},
 			[2]={
@@ -106,6 +111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Intimidate|Indimidation] duration is {0} seconds",
 				text="Indimidation duration is {0} seconds"
 			}
 		},

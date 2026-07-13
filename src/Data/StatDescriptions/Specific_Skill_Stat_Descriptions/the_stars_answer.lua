@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be cast if you have less than {0} Mana\nCannot be cast if already active",
 				text="Cannot be cast if you have less than {0} Mana\nCannot be cast if already active"
 			}
 		},
@@ -31,6 +32,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Targeting radius is {0} metre",
 				text="Targeting radius is {0} metre"
 			},
 			[2]={
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Targeting radius is {0} metres",
 				text="Targeting radius is {0} metres"
 			}
 		},
@@ -60,6 +63,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Trigger|Triggers] Starfall every second, targeting enemies if able",
 				text="Triggers Starfall every second, targeting enemies if able"
 			},
 			[2]={
@@ -73,6 +77,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] Starfall every {0} seconds, targeting enemies if able",
 				text="Triggers Starfall every {0} seconds, targeting enemies if able"
 			}
 		},
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Starfall [Trigger] frequency per enemy in radius after the first, up to a maximum of {1}%",
 				text="{0}% increased Starfall Trigger frequency per enemy in radius after the first, up to a maximum of {1}%"
 			}
 		},
@@ -111,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} Starfall [Trigger|Triggers] required per large star",
 				text="{0:+d} Starfall Triggers required per large star"
 			},
 			[2]={
@@ -120,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Starfall creates a large star every {0} times [Trigger|Triggered]",
 				text="Starfall creates a large star every {0} times Triggered"
 			}
 		},
@@ -147,6 +155,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cannot [Trigger] Starfall for more than one large star per target every {0} second",
 				text="Cannot Trigger Starfall for more than one large star per target every {0} second"
 			},
 			[2]={
@@ -160,6 +169,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Starfall cannot cannot target the same enemy with large stars more than once every {0} seconds",
 				text="Starfall cannot cannot target the same enemy with large stars more than once every {0} seconds"
 			}
 		},

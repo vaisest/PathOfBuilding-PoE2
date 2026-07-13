@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Curse] radius is {0} metre",
 				text="Curse radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] radius is {0} metres",
 				text="Curse radius is {0} metres"
 			}
 		},
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] makes targets deal {0}% more Damage",
 				text="Curse makes targets deal {0}% more Damage"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Curse] makes targets deal {0}% less Damage",
 				text="Curse makes targets deal {0}% less Damage"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] makes [Rarity|Unique] targets deal {0}% more Damage",
 				text="Curse makes Unique targets deal {0}% more Damage"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Curse] makes [Rarity|Unique] targets deal {0}% less Damage",
 				text="Curse makes Unique targets deal {0}% less Damage"
 			}
 		},
@@ -121,6 +127,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Curse] duration is {0} second",
 				text="Curse duration is {0} second"
 			},
 			[2]={
@@ -134,6 +141,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] duration is {0} seconds",
 				text="Curse duration is {0} seconds"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Trigger] a Meteor every second",
 				text="Trigger a Meteor every second"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] a Meteor every {0} seconds",
 				text="Trigger a Meteor every {0} seconds"
 			}
 		},
@@ -45,6 +47,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="-{0} Meteors fall between large Meteors",
 				text="-{0} Meteors fall between large Meteors"
 			},
 			[2]={
@@ -54,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A large Meteor falls every {0} Meteors",
 				text="A large Meteor falls every {0} Meteors"
 			}
 		},
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Meteors fall in {0} metre radius",
 				text="Meteors fall in {0} metre radius"
 			}
 		},
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Meteors [Trigger] {0}% more frequently for each\nadditional enemy in radius, up to {1}%",
 				text="Meteors Trigger {0}% more frequently for each\nadditional enemy in radius, up to {1}%"
 			}
 		},
@@ -122,6 +128,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Large meteors can target a single enemy only\nonce every second",
 				text="Large meteors can target a single enemy only\nonce every second"
 			},
 			[2]={
@@ -135,6 +142,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Large meteors can target a single enemy only\nonce every {0} seconds",
 				text="Large meteors can target a single enemy only\nonce every {0} seconds"
 			}
 		},
@@ -155,6 +163,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second",
 				text="Buff duration is {0} second"
 			},
 			[2]={
@@ -168,6 +177,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds",
 				text="Buff duration is {0} seconds"
 			}
 		},
@@ -195,6 +205,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0} [Rage] regenerated per second",
 				text="Buff grants {0} Rage regenerated per second"
 			}
 		},
@@ -212,6 +223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0:+d}% of damage [Gain|Gained] as [Fire] damage",
 				text="Buff grants {0:+d}% of damage Gained as Fire damage"
 			},
 			[2]={
@@ -221,6 +233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% of damage [Gain|Gained] as [Fire] damage",
 				text="Buff grants {0}% of damage Gained as Fire damage"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Life Regeneration granted@{0}",
 				text="Life Regeneration granted@{0}"
 			}
 		},

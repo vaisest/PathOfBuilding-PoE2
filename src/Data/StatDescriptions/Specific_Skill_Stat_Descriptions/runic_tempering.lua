@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Backlash radius is {0} metre",
 				text="Backlash radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Backlash radius is {0} metres",
 				text="Backlash radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can backlash once every {0} second",
 				text="Can backlash once every {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can backlash once every {0} seconds",
 				text="Can backlash once every {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% more Damage from [HitDamage|Hits] while you have Runic Plates",
 				text="You take {0}% more Damage from Hits while you have Runic Plates"
 			},
 			[2]={
@@ -97,6 +102,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="You take {0}% less Damage from [HitDamage|Hits] while you have Runic Plates",
 				text="You take {0}% less Damage from Hits while you have Runic Plates"
 			}
 		},
@@ -113,6 +119,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="A Runic Plate is lost for every {0} backlash",
 				text="A Runic Plate is lost for every {0} backlash"
 			},
 			[2]={
@@ -122,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A Runic Plate is lost for every {0} backlashes",
 				text="A Runic Plate is lost for every {0} backlashes"
 			}
 		},
@@ -142,6 +150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Runic Plate",
 				text="Maximum {0} Runic Plate"
 			},
 			[2]={
@@ -155,6 +164,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Runic Plates",
 				text="Maximum {0} Runic Plates"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chills] enemies in your [Presence] as though dealing {0} to {1} [Cold] damage",
 				text="Chills enemies in your Presence as though dealing {0} to {1} Cold damage"
 			}
 		},

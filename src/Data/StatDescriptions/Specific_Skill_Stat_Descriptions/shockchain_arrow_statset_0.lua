@@ -11,6 +11,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Projectile] [Chain|Chains] an additional time on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]",
 				text="Projectile Chains an additional time on first hitting a Shocked or Electrocuted enemy, releasing a Shockwave on each Hit"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile] [Chain|Chains] {0} additional times on first hitting a [Shock|Shocked] or [Electrocute|Electrocuted] enemy, releasing a Shockwave on each [HitDamage|Hit]",
 				text="Projectile Chains {0} additional times on first hitting a Shocked or Electrocuted enemy, releasing a Shockwave on each Hit"
 			}
 		},
@@ -40,6 +42,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Arrow duration is {0} second",
 				text="Arrow duration is {0} second"
 			},
 			[2]={
@@ -53,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow duration is {0} seconds",
 				text="Arrow duration is {0} seconds"
 			}
 		},
@@ -69,6 +73,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Arrow disappears after being [Chain|Chained] to once",
 				text="Arrow disappears after being Chained to once"
 			},
 			[2]={
@@ -78,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow disappears after being [Chain|Chained] to {0} times",
 				text="Arrow disappears after being Chained to {0} times"
 			}
 		},
@@ -94,6 +100,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} active Arrow",
 				text="Maximum {0} active Arrow"
 			},
 			[2]={
@@ -103,6 +110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} active Arrows",
 				text="Maximum {0} active Arrows"
 			}
 		},

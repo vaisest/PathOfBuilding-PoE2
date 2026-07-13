@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fully imbues [Shield] in {0} second",
 				text="Fully imbues Shield in {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fully imbues [Shield] in {0} seconds",
 				text="Fully imbues Shield in {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% reduced Imbuement time",
 				text="{0}% reduced Imbuement time"
 			},
 			[2]={
@@ -62,6 +65,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Imbuement time",
 				text="{0}% reduced Imbuement time"
 			},
 			[3]={
@@ -75,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Imbuement time",
 				text="{0}% increased Imbuement time"
 			}
 		},
@@ -92,6 +97,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased [Block] chance",
 				text="{0:+d}% increased Block chance"
 			},
 			[2]={
@@ -101,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased [Block] chance",
 				text="Grants {0}% increased Block chance"
 			},
 			[3]={
@@ -114,6 +121,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced [Block] chance",
 				text="Grants {0}% reduced Block chance"
 			}
 		},

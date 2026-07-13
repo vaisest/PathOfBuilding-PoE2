@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains up to {0}% more damage and {1}% more area of\neffect based on the percentage of target's\n[HeavyStun|Heavy Stun] buildup caused by [BloodLoss|Blood Loss]",
 				text="Gains up to {0}% more damage and {1}% more area of\neffect based on the percentage of target's\nHeavy Stun buildup caused by Blood Loss"
 			}
 		},

@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum [Mark] duration is {0} second",
 				text="Maximum Mark duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum [Mark] duration is {0} seconds",
 				text="Maximum Mark duration is {0} seconds"
 			}
 		},
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Next [Critical|Critical Hit] against Marked Enemy has {0}% increased [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Next Critical Hit against Marked Enemy has {0}% increased Critical Damage Bonus"
 			}
 		},

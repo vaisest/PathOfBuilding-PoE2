@@ -31,6 +31,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to Burst radius",
 				text="{0:+d} metre to Burst radius"
 			},
 			[2]={
@@ -48,6 +49,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to Burst radius",
 				text="{0:+d} metres to Burst radius"
 			},
 			[3]={
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burst radius is {0} metre",
 				text="Burst radius is {0} metre"
 			},
 			[4]={
@@ -82,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burst radius is {0} metres",
 				text="Burst radius is {0} metres"
 			}
 		},
@@ -103,6 +107,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum Arrow duration is {0} second",
 				text="Maximum Arrow duration is {0} second"
 			},
 			[2]={
@@ -116,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Arrow duration is {0} seconds",
 				text="Maximum Arrow duration is {0} seconds"
 			}
 		},
@@ -132,6 +138,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Arrow disappears after being [Chain|Chained] to once",
 				text="Arrow disappears after being Chained to once"
 			},
 			[2]={
@@ -141,6 +148,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrow disappears after being [Chain|Chained] to {0} times",
 				text="Arrow disappears after being Chained to {0} times"
 			}
 		},
@@ -157,6 +165,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to cause an additional Burst on impact",
 				text="{0}% chance to cause an additional Burst on impact"
 			},
 			[2]={
@@ -166,6 +175,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes an additional Burst on impact",
 				text="Causes an additional Burst on impact"
 			}
 		},
@@ -182,6 +192,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} active Arrow",
 				text="Maximum {0} active Arrow"
 			},
 			[2]={
@@ -191,6 +202,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} active Arrows",
 				text="Maximum {0} active Arrows"
 			}
 		},

@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% more\ndamage per [Charges|Power Charge] Consumed",
 				text="Socketed Skills deal {0}% more\ndamage per Power Charge Consumed"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Totem] life per [Charges|Endurance Charge] Consumed",
 				text="{0}% more Totem life per Endurance Charge Consumed"
 			}
 		},
@@ -43,6 +45,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Totem] duration per [Charges|Endurance Charge] Consumed",
 				text="{0}% more Totem duration per Endurance Charge Consumed"
 			}
 		},

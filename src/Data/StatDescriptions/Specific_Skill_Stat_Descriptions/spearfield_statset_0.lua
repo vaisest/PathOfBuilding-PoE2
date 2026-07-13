@@ -32,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spears emerge within a {0} metre length cone",
 				text="Spears emerge within a {0} metre length cone"
 			}
 		},
@@ -52,6 +53,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spear duration is {0} second",
 				text="Spear duration is {0} second"
 			},
 			[2]={
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spear duration is {0} seconds",
 				text="Spear duration is {0} seconds"
 			}
 		},
@@ -88,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} active spears",
 				text="Maximum {0} active spears"
 			}
 		},

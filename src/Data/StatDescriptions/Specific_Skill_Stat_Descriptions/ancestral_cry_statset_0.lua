@@ -42,6 +42,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Warcry] radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -55,6 +56,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Warcry] radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -71,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Knockback|Knocks back] and interrupts enemies in a smaller area",
 				text="Knocks back and interrupts enemies in a smaller area"
 			}
 		},
@@ -91,6 +94,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Warcry] duration is {0} second",
 				text="Warcry duration is {0} second"
 			},
 			[2]={
@@ -104,6 +108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Warcry] duration is {0} seconds",
 				text="Warcry duration is {0} seconds"
 			}
 		},
@@ -121,6 +126,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased [Warcry] duration per [Charges|Endurance Charge] consumed",
 				text="{0:+d}% increased Warcry duration per Endurance Charge consumed"
 			},
 			[2]={
@@ -130,6 +136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes all [Charges|Endurance Charges] to increase [Warcry] duration by {0}% per charge",
 				text="Consumes all Endurance Charges to increase Warcry duration by {0}% per charge"
 			}
 		},
@@ -146,6 +153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Conversion|Converts] {0}% of [Physical|Physical Damage] to [Fire] damage with [AncestralBoost|Boosted] [Attack|Attacks]",
 				text="Converts {0}% of Physical Damage to Fire damage with Boosted Attacks"
 			}
 		},
@@ -166,6 +174,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Trigger] Volcanic Steps every {0} metre travelled",
 				text="Trigger Volcanic Steps every {0} metre travelled"
 			},
 			[2]={
@@ -179,6 +188,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] Volcanic Steps every {0} metres travelled",
 				text="Trigger Volcanic Steps every {0} metres travelled"
 			}
 		},

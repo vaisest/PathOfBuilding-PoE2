@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explodes [JaggedGround|Jagged Ground] within {0} metre radius of Slam and each patch of [JaggedGround|Jagged Ground] exploded",
 				text="Explodes Jagged Ground within {0} metre radius of Slam and each patch of Jagged Ground exploded"
 			}
 		},

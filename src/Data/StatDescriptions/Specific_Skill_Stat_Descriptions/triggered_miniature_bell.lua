@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Bell duration is {0} second",
 				text="Bell duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bell duration is {0} seconds",
 				text="Bell duration is {0} seconds"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[DNT-UNUSED] [Limit] {0} Bell",
 				text="DNT-UNUSED Limit {0} Bell"
 			},
 			[2]={
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] [Limit] {0} Bells",
 				text="DNT-UNUSED Limit {0} Bells"
 			}
 		},

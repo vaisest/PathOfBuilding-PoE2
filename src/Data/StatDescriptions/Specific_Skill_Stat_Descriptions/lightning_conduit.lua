@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cone length is {0} metre",
 				text="Cone length is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone length is {0} metres",
 				text="Cone length is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0} additional bolt if a [Shock|Shocked] enemy is in the target area",
 				text="{0} additional bolt if a Shocked enemy is in the target area"
 			},
 			[2]={
@@ -65,6 +68,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} additional bolts if a [Shock|Shocked] enemy is in the target area",
 				text="{0} additional bolts if a Shocked enemy is in the target area"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[DNT-UNUSED] Shockwave radius is {0} metre",
 				text="DNT-UNUSED Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Shockwave radius is {0} metres",
 				text="DNT-UNUSED Shockwave radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[DNT-UNUSED] Spectral Bells can appear within {0} metre of you",
 				text="DNT-UNUSED Spectral Bells can appear within {0} metre of you"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Spectral Bells can appear within {0} metres of you",
 				text="DNT-UNUSED Spectral Bells can appear within {0} metres of you"
 			}
 		},
@@ -88,6 +92,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[DNT-UNUSED] Spectral Bells linger for {0} second",
 				text="DNT-UNUSED Spectral Bells linger for {0} second"
 			},
 			[2]={
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Spectral Bells linger for {0} seconds",
 				text="DNT-UNUSED Spectral Bells linger for {0} seconds"
 			}
 		},
@@ -121,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] {0} second duration between Spectral Bells appearing",
 				text="DNT-UNUSED {0} second duration between Spectral Bells appearing"
 			}
 		},
@@ -137,6 +144,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[DNT-UNUSED] Maximum {0} active Spectral Bell",
 				text="DNT-UNUSED Maximum {0} active Spectral Bell"
 			},
 			[2]={
@@ -146,6 +154,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Maximum {0} active Spectral Bells",
 				text="DNT-UNUSED Maximum {0} active Spectral Bells"
 			}
 		},

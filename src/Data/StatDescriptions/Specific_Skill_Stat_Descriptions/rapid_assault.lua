@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Spearhead duration is {0} second",
 				text="Spearhead duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spearhead duration is {0} seconds",
 				text="Spearhead duration is {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to leave an additional spearhead in the target",
 				text="{0}% chance to leave an additional spearhead in the target"
 			},
 			[2]={
@@ -93,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Leave an additional spearhead in the target",
 				text="Leave an additional spearhead in the target"
 			}
 		},

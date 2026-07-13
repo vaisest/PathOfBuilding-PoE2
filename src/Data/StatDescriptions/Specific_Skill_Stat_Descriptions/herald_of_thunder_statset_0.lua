@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lightning Bolts strike the targets of your next {0} [Attack|Attack] [HitDamage|Hits]\nafter killing a [Shock|Shocked] enemy with [Attack|Attack] damage",
 				text="Lightning Bolts strike the targets of your next {0} Attack Hits\nafter killing a Shocked enemy with Attack damage"
 			}
 		},

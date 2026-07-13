@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Burst radius is {0} metre",
 				text="Burst radius is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burst radius is {0} metres",
 				text="Burst radius is {0} metres"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Poison]",
 				text="Cannot Poison"
 			}
 		},
@@ -100,6 +105,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Enemies lose Life equal to the expected remaining Damage of the [Consume|Consumed] [Poison|Poison]",
 				text="Enemies lose Life equal to the expected remaining Damage of the Consumed Poison"
 			},
 			[2]={
@@ -109,6 +115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies lose Life equal to {0}% of the expected remaining Damage of the [Consume|Consumed] [Poison|Poison]",
 				text="Enemies lose Life equal to {0}% of the expected remaining Damage of the Consumed Poison"
 			}
 		},
@@ -125,6 +132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per [Poison] affecting the Enemy",
 				text="{0}% more Area of Effect per Poison affecting the Enemy"
 			},
 			[2]={
@@ -138,6 +146,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect per [Poison] affecting the Enemy",
 				text="{0}% less Area of Effect per Poison affecting the Enemy"
 			}
 		},

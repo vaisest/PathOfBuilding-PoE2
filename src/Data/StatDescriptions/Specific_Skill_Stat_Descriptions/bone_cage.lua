@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Cage radius is {0} metre",
 				text="Cage radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cage radius is {0} metres",
 				text="Cage radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cage duration is {0} second",
 				text="Cage duration is {0} second"
 			},
 			[2]={
@@ -108,6 +113,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cage duration is {0} seconds",
 				text="Cage duration is {0} seconds"
 			}
 		},

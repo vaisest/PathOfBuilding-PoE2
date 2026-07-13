@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Aftershock radius is {0} metre",
 				text="Aftershock radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aftershock radius is {0} metres",
 				text="Aftershock radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Each successive aftershock gains {0:+d} metre to radius, up to 3 metres",
 				text="Each successive aftershock gains {0:+d} metre to radius, up to 3 metres"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each successive aftershock gains {0:+d} metres to radius, up to 3 metres",
 				text="Each successive aftershock gains {0:+d} metres to radius, up to 3 metres"
 			}
 		},
@@ -89,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] for each stage",
 				text="{0}% more damage with Hits for each stage"
 			},
 			[2]={
@@ -102,6 +107,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] for each stage",
 				text="{0}% less damage with Hits for each stage"
 			}
 		},

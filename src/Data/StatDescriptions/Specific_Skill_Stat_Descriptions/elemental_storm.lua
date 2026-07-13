@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Storm radius is {0} metre",
 				text="Storm radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Storm radius is {0} metres",
 				text="Storm radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Storm duration is {0} second",
 				text="Storm duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Storm duration is {0} seconds",
 				text="Storm duration is {0} seconds"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies inside the storm are [Hinder|Hindered]",
 				text="Enemies inside the storm are Hindered"
 			}
 		},

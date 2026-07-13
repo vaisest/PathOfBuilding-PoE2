@@ -20,6 +20,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Resistances|Resistance] removal duration is {0} second",
 				text="Resistance removal duration is {0} second"
 			},
 			[2]={
@@ -33,6 +34,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Resistances|Resistance] removal duration is {0} seconds",
 				text="Resistance removal duration is {0} seconds"
 			}
 		},

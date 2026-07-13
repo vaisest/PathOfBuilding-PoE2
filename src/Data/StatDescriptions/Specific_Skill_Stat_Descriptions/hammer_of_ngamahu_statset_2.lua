@@ -26,6 +26,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to impact radius",
 				text="{0:+d} metre to impact radius"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to impact radius",
 				text="{0:+d} metres to impact radius"
 			},
 			[3]={
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[4]={
@@ -77,6 +80,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -98,6 +102,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Hammerfall duration is {0} second",
 				text="Hammerfall duration is {0} second"
 			},
 			[2]={
@@ -111,6 +116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hammerfall duration is {0} seconds",
 				text="Hammerfall duration is {0} seconds"
 			}
 		},

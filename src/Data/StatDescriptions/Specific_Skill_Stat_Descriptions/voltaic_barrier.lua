@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wall length is {0} metre",
 				text="Wall length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall length is {0} metres",
 				text="Wall length is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Wall duration is {0} second",
 				text="Wall duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall duration is {0} seconds",
 				text="Wall duration is {0} seconds"
 			}
 		},
@@ -91,6 +95,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Wall [HitDamage|Hits] enemies every second",
 				text="Wall Hits enemies every second"
 			},
 			[2]={
@@ -104,6 +109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wall [HitDamage|Hits] enemies every {0} seconds",
 				text="Wall Hits enemies every {0} seconds"
 			}
 		},

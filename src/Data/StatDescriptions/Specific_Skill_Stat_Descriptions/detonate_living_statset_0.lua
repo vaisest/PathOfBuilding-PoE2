@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CullingStrike|Culling Strike]",
 				text="Culling Strike"
 			}
 		},

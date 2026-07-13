@@ -30,6 +30,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Hover duration is {0} second",
 				text="Hover duration is {0} second"
 			},
 			[2]={
@@ -43,6 +44,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hover duration is {0} seconds",
 				text="Hover duration is {0} seconds"
 			}
 		},
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can accumulate up to {0} Embers\nModifiers to number of [Projectile|Projectiles] instead\napply to number of Embers accumulated",
 				text="Can accumulate up to {0} Embers\nModifiers to number of Projectiles instead\napply to number of Embers accumulated"
 			}
 		},

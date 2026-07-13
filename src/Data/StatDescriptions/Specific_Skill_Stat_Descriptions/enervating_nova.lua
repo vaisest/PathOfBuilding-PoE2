@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring outer radius@{0}m",
 				text="Ring outer radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ring outer radius is {0} metre",
 				text="Ring outer radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring outer radius is {0} metres",
 				text="Ring outer radius is {0} metres"
 			}
 		},
@@ -68,6 +71,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ring inner radius is {0} metre",
 				text="Ring inner radius is {0} metre"
 			},
 			[2]={
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring inner radius is {0} metres",
 				text="Ring inner radius is {0} metres"
 			}
 		},
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring inner radius@{0}m",
 				text="Ring inner radius@{0}m"
 			}
 		},
@@ -121,6 +127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies [HitDamage|Hit] receive [Electrocute|Electrocution] buildup from\n[Lightning] damage for {0} second duration",
 				text="Enemies Hit receive Electrocution buildup from\nLightning damage for {0} second duration"
 			}
 		},
@@ -137,6 +144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals more damage to enemies based on distance from\nyou, up to {0}% to enemies on the far edge of the ring",
 				text="Deals more damage to enemies based on distance from\nyou, up to {0}% to enemies on the far edge of the ring"
 			}
 		},

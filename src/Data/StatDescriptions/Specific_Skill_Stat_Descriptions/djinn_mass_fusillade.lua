@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ember Explosion Radius@{0}m",
 				text="Ember Explosion Radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Ember Explosion Radius is {0} metre",
 				text="Ember Explosion Radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ember Explosion Radius is {0} metres",
 				text="Ember Explosion Radius is {0} metres"
 			}
 		},

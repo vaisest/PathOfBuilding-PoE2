@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} seconds to delay on gaining a [Charges|Frenzy Charge]",
 				text="{0} seconds to delay on gaining a Frenzy Charge"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Gain a [Charges|Frenzy Charge] when you [Freeze], [Electrocute] or [Pinned|Pin] an enemy, no more than once per second",
 				text="Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once per second"
 			},
 			[3]={
@@ -38,6 +40,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a [Charges|Frenzy Charge] when you [Freeze], [Electrocute] or [Pinned|Pin] an enemy, no more than once every {0} seconds",
 				text="Gain a Frenzy Charge when you Freeze, Electrocute or Pin an enemy, no more than once every {0} seconds"
 			}
 		},

@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Buff] duration is {0} second or until your [Empowered] bolts are expended",
 				text="Buff duration is {0} second or until your Empowered bolts are expended"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] duration is {0} seconds or until your [Empowered] bolts are expended",
 				text="Buff duration is {0} seconds or until your Empowered bolts are expended"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] [Empowered|Empowers] bolts with {0}% more damage",
 				text="Buff Empowers bolts with {0}% more damage"
 			},
 			[2]={
@@ -57,6 +60,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] [Empowered|Empowers] bolts with {0}% less damage",
 				text="Buff Empowers bolts with {0}% less damage"
 			}
 		},
@@ -80,6 +84,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Number of each clip's [Empowered|Empowered] bolts is equal to the maximum [Ammunition] of the clip",
 				text="Number of each clip's Empowered bolts is equal to the maximum Ammunition of the clip"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Wave radius is {0} metre",
 				text="Wave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave radius is {0} metres",
 				text="Wave radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Time Freeze duration is {0} second",
 				text="Time Freeze duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Time Freeze duration is {0} seconds",
 				text="Time Freeze duration is {0} seconds"
 			}
 		},
@@ -95,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Affected Enemies have Time Freeze duration halved for each time they've been Time Frozen in the past {0} seconds",
 				text="Affected Enemies have Time Freeze duration halved for each time they've been Time Frozen in the past {0} seconds"
 			}
 		},

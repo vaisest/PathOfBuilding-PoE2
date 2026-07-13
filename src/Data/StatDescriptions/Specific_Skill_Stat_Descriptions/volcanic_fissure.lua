@@ -24,6 +24,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Fissure duration",
 				text="{0:+d} second to Fissure duration"
 			},
 			[2]={
@@ -41,6 +42,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Fissure duration",
 				text="{0:+d} seconds to Fissure duration"
 			},
 			[3]={
@@ -58,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} second",
 				text="Fissure duration is {0} second"
 			},
 			[4]={
@@ -75,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure duration is {0} seconds",
 				text="Fissure duration is {0} seconds"
 			}
 		},
@@ -99,6 +103,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Fissure",
 				text="Limit {0} Fissure"
 			},
 			[2]={
@@ -108,6 +113,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},
@@ -124,6 +130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure [Limit]@{0}",
 				text="Fissure Limit@{0}"
 			}
 		},

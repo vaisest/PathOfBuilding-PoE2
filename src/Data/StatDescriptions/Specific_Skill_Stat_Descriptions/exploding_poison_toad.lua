@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Trigger] this Skill on Kill",
 				text="{0}% chance to Trigger this Skill on Kill"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Toad Explosion radius is {0} metre",
 				text="Toad Explosion radius is {0} metre"
 			},
 			[2]={
@@ -51,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Toad Explosion radius is {0} metres",
 				text="Toad Explosion radius is {0} metres"
 			}
 		},
@@ -67,6 +70,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Poison|Poison] on [HitDamage|Hit]",
 				text="{0}% chance to Poison on Hit"
 			}
 		},
@@ -87,6 +91,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Base [Physical] Damage",
 				text="{0} to {1} Base Physical Damage"
 			}
 		},

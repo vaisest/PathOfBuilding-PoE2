@@ -12,6 +12,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Forks an additional Time",
 				text="Forks an additional Time"
 			},
 			[2]={
@@ -22,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Forks {0} additional Times",
 				text="Forks {0} additional Times"
 			},
 			[3]={
@@ -31,6 +33,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Forks an additional Time",
 				text="Forks an additional Time"
 			},
 			[4]={
@@ -40,6 +43,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Forks {0} additional Times",
 				text="Forks {0} additional Times"
 			}
 		},

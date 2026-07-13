@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pustules store expected damage of [Poison|Poisons] inflicted on them",
 				text="Pustules store expected damage of Poisons inflicted on them"
 			}
 		},
@@ -80,6 +83,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metre to base explosion radius",
 				text="Stored Poison adds up to {1} metre to base explosion radius"
 			},
 			[2]={
@@ -97,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metres to base explosion radius",
 				text="Stored Poison adds up to {1} metres to base explosion radius"
 			}
 		},

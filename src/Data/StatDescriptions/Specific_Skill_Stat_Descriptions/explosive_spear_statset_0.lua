@@ -16,6 +16,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} lodged Spear",
 				text="Limit {0} lodged Spear"
 			},
 			[2]={
@@ -25,6 +26,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} lodged Spears",
 				text="Limit {0} lodged Spears"
 			}
 		},
@@ -41,6 +43,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Spear thrown per [Attack]",
 				text="Limit {0} Spear thrown per Attack"
 			},
 			[2]={
@@ -50,6 +53,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Spears thrown per [Attack]",
 				text="Limit {0} Spears thrown per Attack"
 			}
 		},
@@ -70,6 +74,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Lodged spear duration is {0} second",
 				text="Lodged spear duration is {0} second"
 			},
 			[2]={
@@ -83,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lodged spear duration is {0} seconds",
 				text="Lodged spear duration is {0} seconds"
 			}
 		},

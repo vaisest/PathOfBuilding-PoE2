@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers [IceFragment|Ice Fragments] on [HitDamage|Hit] against\n[Frozen] enemies, no more than once per use",
 				text="Triggers Ice Fragments on Hit against\nFrozen enemies, no more than once per use"
 			}
 		},

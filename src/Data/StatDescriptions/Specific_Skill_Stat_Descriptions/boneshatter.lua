@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius@{0}m",
 				text="Shockwave radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -64,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] for Shockwaves originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% more damage with Hits for Shockwaves originating\nfrom a Unique enemy"
 			},
 			[2]={
@@ -77,6 +81,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] for Shockwaves originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% less damage with Hits for Shockwaves originating\nfrom a Unique enemy"
 			}
 		},

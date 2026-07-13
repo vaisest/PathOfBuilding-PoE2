@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You cannot gain Arctic Petals from this Skill's [Critical|Critical] [HitDamage|Hits]",
 				text="You cannot gain Arctic Petals from this Skill's Critical Hits"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+1 Arctic Petal per [Power] of targets Killed with [Critical|Critical] [HitDamage|Hits]",
 				text="+1 Arctic Petal per Power of targets Killed with Critical Hits"
 			}
 		},
@@ -43,6 +45,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0:+d} Arctic Petal on [Critical|Critically] [HitDamage|Hitting] Rare or Unique targets",
 				text="{0:+d} Arctic Petal on Critically Hitting Rare or Unique targets"
 			},
 			[2]={
@@ -52,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} Arctic Petals on [Critical|Critically] [HitDamage|Hitting] Rare or Unique targets",
 				text="{0:+d} Arctic Petals on Critically Hitting Rare or Unique targets"
 			}
 		},
@@ -72,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] {0} Arctic Petals to create {1} [IceCrystals|Ice Crystals] when able",
 				text="Consumes {0} Arctic Petals to create {1} Ice Crystals when able"
 			}
 		},

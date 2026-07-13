@@ -36,6 +36,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to [Chill|Chilling] radius",
 				text="{0:+d} metre to Chilling radius"
 			},
 			[2]={
@@ -53,6 +54,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to [Chill|Chilling] radius",
 				text="{0:+d} metres to Chilling radius"
 			},
 			[3]={
@@ -70,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chilling] radius is {0} metre",
 				text="Chilling radius is {0} metre"
 			},
 			[4]={
@@ -87,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chilling] radius is {0} metres",
 				text="Chilling radius is {0} metres"
 			}
 		},
@@ -108,6 +112,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Charges|Frenzy-Charged] fragment duration is {0} second",
 				text="Frenzy-Charged fragment duration is {0} second"
 			},
 			[2]={
@@ -121,6 +126,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Charges|Frenzy-Charged] fragment duration is {0} seconds",
 				text="Frenzy-Charged fragment duration is {0} seconds"
 			}
 		},
@@ -141,6 +147,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fragment duration is {0} second",
 				text="Fragment duration is {0} second"
 			},
 			[2]={
@@ -154,6 +161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fragment duration is {0} seconds",
 				text="Fragment duration is {0} seconds"
 			}
 		},

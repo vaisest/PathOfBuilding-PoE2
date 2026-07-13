@@ -12,6 +12,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse grants [Guard] equal to an additional {0}% of [Ward|Runic Ward] spent",
 				text="Pulse grants Guard equal to an additional {0}% of Runic Ward spent"
 			},
 			[2]={
@@ -21,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse spends 100% of your [Ward|Runic Ward] to grant [Allies]\n[Guard] equal to {0}% of [Ward|Runic Ward] spent",
 				text="Pulse spends 100% of your Runic Ward to grant Allies\nGuard equal to {0}% of Runic Ward spent"
 			}
 		},
@@ -48,6 +50,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Pulse radius is {0} metre",
 				text="Pulse radius is {0} metre"
 			},
 			[2]={
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse radius is {0} metres",
 				text="Pulse radius is {0} metres"
 			}
 		},
@@ -82,6 +86,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to [Guard] duration",
 				text="{0:+d} seconds to Guard duration"
 			},
 			[2]={
@@ -95,6 +100,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Guard] duration is {0} second",
 				text="Guard duration is {0} second"
 			},
 			[3]={
@@ -108,6 +114,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Guard] duration is {0} seconds",
 				text="Guard duration is {0} seconds"
 			}
 		},
@@ -124,6 +131,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cannot affect the same target more than once per second",
 				text="Cannot affect the same target more than once per second"
 			},
 			[2]={
@@ -137,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot affect the same target more than once every {0} seconds",
 				text="Cannot affect the same target more than once every {0} seconds"
 			}
 		},

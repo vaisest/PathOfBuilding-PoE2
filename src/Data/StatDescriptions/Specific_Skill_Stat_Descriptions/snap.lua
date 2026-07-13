@@ -52,6 +52,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Enemy explosion radius is {0} metre",
 				text="Enemy explosion radius is {0} metre"
 			},
 			[2]={
@@ -65,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemy explosion radius is {0} metres",
 				text="Enemy explosion radius is {0} metres"
 			}
 		},
@@ -85,6 +87,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Frostbolt explosion radius is {0} metre",
 				text="Frostbolt explosion radius is {0} metre"
 			},
 			[2]={
@@ -98,6 +101,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Frostbolt explosion radius is {0} metres",
 				text="Frostbolt explosion radius is {0} metres"
 			}
 		},
@@ -121,6 +125,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [Orb] explosions",
 				text="{0}% more damage with Orb explosions"
 			},
 			[2]={
@@ -134,6 +139,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [Orb] explosions",
 				text="{0}% less damage with Orb explosions"
 			}
 		},
@@ -150,6 +156,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] for blasts originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% more damage with Hits for blasts originating\nfrom a Unique enemy"
 			},
 			[2]={
@@ -163,6 +170,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] for blasts originating\nfrom a [Rarity|Unique] enemy",
 				text="{0}% less damage with Hits for blasts originating\nfrom a Unique enemy"
 			}
 		},

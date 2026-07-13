@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Sigil radius is {0} metre",
 				text="Sigil radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sigil radius is {0} metres",
 				text="Sigil radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a Stage when you Spend a total of {0}% of your Maximum Mana while in Area",
 				text="Gains a Stage when you Spend a total of {0}% of your Maximum Mana while in Area"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Sigil duration is {0} second",
 				text="Sigil duration is {0} second"
 			},
 			[2]={
@@ -89,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sigil duration is {0} seconds",
 				text="Sigil duration is {0} seconds"
 			}
 		},
@@ -105,6 +110,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Stage",
 				text="Maximum {0} Stage"
 			},
 			[2]={
@@ -114,6 +120,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages",
 				text="Maximum {0} Stages"
 			}
 		},
@@ -130,6 +137,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% more [Armour], [Evasion] and [EnergyShield|Energy Shield] per Stage",
 				text="Buff grants {0}% more Armour, Evasion and Energy Shield per Stage"
 			},
 			[2]={
@@ -143,6 +151,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% less [Armour], [Evasion] and [EnergyShield|Energy Shield] per Stage",
 				text="Buff grants {0}% less Armour, Evasion and Energy Shield per Stage"
 			}
 		},
@@ -163,6 +172,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0} Life Regenerated per second per Stage",
 				text="Buff grants {0} Life Regenerated per second per Stage"
 			},
 			[2]={
@@ -180,6 +190,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0} Life Lost per second per Stage",
 				text="Buff grants {0} Life Lost per second per Stage"
 			}
 		},

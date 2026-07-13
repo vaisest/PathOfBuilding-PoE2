@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} second",
 				text="Maximum Buff duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} seconds",
 				text="Maximum Buff duration is {0} seconds"
 			}
 		},

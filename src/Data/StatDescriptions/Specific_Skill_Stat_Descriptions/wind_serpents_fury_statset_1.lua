@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Serpent length is {0} metre",
 				text="Serpent length is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Serpent length is {0} metres",
 				text="Serpent length is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Serpent width is {0} metre",
 				text="Serpent width is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Serpent width is {0} metres",
 				text="Serpent width is {0} metres"
 			}
 		},

@@ -23,6 +23,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to damage radius",
 				text="{0:+d} metres to damage radius"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Damage radius is {0} metre",
 				text="Damage radius is {0} metre"
 			},
 			[3]={
@@ -49,6 +51,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage radius is {0} metres",
 				text="Damage radius is {0} metres"
 			}
 		},

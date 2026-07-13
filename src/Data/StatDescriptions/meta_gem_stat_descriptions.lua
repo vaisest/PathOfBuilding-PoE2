@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers Socketed [Warcry] instead of Ferocious Roar's effects",
 				text="Triggers Socketed Warcry instead of Ferocious Roar's effects"
 			}
 		},
@@ -27,6 +28,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% more Damage",
 				text="Socketed Skills deal {0}% more Damage"
 			},
 			[2]={
@@ -40,6 +42,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills deal {0}% less Damage",
 				text="Socketed Skills deal {0}% less Damage"
 			}
 		},
@@ -56,6 +59,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% more Damage",
 				text="Socketed Skills deal {0}% more Damage"
 			},
 			[2]={
@@ -69,6 +73,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills deal {0}% less Damage",
 				text="Socketed Skills deal {0}% less Damage"
 			}
 		},
@@ -85,6 +90,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported [Curse|Curses] have {0}% more [BuffMagnitude|Magnitudes]",
 				text="Supported Curses have {0}% more Magnitudes"
 			},
 			[2]={
@@ -98,6 +104,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Supported [Curse|Curses] have {0}% less [BuffMagnitude|Magnitudes]",
 				text="Supported Curses have {0}% less Magnitudes"
 			}
 		},
@@ -114,6 +121,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sockted Skills have {0}% more Cast Speed",
 				text="Sockted Skills have {0}% more Cast Speed"
 			},
 			[2]={
@@ -127,6 +135,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% less Cast Speed",
 				text="Socketed Skills have {0}% less Cast Speed"
 			}
 		},
@@ -143,6 +152,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed [Attack] Skills have {0}% more [Attack] Speed",
 				text="Socketed Attack Skills have {0}% more Attack Speed"
 			},
 			[2]={
@@ -156,6 +166,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed [Attack] Skills have {0}% less [Attack] Speed",
 				text="Socketed Attack Skills have {0}% less Attack Speed"
 			}
 		},
@@ -172,6 +183,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed [Attack] Skills cannot be used with [Melee] Weapons",
 				text="Socketed Attack Skills cannot be used with Melee Weapons"
 			}
 		},
@@ -196,6 +208,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0:+d} metres to base radius",
 				text="Socketed Skills have {0:+d} metres to base radius"
 			}
 		},
@@ -213,6 +226,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Socketed Skills have {0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -226,6 +240,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Socketed Skills have {0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -243,6 +258,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased duration of socketed [Curse|Curses]",
 				text="{0:+d}% increased duration of socketed Curses"
 			},
 			[2]={
@@ -252,6 +268,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased duration of socketed [Curse|Curses]",
 				text="{0}% increased duration of socketed Curses"
 			},
 			[3]={
@@ -265,6 +282,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced duration of socketed [Curse|Curses]",
 				text="{0}% reduced duration of socketed Curses"
 			}
 		},
@@ -281,6 +299,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% increased Area of Effect",
 				text="Socketed Skills have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -294,6 +313,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% reduced Area of Effect",
 				text="Socketed Skills have {0}% reduced Area of Effect"
 			}
 		},
@@ -310,6 +330,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% increased Cost [Efficiency]",
 				text="Socketed Skills have {0}% increased Cost Efficiency"
 			},
 			[2]={
@@ -323,6 +344,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% reduced Cost [Efficiency]",
 				text="Socketed Skills have {0}% reduced Cost Efficiency"
 			}
 		},
@@ -339,6 +361,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills [StatGain|Gain] {0}% of Life and Mana Cost as [StatGain|Extra] [Ward|Runic Ward] Cost",
 				text="Socketed Skills Gain {0}% of Life and Mana Cost as Extra Runic Ward Cost"
 			}
 		},
@@ -355,6 +378,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills cannot consume [Charges]",
 				text="Socketed Skills cannot consume Charges"
 			}
 		},
@@ -372,6 +396,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported [Curse|Curses] have {0}% increased [BuffMagnitude|Magnitudes]",
 				text="Supported Curses have {0}% increased Magnitudes"
 			},
 			[2]={
@@ -381,6 +406,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported [Curse|Curses] have {0}% increased [BuffMagnitude|Magnitudes]",
 				text="Supported Curses have {0}% increased Magnitudes"
 			},
 			[3]={
@@ -394,6 +420,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Supported [Curse|Curses] have {0}% reduced [BuffMagnitude|Magnitudes]",
 				text="Supported Curses have {0}% reduced Magnitudes"
 			}
 		},
@@ -410,6 +437,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% increased damage",
 				text="Socketed Skills deal {0}% increased damage"
 			},
 			[2]={
@@ -423,6 +451,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills deal {0}% reduced damage",
 				text="Socketed Skills deal {0}% reduced damage"
 			}
 		},
@@ -443,6 +472,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed [Attack|Attacks] consume 10 Energy per {0} seconds of [BaseSkillAttackTime|Base Skill Attack Time] to create a visage",
 				text="Socketed Attacks consume 10 Energy per {0} seconds of Base Skill Attack Time to create a visage"
 			}
 		},
@@ -467,6 +497,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Has 10 maximum Energy per {0} seconds of base cast time of Socketed [Spell|Spells]",
 				text="Has 10 maximum Energy per {0} seconds of base cast time of Socketed Spells"
 			},
 			[2]={
@@ -484,6 +515,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Socketed [Spell|Spells] consume 10 Energy per {0} seconds of base cast time when Triggered",
 				text="Socketed Spells consume 10 Energy per {0} seconds of base cast time when Triggered"
 			}
 		},
@@ -501,6 +533,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% more [Attack] speed",
 				text="Socketed Skills have {0}% more Attack speed"
 			},
 			[2]={
@@ -514,6 +547,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% less [Attack] speed",
 				text="Socketed Skills have {0}% less Attack speed"
 			}
 		},
@@ -530,6 +564,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% more damage",
 				text="Socketed Skills deal {0}% more damage"
 			},
 			[2]={
@@ -543,6 +578,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills deal {0}% less damage",
 				text="Socketed Skills deal {0}% less damage"
 			}
 		},
@@ -560,6 +596,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% increased Effect of Socketed [Mark|Marks]",
 				text="{0:+d}% increased Effect of Socketed Marks"
 			},
 			[2]={
@@ -569,6 +606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Socketed [Mark|Marks]",
 				text="{0}% increased Effect of Socketed Marks"
 			},
 			[3]={
@@ -582,6 +620,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Socketed [Mark|Marks]",
 				text="{0}% reduced Effect of Socketed Marks"
 			}
 		},
@@ -598,6 +637,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% increased Skill Effect Duration",
 				text="Socketed Skills have {0}% increased Skill Effect Duration"
 			},
 			[2]={
@@ -611,6 +651,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% reduced Skill Effect Duration",
 				text="Socketed Skills have {0}% reduced Skill Effect Duration"
 			}
 		},
@@ -627,6 +668,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed [Curse|Curses] have {0}% increased [BuffMagnitude|Magnitudes]",
 				text="Socketed Curses have {0}% increased Magnitudes"
 			},
 			[2]={
@@ -640,6 +682,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed [Curse|Curses] have {0}% reduced [BuffMagnitude|Magnitudes]",
 				text="Socketed Curses have {0}% reduced Magnitudes"
 			}
 		},
@@ -656,6 +699,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills deal {0}% more Damage",
 				text="Socketed Skills deal {0}% more Damage"
 			},
 			[2]={
@@ -669,6 +713,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills deal {0}% less Damage",
 				text="Socketed Skills deal {0}% less Damage"
 			}
 		},
@@ -685,6 +730,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Socketed Skills have {0}% increased [Warcry|Warcry] Buff Effect",
 				text="Socketed Skills have {0}% increased Warcry Buff Effect"
 			},
 			[2]={
@@ -698,6 +744,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Socketed Skills have {0}% reduced [Warcry|Warcry] Buff Effect",
 				text="Socketed Skills have {0}% reduced Warcry Buff Effect"
 			}
 		},
@@ -718,6 +765,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Socketed Warcries Exert {0} additional [Attack]",
 				text="Socketed Warcries Exert {0} additional Attack"
 			},
 			[2]={
@@ -731,6 +779,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Socketed Warcries Exert {0} additional [Attack|Attacks]",
 				text="Socketed Warcries Exert {0} additional Attacks"
 			}
 		},
@@ -748,6 +797,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] [Empowered] by Socketed\nSkills deal {0}% increased damage",
 				text="Attacks Empowered by Socketed\nSkills deal {0}% increased damage"
 			}
 		},

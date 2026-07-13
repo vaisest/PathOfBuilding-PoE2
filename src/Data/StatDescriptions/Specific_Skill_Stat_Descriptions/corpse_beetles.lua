@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} second duration between [Corpse] consumptions",
 				text="{0} second duration between Corpse consumptions"
 			}
 		},
@@ -32,6 +33,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0:+d} maximum Corpse Beetle",
 				text="{0:+d} maximum Corpse Beetle"
 			},
 			[2]={
@@ -42,6 +44,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} maximum Corpse Beetles",
 				text="{0:+d} maximum Corpse Beetles"
 			},
 			[3]={
@@ -51,6 +54,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Corpse Beetle",
 				text="Maximum {0} Corpse Beetle"
 			},
 			[4]={
@@ -60,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Corpse Beetles",
 				text="Maximum {0} Corpse Beetles"
 			}
 		},
@@ -83,6 +88,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Summons {0} Beetle per [Corpse] consumed",
 				text="Summons {0} Beetle per Corpse consumed"
 			},
 			[2]={
@@ -92,6 +98,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summons {0} Beetles per [Corpse] consumed",
 				text="Summons {0} Beetles per Corpse consumed"
 			}
 		},

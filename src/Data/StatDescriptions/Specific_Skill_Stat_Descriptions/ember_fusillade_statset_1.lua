@@ -25,6 +25,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius@{0}m",
 				text="Explosion radius@{0}m"
 			}
 		},
@@ -45,6 +46,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -58,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},

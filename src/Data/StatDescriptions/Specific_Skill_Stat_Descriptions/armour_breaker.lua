@@ -11,6 +11,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more attack speed while [DualWield|Dual Wielding]",
 				text="{0}% more attack speed while Dual Wielding"
 			},
 			[2]={
@@ -24,6 +25,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less attack speed while [DualWield|Dual Wielding]",
 				text="{0}% less attack speed while Dual Wielding"
 			}
 		},

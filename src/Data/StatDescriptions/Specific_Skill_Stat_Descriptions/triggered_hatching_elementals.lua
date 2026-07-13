@@ -11,6 +11,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} Skittering Stone",
 				text="Creates {0} Skittering Stone"
 			},
 			[2]={
@@ -20,6 +21,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Skittering Stones",
 				text="Creates {0} Skittering Stones"
 			}
 		},
@@ -36,6 +38,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Level of Minions is based on Level of [Trigger|Triggering] Skill",
 				text="Level of Minions is based on Level of Triggering Skill"
 			}
 		},
@@ -56,6 +59,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Minion] duration is {0} second",
 				text="Minion duration is {0} second"
 			},
 			[2]={
@@ -69,6 +73,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion] duration is {0} seconds",
 				text="Minion duration is {0} seconds"
 			}
 		},
@@ -85,6 +90,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Skittering Stone",
 				text="Limit {0} Skittering Stone"
 			},
 			[2]={
@@ -94,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Skittering Stones",
 				text="Limit {0} Skittering Stones"
 			}
 		},

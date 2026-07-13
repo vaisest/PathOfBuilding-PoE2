@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires bolts at enemies within a {0} metre radius",
 				text="Fires bolts at enemies within a {0} metre radius"
 			}
 		},
@@ -38,6 +39,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires {0} bolt",
 				text="Fires {0} bolt"
 			},
 			[2]={
@@ -47,6 +49,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} bolts",
 				text="Fires {0} bolts"
 			}
 		},

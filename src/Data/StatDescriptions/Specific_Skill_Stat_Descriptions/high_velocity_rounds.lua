@@ -26,6 +26,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Bolts [Pierce] {0} Target",
 				text="Bolts Pierce {0} Target"
 			},
 			[2]={
@@ -39,6 +40,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bolts [Pierce] {0} Targets",
 				text="Bolts Pierce {0} Targets"
 			}
 		},
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies [RivenArmour|Riven Armour] on [HitDamage|Hit]\n[RivenArmour|Riven Armour] has {0} second duration, or until [ArmourBreak|Fully]\n[ArmourBreak|Broken Armour] is removed",
 				text="Applies Riven Armour on Hit\nRiven Armour has {0} second duration, or until Fully\nBroken Armour is removed"
 			}
 		},
@@ -75,6 +78,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% less damage to [Rarity|Unique] enemies",
 				text="Deals {0}% less damage to Unique enemies"
 			},
 			[2]={
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more damage to [Rarity|Unique] enemies",
 				text="Deals {0}% more damage to Unique enemies"
 			}
 		},

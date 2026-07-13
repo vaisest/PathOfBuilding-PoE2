@@ -19,6 +19,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stores {0}% of [Physical] [Attack] damage dealt, up to {1}",
 				text="Stores {0}% of Physical Attack damage dealt, up to {1}"
 			}
 		},
@@ -47,6 +48,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[ThornyGround|Thorny Ground] radius is {0} metre",
 				text="Thorny Ground radius is {0} metre"
 			},
 			[2]={
@@ -60,6 +62,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ThornyGround|Thorny Ground] radius is {0} metres",
 				text="Thorny Ground radius is {0} metres"
 			}
 		},
@@ -76,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} patch of [ThornyGround|Thorny Ground]",
 				text="Limit {0} patch of Thorny Ground"
 			}
 		},
@@ -96,6 +100,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ThornyGround|Thorny Ground] duration is {0} second",
 				text="Thorny Ground duration is {0} second"
 			},
 			[2]={
@@ -109,6 +114,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ThornyGround|Thorny Ground] duration is {0} seconds",
 				text="Thorny Ground duration is {0} seconds"
 			}
 		},
@@ -129,6 +135,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cannot create more than one patch of\n[ThornyGround|Thorny Ground] every second",
 				text="Cannot create more than one patch of\nThorny Ground every second"
 			},
 			[2]={
@@ -142,6 +149,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot create more than one patch of\n[ThornyGround|Thorny Ground] every {0} seconds",
 				text="Cannot create more than one patch of\nThorny Ground every {0} seconds"
 			}
 		},
@@ -165,6 +173,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Plant|Overgrown] [ThornyGround|Thorny Ground] deals damage 50% more\nfrequently and expires 50% slower",
 				text="Overgrown Thorny Ground deals damage 50% more\nfrequently and expires 50% slower"
 			}
 		},

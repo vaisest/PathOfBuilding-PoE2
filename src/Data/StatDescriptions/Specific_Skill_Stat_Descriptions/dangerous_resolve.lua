@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Slash radius is {0} metre",
 				text="Slash radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Slash radius is {0} metres",
 				text="Slash radius is {0} metres"
 			}
 		},

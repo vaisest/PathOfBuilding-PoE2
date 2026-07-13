@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Swarm duration is {0} second",
 				text="Swarm duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Swarm duration is {0} seconds",
 				text="Swarm duration is {0} seconds"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Unstable Apparitions spawned from slain enemies deal {0}% of that enemy's Life as added unscalable [Physical] damage",
 				text="Unstable Apparitions spawned from slain enemies deal {0}% of that enemy's Life as added unscalable Physical damage"
 			}
 		},
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Unstable Apparitions deal {0}% more damage per [Power] of the enemy they're drawn from",
 				text="Unstable Apparitions deal {0}% more damage per Power of the enemy they're drawn from"
 			}
 		},
@@ -116,6 +122,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% Chance to draw out an Unstable Apparition from [Rarity|Rare] or [Rarity|Unique] enemies you [HitDamage|Hit]",
 				text="{0}% Chance to draw out an Unstable Apparition from Rare or Unique enemies you Hit"
 			},
 			[2]={
@@ -125,6 +132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Draws out an Unstable Apparition from [Rarity|Rare] or [Rarity|Unique] enemies you [HitDamage|Hit]",
 				text="Draws out an Unstable Apparition from Rare or Unique enemies you Hit"
 			}
 		},
@@ -145,6 +153,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Draws out an Unstable Apparition from enemies you kill with [Melee] [HitDamage|Hits], no more than once every {0} second",
 				text="Draws out an Unstable Apparition from enemies you kill with Melee Hits, no more than once every {0} second"
 			},
 			[2]={
@@ -158,6 +167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Draws out an Unstable Apparition from enemies you kill with [Melee] [HitDamage|Hits], no more than once every {0} seconds",
 				text="Draws out an Unstable Apparition from enemies you kill with Melee Hits, no more than once every {0} seconds"
 			}
 		},

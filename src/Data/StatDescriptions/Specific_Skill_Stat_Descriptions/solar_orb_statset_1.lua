@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Ignite] radius is {0} metre",
 				text="Ignite radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite] radius is {0} metres",
 				text="Ignite radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] as though dealing {0} to {1} [Fire] damage",
 				text="Ignites as though dealing {0} to {1} Fire damage"
 			}
 		},

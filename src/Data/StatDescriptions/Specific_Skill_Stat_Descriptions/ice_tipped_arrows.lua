@@ -15,6 +15,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} second",
 				text="Maximum Buff duration is {0} second"
 			},
 			[2]={
@@ -28,6 +29,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum [Buff] duration is {0} seconds",
 				text="Maximum Buff duration is {0} seconds"
 			}
 		},
@@ -44,6 +46,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] Convert #% of [Physical] damage to [Cold] damage",
 				text="Empowered Attacks Convert #% of Physical damage to Cold damage"
 			}
 		},
@@ -61,6 +64,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] +{0} [Attack|Attacks]",
 				text="Empowers +{0} Attacks"
 			},
 			[2]={
@@ -70,6 +74,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] {0} [Attack|Attacks]",
 				text="Empowers {0} Attacks"
 			}
 		},

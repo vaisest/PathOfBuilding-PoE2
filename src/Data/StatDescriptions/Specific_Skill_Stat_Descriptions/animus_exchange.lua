@@ -19,6 +19,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Sacrifice|Sacrifices] up to {1} [EnergyShield|Energy Shield]",
 				text="Sacrifices up to {1} Energy Shield"
 			},
 			[2]={
@@ -36,6 +37,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Sacrifice|Sacrifices] up to {0} Life",
 				text="Sacrifices up to {0} Life"
 			},
 			[3]={
@@ -53,6 +55,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Sacrifice|Sacrifices] up to {0} Life and {1} [EnergyShield|Energy Shield]",
 				text="Sacrifices up to {0} Life and {1} Energy Shield"
 			}
 		},
@@ -75,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [Ward|Runic Ward] equal to {1}% of [Sacrifice|Sacrificed] [EnergyShield|Energy Shield]",
 				text="Gain Runic Ward equal to {1}% of Sacrificed Energy Shield"
 			},
 			[2]={
@@ -88,6 +92,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gain [Ward|Runic Ward] equal to {0}% of [Sacrifice|Sacrificed] Life",
 				text="Gain Runic Ward equal to {0}% of Sacrificed Life"
 			},
 			[3]={
@@ -101,6 +106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [Ward|Runic Ward] equal to {0}% of [Sacrifice|Sacrificed] Life and\n{1}% of [Sacrifice|Sacrificed] [EnergyShield|Energy Shield]",
 				text="Gain Runic Ward equal to {0}% of Sacrificed Life and\n{1}% of Sacrificed Energy Shield"
 			}
 		},
@@ -118,6 +124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of damage taken [Recoup|Recouped] as Life while\nyou have Animus Sensitivity",
 				text="{0}% of damage taken Recouped as Life while\nyou have Animus Sensitivity"
 			}
 		},
@@ -138,6 +145,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Animus Sensitivity duration is {0} second",
 				text="Animus Sensitivity duration is {0} second"
 			},
 			[2]={
@@ -151,6 +159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Animus Sensitivity duration is {0} seconds",
 				text="Animus Sensitivity duration is {0} seconds"
 			}
 		},

@@ -22,6 +22,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vines attach to enemies within a {0} metre radius",
 				text="Vines attach to enemies within a {0} metre radius"
 			}
 		},
@@ -42,6 +43,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Vines [Slow] enemy movement speed by {0}%",
 				text="Vines Slow enemy movement speed by {0}%"
 			}
 		},
@@ -62,6 +64,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Vines [Slow] enemy movement speed by {0}%",
 				text="Vines Slow enemy movement speed by {0}%"
 			}
 		},
@@ -82,6 +85,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Plant duration is {0} second",
 				text="Plant duration is {0} second"
 			},
 			[2]={
@@ -95,6 +99,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Plant duration is {0} seconds",
 				text="Plant duration is {0} seconds"
 			}
 		},
@@ -115,6 +120,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Plant deals additional [Chaos] Damage per second equal to {0}% of [Poison] Damage per second",
 				text="Plant deals additional Chaos Damage per second equal to {0}% of Poison Damage per second"
 			},
 			[2]={
@@ -132,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Poison|Poisoning] the plant causes it to deal additional [Chaos] Damage per second equal to {0}% of [Poison] Damage per second",
 				text="Poisoning the plant causes it to deal additional Chaos Damage per second equal to {0}% of Poison Damage per second"
 			}
 		},
@@ -156,6 +163,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more area of effect when [Plant|Overgrown]",
 				text="{0}% more area of effect when Overgrown"
 			}
 		},

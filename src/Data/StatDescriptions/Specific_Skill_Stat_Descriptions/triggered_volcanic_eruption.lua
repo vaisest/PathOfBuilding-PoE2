@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -59,6 +61,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Molten [Projectile]",
 				text="Fires {0} Molten Projectile"
 			},
 			[2]={
@@ -76,6 +79,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Molten [Projectile|Projectiles]",
 				text="Fires {0} Molten Projectiles"
 			}
 		},

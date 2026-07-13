@@ -16,6 +16,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies deal {0}% increased Damage",
 				text="Nearby Allies deal {0}% increased Damage"
 			},
 			[2]={
@@ -29,6 +30,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies deal {0}% reduced Damage",
 				text="Nearby Enemies deal {0}% reduced Damage"
 			}
 		},
@@ -45,6 +47,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You and nearby Allies have {0}% increased Movement Speed",
 				text="You and nearby Allies have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -58,6 +61,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="You and nearby Allies have {0}% reduced Movement Speed",
 				text="You and nearby Allies have {0}% reduced Movement Speed"
 			}
 		},
@@ -74,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0:+d}% chance to be Ignited when Hit",
 				text="Nearby Enemies have {0:+d}% chance to be Ignited when Hit"
 			}
 		},
@@ -90,6 +95,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0:+d}% chance to be Frozen when Hit",
 				text="Nearby Enemies have {0:+d}% chance to be Frozen when Hit"
 			}
 		},
@@ -106,6 +112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0:+d}% chance to be Shocked when Hit",
 				text="Nearby Enemies have {0:+d}% chance to be Shocked when Hit"
 			}
 		},
@@ -122,6 +129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies deal {0}% more Elemental Damage",
 				text="Nearby Enemies deal {0}% more Elemental Damage"
 			},
 			[2]={
@@ -135,6 +143,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies deal {0}% less Elemental Damage",
 				text="Nearby Enemies deal {0}% less Elemental Damage"
 			}
 		},
@@ -151,6 +160,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies take {0}% increased Elemental Damage",
 				text="Nearby Enemies take {0}% increased Elemental Damage"
 			},
 			[2]={
@@ -164,6 +174,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies take {0}% reduced Elemental Damage",
 				text="Nearby Enemies take {0}% reduced Elemental Damage"
 			}
 		},
@@ -180,6 +191,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0:+d}% to [Cold|Cold] Resistance",
 				text="Nearby Enemies have {0:+d}% to Cold Resistance"
 			}
 		},
@@ -196,6 +208,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0:+d}% to [Chaos|Chaos] Resistance",
 				text="Nearby Enemies have {0:+d}% to Chaos Resistance"
 			}
 		},
@@ -216,6 +229,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You and nearby Allies Regenerate {0}% of maximum Life per second",
 				text="You and nearby Allies Regenerate {0}% of maximum Life per second"
 			}
 		},
@@ -232,6 +246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0}% increased Life Regeneration rate",
 				text="Nearby Enemies have {0}% increased Life Regeneration rate"
 			},
 			[2]={
@@ -245,6 +260,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies have {0}% reduced Life Regeneration rate",
 				text="Nearby Enemies have {0}% reduced Life Regeneration rate"
 			}
 		},
@@ -261,6 +277,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Chilled Enemies deal {0}% increased Damage with Hits",
 				text="Nearby Chilled Enemies deal {0}% increased Damage with Hits"
 			},
 			[2]={
@@ -274,6 +291,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Chilled Enemies deal {0}% reduced Damage with Hits",
 				text="Nearby Chilled Enemies deal {0}% reduced Damage with Hits"
 			}
 		},
@@ -290,6 +308,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Hindered Enemies deal {0}% increased Damage over Time",
 				text="Nearby Hindered Enemies deal {0}% increased Damage over Time"
 			},
 			[2]={
@@ -303,6 +322,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Hindered Enemies deal {0}% reduced Damage over Time",
 				text="Nearby Hindered Enemies deal {0}% reduced Damage over Time"
 			}
 		},
@@ -323,6 +343,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You and nearby Allies deal {0} to {1} added Physical Damage for\neach Impale on Enemy",
 				text="You and nearby Allies deal {0} to {1} added Physical Damage for\neach Impale on Enemy"
 			}
 		},
@@ -340,6 +361,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0}% increased [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Nearby Enemies have {0}% increased Critical Damage Bonus"
 			},
 			[2]={
@@ -353,6 +375,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies have {0}% reduced [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Nearby Enemies have {0}% reduced Critical Damage Bonus"
 			}
 		},
@@ -369,6 +392,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies have {0}% increased Attack, Cast and Movement Speed",
 				text="Nearby Allies have {0}% increased Attack, Cast and Movement Speed"
 			},
 			[2]={
@@ -382,6 +406,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Allies have {0}% reduced Attack, Cast and Movement Speed",
 				text="Nearby Allies have {0}% reduced Attack, Cast and Movement Speed"
 			}
 		},
@@ -398,6 +423,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies have {0}% increased Area of Effect",
 				text="Nearby Allies have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -411,6 +437,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Allies have {0}% reduced Area of Effect",
 				text="Nearby Allies have {0}% reduced Area of Effect"
 			}
 		},
@@ -427,6 +454,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Nearby Allies have {0}% chance to Intimidate Enemies for 4 seconds on Hit",
 				text="Nearby Allies have {0}% chance to Intimidate Enemies for 4 seconds on Hit"
 			},
 			[2]={
@@ -436,6 +464,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies Intimidate Enemies for 4 seconds on Hit",
 				text="Nearby Allies Intimidate Enemies for 4 seconds on Hit"
 			}
 		},
@@ -452,6 +481,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Nearby Allies have {0}% chance to Unnerve Enemies for 4 seconds on Hit",
 				text="Nearby Allies have {0}% chance to Unnerve Enemies for 4 seconds on Hit"
 			},
 			[2]={
@@ -461,6 +491,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Allies Unnerve Enemies for 4 seconds on Hit",
 				text="Nearby Allies Unnerve Enemies for 4 seconds on Hit"
 			}
 		},
@@ -477,6 +508,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You and nearby Allies have Tailwind",
 				text="You and nearby Allies have Tailwind"
 			}
 		},
@@ -493,6 +525,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies have {0}% increased [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Nearby Enemies have {0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -506,6 +539,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies have {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Nearby Enemies have {0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -522,6 +556,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies are Blinded",
 				text="Nearby Enemies are Blinded"
 			}
 		},
@@ -538,6 +573,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies cannot deal [Critical|Critical Hits]",
 				text="Nearby Enemies cannot deal Critical Hits"
 			}
 		},

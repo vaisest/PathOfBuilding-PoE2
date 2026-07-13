@@ -31,6 +31,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metre to explosion radius",
 				text="{0:+d} metre to explosion radius"
 			},
 			[2]={
@@ -48,6 +49,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} metres to explosion radius",
 				text="{0:+d} metres to explosion radius"
 			},
 			[3]={
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[4]={
@@ -82,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -100,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies lose Life equal to +{0}% of [Consume|Consumed] [BloodLoss|Blood Loss]",
 				text="Enemies lose Life equal to +{0}% of Consumed Blood Loss"
 			},
 			[2]={
@@ -109,6 +114,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies lose Life equal to {0}% of [Consume|Consumed] [BloodLoss|Blood Loss]",
 				text="Enemies lose Life equal to {0}% of Consumed Blood Loss"
 			}
 		},
@@ -129,6 +135,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more area of effect per {1} [BloodLoss|Blood Loss] [Consume|Consumed], up to 500%",
 				text="{0}% more area of effect per {1} Blood Loss Consumed, up to 500%"
 			}
 		},

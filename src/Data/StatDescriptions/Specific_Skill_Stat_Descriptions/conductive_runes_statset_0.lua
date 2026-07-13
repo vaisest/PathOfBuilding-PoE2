@@ -32,6 +32,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes emerge within a {0} metre length cone",
 				text="Runes emerge within a {0} metre length cone"
 			}
 		},
@@ -52,6 +53,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Rune duration is {0} second",
 				text="Rune duration is {0} second"
 			},
 			[2]={
@@ -65,6 +67,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rune duration is {0} seconds",
 				text="Rune duration is {0} seconds"
 			}
 		},
@@ -86,6 +89,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to arming time",
 				text="{0:+d} second to arming time"
 			},
 			[2]={
@@ -100,6 +104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to arming time",
 				text="{0:+d} seconds to arming time"
 			},
 			[3]={
@@ -113,6 +118,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Runes arm after {0} second",
 				text="Runes arm after {0} second"
 			},
 			[4]={
@@ -126,6 +132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes arm after {0} seconds",
 				text="Runes arm after {0} seconds"
 			}
 		},
@@ -142,6 +149,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Runes",
 				text="Limit {0} active Runes"
 			}
 		},
@@ -163,6 +171,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="{0:+d} second to activation time",
 				text="{0:+d} second to activation time"
 			},
 			[2]={
@@ -177,6 +186,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to activation time",
 				text="{0:+d} seconds to activation time"
 			},
 			[3]={
@@ -190,6 +200,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Runes detonate {0} second after activation",
 				text="Runes detonate {0} second after activation"
 			},
 			[4]={
@@ -203,6 +214,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes detonate {0} seconds after activation",
 				text="Runes detonate {0} seconds after activation"
 			}
 		},
@@ -219,6 +231,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} Rune",
 				text="Creates {0} Rune"
 			},
 			[2]={
@@ -228,6 +241,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Runes",
 				text="Creates {0} Runes"
 			}
 		},

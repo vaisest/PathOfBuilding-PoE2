@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre",
 				text="Explosion radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres",
 				text="Explosion radius is {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Ignite] duration is {0} second",
 				text="Ignite duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite] duration is {0} seconds",
 				text="Ignite duration is {0} seconds"
 			}
 		},
@@ -92,6 +96,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="An additional {0:+d}% of [Overkill] damage contributes to base [Ignite] damage",
 				text="An additional {0:+d}% of Overkill damage contributes to base Ignite damage"
 			},
 			[2]={
@@ -109,6 +114,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Base [Ignite] damage is {0}% of [Overkill] damage",
 				text="Base Ignite damage is {0}% of Overkill damage"
 			}
 		},
@@ -126,6 +132,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite] surrounding enemies if Overkill damage is at least {0}% of enemy's maximum Life",
 				text="Ignite surrounding enemies if Overkill damage is at least {0}% of enemy's maximum Life"
 			}
 		},

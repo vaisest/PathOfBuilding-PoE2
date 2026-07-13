@@ -40,6 +40,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Footstep radius is {0} metre",
 				text="Footstep radius is {0} metre"
 			},
 			[2]={
@@ -53,6 +54,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Footstep radius is {0} metres",
 				text="Footstep radius is {0} metres"
 			}
 		},

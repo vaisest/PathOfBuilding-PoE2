@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to bell appearance radius",
 				text="{0:+d} metres to bell appearance radius"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bells appear within {0} metre radius of you",
 				text="Bells appear within {0} metre radius of you"
 			}
 		},
@@ -92,6 +96,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="A bell appears every second",
 				text="A bell appears every second"
 			},
 			[2]={
@@ -105,6 +110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A bell appears every {0} seconds",
 				text="A bell appears every {0} seconds"
 			}
 		},
@@ -125,6 +131,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Bell duration is {0} second",
 				text="Bell duration is {0} second"
 			},
 			[2]={
@@ -138,6 +145,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bell duration is {0} seconds",
 				text="Bell duration is {0} seconds"
 			}
 		},
@@ -154,6 +162,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cooldown Recovery Rate also apply to\nbell appearance frequency",
 				text="Modifiers to Cooldown Recovery Rate also apply to\nbell appearance frequency"
 			}
 		},
@@ -177,6 +186,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} active Bell",
 				text="Limit {0} active Bell"
 			},
 			[2]={
@@ -186,6 +196,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} active Bells",
 				text="Limit {0} active Bells"
 			}
 		},

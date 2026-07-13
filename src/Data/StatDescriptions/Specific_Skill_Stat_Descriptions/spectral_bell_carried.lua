@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[DNT-UNUSED] Shockwave radius is {0} metre",
 				text="DNT-UNUSED Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Shockwave radius is {0} metres",
 				text="DNT-UNUSED Shockwave radius is {0} metres"
 			}
 		},

@@ -66,6 +66,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0} [Glory] to use",
 				text="Requires {0} Glory to use"
 			}
 		},
@@ -82,6 +83,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill's base cost is equal to {0}% of the base\ncosts of Socketed Skills",
 				text="This Skill's base cost is equal to {0}% of the base\ncosts of Socketed Skills"
 			}
 		},
@@ -98,6 +100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sacrifices {0}% of [Minion|Minion's] life to deal that much [Chaos] damage",
 				text="Sacrifices {0}% of Minion's life to deal that much Chaos damage"
 			}
 		},
@@ -114,6 +117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflects Physical Damage around each Enemy equal to the Damage of removed Impales multiplied by the number of Hits they have left\nGrants 1 Steel Shard for each Impale removed",
 				text="Reflects Physical Damage around each Enemy equal to the Damage of removed Impales multiplied by the number of Hits they have left\nGrants 1 Steel Shard for each Impale removed"
 			}
 		},
@@ -134,6 +138,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sacrifices {0}% of your total [EnergyShield|Energy Shield] and Life\nDeals {1}% of Sacrificed [EnergyShield|Energy Shield] and Life as Fire Damage per second",
 				text="Sacrifices {0}% of your total Energy Shield and Life\nDeals {1}% of Sacrificed Energy Shield and Life as Fire Damage per second"
 			}
 		},
@@ -151,6 +156,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles continuously lose Damage, up to 50% less Damage by the time they dissipate\nProjectiles have 25% chance to Freeze, which is lost over the first quarter of their flight",
 				text="Projectiles continuously lose Damage, up to 50% less Damage by the time they dissipate\nProjectiles have 25% chance to Freeze, which is lost over the first quarter of their flight"
 			}
 		},
@@ -167,6 +173,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggered] when you [Attack], creating one Stag per Vivid Wisp",
 				text="Triggered when you Attack, creating one Stag per Vivid Wisp"
 			}
 		},
@@ -183,6 +190,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased Cast Speed",
 				text="Grants {0}% increased Cast Speed"
 			},
 			[2]={
@@ -196,6 +204,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced Cast Speed",
 				text="Grants {0}% reduced Cast Speed"
 			}
 		},
@@ -216,6 +225,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Once [Ignite|Ignited], [OilGround|Oil Ground] adds {0}% of this Attack's [Fire] [HitDamage|Damage] as unscalable [HitDamage|Damage] to the [Ignite]",
 				text="Once Ignited, Oil Ground adds {0}% of this Attack's Fire Damage as unscalable Damage to the Ignite"
 			}
 		},
@@ -236,6 +246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Chaos Damage",
 				text="{0} to {1} Chaos Damage"
 			}
 		},
@@ -257,6 +268,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} base [Lightning|Lightning] Damage per [Charges|Power Charge] removed",
 				text="Deals {0} to {1} base Lightning Damage per Power Charge removed"
 			}
 		},
@@ -278,6 +290,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} base Fire Damage per Endurance Charge removed",
 				text="Deals {0} to {1} base Fire Damage per Endurance Charge removed"
 			}
 		},
@@ -299,6 +312,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional {0} seconds Base Duration per extra corpse Consumed",
 				text="Additional {0} seconds Base Duration per extra corpse Consumed"
 			}
 		},
@@ -319,6 +333,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} base Cold Damage per Frenzy Charge removed",
 				text="Deals {0} to {1} base Cold Damage per Frenzy Charge removed"
 			}
 		},
@@ -340,6 +355,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} base Cold Damage per 10 [Intelligence]",
 				text="Deals {0} to {1} base Cold Damage per 10 Intelligence"
 			}
 		},
@@ -357,6 +373,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Corpse|Corpse's] Maximum Life",
 				text="Explosion deals base Fire Damage equal to {0}% of the Corpse's Maximum Life"
 			}
 		},
@@ -373,6 +390,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base Chaos Damage equal to {0}% of the corpse's Maximum Life",
 				text="Explosion deals base Chaos Damage equal to {0}% of the corpse's Maximum Life"
 			}
 		},
@@ -389,6 +407,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base Lightning Damage equal to {0}% of corpse's Maximum Life",
 				text="Explosion deals base Lightning Damage equal to {0}% of corpse's Maximum Life"
 			}
 		},
@@ -409,6 +428,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Corpse|Corpse's] Maximum Life",
 				text="Explosion deals base Fire Damage equal to {0}% of the Corpse's Maximum Life"
 			}
 		},
@@ -429,6 +449,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals [Physical|Physical] damage equal to {0}% of\n[Corpse|Corpse's] maximum Life",
 				text="Deals Physical damage equal to {0}% of\nCorpse's maximum Life"
 			}
 		},
@@ -445,6 +466,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals base [Fire|Fire] Damage equal to {0}% of the [Minion|Minion's] maximum Life",
 				text="Explosion deals base Fire Damage equal to {0}% of the Minion's maximum Life"
 			}
 		},
@@ -461,6 +483,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to [Spell] Damage apply to [Debuff]'s Damage over Time",
 				text="Modifiers to Spell Damage apply to Debuff's Damage over Time"
 			}
 		},
@@ -477,6 +500,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to [Projectile] Damage apply to this Skill's Damage Over Time effect",
 				text="Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect"
 			}
 		},
@@ -493,6 +517,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Increases and Reductions to Light Radius also apply to this Skill's Area of Effect",
 				text="Increases and Reductions to Light Radius also apply to this Skill's Area of Effect"
 			}
 		},
@@ -509,6 +534,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention",
 				text="Modifiers to Skill Effect Duration also apply to this Skill's Soul Gain Prevention"
 			}
 		},
@@ -525,6 +551,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Totem Duration also apply to this Skill's Soul Gain Prevention",
 				text="Modifiers to Totem Duration also apply to this Skill's Soul Gain Prevention"
 			}
 		},
@@ -541,6 +568,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention",
 				text="Modifiers to Buff Duration also apply to this Skill's Soul Gain Prevention"
 			}
 		},
@@ -561,6 +589,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Throws a Remote Mine which uses this Skill when detonated",
 				text="Throws a Remote Mine which uses this Skill when detonated"
 			},
 			[2]={
@@ -574,6 +603,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Throws {1} Remote Mines which use this Skill when detonated",
 				text="Throws {1} Remote Mines which use this Skill when detonated"
 			}
 		},
@@ -595,6 +625,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Throws a Trap which uses this Skill when Triggered",
 				text="Throws a Trap which uses this Skill when Triggered"
 			},
 			[2]={
@@ -608,6 +639,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Throws up to {1} Traps which use this Skill when Triggered",
 				text="Throws up to {1} Traps which use this Skill when Triggered"
 			}
 		},
@@ -625,6 +657,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Traps are thrown randomly around targeted location",
 				text="Traps are thrown randomly around targeted location"
 			}
 		},
@@ -641,6 +674,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Trap Trigger Area of Effect",
 				text="{0}% increased Trap Trigger Area of Effect"
 			},
 			[2]={
@@ -654,6 +688,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Trap Trigger Area of Effect",
 				text="{0}% reduced Trap Trigger Area of Effect"
 			}
 		},
@@ -670,6 +705,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Mine Detonation Area of Effect",
 				text="{0}% increased Mine Detonation Area of Effect"
 			},
 			[2]={
@@ -683,6 +719,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Mine Detonation Area of Effect",
 				text="{0}% reduced Mine Detonation Area of Effect"
 			}
 		},
@@ -699,6 +736,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skill cannot be used with [Melee] Weapons",
 				text="Skill cannot be used with Melee Weapons"
 			}
 		},
@@ -715,6 +753,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Shard [Projectile|Projectiles] in a Spiral when Projectile ends",
 				text="Fires {0} Shard Projectiles in a Spiral when Projectile ends"
 			}
 		},
@@ -731,6 +770,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Speed",
 				text="{0}% increased Attack Speed"
 			},
 			[2]={
@@ -744,6 +784,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Speed",
 				text="{0}% reduced Attack Speed"
 			}
 		},
@@ -760,6 +801,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased [Attack] Speed",
 				text="Grants {0}% increased Attack Speed"
 			},
 			[2]={
@@ -773,6 +815,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced [Attack] Speed",
 				text="Grants {0}% reduced Attack Speed"
 			}
 		},
@@ -789,6 +832,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Speed when on [LowLife|Low Life]",
 				text="{0}% increased Attack Speed when on Low Life"
 			},
 			[2]={
@@ -802,6 +846,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Speed when on [LowLife|Low Life]",
 				text="{0}% reduced Attack Speed when on Low Life"
 			}
 		},
@@ -818,6 +863,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed while Totem is Active",
 				text="{0}% more Attack Speed while Totem is Active"
 			},
 			[2]={
@@ -831,6 +877,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed while Totem is Active",
 				text="{0}% less Attack Speed while Totem is Active"
 			}
 		},
@@ -847,6 +894,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] Damage while Totem is Active",
 				text="{0}% more Melee Damage while Totem is Active"
 			},
 			[2]={
@@ -860,6 +908,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] Damage while Totem is Active",
 				text="{0}% less Melee Damage while Totem is Active"
 			}
 		},
@@ -876,6 +925,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect with [Melee] Skills while Totem is Active",
 				text="{0}% increased Area of Effect with Melee Skills while Totem is Active"
 			},
 			[2]={
@@ -889,6 +939,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% increased Area of Effect with [Melee] Skills while Totem is Active",
 				text="{0}% increased Area of Effect with Melee Skills while Totem is Active"
 			}
 		},
@@ -905,6 +956,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Physical Damage gained as Extra Fire Damage while Totem is Active",
 				text="{0}% of Physical Damage gained as Extra Fire Damage while Totem is Active"
 			}
 		},
@@ -925,6 +977,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to wave length for each wave in the Sequence",
 				text="{0:+d} metres to wave length for each wave in the Sequence"
 			}
 		},
@@ -941,6 +994,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Speed while Totem is Active",
 				text="{0}% increased Attack Speed while Totem is Active"
 			},
 			[2]={
@@ -954,6 +1008,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Speed while Totem is Active",
 				text="{0}% reduced Attack Speed while Totem is Active"
 			}
 		},
@@ -970,6 +1025,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Melee] Damage while Totem is Active",
 				text="{0}% increased Melee Damage while Totem is Active"
 			},
 			[2]={
@@ -983,6 +1039,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Melee] Damage while Totem is Active",
 				text="{0}% reduced Melee Damage while Totem is Active"
 			}
 		},
@@ -999,6 +1056,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Cast Speed when on [LowLife|Low Life]",
 				text="{0}% increased Cast Speed when on Low Life"
 			},
 			[2]={
@@ -1012,6 +1070,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Cast Speed when on [LowLife|Low Life]",
 				text="{0}% reduced Cast Speed when on Low Life"
 			}
 		},
@@ -1028,6 +1087,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Cast Speed",
 				text="{0}% increased Cast Speed"
 			},
 			[2]={
@@ -1041,6 +1101,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Cast Speed",
 				text="{0}% reduced Cast Speed"
 			}
 		},
@@ -1057,6 +1118,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Cast Speed",
 				text="{0}% more Cast Speed"
 			},
 			[2]={
@@ -1070,6 +1132,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Cast Speed",
 				text="{0}% less Cast Speed"
 			}
 		},
@@ -1090,6 +1153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[LifeLeech|Leech] {0}% of [Physical] [Attack] Damage as Life",
 				text="Leech {0}% of Physical Attack Damage as Life"
 			}
 		},
@@ -1106,6 +1170,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Knockback|Knock Enemies Back] on [HitDamage|Hit]",
 				text="{0}% chance to Knock Enemies Back on Hit"
 			},
 			[2]={
@@ -1115,6 +1180,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Knockback|Knocks Enemies Back] on [HitDamage|Hit]",
 				text="Knocks Enemies Back on Hit"
 			}
 		},
@@ -1131,6 +1197,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="200% increased Knockback Distance",
 				text="200% increased Knockback Distance"
 			}
 		},
@@ -1147,6 +1214,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Knockback] Distance",
 				text="{0}% increased Knockback Distance"
 			},
 			[2]={
@@ -1160,6 +1228,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Knockback] Distance",
 				text="{0}% reduced Knockback Distance"
 			}
 		},
@@ -1176,6 +1245,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% reduced [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="{0}% reduced Enemy Stun Threshold"
 			},
 			[2]={
@@ -1189,6 +1259,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% increased [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="{0}% increased Enemy Stun Threshold"
 			}
 		},
@@ -1205,6 +1276,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius",
 				text="{0:+d} to radius"
 			}
 		},
@@ -1221,6 +1293,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius of Consecrated Ground",
 				text="{0:+d} to radius of Consecrated Ground"
 			}
 		},
@@ -1237,6 +1310,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect",
 				text="{0}% increased Area of Effect"
 			},
 			[2]={
@@ -1250,6 +1324,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect",
 				text="{0}% reduced Area of Effect"
 			}
 		},
@@ -1266,6 +1341,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect per 1 additional [Melee] Strike Range",
 				text="{0}% increased Area of Effect per 1 additional Melee Strike Range"
 			},
 			[2]={
@@ -1279,6 +1355,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect per 1 additional [Melee] Strike Range",
 				text="{0}% reduced Area of Effect per 1 additional Melee Strike Range"
 			}
 		},
@@ -1295,6 +1372,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect from additional [Melee] Strike Range",
 				text="{0}% increased Area of Effect from additional Melee Strike Range"
 			},
 			[2]={
@@ -1308,6 +1386,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect from additional [Melee] Strike Range",
 				text="{0}% reduced Area of Effect from additional Melee Strike Range"
 			}
 		},
@@ -1324,6 +1403,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect while Dead",
 				text="{0}% increased Area of Effect while Dead"
 			},
 			[2]={
@@ -1337,6 +1417,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect while Dead",
 				text="{0}% reduced Area of Effect while Dead"
 			}
 		},
@@ -1353,6 +1434,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -1366,6 +1448,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -1382,6 +1465,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -1395,6 +1479,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -1411,6 +1496,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Aura Area of Effect",
 				text="{0}% increased Aura Area of Effect"
 			},
 			[2]={
@@ -1424,6 +1510,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Aura Area of Effect",
 				text="{0}% reduced Aura Area of Effect"
 			}
 		},
@@ -1440,6 +1527,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Aura] [BuffMagnitude|Magnitudes]",
 				text="{0}% increased Aura Magnitudes"
 			},
 			[2]={
@@ -1453,6 +1541,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Aura] [BuffMagnitude|Magnitudes]",
 				text="{0}% reduced Aura Magnitudes"
 			}
 		},
@@ -1469,6 +1558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Speed per Frenzy Charge",
 				text="{0}% increased Attack Speed per Frenzy Charge"
 			},
 			[2]={
@@ -1482,6 +1572,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Speed per Frenzy Charge",
 				text="{0}% reduced Attack Speed per Frenzy Charge"
 			}
 		},
@@ -1498,6 +1589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse|Curse] Duration is infinite",
 				text="Curse Duration is infinite"
 			},
 			[2]={
@@ -1511,6 +1603,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse|Curse] Duration is {0} seconds",
 				text="Curse Duration is {0} seconds"
 			}
 		},
@@ -1527,6 +1620,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Cascadable|Echoes] {0} time",
 				text="Echoes {0} time"
 			},
 			[2]={
@@ -1536,6 +1630,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Cascadable|Echoes] {0} times",
 				text="Echoes {0} times"
 			}
 		},
@@ -1556,6 +1651,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff Lasts {0} seconds",
 				text="Buff Lasts {0} seconds"
 			}
 		},
@@ -1572,6 +1668,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Secondary Buff Lasts 1 second",
 				text="Secondary Buff Lasts 1 second"
 			},
 			[2]={
@@ -1585,6 +1682,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Secondary Buff Lasts {0} seconds",
 				text="Secondary Buff Lasts {0} seconds"
 			}
 		},
@@ -1601,6 +1699,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="During initial Duration, can be hit by your Projectiles up to {0} times",
 				text="During initial Duration, can be hit by your Projectiles up to {0} times"
 			}
 		},
@@ -1621,6 +1720,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ground effects last {0} seconds",
 				text="Ground effects last {0} seconds"
 			}
 		},
@@ -1641,6 +1741,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bleeding Lasts {0} seconds",
 				text="Bleeding Lasts {0} seconds"
 			}
 		},
@@ -1661,6 +1762,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions Last {0} seconds",
 				text="Minions Last {0} seconds"
 			}
 		},
@@ -1681,6 +1783,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions Last {0} seconds",
 				text="Minions Last {0} seconds"
 			}
 		},
@@ -1701,6 +1804,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spectres Last {0} seconds",
 				text="Spectres Last {0} seconds"
 			}
 		},
@@ -1717,6 +1821,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Stun Threshold reduction on enemies at Maximum charge distance",
 				text="{0}% increased Stun Threshold reduction on enemies at Maximum charge distance"
 			},
 			[2]={
@@ -1730,6 +1835,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Stun Threshold reduction on enemies at Maximum charge distance",
 				text="{0}% reduced Stun Threshold reduction on enemies at Maximum charge distance"
 			}
 		},
@@ -1746,6 +1852,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Stun Duration on enemies at Maximum charge distance",
 				text="{0}% increased Stun Duration on enemies at Maximum charge distance"
 			},
 			[2]={
@@ -1759,6 +1866,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Stun Duration on enemies at Maximum charge distance",
 				text="{0}% reduced Stun Duration on enemies at Maximum charge distance"
 			}
 		},
@@ -1775,6 +1883,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits at Maximum Charge Distance",
 				text="{0}% more Damage with Hits at Maximum Charge Distance"
 			},
 			[2]={
@@ -1788,6 +1897,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits at Maximum Charge Distance",
 				text="{0}% less Damage with Hits at Maximum Charge Distance"
 			}
 		},
@@ -1812,6 +1922,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Projectile|Projectiles] [Pierce] {0} target",
 				text="Projectiles Pierce {0} target"
 			},
 			[2]={
@@ -1829,6 +1940,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Projectile|Projectiles] [Pierce] {0} targets",
 				text="Projectiles Pierce {0} targets"
 			},
 			[3]={
@@ -1846,6 +1958,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Projectile|Projectiles] [Pierce] all targets",
 				text="Projectiles Pierce all targets"
 			}
 		},
@@ -1864,6 +1977,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Projectile|Projectile] Speed",
 				text="{0}% increased Projectile Speed"
 			},
 			[2]={
@@ -1877,6 +1991,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Projectile|Projectile] Speed",
 				text="{0}% reduced Projectile Speed"
 			}
 		},
@@ -1897,6 +2012,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Hits are Freezing",
 				text="Hits are Freezing"
 			},
 			[2]={
@@ -1910,6 +2026,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% chance for Hits to be Freezing",
 				text="{0}% chance for Hits to be Freezing"
 			}
 		},
@@ -1927,6 +2044,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] are [Pinned|Pinning]",
 				text="Hits are Pinning"
 			}
 		},
@@ -1943,6 +2061,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Shock enemies",
 				text="{0}% chance to Shock enemies"
 			}
 		},
@@ -1959,6 +2078,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Freeze] Duration on enemies",
 				text="{0}% increased Freeze Duration on enemies"
 			},
 			[2]={
@@ -1972,6 +2092,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Freeze] Duration on enemies",
 				text="{0}% reduced Freeze Duration on enemies"
 			}
 		},
@@ -1988,6 +2109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Chill|Chill] Duration on enemies",
 				text="{0}% increased Chill Duration on enemies"
 			},
 			[2]={
@@ -2001,6 +2123,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Chill|Chill] Duration on enemies",
 				text="{0}% reduced Chill Duration on enemies"
 			}
 		},
@@ -2017,6 +2140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Chill|Chill] inflicted",
 				text="{0}% more Magnitude of Chill inflicted"
 			},
 			[2]={
@@ -2030,6 +2154,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Chill|Chill] inflicted",
 				text="{0}% less Magnitude of Chill inflicted"
 			}
 		},
@@ -2046,6 +2171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Chill|Chill] inflicted",
 				text="{0}% increased Magnitude of Chill inflicted"
 			},
 			[2]={
@@ -2059,6 +2185,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Chill|Chill] inflicted",
 				text="{0}% reduced Magnitude of Chill inflicted"
 			}
 		},
@@ -2075,6 +2202,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Shock] Duration",
 				text="{0}% increased Shock Duration"
 			},
 			[2]={
@@ -2088,6 +2216,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Shock] Duration",
 				text="{0}% reduced Shock Duration"
 			}
 		},
@@ -2104,6 +2233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Ignite] Duration on enemies",
 				text="{0}% increased Ignite Duration on enemies"
 			},
 			[2]={
@@ -2117,6 +2247,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Ignite] Duration on enemies",
 				text="{0}% reduced Ignite Duration on enemies"
 			}
 		},
@@ -2133,6 +2264,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Burning Damage",
 				text="{0}% increased Burning Damage"
 			},
 			[2]={
@@ -2146,6 +2278,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Burning Damage",
 				text="{0}% reduced Burning Damage"
 			}
 		},
@@ -2162,6 +2295,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Movement Speed",
 				text="{0}% increased Movement Speed"
 			},
 			[2]={
@@ -2175,6 +2309,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Movement Speed",
 				text="{0}% reduced Movement Speed"
 			}
 		},
@@ -2191,6 +2326,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Locks enemy in place",
 				text="Locks enemy in place"
 			}
 		},
@@ -2207,6 +2343,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Rarity of Items Dropped by Slain enemies",
 				text="{0}% increased Rarity of Items Dropped by Slain enemies"
 			},
 			[2]={
@@ -2220,6 +2357,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Rarity of Items Dropped by Slain enemies",
 				text="{0}% reduced Rarity of Items Dropped by Slain enemies"
 			}
 		},
@@ -2236,6 +2374,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Quantity of Items Dropped by Slain enemies",
 				text="{0}% increased Quantity of Items Dropped by Slain enemies"
 			},
 			[2]={
@@ -2249,6 +2388,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Quantity of Items Dropped by Slain enemies",
 				text="{0}% reduced Quantity of Items Dropped by Slain enemies"
 			}
 		},
@@ -2265,6 +2405,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} additional [Accuracy] Rating",
 				text="{0} additional Accuracy Rating"
 			},
 			[2]={
@@ -2278,6 +2419,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Subtracts {0} from [Accuracy] Rating",
 				text="Subtracts {0} from Accuracy Rating"
 			}
 		},
@@ -2294,6 +2436,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Accuracy] Rating",
 				text="{0}% increased Accuracy Rating"
 			},
 			[2]={
@@ -2307,6 +2450,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Accuracy] Rating",
 				text="{0}% reduced Accuracy Rating"
 			}
 		},
@@ -2327,6 +2471,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% of your Maximum Life per second as Chaos Damage",
 				text="You take {0}% of your Maximum Life per second as Chaos Damage"
 			}
 		},
@@ -2347,6 +2492,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% of your Maximum Life per second as Physical Damage",
 				text="You take {0}% of your Maximum Life per second as Physical Damage"
 			}
 		},
@@ -2367,6 +2513,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% of your Maximum [EnergyShield|Energy Shield] per second as Physical Damage",
 				text="You take {0}% of your Maximum Energy Shield per second as Physical Damage"
 			}
 		},
@@ -2383,6 +2530,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a [Charges|Frenzy Charge] on kill",
 				text="Gain a Frenzy Charge on kill"
 			}
 		},
@@ -2399,6 +2547,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain a [Charges|Frenzy Charge] on kill",
 				text="{0}% chance to gain a Frenzy Charge on kill"
 			},
 			[2]={
@@ -2408,6 +2557,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a [Charges|Frenzy Charge] on kill",
 				text="Gain a Frenzy Charge on kill"
 			}
 		},
@@ -2424,6 +2574,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance",
 				text="{0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -2437,6 +2588,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance",
 				text="{0}% reduced Critical Hit Chance"
 			}
 		},
@@ -2453,6 +2605,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased [Critical|Critical Hit] Chance",
 				text="Grants {0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -2466,6 +2619,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced [Critical|Critical Hit] Chance",
 				text="Grants {0}% reduced Critical Hit Chance"
 			}
 		},
@@ -2482,6 +2636,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Critical|Critical Hit] Chance",
 				text="{0}% more Critical Hit Chance"
 			},
 			[2]={
@@ -2495,6 +2650,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Critical|Critical Hit] Chance",
 				text="{0}% less Critical Hit Chance"
 			}
 		},
@@ -2511,6 +2667,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Critical|Critical Hit] Chance",
 				text="{0}% more Critical Hit Chance"
 			},
 			[2]={
@@ -2524,6 +2681,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Critical|Critical Hit] Chance",
 				text="{0}% less Critical Hit Chance"
 			}
 		},
@@ -2540,6 +2698,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [CriticalDamageBonus|Critical Damage Bonus]",
 				text="{0}% increased Critical Damage Bonus"
 			},
 			[2]={
@@ -2553,6 +2712,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [CriticalDamageBonus|Critical Damage Bonus]",
 				text="{0}% reduced Critical Damage Bonus"
 			}
 		},
@@ -2569,6 +2729,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [CriticalDamageBonus|Critical Damage Bonus] while Elusive",
 				text="{0:+d}% to Critical Damage Bonus while Elusive"
 			}
 		},
@@ -2585,6 +2746,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Inflicts [Withered] on [HitDamage|Hit]",
 				text="Inflicts Withered on Hit"
 			},
 			[2]={
@@ -2594,6 +2756,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0} [Withered] [Debuff|Debuffs] on [HitDamage|Hit]",
 				text="Inflicts {0} Withered Debuffs on Hit"
 			}
 		},
@@ -2614,6 +2777,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Withered] lasts {0} second",
 				text="Withered lasts {0} second"
 			},
 			[2]={
@@ -2627,6 +2791,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Withered] lasts {0} seconds",
 				text="Withered lasts {0} seconds"
 			}
 		},
@@ -2643,6 +2808,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} Life for each Enemy Hit",
 				text="Gain {0} Life for each Enemy Hit"
 			},
 			[2]={
@@ -2656,6 +2822,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Lose {0} Life for each Enemy Hit",
 				text="Lose {0} Life for each Enemy Hit"
 			}
 		},
@@ -2672,6 +2839,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% increased Damage",
 				text="Minions deal {0}% increased Damage"
 			},
 			[2]={
@@ -2685,6 +2853,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% reduced Damage",
 				text="Minions deal {0}% reduced Damage"
 			}
 		},
@@ -2701,6 +2870,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% increased Damage",
 				text="Minions deal {0}% increased Damage"
 			},
 			[2]={
@@ -2714,6 +2884,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% reduced Damage",
 				text="Minions deal {0}% reduced Damage"
 			}
 		},
@@ -2730,6 +2901,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Doubles have {0}% increased Movement Speed",
 				text="Doubles have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -2743,6 +2915,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Doubles have {0}% reduced Movement Speed",
 				text="Doubles have {0}% reduced Movement Speed"
 			}
 		},
@@ -2759,6 +2932,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Minion [Attack] Speed",
 				text="{0}% increased Minion Attack Speed"
 			},
 			[2]={
@@ -2772,6 +2946,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Minion [Attack] Speed",
 				text="{0}% reduced Minion Attack Speed"
 			}
 		},
@@ -2788,6 +2963,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Minion Cast Speed",
 				text="{0}% increased Minion Cast Speed"
 			},
 			[2]={
@@ -2801,6 +2977,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Minion Cast Speed",
 				text="{0}% reduced Minion Cast Speed"
 			}
 		},
@@ -2817,6 +2994,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Minion] Movement Speed",
 				text="{0}% increased Minion Movement Speed"
 			},
 			[2]={
@@ -2830,6 +3008,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Minion] Movement Speed",
 				text="{0}% reduced Minion Movement Speed"
 			}
 		},
@@ -2846,6 +3025,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Minion Movement Speed",
 				text="{0}% more Minion Movement Speed"
 			},
 			[2]={
@@ -2859,6 +3039,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Minion Movement Speed",
 				text="{0}% less Minion Movement Speed"
 			}
 		},
@@ -2883,6 +3064,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Every Pulse is a Stronger Pulse",
 				text="Every Pulse is a Stronger Pulse"
 			},
 			[2]={
@@ -2900,6 +3082,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Releases a Stronger Pulse every {1} Pulses",
 				text="Releases a Stronger Pulse every {1} Pulses"
 			},
 			[3]={
@@ -2917,6 +3100,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Every Pulse is a Stronger Pulse\nStronger Pulses always [Critical|Critical Hit]",
 				text="Every Pulse is a Stronger Pulse\nStronger Pulses always Critical Hit"
 			},
 			[4]={
@@ -2934,6 +3118,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Releases a Stronger Pulse every {1} Pulses\nStronger Pulses always [Critical|Critical Hit]",
 				text="Releases a Stronger Pulse every {1} Pulses\nStronger Pulses always Critical Hit"
 			},
 			[5]={
@@ -2951,6 +3136,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Every Pulse is a Stronger Pulse",
 				text="Every Pulse is a Stronger Pulse"
 			},
 			[6]={
@@ -2968,6 +3154,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Releases a Stronger Pulse every {0} Pulses",
 				text="Releases a Stronger Pulse every {0} Pulses"
 			},
 			[7]={
@@ -2985,6 +3172,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Every Pulse is a Stronger Pulse\nStronger Pulses always [Critical|Critical Hit]",
 				text="Every Pulse is a Stronger Pulse\nStronger Pulses always Critical Hit"
 			},
 			[8]={
@@ -3002,6 +3190,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Releases a Stronger Pulse every {0} Pulses\nStronger Pulses always [Critical|Critical Hit]",
 				text="Releases a Stronger Pulse every {0} Pulses\nStronger Pulses always Critical Hit"
 			}
 		},
@@ -3020,6 +3209,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minion Movement Speed is Capped",
 				text="Minion Movement Speed is Capped"
 			}
 		},
@@ -3036,6 +3226,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions have {0}% more Maximum Life",
 				text="Minions have {0}% more Maximum Life"
 			},
 			[2]={
@@ -3049,6 +3240,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions have {0}% less Maximum Life",
 				text="Minions have {0}% less Maximum Life"
 			}
 		},
@@ -3065,6 +3257,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions have {0}% more [EnergyShield|Energy Shield]",
 				text="Minions have {0}% more Energy Shield"
 			},
 			[2]={
@@ -3078,6 +3271,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions have {0}% less [EnergyShield|Energy Shield]",
 				text="Minions have {0}% less Energy Shield"
 			}
 		},
@@ -3094,6 +3288,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Minion maximum Life",
 				text="{0}% more Minion maximum Life"
 			},
 			[2]={
@@ -3107,6 +3302,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Minion maximum Life",
 				text="{0}% less Minion maximum Life"
 			}
 		},
@@ -3123,6 +3319,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Minion Maximum Life",
 				text="{0}% increased Minion Maximum Life"
 			}
 		},
@@ -3139,6 +3336,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minion Instability",
 				text="Minion Instability"
 			}
 		},
@@ -3155,6 +3353,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Stun Duration on enemies",
 				text="{0}% increased Stun Duration on enemies"
 			},
 			[2]={
@@ -3168,6 +3367,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Stun Duration on enemies",
 				text="{0}% reduced Stun Duration on enemies"
 			}
 		},
@@ -3184,6 +3384,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stuns Enemies",
 				text="Stuns Enemies"
 			}
 		},
@@ -3200,6 +3401,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage when successfully Backstabbing",
 				text="{0}% increased Damage when successfully Backstabbing"
 			}
 		},
@@ -3220,6 +3422,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Viper Strike Charge deals {0} Base [Chaos|Chaos] Damage per second",
 				text="Each Viper Strike Charge deals {0} Base Chaos Damage per second"
 			}
 		},
@@ -3240,6 +3443,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Chaos Damage per second",
 				text="Deals {0} Chaos Damage per second"
 			}
 		},
@@ -3260,6 +3464,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Chaos Damage per second",
 				text="Deals {0} Chaos Damage per second"
 			}
 		},
@@ -3280,6 +3485,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Chaos Damage per second",
 				text="Deals {0} Chaos Damage per second"
 			}
 		},
@@ -3300,6 +3506,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Chaos Damage per second",
 				text="Deals {0} Chaos Damage per second"
 			}
 		},
@@ -3320,6 +3527,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Physical Damage per second",
 				text="Deals {0} Physical Damage per second"
 			}
 		},
@@ -3340,6 +3548,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Physical Damage per second",
 				text="Deals {0} Physical Damage per second"
 			}
 		},
@@ -3360,6 +3569,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Cold Damage per second",
 				text="Deals {0} Cold Damage per second"
 			}
 		},
@@ -3380,6 +3590,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Cold Damage per second",
 				text="Deals {0} Cold Damage per second"
 			}
 		},
@@ -3400,6 +3611,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Cold Damage per second",
 				text="Deals {0} Cold Damage per second"
 			}
 		},
@@ -3420,6 +3632,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Cold Damage per second",
 				text="Deals {0} Cold Damage per second"
 			}
 		},
@@ -3440,6 +3653,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Fire Damage per second",
 				text="Deals {0} Fire Damage per second"
 			}
 		},
@@ -3460,6 +3674,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Fire Damage per second",
 				text="Deals {0} Fire Damage per second"
 			}
 		},
@@ -3480,6 +3695,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Fire Damage per second",
 				text="Deals {0} Fire Damage per second"
 			}
 		},
@@ -3500,6 +3716,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} Fire Damage per second",
 				text="Deals {0} Fire Damage per second"
 			}
 		},
@@ -3520,6 +3737,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Secondary Debuff Deals {0} [Fire] Damage per second",
 				text="Secondary Debuff Deals {0} Fire Damage per second"
 			}
 		},
@@ -3540,6 +3758,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Adds {0} seconds to monster response time",
 				text="Adds {0} seconds to monster response time"
 			}
 		},
@@ -3556,6 +3775,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] Physical Damage",
 				text="{0}% more Melee Physical Damage"
 			},
 			[2]={
@@ -3569,6 +3789,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] Physical Damage",
 				text="{0}% less Melee Physical Damage"
 			}
 		},
@@ -3585,6 +3806,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Melee] Physical Damage",
 				text="{0}% increased Melee Physical Damage"
 			},
 			[2]={
@@ -3598,6 +3820,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Melee] Physical Damage",
 				text="{0}% reduced Melee Physical Damage"
 			}
 		},
@@ -3618,6 +3841,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% more Base Damage",
 				text="Explosion deals {0}% more Base Damage"
 			},
 			[2]={
@@ -3631,6 +3855,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosion deals {0}% less Base Damage",
 				text="Explosion deals {0}% less Base Damage"
 			}
 		},
@@ -3651,6 +3876,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% more Base Damage",
 				text="Explosion deals {0}% more Base Damage"
 			},
 			[2]={
@@ -3664,6 +3890,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosion deals {0}% less Base Damage",
 				text="Explosion deals {0}% less Base Damage"
 			}
 		},
@@ -3684,6 +3911,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion will have {0} to {1} added Fire Damage",
 				text="Explosion will have {0} to {1} added Fire Damage"
 			}
 		},
@@ -3705,6 +3933,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion will have {0} to {1} added Fire Damage",
 				text="Explosion will have {0} to {1} added Fire Damage"
 			}
 		},
@@ -3726,6 +3955,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0} to {1} Base Fire Damage per Fuse Charge",
 				text="Explosion deals {0} to {1} Base Fire Damage per Fuse Charge"
 			}
 		},
@@ -3747,6 +3977,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} to Explosion Radius per Explosive Arrow on Target",
 				text="{0:+d} to Explosion Radius per Explosive Arrow on Target"
 			},
 			[2]={
@@ -3760,6 +3991,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Explosion Radius per Explosive Arrow on Target, up to {1:+d}",
 				text="{0:+d} to Explosion Radius per Explosive Arrow on Target, up to {1:+d}"
 			}
 		},
@@ -3777,6 +4009,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [StunRecovery|Stun Recovery]",
 				text="{0}% increased Stun Recovery"
 			},
 			[2]={
@@ -3790,6 +4023,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [StunRecovery|Stun Recovery]",
 				text="{0}% reduced Stun Recovery"
 			}
 		},
@@ -3806,6 +4040,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% [FasterESRechargeStart|faster start of Energy Shield Recharge]",
 				text="{0}% faster start of Energy Shield Recharge"
 			},
 			[2]={
@@ -3819,6 +4054,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% [FasterESRechargeStart|slower start of Energy Shield Recharge]",
 				text="{0}% slower start of Energy Shield Recharge"
 			}
 		},
@@ -3835,6 +4071,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="{0}% increased Energy Shield Recharge Rate"
 			},
 			[2]={
@@ -3848,6 +4085,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="{0}% reduced Energy Shield Recharge Rate"
 			}
 		},
@@ -3864,6 +4102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage from Damage Over Time effects",
 				text="{0}% increased Damage from Damage Over Time effects"
 			}
 		},
@@ -3884,6 +4123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Base Duration per Endurance Charge removed",
 				text="{0:+d} seconds to Base Duration per Endurance Charge removed"
 			}
 		},
@@ -3900,6 +4140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Buff Duration per Endurance Charge removed",
 				text="{0}% increased Buff Duration per Endurance Charge removed"
 			}
 		},
@@ -3916,6 +4157,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Buff Duration per Endurance Charge removed",
 				text="{0}% increased Buff Duration per Endurance Charge removed"
 			}
 		},
@@ -3932,6 +4174,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Skill Duration per Frenzy Charge removed",
 				text="{0}% increased Skill Duration per Frenzy Charge removed"
 			}
 		},
@@ -3948,6 +4191,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% Chance to Block [Attack] Damage while holding a Shield",
 				text="{0:+d}% Chance to Block Attack Damage while holding a Shield"
 			}
 		},
@@ -3964,6 +4208,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shields break after {0} total Damage is prevented",
 				text="Shields break after {0} total Damage is prevented"
 			}
 		},
@@ -3980,6 +4225,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Armour]",
 				text="{0}% increased Armour"
 			},
 			[2]={
@@ -3993,6 +4239,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Armour]",
 				text="{0}% reduced Armour"
 			}
 		},
@@ -4009,6 +4256,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to all [ElementalDamage|Elemental] [Resistances]",
 				text="{0:+d}% to all Elemental Resistances"
 			}
 		},
@@ -4029,6 +4277,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% of your Maximum Life as Base Fire Damage per second",
 				text="Deals {0}% of your Maximum Life as Base Fire Damage per second"
 			}
 		},
@@ -4049,6 +4298,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% of your Maximum [EnergyShield|Energy Shield] as Base Fire Damage per second",
 				text="Deals {0}% of your Maximum Energy Shield as Base Fire Damage per second"
 			}
 		},
@@ -4069,6 +4319,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You Burn for {0}% of your Maximum Life per second as Fire Damage",
 				text="You Burn for {0}% of your Maximum Life per second as Fire Damage"
 			}
 		},
@@ -4089,6 +4340,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You Burn for {0}% of your Maximum [EnergyShield|Energy Shield] per second as Fire Damage",
 				text="You Burn for {0}% of your Maximum Energy Shield per second as Fire Damage"
 			}
 		},
@@ -4105,6 +4357,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% more Spell Damage",
 				text="Grants {0}% more Spell Damage"
 			},
 			[2]={
@@ -4118,6 +4371,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% less Spell Damage",
 				text="Grants {0}% less Spell Damage"
 			}
 		},
@@ -4134,6 +4388,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% more Spell Damage",
 				text="Grants {0}% more Spell Damage"
 			},
 			[2]={
@@ -4147,6 +4402,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% less Spell Damage",
 				text="Grants {0}% less Spell Damage"
 			}
 		},
@@ -4163,6 +4419,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Spell Damage",
 				text="{0}% increased Spell Damage"
 			},
 			[2]={
@@ -4176,6 +4433,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Spell Damage",
 				text="{0}% reduced Spell Damage"
 			}
 		},
@@ -4192,6 +4450,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} additional [Armour]",
 				text="{0} additional Armour"
 			}
 		},
@@ -4220,6 +4479,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Ignite|Ignites] caused by this Skill [AilmentSpread|spread] to other Enemies that stay within {0} metre for {1} second",
 				text="Ignites caused by this Skill spread to other Enemies that stay within {0} metre for {1} second"
 			},
 			[2]={
@@ -4241,6 +4501,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Ignite|Ignites] caused by this Skill [AilmentSpread|spread] to other Enemies that stay within {0} metres for {1} second",
 				text="Ignites caused by this Skill spread to other Enemies that stay within {0} metres for {1} second"
 			},
 			[3]={
@@ -4262,6 +4523,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] caused by this Skill [AilmentSpread|spread] to other Enemies that stay within {0} metre for {1} seconds",
 				text="Ignites caused by this Skill spread to other Enemies that stay within {0} metre for {1} seconds"
 			},
 			[4]={
@@ -4283,6 +4545,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] caused by this Skill [AilmentSpread|spread] to other Enemies that stay within {0} metres for {1} seconds",
 				text="Ignites caused by this Skill spread to other Enemies that stay within {0} metres for {1} seconds"
 			}
 		},
@@ -4300,6 +4563,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict Elemental Ailments",
 				text="Cannot inflict Elemental Ailments"
 			}
 		},
@@ -4316,6 +4580,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spend Life instead of Mana for effects of this Skill",
 				text="Spend Life instead of Mana for effects of this Skill"
 			}
 		},
@@ -4332,6 +4597,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CullingStrike|Culling Strike]",
 				text="Culling Strike"
 			}
 		},
@@ -4348,6 +4614,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Point Blank",
 				text="Point Blank"
 			}
 		},
@@ -4364,6 +4631,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Spell gains Intensity when you Cast it",
 				text="This Spell gains Intensity when you Cast it"
 			}
 		},
@@ -4380,6 +4648,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Intensity",
 				text="{0} maximum Intensity"
 			}
 		},
@@ -4404,6 +4673,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Loses 1 Intensity every {0} seconds while moving\nLoses {1} Intensity immediately if you teleport",
 				text="Loses 1 Intensity every {0} seconds while moving\nLoses {1} Intensity immediately if you teleport"
 			}
 		},
@@ -4421,6 +4691,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to cause Monsters to Flee when Hit",
 				text="{0}% chance to cause Monsters to Flee when Hit"
 			}
 		},
@@ -4437,6 +4708,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totem range: {0}",
 				text="Totem range: {0}"
 			}
 		},
@@ -4453,6 +4725,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] Limit@{0}",
 				text="Totem Limit@{0}"
 			}
 		},
@@ -4469,6 +4742,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can have up to {0} Trap placed at a time",
 				text="Can have up to {0} Trap placed at a time"
 			},
 			[2]={
@@ -4478,6 +4752,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can have up to {0} Traps placed at a time",
 				text="Can have up to {0} Traps placed at a time"
 			}
 		},
@@ -4494,6 +4769,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can have up to {0} Remote Mine placed at a time",
 				text="Can have up to {0} Remote Mine placed at a time"
 			},
 			[2]={
@@ -4503,6 +4779,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can have up to {0} Remote Mines placed at a time",
 				text="Can have up to {0} Remote Mines placed at a time"
 			}
 		},
@@ -4523,6 +4800,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] lasts {0} seconds",
 				text="Totem lasts {0} seconds"
 			}
 		},
@@ -4539,6 +4817,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems Summoned by this Skill cannot Evade",
 				text="Totems Summoned by this Skill cannot Evade"
 			}
 		},
@@ -4559,6 +4838,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trap lasts {0} seconds",
 				text="Trap lasts {0} seconds"
 			}
 		},
@@ -4575,6 +4855,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Trap Throwing Speed",
 				text="{0}% increased Trap Throwing Speed"
 			},
 			[2]={
@@ -4588,6 +4869,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Trap Throwing Speed",
 				text="{0}% reduced Trap Throwing Speed"
 			}
 		},
@@ -4604,6 +4886,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Mine Throwing Speed",
 				text="{0}% increased Mine Throwing Speed"
 			},
 			[2]={
@@ -4617,6 +4900,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Mine Throwing Speed",
 				text="{0}% reduced Mine Throwing Speed"
 			}
 		},
@@ -4637,6 +4921,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mine lasts {0} seconds",
 				text="Mine lasts {0} seconds"
 			}
 		},
@@ -4653,6 +4938,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased totem life",
 				text="{0}% increased totem life"
 			},
 			[2]={
@@ -4666,6 +4952,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced totem life",
 				text="{0}% reduced totem life"
 			}
 		},
@@ -4682,6 +4969,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Every third successive strike Freezes enemies as though dealing {0}% more Damage",
 				text="Every third successive strike Freezes enemies as though dealing {0}% more Damage"
 			}
 		},
@@ -4702,6 +4990,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Life per second",
 				text="Regenerate {0} Life per second"
 			}
 		},
@@ -4722,6 +5011,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0}% of maximum Life per second",
 				text="Regenerate {0}% of maximum Life per second"
 			}
 		},
@@ -4738,6 +5028,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Life Regeneration rate",
 				text="{0}% increased Life Regeneration rate"
 			},
 			[2]={
@@ -4751,6 +5042,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Life Regeneration rate",
 				text="{0}% reduced Life Regeneration rate"
 			}
 		},
@@ -4767,6 +5059,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [Cold|Cold] [Resistances|Resistance]",
 				text="{0:+d}% to Cold Resistance"
 			}
 		},
@@ -4783,6 +5076,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Second form has {0}% increased [Critical|Critical Hit] Chance",
 				text="Second form has {0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -4796,6 +5090,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Second form has {0}% reduced [Critical|Critical Hit] Chance",
 				text="Second form has {0}% reduced Critical Hit Chance"
 			}
 		},
@@ -4812,6 +5107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Second form has {0:+d}% to [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Second form has {0:+d}% to Critical Damage Bonus"
 			}
 		},
@@ -4828,6 +5124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Second form has {0}% more [Projectile|Projectile] Speed",
 				text="Second form has {0}% more Projectile Speed"
 			},
 			[2]={
@@ -4841,6 +5138,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Second form has {0}% less [Projectile|Projectile] Speed",
 				text="Second form has {0}% less Projectile Speed"
 			}
 		},
@@ -4857,6 +5155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% more Damage with Hits per Explosive Arrow on Target",
 				text="Explosion deals {0}% more Damage with Hits per Explosive Arrow on Target"
 			}
 		},
@@ -4873,6 +5172,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Blind] enemies on [HitDamage|Hit]",
 				text="{0}% chance to Blind enemies on Hit"
 			},
 			[2]={
@@ -4882,6 +5182,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Blind] enemies on [HitDamage|Hit]",
 				text="Blind enemies on Hit"
 			}
 		},
@@ -4898,6 +5199,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Blind|Blinding] duration",
 				text="{0}% increased Blinding duration"
 			},
 			[2]={
@@ -4911,6 +5213,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Blind|Blinding] duration",
 				text="{0}% reduced Blinding duration"
 			}
 		},
@@ -4927,6 +5230,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Penetration|Penetrates] {0}% [Resistances|Fire Resistance]",
 				text="Penetrates {0}% Fire Resistance"
 			}
 		},
@@ -4943,6 +5247,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Penetration|Penetrates] {0}% [Resistances|Cold Resistance]",
 				text="Penetrates {0}% Cold Resistance"
 			}
 		},
@@ -4959,6 +5264,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Penetration|Penetrates] {0}% [Resistances|Lightning Resistance]",
 				text="Penetrates {0}% Lightning Resistance"
 			}
 		},
@@ -4975,6 +5281,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Penetration|Penetrates] {0}% [Lightning] [Resistances|Resistance] if on [LowMana|Low Mana]",
 				text="Penetrates {0}% Lightning Resistance if on Low Mana"
 			}
 		},
@@ -4991,6 +5298,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Penetration|Penetrates] {0}% [ElementalDamage|Elemental] [Resistances]",
 				text="Penetrates {0}% Elemental Resistances"
 			}
 		},
@@ -5007,6 +5315,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Uses your life if no [Minion] in range",
 				text="Uses your life if no Minion in range"
 			}
 		},
@@ -5023,6 +5332,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] if using your life",
 				text="{0}% more damage with Hits if using your life"
 			}
 		},
@@ -5039,6 +5349,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} Radius if using your Life",
 				text="{0:+d} Radius if using your Life"
 			}
 		},
@@ -5055,6 +5366,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Projectiles Fork",
 				text="Projectiles Fork"
 			},
 			[2]={
@@ -5064,6 +5376,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles Fork {0} times",
 				text="Projectiles Fork {0} times"
 			}
 		},
@@ -5084,6 +5397,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="[Projectile|Projectiles] have {1}% chance to [Return] to you",
 				text="Projectiles have {1}% chance to Return to you"
 			},
 			[2]={
@@ -5097,6 +5411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] [Return] to you",
 				text="Projectiles Return to you"
 			},
 			[3]={
@@ -5110,6 +5425,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] [Return] to you",
 				text="Projectiles Return to you"
 			}
 		},
@@ -5127,6 +5443,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] for each stage",
 				text="{0}% more Damage with Hits for each stage"
 			},
 			[2]={
@@ -5140,6 +5457,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] for each stage",
 				text="{0}% less Damage with Hits for each stage"
 			}
 		},
@@ -5156,6 +5474,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Incinerate Damage for each stage",
 				text="{0}% increased Incinerate Damage for each stage"
 			},
 			[2]={
@@ -5169,6 +5488,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Incinerate Damage for each stage",
 				text="{0}% reduced Incinerate Damage for each stage"
 			}
 		},
@@ -5185,6 +5505,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Hit Rate for each blade",
 				text="{0}% increased Hit Rate for each blade"
 			},
 			[2]={
@@ -5198,6 +5519,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Hit Rate for each blade",
 				text="{0}% reduced Hit Rate for each blade"
 			}
 		},
@@ -5214,6 +5536,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each blade",
 				text="{0}% more Damage for each blade"
 			},
 			[2]={
@@ -5227,6 +5550,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage for each blade",
 				text="{0}% less Damage for each blade"
 			}
 		},
@@ -5243,6 +5567,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Movement Speed",
 				text="{0}% more Movement Speed"
 			},
 			[2]={
@@ -5256,6 +5581,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Movement Speed",
 				text="{0}% less Movement Speed"
 			}
 		},
@@ -5276,6 +5602,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Mana drained per second",
 				text="{0} Mana drained per second"
 			}
 		},
@@ -5296,6 +5623,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional {0} Mana drained per second while moving",
 				text="Additional {0} Mana drained per second while moving"
 			}
 		},
@@ -5312,6 +5640,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} Physical Damage taken from Hits",
 				text="{0:+d} Physical Damage taken from Hits"
 			}
 		},
@@ -5328,6 +5657,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} Fire Damage taken from Hits",
 				text="{0:+d} Fire Damage taken from Hits"
 			}
 		},
@@ -5344,6 +5674,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Strike Skills deal Splash Damage to surrounding targets",
 				text="Melee Strike Skills deal Splash Damage to surrounding targets"
 			}
 		},
@@ -5360,6 +5691,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge on [Critical|Critical Hit]",
 				text="{0}% chance to gain a Power Charge on Critical Hit"
 			},
 			[2]={
@@ -5369,6 +5701,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Power Charge on [Critical|Critical Hit]",
 				text="Gain a Power Charge on Critical Hit"
 			}
 		},
@@ -5385,6 +5718,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] [Attack] Speed",
 				text="{0}% more Melee Attack Speed"
 			},
 			[2]={
@@ -5398,6 +5732,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] [Attack] Speed",
 				text="{0}% less Melee Attack Speed"
 			}
 		},
@@ -5414,6 +5749,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems and Minions summoned by this Skill have {0:+d}% Fire Resistance",
 				text="Totems and Minions summoned by this Skill have {0:+d}% Fire Resistance"
 			}
 		},
@@ -5430,6 +5766,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems and Minions summoned by this Skill have {0:+d}% Cold Resistance",
 				text="Totems and Minions summoned by this Skill have {0:+d}% Cold Resistance"
 			}
 		},
@@ -5446,6 +5783,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems and Minions summoned by this Skill have {0:+d}% Lightning Resistance",
 				text="Totems and Minions summoned by this Skill have {0:+d}% Lightning Resistance"
 			}
 		},
@@ -5462,6 +5800,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0:+d}% to all Elemental [Resistances]",
 				text="Minions have {0:+d}% to all Elemental Resistances"
 			}
 		},
@@ -5478,6 +5817,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to apply linked Hex [Curse|Curses] on Hit",
 				text="{0}% chance to apply linked Hex Curses on Hit"
 			},
 			[2]={
@@ -5487,6 +5827,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applies linked Hex [Curse|Curses] on Hit",
 				text="Applies linked Hex Curses on Hit"
 			}
 		},
@@ -5503,6 +5844,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect for each stage",
 				text="{0}% more Area of Effect for each stage"
 			}
 		},
@@ -5523,6 +5865,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{1}% chance to gain an Endurance Charge when this Skill Stuns an Enemy with a [Melee] Hit",
 				text="{1}% chance to gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
 			},
 			[2]={
@@ -5536,6 +5879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an Endurance Charge when this Skill Stuns an Enemy with a [Melee] Hit",
 				text="Gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
 			},
 			[3]={
@@ -5549,6 +5893,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an Endurance Charge when this Skill Stuns an Enemy with a [Melee] Hit",
 				text="Gain an Endurance Charge when this Skill Stuns an Enemy with a Melee Hit"
 			}
 		},
@@ -5570,6 +5915,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies lose {0}% Cold Resistance while Frozen",
 				text="Enemies lose {0}% Cold Resistance while Frozen"
 			}
 		},
@@ -5586,6 +5932,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger a linked Spell when you Crit an Enemy",
 				text="{0}% chance to Trigger a linked Spell when you Crit an Enemy"
 			},
 			[2]={
@@ -5595,6 +5942,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger a linked Spell when you Crit an Enemy",
 				text="Trigger a linked Spell when you Crit an Enemy"
 			}
 		},
@@ -5611,6 +5959,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Teleports and [Strike|Strikes] {0} additional time per [Charges|Power Charge], with 285% more [Attack] Speed",
 				text="Teleports and Strikes {0} additional time per Power Charge, with 285% more Attack Speed"
 			},
 			[2]={
@@ -5620,6 +5969,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Teleports and [Strike|Strikes] {0} additional times per [Charges|Power Charge], with 285% more [Attack] Speed",
 				text="Teleports and Strikes {0} additional times per Power Charge, with 285% more Attack Speed"
 			}
 		},
@@ -5636,6 +5986,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to cast a linked [Spell] on [Melee] kill",
 				text="{0}% chance to cast a linked Spell on Melee kill"
 			},
 			[2]={
@@ -5645,6 +5996,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cast a linked [Spell] on [Melee] kill",
 				text="Cast a linked Spell on Melee kill"
 			}
 		},
@@ -5661,6 +6013,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when Hit",
 				text="{0}% chance to Trigger this Skill when Hit"
 			},
 			[2]={
@@ -5670,6 +6023,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when Hit",
 				text="Trigger this Skill when Hit"
 			}
 		},
@@ -5686,6 +6040,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when Critically Hit",
 				text="{0}% chance to Trigger this Skill when Critically Hit"
 			},
 			[2]={
@@ -5695,6 +6050,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when Critically Hit",
 				text="Trigger this Skill when Critically Hit"
 			}
 		},
@@ -5711,6 +6067,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Block",
 				text="{0}% chance to Trigger this Skill when you Block"
 			},
 			[2]={
@@ -5720,6 +6077,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Block",
 				text="Trigger this Skill when you Block"
 			}
 		},
@@ -5736,6 +6094,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You cannot use this [Attack] directly",
 				text="You cannot use this Attack directly"
 			}
 		},
@@ -5756,6 +6115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can use Items requiring up to Level {1}",
 				text="Can use Items requiring up to Level {1}"
 			},
 			[2]={
@@ -5769,6 +6129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can use Items requiring up to Level {1}\nAnimated Weapons are transformed into random Unique\nWeapons with Level Requirement between {0} and {1}",
 				text="Can use Items requiring up to Level {1}\nAnimated Weapons are transformed into random Unique\nWeapons with Level Requirement between {0} and {1}"
 			}
 		},
@@ -5786,6 +6147,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] this [Attack] on kill",
 				text="{0}% chance to Trigger this Attack on kill"
 			},
 			[2]={
@@ -5795,6 +6157,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] this [Attack] on kill",
 				text="Trigger this Attack on kill"
 			}
 		},
@@ -5811,6 +6174,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you [Attack]",
 				text="{0}% chance to Trigger this Spell when you Attack"
 			},
 			[2]={
@@ -5820,6 +6184,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you [Attack]",
 				text="Trigger this Spell when you Attack"
 			}
 		},
@@ -5836,6 +6201,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Use a Skill",
 				text="{0}% chance to Trigger this Spell when you Use a Skill"
 			},
 			[2]={
@@ -5845,6 +6211,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Use a Skill",
 				text="Trigger this Spell when you Use a Skill"
 			}
 		},
@@ -5861,6 +6228,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] this [Spell] on kill",
 				text="{0}% chance to Trigger this Spell on kill"
 			},
 			[2]={
@@ -5870,6 +6238,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] this [Spell] on kill",
 				text="Trigger this Spell on kill"
 			}
 		},
@@ -5886,6 +6255,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] this [Spell] on kill",
 				text="{0}% chance to Trigger this Spell on kill"
 			},
 			[2]={
@@ -5895,6 +6265,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] this [Spell] on kill",
 				text="Trigger this Spell on kill"
 			}
 		},
@@ -5911,6 +6282,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Use a Skill Socketed in Equipped Body Armour",
 				text="{0}% chance to Trigger this Spell when you Use a Skill Socketed in Equipped Body Armour"
 			},
 			[2]={
@@ -5920,6 +6292,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Use a Skill Socketed in Equipped Body Armour",
 				text="Trigger this Spell when you Use a Skill Socketed in Equipped Body Armour"
 			}
 		},
@@ -5936,6 +6309,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Use a Skill while you have a Spirit Charge",
 				text="{0}% chance to Trigger this Spell when you Use a Skill while you have a Spirit Charge"
 			},
 			[2]={
@@ -5945,6 +6319,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Use a Skill while you have a Spirit Charge",
 				text="Trigger this Spell when you Use a Skill while you have a Spirit Charge"
 			}
 		},
@@ -5961,6 +6336,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you're Damaged by a Hit",
 				text="{0}% chance to Trigger this Spell when you're Damaged by a Hit"
 			},
 			[2]={
@@ -5970,6 +6346,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you're Damaged by a Hit",
 				text="Trigger this Spell when you're Damaged by a Hit"
 			}
 		},
@@ -5986,6 +6363,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you're Hit",
 				text="{0}% chance to Trigger this Spell when you're Hit"
 			},
 			[2]={
@@ -5995,6 +6373,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you're Hit",
 				text="Trigger this Spell when you're Hit"
 			}
 		},
@@ -6011,6 +6390,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell on Death",
 				text="{0}% chance to Trigger this Spell on Death"
 			}
 		},
@@ -6027,6 +6407,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Rampage",
 				text="{0}% chance to Trigger this Spell when you Rampage"
 			}
 		},
@@ -6043,6 +6424,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you are Stunned, or\nBlock a Stunning Hit",
 				text="{0}% chance to Trigger this Spell when you are Stunned, or\nBlock a Stunning Hit"
 			}
 		},
@@ -6059,6 +6441,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you fire Projectiles from a Non-Triggered Wand [Attack]",
 				text="{0}% chance to Trigger this Spell when you fire Projectiles from a Non-Triggered Wand Attack"
 			},
 			[2]={
@@ -6068,6 +6451,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you fire Projectiles from a Non-Triggered Wand [Attack]",
 				text="Trigger this Spell when you fire Projectiles from a Non-Triggered Wand Attack"
 			}
 		},
@@ -6084,6 +6468,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you gain Avian's Might or Avian's Flight",
 				text="{0}% chance to Trigger this Spell when you gain Avian's Might or Avian's Flight"
 			},
 			[2]={
@@ -6093,6 +6478,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you gain Avian's Might or Avian's Flight",
 				text="Trigger this Spell when you gain Avian's Might or Avian's Flight"
 			}
 		},
@@ -6109,6 +6495,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Hit",
 				text="{0}% chance to Trigger this Spell when you Hit"
 			},
 			[2]={
@@ -6118,6 +6505,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Hit",
 				text="Trigger this Spell when you Hit"
 			}
 		},
@@ -6134,6 +6522,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Hit an Enemy while you are [Curse|Cursed]",
 				text="{0}% chance to Trigger this Spell when you Hit an Enemy while you are Cursed"
 			},
 			[2]={
@@ -6143,6 +6532,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Hit an Enemy while you are [Curse|Cursed]",
 				text="Trigger this Spell when you Hit an Enemy while you are Cursed"
 			}
 		},
@@ -6159,6 +6549,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you lose Cat's Stealth",
 				text="Trigger this Spell when you lose Cat's Stealth"
 			}
 		},
@@ -6175,6 +6566,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell on [Melee] Hit while [Curse|Cursed]",
 				text="{0}% chance to Trigger this Spell on Melee Hit while Cursed"
 			},
 			[2]={
@@ -6184,6 +6576,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell on [Melee] Hit while [Curse|Cursed]",
 				text="Trigger this Spell on Melee Hit while Cursed"
 			}
 		},
@@ -6200,6 +6593,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Hit",
 				text="{0}% chance to Trigger this Skill when you Hit"
 			},
 			[2]={
@@ -6209,6 +6603,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Hit",
 				text="Trigger this Skill when you Hit"
 			}
 		},
@@ -6225,6 +6620,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill on [Melee] Hit",
 				text="{0}% chance to Trigger this Skill on Melee Hit"
 			},
 			[2]={
@@ -6234,6 +6630,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill on [Melee] Hit",
 				text="Trigger this Skill on Melee Hit"
 			}
 		},
@@ -6258,6 +6655,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you take a total of {1} Damage",
 				text="{0}% chance to Trigger this Spell when you take a total of {1} Damage"
 			}
 		},
@@ -6276,6 +6674,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when one of your Traps is Triggered",
 				text="{0}% chance to Trigger this Spell when one of your Traps is Triggered"
 			},
 			[2]={
@@ -6285,6 +6684,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when one of your Traps is Triggered",
 				text="Trigger this Spell when one of your Traps is Triggered"
 			}
 		},
@@ -6301,6 +6701,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed",
 				text="{0}% more Attack Speed"
 			},
 			[2]={
@@ -6314,6 +6715,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed",
 				text="{0}% less Attack Speed"
 			}
 		},
@@ -6330,6 +6732,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage per Stage",
 				text="{0}% more damage per Stage"
 			},
 			[2]={
@@ -6343,6 +6746,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per stage",
 				text="{0}% less Damage per stage"
 			}
 		},
@@ -6363,6 +6767,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger a linked Spell every {0} seconds while Channelling",
 				text="Trigger a linked Spell every {0} seconds while Channelling"
 			}
 		},
@@ -6379,6 +6784,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Curse] [BuffMagnitude|Magnitudes]",
 				text="{0}% increased Curse Magnitudes"
 			},
 			[2]={
@@ -6392,6 +6798,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Curse] [BuffMagnitude|Magnitudes]",
 				text="{0}% reduced Curse Magnitudes"
 			}
 		},
@@ -6408,6 +6815,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Effect of [Curse]",
 				text="{0}% more Effect of Curse"
 			},
 			[2]={
@@ -6421,6 +6829,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Effect of [Curse]",
 				text="{0}% less Effect of Curse"
 			}
 		},
@@ -6437,6 +6846,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Projectile [Attack] Speed",
 				text="{0}% more Projectile Attack Speed"
 			},
 			[2]={
@@ -6450,6 +6860,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Projectile [Attack] Speed",
 				text="{0}% less Projectile Attack Speed"
 			}
 		},
@@ -6466,6 +6877,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spell has {0}% more Cast Speed",
 				text="Spell has {0}% more Cast Speed"
 			},
 			[2]={
@@ -6479,6 +6891,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Spell has {0}% less Cast Speed",
 				text="Spell has {0}% less Cast Speed"
 			}
 		},
@@ -6495,6 +6908,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed",
 				text="{0}% more Attack Speed"
 			},
 			[2]={
@@ -6508,6 +6922,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed",
 				text="{0}% less Attack Speed"
 			}
 		},
@@ -6524,6 +6939,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} markers",
 				text="Creates {0} markers"
 			}
 		},
@@ -6540,6 +6956,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawns {0} corpses",
 				text="Spawns {0} corpses"
 			}
 		},
@@ -6556,6 +6973,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawns corpses up to Level {0}",
 				text="Spawns corpses up to Level {0}"
 			}
 		},
@@ -6572,6 +6990,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawns corpses with Level {0}",
 				text="Spawns corpses with Level {0}"
 			}
 		},
@@ -6588,6 +7007,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes smaller novas up to {0} times on enemies hit",
 				text="Causes smaller novas up to {0} times on enemies hit"
 			}
 		},
@@ -6604,6 +7024,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect each repeat",
 				text="{0}% increased Area of Effect each repeat"
 			},
 			[2]={
@@ -6617,6 +7038,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect each repeat",
 				text="{0}% reduced Area of Effect each repeat"
 			}
 		},
@@ -6633,6 +7055,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beams deal {0}% more Damage",
 				text="Beams deal {0}% more Damage"
 			},
 			[2]={
@@ -6646,6 +7069,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Beams deal {0}% less Damage",
 				text="Beams deal {0}% less Damage"
 			}
 		},
@@ -6662,6 +7086,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can't be [Evasion|Evaded]",
 				text="Can't be Evaded"
 			}
 		},
@@ -6678,6 +7103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Stunned enemies",
 				text="{0}% more Damage with Hits against Stunned enemies"
 			},
 			[2]={
@@ -6691,6 +7117,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Stunned enemies",
 				text="{0}% less Damage with Hits against Stunned enemies"
 			}
 		},
@@ -6707,6 +7134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Burning enemies",
 				text="{0}% more Damage with Hits against Burning enemies"
 			},
 			[2]={
@@ -6720,6 +7148,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Burning enemies",
 				text="{0}% less Damage with Hits against Burning enemies"
 			}
 		},
@@ -6736,6 +7165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with Hits against Burning Enemies",
 				text="{0}% increased Damage with Hits against Burning Enemies"
 			},
 			[2]={
@@ -6749,6 +7179,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage with Hits against Burning Enemies",
 				text="{0}% reduced Damage with Hits against Burning Enemies"
 			}
 		},
@@ -6765,6 +7196,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Freeze|Freeze]",
 				text="Cannot Freeze"
 			}
 		},
@@ -6781,6 +7213,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles leave Shocked Ground",
 				text="Projectiles leave Shocked Ground"
 			}
 		},
@@ -6797,6 +7230,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Fire Damage",
 				text="{0}% increased Fire Damage"
 			}
 		},
@@ -6813,6 +7247,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Cold Damage",
 				text="{0}% increased Cold Damage"
 			}
 		},
@@ -6833,6 +7268,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Adds {0} to {1} Cold Damage to Spells",
 				text="Adds {0} to {1} Cold Damage to Spells"
 			}
 		},
@@ -6854,6 +7290,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Adds {0} to {1} Lightning Damage to Spells",
 				text="Adds {0} to {1} Lightning Damage to Spells"
 			}
 		},
@@ -6871,6 +7308,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Only deals Damage of [ElementalDamage|Elements] matching [Consume|Consumed] [ElementalAilments|Ailments]\nDeals no Damage of other [DamageTypes|Damage Types]",
 				text="Only deals Damage of Elements matching Consumed Ailments\nDeals no Damage of other Damage Types"
 			}
 		},
@@ -6887,6 +7325,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Only Deals Damage of the chosen Element\nDeals no Damage of other Damage Types",
 				text="Only Deals Damage of the chosen Element\nDeals no Damage of other Damage Types"
 			}
 		},
@@ -6903,6 +7342,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% more Damage with Hits",
 				text="Explosion deals {0}% more Damage with Hits"
 			},
 			[2]={
@@ -6916,6 +7356,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosion deals {0}% less Damage with Hits",
 				text="Explosion deals {0}% less Damage with Hits"
 			}
 		},
@@ -6932,6 +7373,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Arrow Speed",
 				text="{0}% increased Arrow Speed"
 			},
 			[2]={
@@ -6945,6 +7387,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Arrow Speed",
 				text="{0}% reduced Arrow Speed"
 			}
 		},
@@ -6961,6 +7404,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} explosions",
 				text="Creates {0} explosions"
 			}
 		},
@@ -6981,6 +7425,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Movement Speed per Nearby Enemy",
 				text="{0}% increased Movement Speed per Nearby Enemy"
 			},
 			[2]={
@@ -6990,6 +7435,7 @@ return {
 						[2]=-300
 					}
 				},
+				rawText="Locks enemy in place",
 				text="Locks enemy in place"
 			},
 			[3]={
@@ -7003,6 +7449,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Movement Speed per Nearby Enemy",
 				text="{0}% reduced Movement Speed per Nearby Enemy"
 			}
 		},
@@ -7019,6 +7466,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring deals {0}% more Damage",
 				text="Ring deals {0}% more Damage"
 			},
 			[2]={
@@ -7032,6 +7480,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ring deals {0}% less Damage",
 				text="Ring deals {0}% less Damage"
 			}
 		},
@@ -7048,6 +7497,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals Chaos Damage equal to {0}% of the Monster's maximum Life",
 				text="Explosion deals Chaos Damage equal to {0}% of the Monster's maximum Life"
 			}
 		},
@@ -7064,6 +7514,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals Fire Damage equal to {0}% of the Monster's maximum Life",
 				text="Explosion deals Fire Damage equal to {0}% of the Monster's maximum Life"
 			}
 		},
@@ -7080,6 +7531,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="[Melee] Hits have {0}% chance to Fortify",
 				text="Melee Hits have {0}% chance to Fortify"
 			},
 			[2]={
@@ -7089,6 +7541,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Hits Fortify",
 				text="Melee Hits Fortify"
 			}
 		},
@@ -7105,6 +7558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Fortification Duration",
 				text="{0}% increased Fortification Duration"
 			},
 			[2]={
@@ -7118,6 +7572,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Fortification Duration",
 				text="{0}% reduced Fortification Duration"
 			}
 		},
@@ -7134,6 +7589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Second Stage deals {0}% more Damage",
 				text="Second Stage deals {0}% more Damage"
 			},
 			[2]={
@@ -7147,6 +7603,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Second Stage deals {0}% less Damage",
 				text="Second Stage deals {0}% less Damage"
 			}
 		},
@@ -7167,6 +7624,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Third Stage deals {0}% more Damage",
 				text="Third Stage deals {0}% more Damage"
 			},
 			[2]={
@@ -7184,6 +7642,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Third Stage deals {0}% less Damage",
 				text="Third Stage deals {0}% less Damage"
 			},
 			[3]={
@@ -7201,6 +7660,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Third Stage deals {0}% less Damage",
 				text="Third Stage deals {0}% less Damage"
 			}
 		},
@@ -7218,6 +7678,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems Grant {0}% increased Damage",
 				text="Golems Grant {0}% increased Damage"
 			},
 			[2]={
@@ -7231,6 +7692,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Golems Grant {0}% reduced Damage",
 				text="Golems Grant {0}% reduced Damage"
 			}
 		},
@@ -7247,6 +7709,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems Grant {0}% increased [Critical|Critical Hit] Chance",
 				text="Golems Grant {0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -7260,6 +7723,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Golems Grant {0}% reduced [Critical|Critical Hit] Chance",
 				text="Golems Grant {0}% reduced Critical Hit Chance"
 			}
 		},
@@ -7276,6 +7740,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems Grant {0}% increased Accuracy",
 				text="Golems Grant {0}% increased Accuracy"
 			},
 			[2]={
@@ -7289,6 +7754,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Golems Grant {0}% reduced Accuracy",
 				text="Golems Grant {0}% reduced Accuracy"
 			}
 		},
@@ -7305,6 +7771,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems grant {0}% additional Physical Damage Reduction",
 				text="Golems grant {0}% additional Physical Damage Reduction"
 			}
 		},
@@ -7325,6 +7792,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems grant {0} Life Regenerated per second",
 				text="Golems grant {0} Life Regenerated per second"
 			}
 		},
@@ -7341,6 +7809,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems grant {0}% increased [Attack] and Cast Speed",
 				text="Golems grant {0}% increased Attack and Cast Speed"
 			},
 			[2]={
@@ -7354,6 +7823,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Golems grant {0}% reduced [Attack] and Cast Speed",
 				text="Golems grant {0}% reduced Attack and Cast Speed"
 			}
 		},
@@ -7374,6 +7844,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burning Ground lasts {0} seconds",
 				text="Burning Ground lasts {0} seconds"
 			}
 		},
@@ -7394,6 +7865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chilled Ground lasts {0} seconds",
 				text="Chilled Ground lasts {0} seconds"
 			}
 		},
@@ -7410,6 +7882,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage per one hundred nearby Enemies",
 				text="{0}% increased Damage per one hundred nearby Enemies"
 			},
 			[2]={
@@ -7423,6 +7896,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage per one hundred nearby Enemies",
 				text="{0}% reduced Damage per one hundred nearby Enemies"
 			}
 		},
@@ -7443,6 +7917,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Mana per second",
 				text="Regenerate {0} Mana per second"
 			}
 		},
@@ -7459,6 +7934,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage",
 				text="{0}% increased Damage"
 			},
 			[2]={
@@ -7472,6 +7948,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage",
 				text="{0}% reduced Damage"
 			}
 		},
@@ -7488,6 +7965,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits per Repeat",
 				text="{0}% more Damage with Hits per Repeat"
 			},
 			[2]={
@@ -7501,6 +7979,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits per Repeat",
 				text="{0}% less Damage with Hits per Repeat"
 			}
 		},
@@ -7517,6 +7996,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] [Physical] damage vs [Bleeding] enemies",
 				text="{0}% more Melee Physical damage vs Bleeding enemies"
 			},
 			[2]={
@@ -7530,6 +8010,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] [Physical] damage vs [Bleeding] enemies",
 				text="{0}% less Melee Physical damage vs Bleeding enemies"
 			}
 		},
@@ -7546,6 +8027,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Melee] Damage against Bleeding Enemies",
 				text="{0}% increased Melee Damage against Bleeding Enemies"
 			},
 			[2]={
@@ -7559,6 +8041,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Melee] Damage against Bleeding Enemies",
 				text="{0}% reduced Melee Damage against Bleeding Enemies"
 			}
 		},
@@ -7575,6 +8058,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Totem|Totem] Placement speed",
 				text="{0}% increased Totem Placement speed"
 			}
 		},
@@ -7591,6 +8075,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% more Physical Damage taken from Hits while stationary",
 				text="Buff grants {0}% more Physical Damage taken from Hits while stationary"
 			},
 			[2]={
@@ -7604,6 +8089,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% less Physical Damage taken from Hits while stationary",
 				text="Buff grants {0}% less Physical Damage taken from Hits while stationary"
 			}
 		},
@@ -7620,6 +8106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% more Fire Damage taken from Hits while stationary",
 				text="Buff grants {0}% more Fire Damage taken from Hits while stationary"
 			},
 			[2]={
@@ -7633,6 +8120,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% less Fire Damage taken from Hits while stationary",
 				text="Buff grants {0}% less Fire Damage taken from Hits while stationary"
 			}
 		},
@@ -7649,6 +8137,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits against Chilled Enemies have {0:+d}% chance to be Freezing",
 				text="Hits against Chilled Enemies have {0:+d}% chance to be Freezing"
 			}
 		},
@@ -7665,6 +8154,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [Physical] Damage Converted to [Fire], [Cold] or [Lightning] Damage",
 				text="{0}% of Physical Damage Converted to Fire, Cold or Lightning Damage"
 			}
 		},
@@ -7681,6 +8171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to [Melee] Strike Range",
 				text="{0:+d} to Melee Strike Range"
 			}
 		},
@@ -7701,6 +8192,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} metres to [Melee] [Strike] Range",
 				text="{0:+d} metres to Melee Strike Range"
 			}
 		},
@@ -7717,6 +8209,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Chilled Enemies",
 				text="{0}% more Damage with Hits against Chilled Enemies"
 			},
 			[2]={
@@ -7730,6 +8223,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Chilled Enemies",
 				text="{0}% less Damage with Hits against Chilled Enemies"
 			}
 		},
@@ -7746,6 +8240,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Phasing",
 				text="Grants Phasing"
 			}
 		},
@@ -7762,6 +8257,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Visibility to Enemies",
 				text="{0}% increased Visibility to Enemies"
 			},
 			[2]={
@@ -7775,6 +8271,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Visibility to Enemies",
 				text="{0}% reduced Visibility to Enemies"
 			}
 		},
@@ -7791,6 +8288,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aftershock deals {0}% more Damage with Hits",
 				text="Aftershock deals {0}% more Damage with Hits"
 			},
 			[2]={
@@ -7804,6 +8302,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aftershock deals {0}% less Damage with Hits",
 				text="Aftershock deals {0}% less Damage with Hits"
 			}
 		},
@@ -7820,6 +8319,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can have up to {0} active spinning blades",
 				text="Can have up to {0} active spinning blades"
 			}
 		},
@@ -7836,6 +8336,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Chaos Damage taken",
 				text="{0}% increased Chaos Damage taken"
 			},
 			[2]={
@@ -7849,6 +8350,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Chaos Damage taken",
 				text="{0}% reduced Chaos Damage taken"
 			}
 		},
@@ -7865,6 +8367,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Poison|Poison] on [HitDamage|Hit]",
 				text="{0}% chance to Poison on Hit"
 			},
 			[2]={
@@ -7874,6 +8377,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always [Poison|Poisons] on [HitDamage|Hit]",
 				text="Always Poisons on Hit"
 			}
 		},
@@ -7890,6 +8394,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Buff grants {0}% chance to Poison on Hit",
 				text="Buff grants {0}% chance to Poison on Hit"
 			},
 			[2]={
@@ -7899,6 +8404,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants 100% chance to Poison on Hit",
 				text="Buff grants 100% chance to Poison on Hit"
 			}
 		},
@@ -7915,6 +8421,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage over Time",
 				text="{0}% increased Damage over Time"
 			},
 			[2]={
@@ -7928,6 +8435,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage over Time",
 				text="{0}% reduced Damage over Time"
 			}
 		},
@@ -7944,6 +8452,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per Volley",
 				text="{0}% more Damage per Volley"
 			},
 			[2]={
@@ -7957,6 +8466,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per Volley",
 				text="{0}% less Damage per Volley"
 			}
 		},
@@ -7973,6 +8483,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Poison|Poisons] Enemies on [HitDamage|Hit]",
 				text="Poisons Enemies on Hit"
 			}
 		},
@@ -7989,6 +8500,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Poison] Duration",
 				text="{0}% increased Poison Duration"
 			},
 			[2]={
@@ -8002,6 +8514,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Poison] Duration",
 				text="{0}% reduced Poison Duration"
 			}
 		},
@@ -8018,6 +8531,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Aftershock] Area of Effect",
 				text="{0}% more Aftershock Area of Effect"
 			},
 			[2]={
@@ -8031,6 +8545,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Aftershock] Area of Effect",
 				text="{0}% less Aftershock Area of Effect"
 			}
 		},
@@ -8047,6 +8562,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Hit deals {0}% more Damage",
 				text="First Hit deals {0}% more Damage"
 			},
 			[2]={
@@ -8060,6 +8576,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="First Hit deals {0}% less Damage",
 				text="First Hit deals {0}% less Damage"
 			}
 		},
@@ -8076,6 +8593,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwaves deal {0}% more Damage",
 				text="Shockwaves deal {0}% more Damage"
 			},
 			[2]={
@@ -8089,6 +8607,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shockwaves deal {0}% less Damage",
 				text="Shockwaves deal {0}% less Damage"
 			}
 		},
@@ -8109,6 +8628,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [Critical|Critical Hit] Chance",
 				text="{0:+d}% to Critical Hit Chance"
 			}
 		},
@@ -8125,6 +8645,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring deals {0}% increased Damage",
 				text="Ring deals {0}% increased Damage"
 			},
 			[2]={
@@ -8138,6 +8659,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ring deals {0}% reduced Damage",
 				text="Ring deals {0}% reduced Damage"
 			}
 		},
@@ -8154,6 +8676,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Buff Effect",
 				text="{0}% increased Buff Effect"
 			},
 			[2]={
@@ -8167,6 +8690,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Buff Effect",
 				text="{0}% reduced Buff Effect"
 			}
 		},
@@ -8183,6 +8707,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Skills deal {0}% more Area Damage while in Blood Stance",
 				text="Melee Skills deal {0}% more Area Damage while in Blood Stance"
 			},
 			[2]={
@@ -8196,6 +8721,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Melee] Skills deal {0}% less Area Damage while in Blood Stance",
 				text="Melee Skills deal {0}% less Area Damage while in Blood Stance"
 			}
 		},
@@ -8212,6 +8738,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Skills have {0}% more Area of Effect while in Blood Stance",
 				text="Melee Skills have {0}% more Area of Effect while in Blood Stance"
 			},
 			[2]={
@@ -8225,6 +8752,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Melee] Skills have {0}% less Area of Effect while in Blood Stance",
 				text="Melee Skills have {0}% less Area of Effect while in Blood Stance"
 			}
 		},
@@ -8241,6 +8769,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Skills have {0}% more Area of Effect while in Sand Stance",
 				text="Melee Skills have {0}% more Area of Effect while in Sand Stance"
 			},
 			[2]={
@@ -8254,6 +8783,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Melee] Skills have {0}% less Area of Effect while in Sand Stance",
 				text="Melee Skills have {0}% less Area of Effect while in Sand Stance"
 			}
 		},
@@ -8270,6 +8800,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Skills deal {0}% more Area Damage while in Sand Stance",
 				text="Melee Skills deal {0}% more Area Damage while in Sand Stance"
 			},
 			[2]={
@@ -8283,6 +8814,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Melee] Skills deal {0}% less Area Damage while in Sand Stance",
 				text="Melee Skills deal {0}% less Area Damage while in Sand Stance"
 			}
 		},
@@ -8299,6 +8831,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Effect of Poison you inflict while Incubating and not at Maximum Plague Value",
 				text="{0}% more Effect of Poison you inflict while Incubating and not at Maximum Plague Value"
 			},
 			[2]={
@@ -8312,6 +8845,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Effect of Poison you inflict while Incubating and not at Maximum Plague Value",
 				text="{0}% less Effect of Poison you inflict while Incubating and not at Maximum Plague Value"
 			}
 		},
@@ -8328,6 +8862,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Infecting, deals Chaos Damage per second equal to {0}% of the Plague Value when Infecting began, and loses Plague Value at the same rate",
 				text="While Infecting, deals Chaos Damage per second equal to {0}% of the Plague Value when Infecting began, and loses Plague Value at the same rate"
 			}
 		},
@@ -8344,6 +8879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased Effect of Poison while Infecting",
 				text="Grants {0}% increased Effect of Poison while Infecting"
 			},
 			[2]={
@@ -8357,6 +8893,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced Effect of Poison while Infecting",
 				text="Grants {0}% reduced Effect of Poison while Infecting"
 			}
 		},
@@ -8373,6 +8910,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ManaLeech|Leeches] Mana {0}% faster",
 				text="Leeches Mana {0}% faster"
 			},
 			[2]={
@@ -8386,6 +8924,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[ManaLeech|Leeches] Mana {0}% slower",
 				text="Leeches Mana {0}% slower"
 			}
 		},
@@ -8402,6 +8941,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot deal [Critical|Critical Hits]",
 				text="Cannot deal Critical Hits"
 			}
 		},
@@ -8418,6 +8958,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Projectile Damage",
 				text="{0}% more Projectile Damage"
 			},
 			[2]={
@@ -8431,6 +8972,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Projectile Damage",
 				text="{0}% less Projectile Damage"
 			}
 		},
@@ -8451,6 +8993,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Returning Projectiles deal {0}% more Damage with Hits",
 				text="Returning Projectiles deal {0}% more Damage with Hits"
 			},
 			[2]={
@@ -8468,6 +9011,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Returning Projectiles deal {0}% less Damage with Hits",
 				text="Returning Projectiles deal {0}% less Damage with Hits"
 			},
 			[3]={
@@ -8485,6 +9029,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Returning Projectiles deal {0}% less Damage with Hits",
 				text="Returning Projectiles deal {0}% less Damage with Hits"
 			}
 		},
@@ -8502,6 +9047,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals up to {0}% more Damage with Hits to closer targets",
 				text="Deals up to {0}% more Damage with Hits to closer targets"
 			},
 			[2]={
@@ -8515,6 +9061,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals up to {0}% less Damage with Hits to closer targets",
 				text="Deals up to {0}% less Damage with Hits to closer targets"
 			}
 		},
@@ -8531,6 +9078,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Returning Projectiles deal {0}% more Damage",
 				text="Returning Projectiles deal {0}% more Damage"
 			},
 			[2]={
@@ -8544,6 +9092,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Returning Projectiles deal {0}% less Damage",
 				text="Returning Projectiles deal {0}% less Damage"
 			}
 		},
@@ -8560,6 +9109,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Returning Projectiles Pierce all Targets",
 				text="Returning Projectiles Pierce all Targets"
 			}
 		},
@@ -8576,6 +9126,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage Over Time caused by Projectiles deals {0}% more Damage",
 				text="Damage Over Time caused by Projectiles deals {0}% more Damage"
 			},
 			[2]={
@@ -8589,6 +9140,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Damage Over Time caused by Projectiles deals {0}% less Damage",
 				text="Damage Over Time caused by Projectiles deals {0}% less Damage"
 			}
 		},
@@ -8609,6 +9161,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cruelty lasts {0} second",
 				text="Cruelty lasts {0} second"
 			},
 			[2]={
@@ -8622,6 +9175,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cruelty lasts {0} seconds",
 				text="Cruelty lasts {0} seconds"
 			}
 		},
@@ -8646,6 +9200,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="At least {0} Rage required to start Berserking",
 				text="At least {0} Rage required to start Berserking"
 			}
 		},
@@ -8662,6 +9217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [Attack|Attacks]",
 				text="{0}% more Damage with Attacks"
 			},
 			[2]={
@@ -8675,6 +9231,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [Attack|Attacks]",
 				text="{0}% less Damage with Attacks"
 			}
 		},
@@ -8691,6 +9248,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed",
 				text="{0}% more Attack Speed"
 			},
 			[2]={
@@ -8704,6 +9262,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed",
 				text="{0}% less Attack Speed"
 			}
 		},
@@ -8720,6 +9279,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Movement Speed",
 				text="{0}% more Movement Speed"
 			},
 			[2]={
@@ -8733,6 +9293,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Movement Speed",
 				text="{0}% less Movement Speed"
 			}
 		},
@@ -8749,6 +9310,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage taken",
 				text="{0}% more Damage taken"
 			},
 			[2]={
@@ -8762,6 +9324,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage taken",
 				text="{0}% less Damage taken"
 			}
 		},
@@ -8782,6 +9345,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose {0} Rage per second",
 				text="Lose {0} Rage per second"
 			}
 		},
@@ -8798,6 +9362,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each second, {0}% more Rage loss Rate",
 				text="Each second, {0}% more Rage loss Rate"
 			}
 		},
@@ -8828,6 +9393,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ancestrally Boosted Slams deal {0}% more Damage with Hits",
 				text="Ancestrally Boosted Slams deal {0}% more Damage with Hits"
 			},
 			[2]={
@@ -8841,6 +9407,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ancestrally Boosted Slams deal {0}% less Damage with Hits",
 				text="Ancestrally Boosted Slams deal {0}% less Damage with Hits"
 			}
 		},
@@ -8857,6 +9424,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ancestrally Boosted Slams have {0}% increased Area of Effect",
 				text="Ancestrally Boosted Slams have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -8870,6 +9438,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ancestrally Boosted Slams have {0}% reduced Area of Effect",
 				text="Ancestrally Boosted Slams have {0}% reduced Area of Effect"
 			}
 		},
@@ -8886,6 +9455,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflects {0}% of Damage Taken to Enemies",
 				text="Reflects {0}% of Damage Taken to Enemies"
 			}
 		},
@@ -8906,6 +9476,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Conjures a spirit warrior every {0}% of socketed [Attack] time",
 				text="Conjures a spirit warrior every {0}% of socketed Attack time"
 			}
 		},
@@ -8922,6 +9493,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] gains {0:+d}% to all [ElementalDamage|Elemental] [Resistances]",
 				text="Totem gains {0:+d}% to all Elemental Resistances"
 			}
 		},
@@ -8938,6 +9510,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] gains +{0}% to [Chaos] [Resistances|Resistance]",
 				text="Totem gains +{0}% to Chaos Resistance"
 			},
 			[2]={
@@ -8951,6 +9524,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Totem] loses -{0}% to [Chaos] [Resistances|Resistance]",
 				text="Totem loses -{0}% to Chaos Resistance"
 			}
 		},
@@ -8967,6 +9541,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot deal Non-[Fire] damage",
 				text="Cannot deal Non-Fire damage"
 			}
 		},
@@ -8983,6 +9558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot deal Non-[Lightning] damage",
 				text="Cannot deal Non-Lightning damage"
 			}
 		},
@@ -8999,6 +9575,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot deal Non-[Cold] damage",
 				text="Cannot deal Non-Cold damage"
 			}
 		},
@@ -9015,6 +9592,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Freeze",
 				text="Cannot Freeze"
 			}
 		},
@@ -9035,6 +9613,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Crushed|Crush] duration on [HitDamage|Hit]@{0}s",
 				text="Crush duration on Hit@{0}s"
 			}
 		},
@@ -9051,6 +9630,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Physical|Physical] taken by [Crushed|Crushed] targets [ArmourBreak|Breaks Armour]@{0}%",
 				text="Physical taken by Crushed targets Breaks Armour@{0}%"
 			}
 		},
@@ -9067,6 +9647,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems Reflect {0}% of their maximum Life as Fire Damage to nearby Enemies when Hit",
 				text="Totems Reflect {0}% of their maximum Life as Fire Damage to nearby Enemies when Hit"
 			}
 		},
@@ -9083,6 +9664,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impacts have {0}% more Area of Effect",
 				text="Impacts have {0}% more Area of Effect"
 			},
 			[2]={
@@ -9096,6 +9678,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Impacts have {0}% less Area of Effect",
 				text="Impacts have {0}% less Area of Effect"
 			}
 		},
@@ -9112,6 +9695,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura also grants Mana Regeneration equal to {0}% of its Life Regeneration",
 				text="Aura also grants Mana Regeneration equal to {0}% of its Life Regeneration"
 			}
 		},
@@ -9128,6 +9712,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy",
 				text="{0}% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy"
 			}
 		},
@@ -9144,6 +9729,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Accuracy] penalty based on distance",
 				text="{0}% increased Accuracy penalty based on distance"
 			},
 			[2]={
@@ -9157,6 +9743,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Accuracy] penalty based on distance",
 				text="{0}% reduced Accuracy penalty based on distance"
 			}
 		},
@@ -9173,6 +9760,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more added damage",
 				text="Deals {0}% more added damage"
 			},
 			[2]={
@@ -9186,6 +9774,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% more added damage",
 				text="Deals {0}% more added damage"
 			}
 		},
@@ -9206,6 +9795,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [Critical|Critical Hit] Chance when Cast on Frostbolt",
 				text="{0:+d}% to Critical Hit Chance when Cast on Frostbolt"
 			}
 		},
@@ -9222,6 +9812,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area Damage",
 				text="{0}% more Area Damage"
 			},
 			[2]={
@@ -9235,6 +9826,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area Damage",
 				text="{0}% less Area Damage"
 			}
 		},
@@ -9251,6 +9843,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per Endurance Charge",
 				text="{0}% more Area of Effect per Endurance Charge"
 			},
 			[2]={
@@ -9264,6 +9857,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect per Endurance Charge",
 				text="{0}% less Area of Effect per Endurance Charge"
 			}
 		},
@@ -9280,6 +9874,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect when Cast on Frostbolt",
 				text="{0}% more Area of Effect when Cast on Frostbolt"
 			},
 			[2]={
@@ -9293,6 +9888,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect when Cast on Frostbolt",
 				text="{0}% less Area of Effect when Cast on Frostbolt"
 			}
 		},
@@ -9309,6 +9905,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], both weapons hit with\n{0}% more attack speed",
 				text="While Dual Wielding, both weapons hit with\n{0}% more attack speed"
 			},
 			[2]={
@@ -9322,6 +9919,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], both weapons hit with\n{0}% less attack speed",
 				text="While Dual Wielding, both weapons hit with\n{0}% less attack speed"
 			}
 		},
@@ -9338,6 +9936,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Area of Effect length",
 				text="{0:+d} to Area of Effect length"
 			}
 		},
@@ -9358,6 +9957,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Slow|Slows] enemy movement speed by {0}%",
 				text="Slows enemy movement speed by {0}%"
 			}
 		},
@@ -9374,6 +9974,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Effect of Bleeding while in Blood Stance",
 				text="{0}% more Effect of Bleeding while in Blood Stance"
 			},
 			[2]={
@@ -9387,6 +9988,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Effect of Bleeding while in Blood Stance",
 				text="{0}% less Effect of Bleeding while in Blood Stance"
 			}
 		},
@@ -9403,6 +10005,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Bleeding] inflicted",
 				text="{0}% more Magnitude of Bleeding inflicted"
 			},
 			[2]={
@@ -9416,6 +10019,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Bleeding] inflicted",
 				text="{0}% less Magnitude of Bleeding inflicted"
 			}
 		},
@@ -9439,6 +10043,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Chaos] Damage",
 				text="{0}% more Chaos Damage"
 			},
 			[2]={
@@ -9452,6 +10057,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Chaos] Damage",
 				text="{0}% less Chaos Damage"
 			}
 		},
@@ -9468,6 +10074,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chill|Chills] Enemies as though dealing {0}% more damage",
 				text="Chills Enemies as though dealing {0}% more damage"
 			},
 			[2]={
@@ -9481,6 +10088,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Chill|Chills] Enemies as though dealing {0}% less damage",
 				text="Chills Enemies as though dealing {0}% less damage"
 			}
 		},
@@ -9497,6 +10105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] from a single use of this Skill [CompoundIgnite|Compound]",
 				text="Ignites from a single use of this Skill Compound"
 			}
 		},
@@ -9513,6 +10122,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on enemies to deal {0}% more Damage",
 				text="Consumes Freeze on enemies to deal {0}% more Damage"
 			},
 			[2]={
@@ -9526,6 +10136,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on enemies to deal {0}% less Damage",
 				text="Consumes Freeze on enemies to deal {0}% less Damage"
 			}
 		},
@@ -9542,6 +10153,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% more Damage",
 				text="Consumes Freeze on Non-Unique enemies to deal {0}% more Damage"
 			},
 			[2]={
@@ -9555,6 +10167,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on [Rarity|Non-Unique] enemies to deal {0}% less Damage",
 				text="Consumes Freeze on Non-Unique enemies to deal {0}% less Damage"
 			}
 		},
@@ -9571,6 +10184,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% more Damage",
 				text="Consumes Freeze on Unique enemies to deal {0}% more Damage"
 			},
 			[2]={
@@ -9584,6 +10198,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze] on [Rarity|Unique] enemies to deal {0}% less Damage",
 				text="Consumes Freeze on Unique enemies to deal {0}% less Damage"
 			}
 		},
@@ -9600,6 +10215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes [ArmourBreak|Fully Broken Armour] on\nEnemies to deal {0}% more Damage",
 				text="Consumes Fully Broken Armour on\nEnemies to deal {0}% more Damage"
 			}
 		},
@@ -9616,6 +10232,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage against [HeavyStun|Heavy Stunned] Enemies",
 				text="{0}% more Damage against Heavy Stunned Enemies"
 			},
 			[2]={
@@ -9629,6 +10246,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage against [HeavyStun|Heavy Stunned] Enemies",
 				text="{0}% less Damage against Heavy Stunned Enemies"
 			}
 		},
@@ -9649,6 +10267,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d}% more damage against [Immobilised] enemies",
 				text="{0:+d}% more damage against Immobilised enemies"
 			},
 			[2]={
@@ -9662,6 +10281,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage against [Immobilised] enemies",
 				text="{0}% more damage against Immobilised enemies"
 			},
 			[3]={
@@ -9679,6 +10299,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% less damage against [Immobilised] enemies",
 				text="{0}% less damage against Immobilised enemies"
 			}
 		},
@@ -9696,6 +10317,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage against [Rarity|Unique] enemies",
 				text="{0}% more damage against Unique enemies"
 			},
 			[2]={
@@ -9709,6 +10331,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage against [Rarity|Unique] enemies",
 				text="{0}% less damage against Unique enemies"
 			}
 		},
@@ -9725,6 +10348,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], both weapons hit with {0}% more damage",
 				text="While Dual Wielding, both weapons hit with {0}% more damage"
 			},
 			[2]={
@@ -9738,6 +10362,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="While [DualWield|Dual Wielding], both weapons hit with {0}% less damage",
 				text="While Dual Wielding, both weapons hit with {0}% less damage"
 			}
 		},
@@ -9754,6 +10379,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Enemies that are on Full Life",
 				text="{0}% more Damage with Hits against Enemies that are on Full Life"
 			}
 		},
@@ -9770,6 +10396,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] for each time this Skill has [Chain|Chained]",
 				text="{0}% more Damage with Hits for each time this Skill has Chained"
 			},
 			[2]={
@@ -9783,6 +10410,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] for each time this Skill has [Chain|Chained]",
 				text="{0}% less Damage with Hits for each time this Skill has Chained"
 			}
 		},
@@ -9799,6 +10427,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] against [Burning] Enemies",
 				text="{0}% more Damage with Hits against Burning Enemies"
 			},
 			[2]={
@@ -9812,6 +10441,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] against [Burning] Enemies",
 				text="{0}% less Damage with Hits against Burning Enemies"
 			}
 		},
@@ -9828,6 +10458,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] against Enemies that are [Chill|Chilled]",
 				text="{0}% more Damage with Hits against Enemies that are Chilled"
 			},
 			[2]={
@@ -9841,6 +10472,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] against Enemies that are [Chill|Chilled]",
 				text="{0}% less Damage with Hits against Enemies that are Chilled"
 			}
 		},
@@ -9857,6 +10489,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] against Enemies with [ArmourBreak|Fully Broken Armour]",
 				text="{0}% more Damage with Hits against Enemies with Fully Broken Armour"
 			},
 			[2]={
@@ -9870,6 +10503,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] against Enemies with [ArmourBreak|Fully Broken Armour]",
 				text="{0}% less Damage with Hits against Enemies with Fully Broken Armour"
 			}
 		},
@@ -9886,6 +10520,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% increased Damage when Cast on Frostbolt",
 				text="{}% increased Damage when Cast on Frostbolt"
 			},
 			[2]={
@@ -9899,6 +10534,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{}% reduced Damage when Cast on Frostbolt",
 				text="{}% reduced Damage when Cast on Frostbolt"
 			}
 		},
@@ -9915,6 +10551,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% more Magnitude of Damaging Ailments inflicted"
 			},
 			[2]={
@@ -9928,6 +10565,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% less Magnitude of Damaging Ailments inflicted"
 			}
 		},
@@ -9944,6 +10582,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Electrocute|Electrocution] buildup",
 				text="{0}% more Electrocution buildup"
 			},
 			[2]={
@@ -9957,6 +10596,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Electrocute|Electrocution] buildup",
 				text="{0}% less Electrocution buildup"
 			}
 		},
@@ -9973,6 +10613,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Generates {0}% of [Power|Monster Power] as [Glory] for this Skill on dealing [Chaos] [HitDamage|Hit] damage to an enemy or inflicting a [Chaos] damage over time [Debuff] on an enemy",
 				text="Generates {0}% of Monster Power as Glory for this Skill on dealing Chaos Hit damage to an enemy or inflicting a Chaos damage over time Debuff on an enemy"
 			}
 		},
@@ -9989,6 +10630,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Attack Damage of this skill is {0}% of [DefaultAttackDamage|Default Attack Damage]",
 				text="Attack Damage of this skill is {0}% of Default Attack Damage"
 			}
 		},
@@ -10005,6 +10647,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="Cannot cause [Freeze|Freeze] Buildup",
 				text="Cannot cause Freeze Buildup"
 			},
 			[2]={
@@ -10014,6 +10657,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Freeze|Freeze] Buildup",
 				text="{0}% more Freeze Buildup"
 			},
 			[3]={
@@ -10027,6 +10671,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Freeze|Freeze] Buildup",
 				text="{0}% less Freeze Buildup"
 			}
 		},
@@ -10043,6 +10688,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="Cannot cause [Stun] buildup",
 				text="Cannot cause Stun buildup"
 			},
 			[2]={
@@ -10052,6 +10698,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Stun] buildup",
 				text="{0}% more Stun buildup"
 			},
 			[3]={
@@ -10065,6 +10712,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Stun] buildup",
 				text="{0}% less Stun buildup"
 			}
 		},
@@ -10081,6 +10729,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage when Cast on Frostbolt",
 				text="{0}% more Damage when Cast on Frostbolt"
 			},
 			[2]={
@@ -10094,6 +10743,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage when Cast on Frostbolt",
 				text="{0}% less Damage when Cast on Frostbolt"
 			}
 		},
@@ -10110,6 +10760,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0}% more [Flammability] [BuffMagnitude|Magnitude]",
 				text="Inflicts {0}% more Flammability Magnitude"
 			},
 			[2]={
@@ -10123,6 +10774,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Inflicts {0}% less [Flammability] [BuffMagnitude|Magnitude]",
 				text="Inflicts {0}% less Flammability Magnitude"
 			}
 		},
@@ -10139,6 +10791,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Ignite] duration",
 				text="{0}% more Ignite duration"
 			},
 			[2]={
@@ -10152,6 +10805,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Ignite] duration",
 				text="{0}% less Ignite duration"
 			}
 		},
@@ -10168,6 +10822,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Ignite] [BuffMagnitude|Magnitude]",
 				text="{0}% more Ignite Magnitude"
 			},
 			[2]={
@@ -10181,6 +10836,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Ignite] [BuffMagnitude|Magnitude]",
 				text="{0}% less Ignite Magnitude"
 			}
 		},
@@ -10201,6 +10857,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Ignite|Ignites] inflicted by this Skill [AilmentSpread|Spread] to other\nenemies that stay within {0} metre for 1 second",
 				text="Ignites inflicted by this Skill Spread to other\nenemies that stay within {0} metre for 1 second"
 			},
 			[2]={
@@ -10214,6 +10871,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Ignite|Ignites] inflicted by this Skill [AilmentSpread|Spread] to other\nenemies that stay within {0} metres for 1 second",
 				text="Ignites inflicted by this Skill Spread to other\nenemies that stay within {0} metres for 1 second"
 			}
 		},
@@ -10230,6 +10888,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Knockback] Distance",
 				text="{0}% more Knockback Distance"
 			}
 		},
@@ -10246,6 +10905,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Lightning] Damage",
 				text="{0}% more Lightning Damage"
 			},
 			[2]={
@@ -10259,6 +10919,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Lightning] Damage",
 				text="{0}% less Lightning Damage"
 			}
 		},
@@ -10275,6 +10936,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions cause {0}% more [Stun] buildup",
 				text="Minions cause {0}% more Stun buildup"
 			},
 			[2]={
@@ -10288,6 +10950,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions cause {0}% less [Stun] buildup",
 				text="Minions cause {0}% less Stun buildup"
 			}
 		},
@@ -10304,6 +10967,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict [Freeze], [Shock] or [Ignite]",
 				text="Cannot inflict Freeze, Shock or Ignite"
 			}
 		},
@@ -10324,6 +10988,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Pinned|Pins] Enemies as though dealing {0:+d}% more Damage",
 				text="Pins Enemies as though dealing {0:+d}% more Damage"
 			},
 			[2]={
@@ -10337,6 +11002,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Pinned|Pins] Enemies as though dealing {0}% more Damage",
 				text="Pins Enemies as though dealing {0}% more Damage"
 			},
 			[3]={
@@ -10354,6 +11020,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Pinned|Pins] Enemies as though dealing {0}% less Damage",
 				text="Pins Enemies as though dealing {0}% less Damage"
 			}
 		},
@@ -10371,6 +11038,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Poison Duration",
 				text="{0}% more Poison Duration"
 			},
 			[2]={
@@ -10388,6 +11056,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Poison Duration",
 				text="{0}% less Poison Duration"
 			}
 		},
@@ -10404,6 +11073,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] deal {0}% more Damage with Hits for each remaining [Chain]",
 				text="Projectiles deal {0}% more Damage with Hits for each remaining Chain"
 			},
 			[2]={
@@ -10417,6 +11087,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Projectile|Projectiles] deal {0}% less Damage with Hits for each remaining [Chain]",
 				text="Projectiles deal {0}% less Damage with Hits for each remaining Chain"
 			}
 		},
@@ -10433,6 +11104,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Projectile] Damage after [Pierce|Piercing] an Enemy",
 				text="{0}% more Projectile Damage after Piercing an Enemy"
 			},
 			[2]={
@@ -10446,6 +11118,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Projectile] Damage after [Pierce|Piercing] an Enemy",
 				text="{0}% less Projectile Damage after Piercing an Enemy"
 			}
 		},
@@ -10462,6 +11135,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more reload speed",
 				text="{0}% more reload speed"
 			},
 			[2]={
@@ -10475,6 +11149,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less reload speed",
 				text="{0}% less reload speed"
 			}
 		},
@@ -10499,6 +11174,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Requires {0} fewer [Combo] to use",
 				text="Requires {0} fewer Combo to use"
 			},
 			[2]={
@@ -10512,6 +11188,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0} [Combo] to use",
 				text="Requires {0} Combo to use"
 			}
 		},
@@ -10529,6 +11206,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Shock|Shocks] Enemies as though dealing {0}% more Damage",
 				text="Shocks Enemies as though dealing {0}% more Damage"
 			},
 			[2]={
@@ -10542,6 +11220,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Shock|Shocks] Enemies as though dealing {0}% less Damage",
 				text="Shocks Enemies as though dealing {0}% less Damage"
 			}
 		},
@@ -10558,6 +11237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more chance to [Shock]",
 				text="{0}% more chance to Shock"
 			},
 			[2]={
@@ -10567,6 +11247,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less chance to [Shock]",
 				text="{0}% less chance to Shock"
 			}
 		},
@@ -10583,6 +11264,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Shock] duration",
 				text="{0}% more Shock duration"
 			},
 			[2]={
@@ -10596,6 +11278,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Shock] duration",
 				text="{0}% less Shock duration"
 			}
 		},
@@ -10612,6 +11295,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Shock|Shock] inflicted",
 				text="{0}% more Magnitude of Shock inflicted"
 			},
 			[2]={
@@ -10625,6 +11309,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Shock|Shock] inflicted",
 				text="{0}% less Magnitude of Shock inflicted"
 			}
 		},
@@ -10641,6 +11326,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [StunThreshold|Stun Threshold] while using Skill",
 				text="{0}% increased Stun Threshold while using Skill"
 			},
 			[2]={
@@ -10654,6 +11340,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [StunThreshold|Stun Threshold] while using Skill",
 				text="{0}% reduced Stun Threshold while using Skill"
 			}
 		},
@@ -10670,6 +11357,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to grant an Endurance Charge on Hit",
 				text="{0}% chance to grant an Endurance Charge on Hit"
 			},
 			[2]={
@@ -10679,6 +11367,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants an Endurance Charge on Hit",
 				text="Grants an Endurance Charge on Hit"
 			}
 		},
@@ -10695,6 +11384,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge on Hit",
 				text="{0}% chance to gain a Frenzy Charge on Hit"
 			}
 		},
@@ -10711,6 +11401,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Steel Ward if you have at least 2 Steel Shards, up to a maximum of 6\nEach Steel Ward grants {0:+d}% Chance to Block Projectile [Attack] Damage",
 				text="Gain a Steel Ward if you have at least 2 Steel Shards, up to a maximum of 6\nEach Steel Ward grants {0:+d}% Chance to Block Projectile Attack Damage"
 			}
 		},
@@ -10727,6 +11418,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Chain an additional time",
 				text="{0}% chance to Chain an additional time"
 			}
 		},
@@ -10743,6 +11435,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to build an additional [Combo] on [HitDamage|Hit]",
 				text="{0}% chance to build an additional Combo on Hit"
 			}
 		},
@@ -10763,6 +11456,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [Critical|Critical Hit] Chance while Dead",
 				text="{0:+d}% to Critical Hit Chance while Dead"
 			}
 		},
@@ -10783,6 +11477,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [Critical|Critical Hit] Chance while [Elusive|Elusive]",
 				text="{0:+d}% to Critical Hit Chance while Elusive"
 			}
 		},
@@ -10799,6 +11494,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain an additional Infusion",
 				text="{0}% chance to gain an additional Infusion"
 			},
 			[2]={
@@ -10808,6 +11504,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an additional Infusion",
 				text="Gain an additional Infusion"
 			}
 		},
@@ -10824,6 +11521,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires an additional [Projectile|Projectile] per Intensity",
 				text="Fires an additional Projectile per Intensity"
 			},
 			[2]={
@@ -10833,6 +11531,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} additional [Projectile|Projectiles] per Intensity",
 				text="Fires {0} additional Projectiles per Intensity"
 			},
 			[3]={
@@ -10842,6 +11541,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Fires 1 fewer [Projectile|Projectile] per Intensity",
 				text="Fires 1 fewer Projectile per Intensity"
 			},
 			[4]={
@@ -10855,6 +11555,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Fires {0} fewer [Projectile|Projectiles] per Intensity",
 				text="Fires {0} fewer Projectiles per Intensity"
 			}
 		},
@@ -10871,6 +11572,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Increases and reductions to [Thorns] Damage apply to [HitDamage|Hit Damage] with this skill",
 				text="Increases and reductions to Thorns Damage apply to Hit Damage with this skill"
 			}
 		},
@@ -10887,6 +11589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased [Attack] speed during any Life [Flask] Effect",
 				text="Grants {0}% increased Attack speed during any Life Flask Effect"
 			},
 			[2]={
@@ -10900,6 +11603,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced [Attack] speed during any Life [Flask] Effect",
 				text="Grants {0}% reduced Attack speed during any Life Flask Effect"
 			}
 		},
@@ -10916,6 +11620,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% increased cast speed during any Mana [Flask] Effect",
 				text="Grants {0}% increased cast speed during any Mana Flask Effect"
 			},
 			[2]={
@@ -10929,6 +11634,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% reduced cast speed during any Mana [Flask] Effect",
 				text="Grants {0}% reduced cast speed during any Mana Flask Effect"
 			}
 		},
@@ -10945,6 +11651,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to [Flammability] and [Ignite] [BuffMagnitude|Magnitudes], [Freeze] Buildup, and [Shock] Chance",
 				text="All Damage from Hits Contributes to Flammability and Ignite Magnitudes, Freeze Buildup, and Shock Chance"
 			}
 		},
@@ -10961,6 +11668,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DamageTypes|All Damage] from [HitDamage|Hits] [Contributes|Contributes] to Sap Magnitude",
 				text="All Damage from Hits Contributes to Sap Magnitude"
 			}
 		},
@@ -10977,6 +11685,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="If you have no Steel Shards, Projectile counts as already having Split",
 				text="If you have no Steel Shards, Projectile counts as already having Split"
 			}
 		},
@@ -10993,6 +11702,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Chain] from any number of [Curse|Cursed] targets",
 				text="Can Chain from any number of Cursed targets"
 			}
 		},
@@ -11009,6 +11719,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can [Chain] from any number of [Shock|Shocked] targets",
 				text="Can Chain from any number of Shocked targets"
 			}
 		},
@@ -11025,6 +11736,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always [Critical|Critically Strikes]",
 				text="Always Critically Strikes"
 			}
 		},
@@ -11041,6 +11753,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always [Ignite|Ignites]",
 				text="Always Ignites"
 			}
 		},
@@ -11057,6 +11770,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Pierce|Pierces] all Targets",
 				text="Pierces all Targets"
 			}
 		},
@@ -11073,6 +11787,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damaging Hits always Stun Enemies that are on Full Life",
 				text="Damaging Hits always Stun Enemies that are on Full Life"
 			}
 		},
@@ -11089,6 +11804,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Ancestor Totem Buff",
 				text="{0}% increased Effect of Ancestor Totem Buff"
 			},
 			[2]={
@@ -11102,6 +11818,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Ancestor Totem Buff",
 				text="{0}% reduced Effect of Ancestor Totem Buff"
 			}
 		},
@@ -11118,6 +11835,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Activation range",
 				text="{0}% increased Activation range"
 			},
 			[2]={
@@ -11131,6 +11849,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Activation range",
 				text="{0}% reduced Activation range"
 			}
 		},
@@ -11154,6 +11873,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ancestrally Boosted [Slam|Slams] have {0}% reduced [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="Ancestrally Boosted Slams have {0}% reduced Enemy Stun Threshold"
 			},
 			[2]={
@@ -11167,6 +11887,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ancestrally Boosted [Slam|Slams] have {0}% increased [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="Ancestrally Boosted Slams have {0}% increased Enemy Stun Threshold"
 			}
 		},
@@ -11183,6 +11904,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create an additional Animate Weapon copy",
 				text="{0}% chance to create an additional Animate Weapon copy"
 			}
 		},
@@ -11203,6 +11925,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Animated Lingering Blades have {0:+d}% to [Critical|Critical Hit] Chance",
 				text="Animated Lingering Blades have {0:+d}% to Critical Hit Chance"
 			}
 		},
@@ -11219,6 +11942,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts Cold Exposure when inflicting Chill, lowering Total Cold Resistance by {0}%",
 				text="Inflicts Cold Exposure when inflicting Chill, lowering Total Cold Resistance by {0}%"
 			}
 		},
@@ -11235,6 +11959,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts Cold Exposure when inflicting Freeze, lowering Total Cold Resistance by {0}%",
 				text="Inflicts Cold Exposure when inflicting Freeze, lowering Total Cold Resistance by {0}%"
 			}
 		},
@@ -11251,6 +11976,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This [Curse] is applied by Bane",
 				text="This Curse is applied by Bane"
 			}
 		},
@@ -11267,6 +11993,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [HitDamage|Hit] damage when [Chain|Chaining]",
 				text="{0}% more Hit damage when Chaining"
 			},
 			[2]={
@@ -11280,6 +12007,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [HitDamage|Hit] damage when [Chain|Chaining]",
 				text="{0}% less Hit damage when Chaining"
 			}
 		},
@@ -11296,6 +12024,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain|Chains] {0} additional times when [Lightning] [ElementalInfusion|Infused]",
 				text="Chains {0} additional times when Lightning Infused"
 			}
 		},
@@ -11312,6 +12041,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage when [Lightning] [ElementalInfusion|Infused]",
 				text="{0}% more damage when Lightning Infused"
 			},
 			[2]={
@@ -11325,6 +12055,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage when [Lightning] [ElementalInfusion|Infused]",
 				text="{0}% less damage when Lightning Infused"
 			}
 		},
@@ -11341,6 +12072,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each time beam has Chained",
 				text="{0}% more Damage for each time beam has Chained"
 			},
 			[2]={
@@ -11354,6 +12086,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage for each time beam has Chained",
 				text="{0}% less Damage for each time beam has Chained"
 			}
 		},
@@ -11370,6 +12103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends {0}% of current Mana",
 				text="Spends {0}% of current Mana"
 			}
 		},
@@ -11386,6 +12120,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage from Hits is taken from Buff before your Life or Energy Shield\nBuff can take Damage equal to Mana Spent by this Skill's effect",
 				text="{0}% of Damage from Hits is taken from Buff before your Life or Energy Shield\nBuff can take Damage equal to Mana Spent by this Skill's effect"
 			}
 		},
@@ -11406,6 +12141,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants Life Regeneration equal to {0}% of Mana Spent by this Skill's effect per Second",
 				text="Buff grants Life Regeneration equal to {0}% of Mana Spent by this Skill's effect per Second"
 			}
 		},
@@ -11422,6 +12158,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants Added Lightning Damage equal to {0}% of Mana Spent by this Skill's effect",
 				text="Buff grants Added Lightning Damage equal to {0}% of Mana Spent by this Skill's effect"
 			}
 		},
@@ -11438,6 +12175,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% more [Physical] and [Chaos] damage",
 				text="Grants {0}% more Physical and Chaos damage"
 			}
 		},
@@ -11454,6 +12192,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% chance to [Withered|Wither] enemies for 4 seconds on [HitDamage|Hit]",
 				text="Grants {0}% chance to Wither enemies for 4 seconds on Hit"
 			}
 		},
@@ -11470,6 +12209,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Trigger] Chayula's Will every second",
 				text="Trigger Chayula's Will every second"
 			},
 			[2]={
@@ -11483,6 +12223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] Chayula's Will every {0} seconds",
 				text="Trigger Chayula's Will every {0} seconds"
 			}
 		},
@@ -11499,6 +12240,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Armour] per Stage",
 				text="Buff grants {0}% increased Armour per Stage"
 			},
 			[2]={
@@ -11512,6 +12254,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Armour] per Stage",
 				text="Buff grants {0}% reduced Armour per Stage"
 			}
 		},
@@ -11532,6 +12275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chill Enemy for {0} seconds when Hit, reducing their Action Speed by 30%",
 				text="Chill Enemy for {0} seconds when Hit, reducing their Action Speed by 30%"
 			}
 		},
@@ -11548,6 +12292,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] [Fire|Fire] Damage taken per Stage",
 				text="{0}% more Melee Fire Damage taken per Stage"
 			},
 			[2]={
@@ -11561,6 +12306,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] [Fire|Fire] Damage taken per Stage",
 				text="{0}% less Melee Fire Damage taken per Stage"
 			}
 		},
@@ -11577,6 +12323,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Melee] [Physical|Physical] Damage taken per Stage",
 				text="{0}% more Melee Physical Damage taken per Stage"
 			},
 			[2]={
@@ -11590,6 +12337,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Melee] [Physical|Physical] Damage taken per Stage",
 				text="{0}% less Melee Physical Damage taken per Stage"
 			}
 		},
@@ -11606,6 +12354,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can have up to {0} Chilling Area",
 				text="Can have up to {0} Chilling Area"
 			},
 			[2]={
@@ -11615,6 +12364,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can have up to {0} Chilling Areas",
 				text="Can have up to {0} Chilling Areas"
 			}
 		},
@@ -11631,6 +12381,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -11644,6 +12395,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -11667,6 +12419,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect per Stage",
 				text="{0}% increased Area of Effect per Stage"
 			},
 			[2]={
@@ -11680,6 +12433,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect per Stage",
 				text="{0}% reduced Area of Effect per Stage"
 			}
 		},
@@ -11696,6 +12450,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect per charge consumed",
 				text="{0}% increased Area of Effect per charge consumed"
 			},
 			[2]={
@@ -11709,6 +12464,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect per charge consumed",
 				text="{0}% reduced Area of Effect per charge consumed"
 			}
 		},
@@ -11725,6 +12481,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect when Cast on Frostbolt",
 				text="{0}% increased Area of Effect when Cast on Frostbolt"
 			},
 			[2]={
@@ -11738,6 +12495,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect when Cast on Frostbolt",
 				text="{0}% reduced Area of Effect when Cast on Frostbolt"
 			}
 		},
@@ -11754,6 +12512,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect while not Dual Wielding",
 				text="{0}% increased Area of Effect while not Dual Wielding"
 			},
 			[2]={
@@ -11767,6 +12526,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect while not Dual Wielding",
 				text="{0}% reduced Area of Effect while not Dual Wielding"
 			}
 		},
@@ -11783,6 +12543,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ArmourBreak|Break Armour] equal to {0}% of [Poison] damage",
 				text="Break Armour equal to {0}% of Poison damage"
 			}
 		},
@@ -11799,6 +12560,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ArmourBreak|Break Armour] equal to {0}% of [Physical] damage dealt",
 				text="Break Armour equal to {0}% of Physical damage dealt"
 			}
 		},
@@ -11815,6 +12577,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] and Cast Speed",
 				text="{0}% increased Attack and Cast Speed"
 			},
 			[2]={
@@ -11828,6 +12591,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] and Cast Speed",
 				text="{0}% reduced Attack and Cast Speed"
 			}
 		},
@@ -11844,6 +12608,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Damage",
 				text="{0}% increased Attack Damage"
 			},
 			[2]={
@@ -11857,6 +12622,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Damage",
 				text="{0}% reduced Attack Damage"
 			}
 		},
@@ -11873,6 +12639,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Nearby Enemies are Blinded while in Sand Stance\nYou take {0}% more Damage from [Attack|Attacks] from Enemies that aren't nearby while in Sand Stance\nNearby Enemies are Maimed while in Blood Stance",
 				text="Nearby Enemies are Blinded while in Sand Stance\nYou take {0}% more Damage from Attacks from Enemies that aren't nearby while in Sand Stance\nNearby Enemies are Maimed while in Blood Stance"
 			},
 			[2]={
@@ -11886,6 +12653,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Nearby Enemies are Blinded while in Sand Stance\nYou take {0}% less Damage from [Attack|Attacks] from Enemies that aren't nearby while in Sand Stance\nNearby Enemies are Maimed while in Blood Stance",
 				text="Nearby Enemies are Blinded while in Sand Stance\nYou take {0}% less Damage from Attacks from Enemies that aren't nearby while in Sand Stance\nNearby Enemies are Maimed while in Blood Stance"
 			}
 		},
@@ -11909,6 +12677,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill's [Attack] Speed cannot be modified",
 				text="This Skill's Attack Speed cannot be modified"
 			}
 		},
@@ -11925,6 +12694,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifers to [Attack] speed also affect this skill's cost",
 				text="Modifers to Attack speed also affect this skill's cost"
 			}
 		},
@@ -11941,6 +12711,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Hit a Bleeding Enemy",
 				text="{0}% chance to Trigger this Skill when you Hit a Bleeding Enemy"
 			},
 			[2]={
@@ -11950,6 +12721,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Hit a Bleeding Enemy",
 				text="Trigger this Skill when you Hit a Bleeding Enemy"
 			}
 		},
@@ -11966,6 +12738,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Impale Enemies on Hit",
 				text="{0}% chance to Impale Enemies on Hit"
 			},
 			[2]={
@@ -11975,6 +12748,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impale Enemies on Hit",
 				text="Impale Enemies on Hit"
 			}
 		},
@@ -11991,6 +12765,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Avoid All Damage from [HitDamage|Hits]",
 				text="{0}% chance to Avoid All Damage from Hits"
 			},
 			[2]={
@@ -12000,6 +12775,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Avoid All Damage from [HitDamage|Hits]",
 				text="Avoid All Damage from Hits"
 			}
 		},
@@ -12016,6 +12792,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Ignore Stuns While Using this Skill",
 				text="{0}% chance to Ignore Stuns While Using this Skill"
 			},
 			[2]={
@@ -12025,6 +12802,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ignore Stuns While Using this Skill",
 				text="Ignore Stuns While Using this Skill"
 			}
 		},
@@ -12041,6 +12819,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles have {0}% chance to be Supercharged",
 				text="Projectiles have {0}% chance to be Supercharged"
 			}
 		},
@@ -12057,6 +12836,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Projectile spread",
 				text="{0}% increased Projectile spread"
 			},
 			[2]={
@@ -12070,6 +12850,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Projectile spread",
 				text="{0}% reduced Projectile spread"
 			}
 		},
@@ -12086,6 +12867,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When [HitDamage|Hit] by an Enemy, gain 1 [Energy] for each {0} [EnergyShield|Energy Shield] lost to damage taken",
 				text="When Hit by an Enemy, gain 1 Energy for each {0} Energy Shield lost to damage taken"
 			}
 		},
@@ -12106,6 +12888,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Deals up to an additional {0:+d}% more Damage, based on the distance travelled",
 				text="Deals up to an additional {0:+d}% more Damage, based on the distance travelled"
 			},
 			[2]={
@@ -12119,6 +12902,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals up to {0}% more Damage, based on the distance travelled",
 				text="Deals up to {0}% more Damage, based on the distance travelled"
 			},
 			[3]={
@@ -12136,6 +12920,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals up to {0}% less Damage, based on the distance travelled",
 				text="Deals up to {0}% less Damage, based on the distance travelled"
 			}
 		},
@@ -12153,6 +12938,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for Bleeding to have 100% more Effect",
 				text="{0}% chance for Bleeding to have 100% more Effect"
 			}
 		},
@@ -12169,6 +12955,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Daze|Dazes] on [HitDamage|Hit]",
 				text="Dazes on Hit"
 			},
 			[2]={
@@ -12178,6 +12965,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Daze] on [HitDamage|Hit]",
 				text="{0}% chance to Daze on Hit"
 			}
 		},
@@ -12194,6 +12982,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to deal Triple Damage",
 				text="{0}% chance to deal Triple Damage"
 			}
 		},
@@ -12210,6 +12999,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to destroy [Ignite|Ignited Corpses] on [KillingBlow|Killing Blow]",
 				text="{0}% chance to destroy Ignited Corpses on Killing Blow"
 			}
 		},
@@ -12226,6 +13016,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict [Bleeding|Bleeding] on [HitDamage|Hit]",
 				text="{0}% chance to inflict Bleeding on Hit"
 			},
 			[2]={
@@ -12235,6 +13026,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [Bleeding|Bleeding] on [HitDamage|Hit]",
 				text="Inflicts Bleeding on Hit"
 			}
 		},
@@ -12251,6 +13043,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Pierce] chance@{0}%",
 				text="Pierce chance@{0}%"
 			}
 		},
@@ -12271,6 +13064,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="This Skill loses [Combo] if it generates no [Combo] for {0} second",
 				text="This Skill loses Combo if it generates no Combo for {0} second"
 			},
 			[2]={
@@ -12284,6 +13078,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill loses [Combo] if it generates no [Combo] for {0} seconds",
 				text="This Skill loses Combo if it generates no Combo for {0} seconds"
 			}
 		},
@@ -12300,6 +13095,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume] [Freeze] on [HitDamage|Hit]",
 				text="Consume Freeze on Hit"
 			}
 		},
@@ -12316,6 +13112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume] [Shock] on [HitDamage|Hit]",
 				text="Consume Shock on Hit"
 			}
 		},
@@ -12336,6 +13133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Cooldown",
 				text="{0:+d} seconds to Cooldown"
 			}
 		},
@@ -12352,6 +13150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [CooldownRecovery|Cooldown Recovery Rate]",
 				text="{0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -12365,6 +13164,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [CooldownRecovery|Cooldown Recovery Rate]",
 				text="{0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -12381,6 +13181,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] zone erupts after {0}% increased delay",
 				text="Curse zone erupts after {0}% increased delay"
 			},
 			[2]={
@@ -12394,6 +13195,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Curse] zone erupts after {0}% reduced delay",
 				text="Curse zone erupts after {0}% reduced delay"
 			}
 		},
@@ -12410,6 +13212,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage taken",
 				text="{0}% increased Damage taken"
 			},
 			[2]={
@@ -12423,6 +13226,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage taken",
 				text="{0}% reduced Damage taken"
 			}
 		},
@@ -12439,6 +13243,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals no Chaos Damage",
 				text="Deals no Chaos Damage"
 			}
 		},
@@ -12455,6 +13260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff|Debuffs] have {0}% increased [SlowMagnitudeModifier|Slow Magnitude]",
 				text="Debuffs have {0}% increased Slow Magnitude"
 			},
 			[2]={
@@ -12468,6 +13274,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Debuff|Debuffs] have {0}% reduced [SlowMagnitudeModifier|Slow Magnitude]",
 				text="Debuffs have {0}% reduced Slow Magnitude"
 			}
 		},
@@ -12484,6 +13291,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage with Hits is Lucky",
 				text="Damage with Hits is Lucky"
 			},
 			[2]={
@@ -12493,6 +13301,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Damage with Hits is Unlucky",
 				text="Damage with Hits is Unlucky"
 			}
 		},
@@ -12509,6 +13318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Ignite|Ignite] [BuffMagnitude|Magnitude]",
 				text="{0}% increased Ignite Magnitude"
 			},
 			[2]={
@@ -12522,6 +13332,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Ignite|Ignite] [BuffMagnitude|Magnitude]",
 				text="{0}% reduced Ignite Magnitude"
 			}
 		},
@@ -12538,6 +13349,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict Cold [Exposure] on Hit",
 				text="{0}% chance to inflict Cold Exposure on Hit"
 			},
 			[2]={
@@ -12547,6 +13359,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict Cold [Exposure] on Hit",
 				text="Inflict Cold Exposure on Hit"
 			}
 		},
@@ -12563,6 +13376,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict [Fire] [Exposure] on [HitDamage|Hit]",
 				text="{0}% chance to inflict Fire Exposure on Hit"
 			},
 			[2]={
@@ -12572,6 +13386,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict [Fire] [Exposure] on [HitDamage|Hit]",
 				text="Inflict Fire Exposure on Hit"
 			}
 		},
@@ -12588,6 +13403,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict [Exposure] on [HitDamage|Hit]",
 				text="{0}% chance to inflict Exposure on Hit"
 			},
 			[2]={
@@ -12597,6 +13413,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict [Exposure] on [HitDamage|Hit]",
 				text="Inflict Exposure on Hit"
 			}
 		},
@@ -12613,6 +13430,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Lightning] damage from this skill [Contributes] to\n[Electrocute|Electrocution] Buildup",
 				text="Lightning damage from this skill Contributes to\nElectrocution Buildup"
 			}
 		},
@@ -12629,6 +13447,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} [Seal]",
 				text="Maximum {0} Seal"
 			},
 			[2]={
@@ -12638,6 +13457,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} [Seal|Seals]",
 				text="Maximum {0} Seals"
 			}
 		},
@@ -12658,6 +13478,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} Bolt loaded per clip",
 				text="{0:+d} Bolt loaded per clip"
 			},
 			[2]={
@@ -12671,6 +13492,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} Bolts loaded per clip",
 				text="{0:+d} Bolts loaded per clip"
 			},
 			[3]={
@@ -12684,6 +13506,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Bolt loaded per clip",
 				text="{0} Bolt loaded per clip"
 			},
 			[4]={
@@ -12697,6 +13520,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Bolts loaded per clip",
 				text="{0} Bolts loaded per clip"
 			},
 			[5]={
@@ -12714,6 +13538,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="-{0} Bolts loaded per clip",
 				text="-{0} Bolts loaded per clip"
 			}
 		},
@@ -12740,6 +13565,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0:+d} [Projectile|Projectiles]",
 				text="Fires {0:+d} Projectiles"
 			},
 			[2]={
@@ -12758,6 +13584,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0:+d} Arrows",
 				text="Fires {0:+d} Arrows"
 			},
 			[3]={
@@ -12775,6 +13602,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectiles]",
 				text="Fires {0} Projectiles"
 			},
 			[4]={
@@ -12792,6 +13620,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} Arrows",
 				text="Fires {0} Arrows"
 			}
 		},
@@ -12810,6 +13639,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fires {0} [Projectile]",
 				text="Fires {0} Projectile"
 			},
 			[2]={
@@ -12819,6 +13649,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires {0} [Projectile|Projectiles] in a spiral",
 				text="Fires {0} Projectiles in a spiral"
 			}
 		},
@@ -12835,6 +13666,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum 1 Summoned Phantasm",
 				text="Maximum 1 Summoned Phantasm"
 			},
 			[2]={
@@ -12844,6 +13676,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Phantasms",
 				text="Maximum {0} Summoned Phantasms"
 			}
 		},
@@ -12860,6 +13693,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Bell",
 				text="Limit {0} Bell"
 			},
 			[2]={
@@ -12869,6 +13703,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Bells",
 				text="Limit {0} Bells"
 			}
 		},
@@ -12885,6 +13720,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for [Poison|Poisons] to have 100% more Effect",
 				text="{0}% chance for Poisons to have 100% more Effect"
 			}
 		},
@@ -12901,6 +13737,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to not remove a [Charges|Power Charge] but still count as consuming it",
 				text="{0}% chance to not remove a Power Charge but still count as consuming it"
 			}
 		},
@@ -12917,6 +13754,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Chain]",
 				text="Cannot Chain"
 			}
 		},
@@ -12937,6 +13775,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Remnant|Remnants] last for {0} second",
 				text="Remnants last for {0} second"
 			},
 			[2]={
@@ -12950,6 +13789,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Remnant|Remnants] last for {0} seconds",
 				text="Remnants last for {0} seconds"
 			}
 		},
@@ -12970,6 +13810,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a [Seal] every {0} seconds",
 				text="Gains a Seal every {0} seconds"
 			}
 		},
@@ -12986,6 +13827,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[StatGain|Gains] {0}% of Life and Mana Cost as [StatGain|Extra] [Ward|Runic Ward] Cost",
 				text="Gains {0}% of Life and Mana Cost as Extra Runic Ward Cost"
 			}
 		},
@@ -13002,6 +13844,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Lightning strikes {0} target",
 				text="Lightning strikes {0} target"
 			},
 			[2]={
@@ -13011,6 +13854,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lightning strikes {0} targets",
 				text="Lightning strikes {0} targets"
 			}
 		},
@@ -13031,6 +13875,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} base Cold Damage per Frenzy Charge removed",
 				text="Deals {0} to {1} base Cold Damage per Frenzy Charge removed"
 			}
 		},
@@ -13048,6 +13893,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuff applies {0}% reduced Cooldown Recovery Rate to affected Enemies",
 				text="Debuff applies {0}% reduced Cooldown Recovery Rate to affected Enemies"
 			}
 		},
@@ -13075,6 +13921,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="+{0} second to base attack time if not standing",
 				text="+{0} second to base attack time if not standing"
 			},
 			[2]={
@@ -13088,6 +13935,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} seconds to base attack time if not standing",
 				text="+{0} seconds to base attack time if not standing"
 			}
 		},
@@ -13108,6 +13956,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="+{0} second to base attack time if standing",
 				text="+{0} second to base attack time if standing"
 			},
 			[2]={
@@ -13121,6 +13970,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} seconds to base attack time if standing",
 				text="+{0} seconds to base attack time if standing"
 			}
 		},
@@ -13137,6 +13987,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0:+d} to maximum [Rage]",
 				text="Buff grants {0:+d} to maximum Rage"
 			}
 		},
@@ -13153,6 +14004,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies in range take up to {0}% increased Damage, based on distance from the Void Sphere",
 				text="Enemies in range take up to {0}% increased Damage, based on distance from the Void Sphere"
 			},
 			[2]={
@@ -13166,6 +14018,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies in range take up to {0}% reduced Damage, based on distance from the Void Sphere",
 				text="Enemies in range take up to {0}% reduced Damage, based on distance from the Void Sphere"
 			}
 		},
@@ -13186,6 +14039,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies in range are Hindered, with up to {0}% reduced Movement Speed, based on distance from the Void Sphere",
 				text="Enemies in range are Hindered, with up to {0}% reduced Movement Speed, based on distance from the Void Sphere"
 			}
 		},
@@ -13206,6 +14060,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Pulses every {0} second",
 				text="Pulses every {0} second"
 			},
 			[2]={
@@ -13219,6 +14074,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulses every {0} seconds",
 				text="Pulses every {0} seconds"
 			}
 		},
@@ -13235,6 +14091,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for Detonated Blades to not be removed",
 				text="{0}% chance for Detonated Blades to not be removed"
 			}
 		},
@@ -13251,6 +14108,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per Blade Vortex blade detonated",
 				text="{0}% more Area of Effect per Blade Vortex blade detonated"
 			},
 			[2]={
@@ -13264,6 +14122,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect per Blade Vortex blade detonated",
 				text="{0}% less Area of Effect per Blade Vortex blade detonated"
 			}
 		},
@@ -13280,6 +14139,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Elemental Damage while Channelling",
 				text="{0}% increased Elemental Damage while Channelling"
 			},
 			[2]={
@@ -13293,6 +14153,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Elemental Damage while Channelling",
 				text="{0}% reduced Elemental Damage while Channelling"
 			}
 		},
@@ -13309,6 +14170,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Final Flurry has {0}% increased Area of Effect",
 				text="Final Flurry has {0}% increased Area of Effect"
 			},
 			[2]={
@@ -13322,6 +14184,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Final Flurry has {0}% reduced Area of Effect",
 				text="Final Flurry has {0}% reduced Area of Effect"
 			}
 		},
@@ -13338,6 +14201,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create an additional Blade",
 				text="{0}% chance to create an additional Blade"
 			}
 		},
@@ -13354,6 +14218,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance for each blade",
 				text="{0}% increased Critical Hit Chance for each blade"
 			},
 			[2]={
@@ -13367,6 +14232,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance for each blade",
 				text="{0}% reduced Critical Hit Chance for each blade"
 			}
 		},
@@ -13383,6 +14249,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage while you have 5 or fewer Blades",
 				text="{0}% increased Damage while you have 5 or fewer Blades"
 			},
 			[2]={
@@ -13396,6 +14263,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage while you have 5 or fewer Blades",
 				text="{0}% reduced Damage while you have 5 or fewer Blades"
 			}
 		},
@@ -13416,6 +14284,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits Enemies every {0} Seconds",
 				text="Hits Enemies every {0} Seconds"
 			},
 			[2]={
@@ -13425,6 +14294,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Never Hits Enemies",
 				text="Never Hits Enemies"
 			}
 		},
@@ -13441,6 +14311,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance per Volley",
 				text="{0}% increased Critical Hit Chance per Volley"
 			},
 			[2]={
@@ -13454,6 +14325,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance per Volley",
 				text="{0}% reduced Critical Hit Chance per Volley"
 			}
 		},
@@ -13470,6 +14342,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased distance between Volleys",
 				text="{0}% increased distance between Volleys"
 			},
 			[2]={
@@ -13483,6 +14356,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced distance between Volleys",
 				text="{0}% reduced distance between Volleys"
 			}
 		},
@@ -13499,6 +14373,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Each Volley leaves a Lingering Blade in the ground",
 				text="Each Volley leaves a Lingering Blade in the ground"
 			},
 			[2]={
@@ -13508,6 +14383,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Every {0} Volleys leave a Lingering Blade in the ground",
 				text="Every {0} Volleys leave a Lingering Blade in the ground"
 			}
 		},
@@ -13524,6 +14400,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies inside are Hindered and Unnerved",
 				text="Enemies inside are Hindered and Unnerved"
 			}
 		},
@@ -13540,6 +14417,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed while you're in a Blood Bladestorm",
 				text="{0}% more Attack Speed while you're in a Blood Bladestorm"
 			},
 			[2]={
@@ -13553,6 +14431,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed while you're in a Blood Bladestorm",
 				text="{0}% less Attack Speed while you're in a Blood Bladestorm"
 			}
 		},
@@ -13569,6 +14448,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create the wrong Bladestorm",
 				text="{0}% chance to create the wrong Bladestorm"
 			}
 		},
@@ -13585,6 +14465,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of {0} Bladestorms at a time",
 				text="Maximum of {0} Bladestorms at a time"
 			}
 		},
@@ -13601,6 +14482,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sand Bladestorms grant {0}% increased Movement Speed to you",
 				text="Sand Bladestorms grant {0}% increased Movement Speed to you"
 			},
 			[2]={
@@ -13614,6 +14496,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Sand Bladestorms grant {0}% reduced Movement Speed to you",
 				text="Sand Bladestorms grant {0}% reduced Movement Speed to you"
 			}
 		},
@@ -13630,6 +14513,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sand Bladestorms move with {0}% increased speed",
 				text="Sand Bladestorms move with {0}% increased speed"
 			},
 			[2]={
@@ -13643,6 +14527,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Sand Bladestorms move with {0}% reduced speed",
 				text="Sand Bladestorms move with {0}% reduced speed"
 			}
 		},
@@ -13659,6 +14544,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bladestorm deals {0}% more Damage",
 				text="Bladestorm deals {0}% more Damage"
 			},
 			[2]={
@@ -13672,6 +14558,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Bladestorm deals {0}% less Damage",
 				text="Bladestorm deals {0}% less Damage"
 			}
 		},
@@ -13688,6 +14575,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrows fall within a {0}% increased Area of Effect",
 				text="Arrows fall within a {0}% increased Area of Effect"
 			},
 			[2]={
@@ -13701,6 +14589,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Arrows fall within a {0}% reduced Area of Effect",
 				text="Arrows fall within a {0}% reduced Area of Effect"
 			}
 		},
@@ -13717,6 +14606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage to distant Enemies",
 				text="{0}% increased Damage to distant Enemies"
 			},
 			[2]={
@@ -13730,6 +14620,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage to distant Enemies",
 				text="{0}% reduced Damage to distant Enemies"
 			}
 		},
@@ -13754,6 +14645,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Cannot cause [Bleeding|Bleeding]",
 				text="Cannot cause Bleeding"
 			},
 			[2]={
@@ -13771,6 +14663,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Causes [Bleeding|Bleeding]",
 				text="Causes Bleeding"
 			},
 			[3]={
@@ -13788,6 +14681,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Causes [Bleeding|Bleeding]",
 				text="Causes Bleeding"
 			},
 			[4]={
@@ -13805,6 +14699,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% chance to cause [Bleeding|Bleeding]",
 				text="{0}% chance to cause Bleeding"
 			}
 		},
@@ -13823,6 +14718,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Blind] Effect",
 				text="{0}% increased Blind Effect"
 			},
 			[2]={
@@ -13836,6 +14732,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Blind] Effect",
 				text="{0}% reduced Blind Effect"
 			}
 		},
@@ -13857,6 +14754,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Teleports +{0} metres",
 				text="Teleports +{0} metres"
 			},
 			[2]={
@@ -13870,6 +14768,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Teleports {0} metres",
 				text="Teleports {0} metres"
 			}
 		},
@@ -13890,6 +14789,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CorruptedBlood|Corrupted Blood] deals {0}% of slain Enemy's maximum Life as [Physical] damage per second",
 				text="Corrupted Blood deals {0}% of slain Enemy's maximum Life as Physical damage per second"
 			}
 		},
@@ -13910,6 +14810,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Blood Boil applies to [Rarity|non-Unique] enemies\nin your [Presence] every second",
 				text="Blood Boil applies to non-Unique enemies\nin your Presence every second"
 			},
 			[2]={
@@ -13923,6 +14824,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blood Boil applies to [Rarity|non-Unique] enemies\nin your [Presence] every {0} seconds",
 				text="Blood Boil applies to non-Unique enemies\nin your Presence every {0} seconds"
 			}
 		},
@@ -13939,6 +14841,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [CorruptedBlood|Corrupted Blood] infliction Area of Effect\nper Blood Boil on slain Enemy",
 				text="{0}% more Corrupted Blood infliction Area of Effect\nper Blood Boil on slain Enemy"
 			},
 			[2]={
@@ -13952,6 +14855,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [CorruptedBlood|Corrupted Blood] infliction Area of Effect\nper Blood Boil on slain Enemy",
 				text="{0}% less Corrupted Blood infliction Area of Effect\nper Blood Boil on slain Enemy"
 			}
 		},
@@ -13968,6 +14872,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Effects of Boiling Blood Linger for 1 second",
 				text="Effects of Boiling Blood Linger for 1 second"
 			},
 			[2]={
@@ -13981,6 +14886,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Effects of Boiling Blood Linger for {0} seconds",
 				text="Effects of Boiling Blood Linger for {0} seconds"
 			}
 		},
@@ -13997,6 +14903,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill costs {0}% more Life",
 				text="This Skill costs {0}% more Life"
 			},
 			[2]={
@@ -14010,6 +14917,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="This Skill cost {0}% less Life",
 				text="This Skill cost {0}% less Life"
 			}
 		},
@@ -14030,6 +14938,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gain a Blood Charge if this Skill Hits Enemies and none of them Die\nLose a Blood Charge and Recover {1}% of maximum Life when an Enemy Dies while affected by this Skill's Debuff",
 				text="Gain a Blood Charge if this Skill Hits Enemies and none of them Die\nLose a Blood Charge and Recover {1}% of maximum Life when an Enemy Dies while affected by this Skill's Debuff"
 			},
 			[2]={
@@ -14043,6 +14952,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gain a Blood Charge if this Skill Hits Enemies and none of them Die\nLose a Blood Charge when an Enemy Dies while affected by this Skill's Debuff",
 				text="Gain a Blood Charge if this Skill Hits Enemies and none of them Die\nLose a Blood Charge when an Enemy Dies while affected by this Skill's Debuff"
 			},
 			[3]={
@@ -14056,6 +14966,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Recover {1}% of maximum Life when an Enemy Dies while affected by this Skill's Debuff",
 				text="Recover {1}% of maximum Life when an Enemy Dies while affected by this Skill's Debuff"
 			}
 		},
@@ -14073,6 +14984,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Blind Enemies on Hit with [Attack|Attacks] while in Sand Stance",
 				text="{0}% chance to Blind Enemies on Hit with Attacks while in Sand Stance"
 			},
 			[2]={
@@ -14082,6 +14994,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Blind Enemies on Hit with [Attack|Attacks] while in Sand Stance",
 				text="Blind Enemies on Hit with Attacks while in Sand Stance"
 			}
 		},
@@ -14098,6 +15011,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="[Attack|Attacks] have {0}% chance to cause Bleeding while in Blood Stance",
 				text="Attacks have {0}% chance to cause Bleeding while in Blood Stance"
 			},
 			[2]={
@@ -14107,6 +15021,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] cause Bleeding while in Blood Stance",
 				text="Attacks cause Bleeding while in Blood Stance"
 			}
 		},
@@ -14123,6 +15038,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Costs {0}% more Life per Blood Charge",
 				text="Costs {0}% more Life per Blood Charge"
 			},
 			[2]={
@@ -14136,6 +15052,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Cost s{0}% less Life per Blood Charge",
 				text="Cost s{0}% less Life per Blood Charge"
 			}
 		},
@@ -14152,6 +15069,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more Damage per Blood Charge",
 				text="Deals {0}% more Damage per Blood Charge"
 			},
 			[2]={
@@ -14165,6 +15083,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% less Damage per Blood Charge",
 				text="Deals {0}% less Damage per Blood Charge"
 			}
 		},
@@ -14181,6 +15100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff Duration is refreshed after you spend a total of {0} Life",
 				text="Buff Duration is refreshed after you spend a total of {0} Life"
 			}
 		},
@@ -14201,6 +15121,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires tendrils at up to {0} Target",
 				text="Fires tendrils at up to {0} Target"
 			},
 			[2]={
@@ -14214,6 +15135,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires tendrils at up to {0} Targets",
 				text="Fires tendrils at up to {0} Targets"
 			},
 			[3]={
@@ -14227,6 +15149,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires tendrils at up to {0:+d} Targets",
 				text="Fires tendrils at up to {0:+d} Targets"
 			},
 			[4]={
@@ -14240,6 +15163,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires tendrils at up to {0:+d} Target",
 				text="Fires tendrils at up to {0:+d} Target"
 			},
 			[5]={
@@ -14253,6 +15177,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires tendrils at up to {0:+d} Targets",
 				text="Fires tendrils at up to {0:+d} Targets"
 			}
 		},
@@ -14270,6 +15195,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage if not Consuming a Corpse",
 				text="{0}% increased Damage if not Consuming a Corpse"
 			},
 			[2]={
@@ -14283,6 +15209,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage if not Consuming a Corpse",
 				text="{0}% reduced Damage if not Consuming a Corpse"
 			}
 		},
@@ -14303,6 +15230,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems deal {0}% more Damage per Non-Golem Minion near them, up to {1}%",
 				text="Golems deal {0}% more Damage per Non-Golem Minion near them, up to {1}%"
 			}
 		},
@@ -14324,6 +15252,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Golems grant {0} to {1} additional Physical Damage for Non-Golem Minions",
 				text="Golems grant {0} to {1} additional Physical Damage for Non-Golem Minions"
 			}
 		},
@@ -14341,6 +15270,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shielded [Minion|Minions] take {0}% more Damage for 1 second after Shield is lost",
 				text="Shielded Minions take {0}% more Damage for 1 second after Shield is lost"
 			},
 			[2]={
@@ -14354,6 +15284,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shielded [Minion|Minions] take {0}% less Damage for 1 second after Shield is lost",
 				text="Shielded Minions take {0}% less Damage for 1 second after Shield is lost"
 			}
 		},
@@ -14370,6 +15301,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to grant +1 Trauma",
 				text="{0}% chance to grant +1 Trauma"
 			}
 		},
@@ -14386,6 +15318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Overcharged Brands Activate {0}% faster, +{0}% every 0.5 seconds",
 				text="Overcharged Brands Activate {0}% faster, +{0}% every 0.5 seconds"
 			}
 		},
@@ -14402,6 +15335,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Overcharged Brands expire {0}% faster, +{0}% every 0.5 seconds",
 				text="Overcharged Brands expire {0}% faster, +{0}% every 0.5 seconds"
 			}
 		},
@@ -14418,6 +15352,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends {0}% of Brand's Cost",
 				text="Spends {0}% of Brand's Cost"
 			}
 		},
@@ -14434,6 +15369,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Branded Enemies Explode on Death dealing a quarter of their maximum Life as Chaos damage",
 				text="Branded Enemies Explode on Death dealing a quarter of their maximum Life as Chaos damage"
 			}
 		},
@@ -14450,6 +15386,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="A [FlamesOfChayula|Flame of Chayula] manifests within 8.5m of\n you every second",
 				text="A Flame of Chayula manifests within 8.5m of\n you every second"
 			},
 			[2]={
@@ -14463,6 +15400,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A [FlamesOfChayula|Flame of Chayula] manifests within 8.5m of\n you every {0} seconds",
 				text="A Flame of Chayula manifests within 8.5m of\n you every {0} seconds"
 			}
 		},
@@ -14479,6 +15417,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Aura makes Smite strike {0:+d} target with lightning",
 				text="Aura makes Smite strike {0:+d} target with lightning"
 			},
 			[2]={
@@ -14488,6 +15427,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura makes Smite strike {0:+d} targets with lightning",
 				text="Aura makes Smite strike {0:+d} targets with lightning"
 			}
 		},
@@ -14512,6 +15452,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0} Steel Shards every {1} seconds",
 				text="Grants {0} Steel Shards every {1} seconds"
 			}
 		},
@@ -14529,6 +15470,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Scatters a burst of caltrops when you dodge",
 				text="Scatters a burst of caltrops when you dodge"
 			},
 			[2]={
@@ -14538,6 +15480,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Scatters {0} caltrops when you dodge",
 				text="Scatters {0} caltrops when you dodge"
 			}
 		},
@@ -14554,6 +15497,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot be [Empowered] by [Warcry|Warcries]",
 				text="Cannot be Empowered by Warcries"
 			}
 		},
@@ -14570,6 +15514,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [ArmourBreak|Break Armour]",
 				text="Cannot Break Armour"
 			}
 		},
@@ -14593,6 +15538,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Consume [Charges]",
 				text="Cannot Consume Charges"
 			}
 		},
@@ -14609,6 +15555,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict [Daze]",
 				text="Cannot inflict Daze"
 			}
 		},
@@ -14625,6 +15572,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You cannot gain [Charges|Power Charges] while using this Skill",
 				text="You cannot gain Power Charges while using this Skill"
 			}
 		},
@@ -14641,6 +15589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict [Blind]",
 				text="Cannot inflict Blind"
 			}
 		},
@@ -14657,6 +15606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot inflict Bloodstone Lances",
 				text="Cannot inflict Bloodstone Lances"
 			}
 		},
@@ -14673,6 +15623,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Knockback|Knock Enemies Back]",
 				text="Cannot Knock Enemies Back"
 			}
 		},
@@ -14689,6 +15640,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot cause [Pinned|Pin] buildup",
 				text="Cannot cause Pin buildup"
 			}
 		},
@@ -14709,6 +15661,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [HitDamage|Hit] with [Melee] [Attack|Attacks], modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the [HitDamage|Hit] will deal",
 				text="Gains {0} Energy per Power of enemies you Hit with Melee Attacks, modified by the percentage of the enemy's Ailment Threshold the Hit will deal"
 			}
 		},
@@ -14729,6 +15682,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [HitDamage|Hit] with [Melee] [Attack|Attacks], modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the [HitDamage|Hit] will deal",
 				text="Gains {0} Energy per Power of enemies you Hit with Melee Attacks, modified by the percentage of the enemy's Ailment Threshold the Hit will deal"
 			}
 		},
@@ -14749,6 +15703,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy|Energy] when you [Block|Block]",
 				text="Gains {0} Energy when you Block"
 			}
 		},
@@ -14769,6 +15724,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you\n[Critical|Critically Hit] with Skills, modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the Critical Hit will deal",
 				text="Gains {0} Energy per Power of enemies you\nCritically Hit with Skills, modified by the percentage of the enemy's Ailment Threshold the Critical Hit will deal"
 			}
 		},
@@ -14785,6 +15741,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Critical|Critical Hit] chance",
 				text="Buff grants {0}% increased Critical Hit chance"
 			},
 			[2]={
@@ -14798,6 +15755,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Critical|Critical Hit] chance",
 				text="Buff grants {0}% reduced Critical Hit chance"
 			}
 		},
@@ -14814,6 +15772,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Crit an Enemy",
 				text="{0}% chance to Trigger this Spell when you Crit an Enemy"
 			},
 			[2]={
@@ -14823,6 +15782,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Crit an Enemy",
 				text="Trigger this Spell when you Crit an Enemy"
 			}
 		},
@@ -14839,6 +15799,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] when you take Damage from a [HitDamage|Hit]",
 				text="Gains {0} Energy when you take Damage from a Hit"
 			}
 		},
@@ -14855,6 +15816,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers all Socketed Spells when you Die",
 				text="Triggers all Socketed Spells when you Die"
 			}
 		},
@@ -14875,6 +15837,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="[Buff] grants {0:+d} metre to Dodge Roll distance",
 				text="Buff grants {0:+d} metre to Dodge Roll distance"
 			},
 			[2]={
@@ -14888,6 +15851,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0:+d} metres to Dodge Roll distance",
 				text="Buff grants {0:+d} metres to Dodge Roll distance"
 			}
 		},
@@ -14908,6 +15872,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Energy] per metre travelled while dodge rolling",
 				text="Gain {0} Energy per metre travelled while dodge rolling"
 			}
 		},
@@ -14924,6 +15889,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you use a [Flask]",
 				text="{0}% chance to Trigger this Spell when you use a Flask"
 			},
 			[2]={
@@ -14933,6 +15899,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you use a [Flask]",
 				text="Trigger this Spell when you use a Flask"
 			}
 		},
@@ -14953,6 +15920,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Freeze] with\n[HitDamage|Hits] from Skills",
 				text="Gains {0} Energy per Power of enemies you Freeze with\nHits from Skills"
 			}
 		},
@@ -14973,6 +15941,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Ignite] with [HitDamage|Hits] from Skills, modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the [Ignite] will deal",
 				text="Gains {0} Energy per Power of enemies you Ignite with Hits from Skills, modified by the percentage of the enemy's Ailment Threshold the Ignite will deal"
 			}
 		},
@@ -14989,6 +15958,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] when you kill an enemy with a [Melee] [HitDamage|Hit]",
 				text="Gains {0} Energy when you kill an enemy with a Melee Hit"
 			}
 		},
@@ -15005,6 +15975,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} Energy per enemy [Power] when you [HeavyStun|Heavy Stun] an enemy with a [Melee] Hit",
 				text="Gains {0} Energy per enemy Power when you Heavy Stun an enemy with a Melee Hit"
 			}
 		},
@@ -15021,6 +15992,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} Energy per enemy [Power] when you [Stun] an enemy with a [Melee] Hit",
 				text="Gains {0} Energy per enemy Power when you Stun an enemy with a Melee Hit"
 			}
 		},
@@ -15037,6 +16009,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains 50 base [Energy] when a [Minion] is [MinionDeath|killed], modified by the [Minion|Minion's] [Power]",
 				text="Gains 50 base Energy when a Minion is killed, modified by the Minion's Power"
 			}
 		},
@@ -15057,6 +16030,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Shock] with\n[HitDamage|Hits] from Skills",
 				text="Gains {0} Energy per Power of enemies you Shock with\nHits from Skills"
 			}
 		},
@@ -15077,6 +16051,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When a [Charm] is used gains {0} [Energy] per Charge used",
 				text="When a Charm is used gains {0} Energy per Charge used"
 			}
 		},
@@ -15093,6 +16068,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to cast speed also affect this skill's cost",
 				text="Modifiers to cast speed also affect this skill's cost"
 			}
 		},
@@ -15109,6 +16085,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] when you are [Stun|Stunned]",
 				text="Gains {0} Energy when you are Stunned"
 			}
 		},
@@ -15125,6 +16102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} Energy per second while you are Channelling",
 				text="Gains {0} Energy per second while you are Channelling"
 			}
 		},
@@ -15141,6 +16119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Loses {0} Energy per second while you are not Channelling\nLoses all Energy when Reservation becomes inactive",
 				text="Loses {0} Energy per second while you are not Channelling\nLoses all Energy when Reservation becomes inactive"
 			}
 		},
@@ -15157,6 +16136,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Range",
 				text="{0}% increased Range"
 			},
 			[2]={
@@ -15170,6 +16150,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Range",
 				text="{0}% reduced Range"
 			}
 		},
@@ -15186,6 +16167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+1 Radius per {0} Rage",
 				text="+1 Radius per {0} Rage"
 			}
 		},
@@ -15202,6 +16184,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} Rage if this Skill Hits any Enemies",
 				text="Gain {0} Rage if this Skill Hits any Enemies"
 			}
 		},
@@ -15218,6 +16201,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Chaining range",
 				text="{0}% increased Chaining range"
 			},
 			[2]={
@@ -15231,6 +16215,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Chaining range",
 				text="{0}% reduced Chaining range"
 			}
 		},
@@ -15247,6 +16232,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to spawn an additional [ElementalInfusion|Infusion] [Remnant]",
 				text="{0}% chance to spawn an additional Infusion Remnant"
 			},
 			[2]={
@@ -15256,6 +16242,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spawns an additional [ElementalInfusion|Infusion] [Remnant]",
 				text="Spawns an additional Infusion Remnant"
 			}
 		},
@@ -15272,6 +16259,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to not count [Empowered] [Attack|Attacks]",
 				text="{0}% chance to not count Empowered Attacks"
 			},
 			[2]={
@@ -15281,6 +16269,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not count [Empowered] [Attack|Attacks]",
 				text="Does not count Empowered Attacks"
 			}
 		},
@@ -15297,6 +16286,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for Damage with [HitDamage|Hits] to be [Lucky]",
 				text="{0}% chance for Damage with Hits to be Lucky"
 			}
 		},
@@ -15313,6 +16303,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% chance to Summon a Skeleton Archer instead of a Skeleton Warrior",
 				text="{}% chance to Summon a Skeleton Archer instead of a Skeleton Warrior"
 			}
 		},
@@ -15330,6 +16321,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Benefits from consuming [Charges] have {0}% chance to be doubled",
 				text="Benefits from consuming Charges have {0}% chance to be doubled"
 			},
 			[2]={
@@ -15339,6 +16331,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Benefits from consuming [Charges] have {0}% chance to be doubled",
 				text="Benefits from consuming Charges have {0}% chance to be doubled"
 			},
 			[3]={
@@ -15348,6 +16341,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Benefits from consuming [Charges] are doubled",
 				text="Benefits from consuming Charges are doubled"
 			}
 		},
@@ -15364,6 +16358,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to also Poison a nearby Enemy when you inflict Poison",
 				text="{0}% chance to also Poison a nearby Enemy when you inflict Poison"
 			},
 			[2]={
@@ -15373,6 +16368,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Poison a nearby Enemy when you inflict Poison",
 				text="Poison a nearby Enemy when you inflict Poison"
 			}
 		},
@@ -15389,6 +16385,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to cause [Bleeding|Bleeding] while in Blood Stance",
 				text="{0}% chance to cause Bleeding while in Blood Stance"
 			},
 			[2]={
@@ -15398,6 +16395,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes [Bleeding|Bleeding] while in Blood Stance",
 				text="Causes Bleeding while in Blood Stance"
 			}
 		},
@@ -15414,6 +16412,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to inflict Bleeding with Hits on Maimed Enemies",
 				text="{0}% chance to inflict Bleeding with Hits on Maimed Enemies"
 			}
 		},
@@ -15430,6 +16429,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you [Attack] with Perforate or Lacerate",
 				text="This Skill is Triggered when you Attack with Perforate or Lacerate"
 			}
 		},
@@ -15446,6 +16446,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Warcry is Triggered by Ferocious Roar",
 				text="This Warcry is Triggered by Ferocious Roar"
 			}
 		},
@@ -15462,6 +16463,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced chance to [Daze]",
 				text="{0}% reduced chance to Daze"
 			},
 			[2]={
@@ -15471,6 +16473,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased chance to [Daze]",
 				text="{0}% increased chance to Daze"
 			}
 		},
@@ -15487,6 +16490,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less chance to [Daze]",
 				text="{0}% less chance to Daze"
 			},
 			[2]={
@@ -15496,6 +16500,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more chance to [Daze]",
 				text="{0}% more chance to Daze"
 			}
 		},
@@ -15512,6 +16517,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to deal Double Damage",
 				text="{0}% chance to deal Double Damage"
 			}
 		},
@@ -15528,6 +16534,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to deal Double Damage to Bleeding Enemies",
 				text="{0}% chance to deal Double Damage to Bleeding Enemies"
 			}
 		},
@@ -15544,6 +16551,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to double Stun Duration",
 				text="{0}% chance to double Stun Duration"
 			}
 		},
@@ -15560,6 +16568,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] have {0}% chance for an additional Projectile when [Fork|Forking]",
 				text="Projectiles have {0}% chance for an additional Projectile when Forking"
 			}
 		},
@@ -15577,6 +16586,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain an additional [Charges|Charge]",
 				text="{0}% chance to gain an additional Charge"
 			},
 			[2]={
@@ -15586,6 +16596,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance when you gain a [Charges|Charge] to gain an additional [Charges|Charge]",
 				text="{0}% chance when you gain a Charge to gain an additional Charge"
 			},
 			[3]={
@@ -15595,6 +16606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an additional [Charges|Charge] when you gain a [Charges|Charge]",
 				text="Gain an additional Charge when you gain a Charge"
 			}
 		},
@@ -15611,6 +16623,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain an additional random [Charges|Charge] when you gain a Charge",
 				text="{0}% chance to gain an additional random Charge when you gain a Charge"
 			},
 			[2]={
@@ -15620,6 +16633,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain an additional random [Charges|Charge] when you gain a Charge",
 				text="{0}% chance to gain an additional random Charge when you gain a Charge"
 			},
 			[3]={
@@ -15629,6 +16643,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an additional random [Charges|Charge] when you gain a Charge",
 				text="Gain an additional random Charge when you gain a Charge"
 			}
 		},
@@ -15660,6 +16675,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge when an Enemy Dies while in this Skill's Area",
 				text="{0}% chance to gain a Frenzy Charge when an Enemy Dies while in this Skill's Area"
 			},
 			[2]={
@@ -15677,6 +16693,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Frenzy Charge if an Enemy is in this Skill's Area",
 				text="{0}% chance to gain a Frenzy Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Frenzy Charge if an Enemy is in this Skill's Area"
 			},
 			[3]={
@@ -15694,6 +16711,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gain a Frenzy Charge when an Enemy Dies while in this Skill's Area",
 				text="Gain a Frenzy Charge when an Enemy Dies while in this Skill's Area"
 			},
 			[4]={
@@ -15711,6 +16729,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gain a Frenzy Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Frenzy Charge if an Enemy is in this Skill's Area",
 				text="Gain a Frenzy Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Frenzy Charge if an Enemy is in this Skill's Area"
 			},
 			[5]={
@@ -15728,6 +16747,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge when an Enemy Dies while in this Skill's Area",
 				text="{0}% chance to gain a Power Charge when an Enemy Dies while in this Skill's Area"
 			},
 			[6]={
@@ -15745,6 +16765,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Power Charge if an Enemy is in this Skill's Area",
 				text="{0}% chance to gain a Power Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Power Charge if an Enemy is in this Skill's Area"
 			},
 			[7]={
@@ -15762,6 +16783,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Power Charge when an Enemy Dies while in this Skill's Area",
 				text="Gain a Power Charge when an Enemy Dies while in this Skill's Area"
 			},
 			[8]={
@@ -15779,6 +16801,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Power Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Power Charge if an Enemy is in Skill's Area",
 				text="Gain a Power Charge when an Enemy Dies while in this Skill's Area\nEvery second, gain a Power Charge if an Enemy is in Skill's Area"
 			}
 		},
@@ -15797,6 +16820,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge when Projectile Hits a Rare or Unique Enemy",
 				text="{0}% chance to gain a Power Charge when Projectile Hits a Rare or Unique Enemy"
 			},
 			[2]={
@@ -15806,6 +16830,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Power Charge when Projectile Hits a Rare or Unique Enemy",
 				text="Gain a Power Charge when Projectile Hits a Rare or Unique Enemy"
 			}
 		},
@@ -15822,6 +16847,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hex has {0}% chance to affect Hexproof Enemies",
 				text="Hex has {0}% chance to affect Hexproof Enemies"
 			}
 		},
@@ -15838,6 +16864,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to inflict an additional Impale when this Skill inflicts Impale",
 				text="{0}% chance to inflict an additional Impale when this Skill inflicts Impale"
 			}
 		},
@@ -15854,6 +16881,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict Scorch, Brittle and Sapped",
 				text="{0}% chance to inflict Scorch, Brittle and Sapped"
 			},
 			[2]={
@@ -15863,6 +16891,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always inflict Scorch, Brittle and Sapped",
 				text="Always inflict Scorch, Brittle and Sapped"
 			}
 		},
@@ -15879,6 +16908,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to not destroy Consumed [Corpse]",
 				text="{0}% chance to not destroy Consumed Corpse"
 			}
 		},
@@ -15895,6 +16925,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to not remove an [ElementalInfusion|Infusion] but still count as consuming them",
 				text="{0}% chance to not remove an Infusion but still count as consuming them"
 			}
 		},
@@ -15911,6 +16942,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to not consume [ParriedDebuff|Parried Debuff]",
 				text="{0}% chance to not consume Parried Debuff"
 			}
 		},
@@ -15927,6 +16959,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="[Projectile|Projectiles] have {0}% chance to [Pierce] [Ignite|Ignited] Enemies",
 				text="Projectiles have {0}% chance to Pierce Ignited Enemies"
 			},
 			[2]={
@@ -15936,6 +16969,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Projectile|Projectiles] [Pierce] [Ignite|Ignited] Enemies",
 				text="Projectiles Pierce Ignited Enemies"
 			}
 		},
@@ -15952,6 +16986,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits can apply Poison more than once",
 				text="Hits can apply Poison more than once"
 			}
 		},
@@ -15968,6 +17003,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to retain 40% of [Glory] on use",
 				text="{0}% chance to retain 40% of Glory on use"
 			}
 		},
@@ -15984,6 +17020,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Sap Enemies in Chilling Areas",
 				text="{0}% chance to Sap Enemies in Chilling Areas"
 			},
 			[2]={
@@ -15997,6 +17034,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always Sap Enemies in Chilling Areas",
 				text="Always Sap Enemies in Chilling Areas"
 			}
 		},
@@ -16013,6 +17051,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Scorch Enemies",
 				text="{0}% chance to Scorch Enemies"
 			},
 			[2]={
@@ -16022,6 +17061,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always Scorch Enemies",
 				text="Always Scorch Enemies"
 			}
 		},
@@ -16038,6 +17078,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Summon a Phantasm when this Skill Hits a Rare or Unique Enemy",
 				text="{0}% chance to Summon a Phantasm when this Skill Hits a Rare or Unique Enemy"
 			},
 			[2]={
@@ -16047,6 +17088,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon a Phantasm when this Skill Hits a Rare or Unique Enemy",
 				text="Summon a Phantasm when this Skill Hits a Rare or Unique Enemy"
 			}
 		},
@@ -16063,6 +17105,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Summon a Phantasm when this Skill deals a [KillingBlow|Killing Blow]",
 				text="{0}% chance to Summon a Phantasm when this Skill deals a Killing Blow"
 			},
 			[2]={
@@ -16072,6 +17115,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon a Phantasm when this Skill deals a [KillingBlow|Killing Blow]",
 				text="Summon a Phantasm when this Skill deals a Killing Blow"
 			}
 		},
@@ -16095,6 +17139,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you attack with Mirror Arrow",
 				text="This Skill is Triggered when you attack with Mirror Arrow"
 			}
 		},
@@ -16111,6 +17156,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you Explode a Corpse using Detonate Dead",
 				text="This Skill is Triggered when you Explode a Corpse using Detonate Dead"
 			}
 		},
@@ -16127,6 +17173,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you Stun an Enemy with Heavy Strike or Boneshatter",
 				text="This Skill is Triggered when you Stun an Enemy with Heavy Strike or Boneshatter"
 			}
 		},
@@ -16143,6 +17190,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you Cast Storm Burst or Divine Ire",
 				text="This Skill is Triggered when you Cast Storm Burst or Divine Ire"
 			}
 		},
@@ -16159,6 +17207,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered every second while you Channel Winter Orb",
 				text="This Skill is Triggered every second while you Channel Winter Orb"
 			}
 		},
@@ -16175,6 +17224,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered at the Final Burst Location of Glacial Cascade",
 				text="This Skill is Triggered at the Final Burst Location of Glacial Cascade"
 			}
 		},
@@ -16191,6 +17241,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you attack with Blink Arrow",
 				text="This Skill is Triggered when you attack with Blink Arrow"
 			}
 		},
@@ -16207,6 +17258,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered on [Critical|Critical Hit] with Cleave or Reave",
 				text="This Skill is Triggered on Critical Hit with Cleave or Reave"
 			}
 		},
@@ -16223,6 +17275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when you attack with Split Arrow or Tornado Shot",
 				text="This Skill is Triggered when you attack with Split Arrow or Tornado Shot"
 			}
 		},
@@ -16239,6 +17292,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] this Skill when your Animated Guardian kills an enemy",
 				text="{0}% chance to Trigger this Skill when your Animated Guardian kills an enemy"
 			},
 			[2]={
@@ -16248,6 +17302,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger] this Skill when your Animated Guardian kills an enemy",
 				text="Trigger this Skill when your Animated Guardian kills an enemy"
 			}
 		},
@@ -16264,6 +17319,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when an Animated Weapon Kills an Enemy",
 				text="{0}% chance to Trigger this Skill when an Animated Weapon Kills an Enemy"
 			},
 			[2]={
@@ -16273,6 +17329,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when an Animated Weapon Kills an Enemy",
 				text="Trigger this Skill when an Animated Weapon Kills an Enemy"
 			}
 		},
@@ -16289,6 +17346,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Unnerve Enemies for 4 seconds on Hit",
 				text="{0}% chance to Unnerve Enemies for 4 seconds on Hit"
 			},
 			[2]={
@@ -16298,6 +17356,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Unnerve Enemies for 4 seconds on Hit",
 				text="Unnerve Enemies for 4 seconds on Hit"
 			}
 		},
@@ -16319,6 +17378,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Rage] cost is ignored for an additional {0} second",
 				text="Rage cost is ignored for an additional {0} second"
 			},
 			[2]={
@@ -16333,6 +17393,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rage] cost is ignored for an additional {0} seconds",
 				text="Rage cost is ignored for an additional {0} seconds"
 			},
 			[3]={
@@ -16346,6 +17407,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Rage] cost is ignored for first second of [Channelling]",
 				text="Rage cost is ignored for first second of Channelling"
 			},
 			[4]={
@@ -16359,6 +17421,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rage] cost is ignored for first {0} seconds of [Channelling]",
 				text="Rage cost is ignored for first {0} seconds of Channelling"
 			}
 		},
@@ -16375,6 +17438,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius per stage",
 				text="{0:+d} to radius per stage"
 			}
 		},
@@ -16391,6 +17455,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chaos Damage with Hits is Resisted by lowest Resistance instead",
 				text="Chaos Damage with Hits is Resisted by lowest Resistance instead"
 			}
 		},
@@ -16407,6 +17472,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased damage per [Charges|Charge]",
 				text="Buff grants {0}% increased damage per Charge"
 			},
 			[2]={
@@ -16420,6 +17486,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced damage per [Charges|Charge]",
 				text="Buff grants {0}% reduced damage per Charge"
 			}
 		},
@@ -16436,6 +17503,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to not remove [Charges] on use",
 				text="{0}% chance to not remove Charges on use"
 			}
 		},
@@ -16452,6 +17520,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] for each stage",
 				text="{0}% more Damage with Hits for each stage"
 			},
 			[2]={
@@ -16465,6 +17534,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] for each stage",
 				text="{0}% less Damage with Hits for each stage"
 			}
 		},
@@ -16481,6 +17551,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more Damage while Channelling if Illusion has finished moving",
 				text="Deals {0}% more Damage while Channelling if Illusion has finished moving"
 			}
 		},
@@ -16497,6 +17568,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits from Final wave deal {0}% of Damage per stage",
 				text="Hits from Final wave deal {0}% of Damage per stage"
 			}
 		},
@@ -16517,6 +17589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Illusion moves at {0}% of your Movement Speed",
 				text="Illusion moves at {0}% of your Movement Speed"
 			}
 		},
@@ -16533,6 +17606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chilled Ground from this Skill has a base effect of {0}%",
 				text="Chilled Ground from this Skill has a base effect of {0}%"
 			}
 		},
@@ -16549,6 +17623,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chilling Area has {0}% increased Movement Speed",
 				text="Chilling Area has {0}% increased Movement Speed"
 			},
 			[2]={
@@ -16562,6 +17637,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Chilling Area has {0}% reduced Movement Speed",
 				text="Chilling Area has {0}% reduced Movement Speed"
 			}
 		},
@@ -16585,6 +17661,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% increased [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Buff grants {0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -16598,6 +17675,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% reduced [CooldownRecovery|Cooldown Recovery Rate]",
 				text="Buff grants {0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -16614,6 +17692,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains a Stage when you Spend a total of {0} Mana while in Area",
 				text="Gains a Stage when you Spend a total of {0} Mana while in Area"
 			}
 		},
@@ -16630,6 +17709,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Cleave Area of Effect",
 				text="{0}% more Cleave Area of Effect"
 			},
 			[2]={
@@ -16643,6 +17723,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Cleave Area of Effect",
 				text="{0}% less Cleave Area of Effect"
 			}
 		},
@@ -16659,6 +17740,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Enemies that are on [LowLife|Low Life]",
 				text="{0}% more Damage with Hits against Enemies that are on Low Life"
 			},
 			[2]={
@@ -16672,6 +17754,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Enemies that are on [LowLife|Low Life]",
 				text="{0}% less Damage with Hits against Enemies that are on Low Life"
 			}
 		},
@@ -16688,6 +17771,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cleave has +1 to Radius per Nearby Enemy, up to +10",
 				text="Cleave has +1 to Radius per Nearby Enemy, up to +10"
 			}
 		},
@@ -16704,6 +17788,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Duration of Cold Ailments",
 				text="{0}% increased Duration of Cold Ailments"
 			},
 			[2]={
@@ -16717,6 +17802,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Duration of Cold Ailments",
 				text="{0}% reduced Duration of Cold Ailments"
 			}
 		},
@@ -16733,6 +17819,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Cold Ailments",
 				text="{0}% increased Effect of Cold Ailments"
 			},
 			[2]={
@@ -16746,6 +17833,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Cold Ailments",
 				text="{0}% reduced Effect of Cold Ailments"
 			}
 		},
@@ -16762,6 +17850,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Shatter] and leave Enemies still [Frozen]",
 				text="{0}% chance to Shatter and leave Enemies still Frozen"
 			}
 		},
@@ -16778,6 +17867,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Combat Rush",
 				text="{0}% increased Effect of Combat Rush"
 			},
 			[2]={
@@ -16791,6 +17881,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Combat Rush",
 				text="{0}% reduced Effect of Combat Rush"
 			}
 		},
@@ -17059,6 +18150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can target [Minion|Minions] with {0} Life or less",
 				text="Can target Minions with {0} Life or less"
 			}
 		},
@@ -17075,6 +18167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summoned Companion has {0}% increased [Attributes]",
 				text="Summoned Companion has {0}% increased Attributes"
 			},
 			[2]={
@@ -17088,6 +18181,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Summoned Companion has {0}% reduced [Attributes]",
 				text="Summoned Companion has {0}% reduced Attributes"
 			}
 		},
@@ -17104,6 +18198,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of [ConsecratedGround|Consecrated Ground]",
 				text="{0}% increased Effect of Consecrated Ground"
 			}
 		},
@@ -17120,6 +18215,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consecrated Ground applies {0}% increased Damage taken to Enemies",
 				text="Consecrated Ground applies {0}% increased Damage taken to Enemies"
 			},
 			[2]={
@@ -17133,6 +18229,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Consecrated Ground applies {0}% reduced Damage taken to Enemies",
 				text="Consecrated Ground applies {0}% reduced Damage taken to Enemies"
 			}
 		},
@@ -17149,6 +18246,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consecrated Ground grants Immunity to [Curse|Curses] to you and Allies",
 				text="Consecrated Ground grants Immunity to Curses to you and Allies"
 			}
 		},
@@ -17165,6 +18263,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Consecrated Ground Area",
 				text="{0}% increased Consecrated Ground Area"
 			},
 			[2]={
@@ -17178,6 +18277,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Consecrated Ground Area",
 				text="{0}% reduced Consecrated Ground Area"
 			}
 		},
@@ -17202,6 +18302,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Consumes {0} [Heat] if possible to\n[Gain] {1}% of damage as [Fire] damage",
 				text="Consumes {0} Heat if possible to\nGain {1}% of damage as Fire damage"
 			},
 			[2]={
@@ -17219,6 +18320,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes {0} [Heat] if possible to\ngain {2}% more [Ignite] [BuffMagnitude|Magnitude]",
 				text="Consumes {0} Heat if possible to\ngain {2}% more Ignite Magnitude"
 			}
 		},
@@ -17237,6 +18339,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Daze|Dazed] Enemies cannot [Evasion|Evade] [HitDamage|Hits]\n[Consume] [Daze] on [HitDamage|Hit]",
 				text="Dazed Enemies cannot Evade Hits\nConsume Daze on Hit"
 			}
 		},
@@ -17253,6 +18356,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume] [Daze] on Enemies to cause {0}% more [Stun|Stun Buildup]",
 				text="Consume Daze on Enemies to cause {0}% more Stun Buildup"
 			},
 			[2]={
@@ -17266,6 +18370,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume] [Daze] on Enemies to cause {0}% less [Stun|Stun Buildup]",
 				text="Consume Daze on Enemies to cause {0}% less Stun Buildup"
 			}
 		},
@@ -17282,6 +18387,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consume Enemy [Freeze|Freeze] to Guarantee a [Critical|Critical Hit]",
 				text="Consume Enemy Freeze to Guarantee a Critical Hit"
 			}
 		},
@@ -17298,6 +18404,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes [ArmourBreak|Fully Broken Armour] on enemies to guarantee a [Critical|Critical Hit]",
 				text="Consumes Fully Broken Armour on enemies to guarantee a Critical Hit"
 			}
 		},
@@ -17314,6 +18421,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy",
 				text="{0}% more damage with Hits per 5% Shock Effect on Enemy"
 			},
 			[2]={
@@ -17327,6 +18435,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy",
 				text="{0}% less damage with Hits per 5% Shock Effect on Enemy"
 			}
 		},
@@ -17343,6 +18452,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze], [Shock] and [Ignite] to trigger Elemental Discharge",
 				text="Consumes Freeze, Shock and Ignite to trigger Elemental Discharge"
 			}
 		},
@@ -17359,6 +18469,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Ignite] on [HitDamage|Hit]",
 				text="Consumes Ignite on Hit"
 			}
 		},
@@ -17375,6 +18486,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Contagion targets {0} additional Enemy when Cast",
 				text="Contagion targets {0} additional Enemy when Cast"
 			},
 			[2]={
@@ -17384,6 +18496,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Contagion targets {0} additional Enemies when Cast",
 				text="Contagion targets {0} additional Enemies when Cast"
 			}
 		},
@@ -17408,6 +18521,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{1:+d}% to maximum [Debuff] Damage bonus from spreading",
 				text="{1:+d}% to maximum Debuff Damage bonus from spreading"
 			},
 			[2]={
@@ -17425,6 +18539,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Debuff] deals {0}% more Damage for each\ntime it has spread, up to {1}%",
 				text="Debuff deals {0}% more Damage for each\ntime it has spread, up to {1}%"
 			}
 		},
@@ -17443,6 +18558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Converted Enemies deal {0}% increased Damage",
 				text="Converted Enemies deal {0}% increased Damage"
 			},
 			[2]={
@@ -17456,6 +18572,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Converted Enemies deal {0}% reduced Damage",
 				text="Converted Enemies deal {0}% reduced Damage"
 			}
 		},
@@ -17472,6 +18589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Converted Enemies have {0}% chance to Taunt on Hit",
 				text="Converted Enemies have {0}% chance to Taunt on Hit"
 			},
 			[2]={
@@ -17485,6 +18603,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Converted Enemies Taunt on Hit",
 				text="Converted Enemies Taunt on Hit"
 			}
 		},
@@ -17501,6 +18620,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of {0} Geysers at a time",
 				text="Maximum of {0} Geysers at a time"
 			}
 		},
@@ -17521,6 +18641,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Poison|Poisons] enemies as though dealing [Chaos|Chaos] damage equal to {0}% of [Corpse|Corpse's] maximum Life",
 				text="Poisons enemies as though dealing Chaos damage equal to {0}% of Corpse's maximum Life"
 			}
 		},
@@ -17537,6 +18658,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect if Consuming a corpse",
 				text="{0}% more Area of Effect if Consuming a corpse"
 			},
 			[2]={
@@ -17550,6 +18672,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect if Consuming a corpse",
 				text="{0}% less Area of Effect if Consuming a corpse"
 			}
 		},
@@ -17566,6 +18689,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to inflict an additional Corrupted Blood Debuff",
 				text="{0}% chance to inflict an additional Corrupted Blood Debuff"
 			}
 		},
@@ -17582,6 +18706,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Cover Enemies in Ash on Hit",
 				text="{0}% chance to Cover Enemies in Ash on Hit"
 			},
 			[2]={
@@ -17591,6 +18716,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cover Enemies in Ash on Hit",
 				text="Cover Enemies in Ash on Hit"
 			}
 		},
@@ -17611,6 +18737,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Creates a storm when you Kill a Shocked Enemy",
 				text="Creates a storm when you Kill a Shocked Enemy"
 			},
 			[2]={
@@ -17624,6 +18751,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Creates a storm when you Kill a Shocked Enemy or Shock an Enemy",
 				text="Creates a storm when you Kill a Shocked Enemy or Shock an Enemy"
 			}
 		},
@@ -17641,6 +18769,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Slipstreams grant {0}% increased Action Speed",
 				text="Slipstreams grant {0}% increased Action Speed"
 			},
 			[2]={
@@ -17654,6 +18783,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Slipstreams grant {0}% reduced Action Speed",
 				text="Slipstreams grant {0}% reduced Action Speed"
 			}
 		},
@@ -17670,6 +18800,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Explode a nearby Corpse when Firing Projectiles",
 				text="{0}% chance to Explode a nearby Corpse when Firing Projectiles"
 			}
 		},
@@ -17686,6 +18817,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance against Shocked Enemies",
 				text="{0}% increased Critical Hit Chance against Shocked Enemies"
 			},
 			[2]={
@@ -17699,6 +18831,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance against Shocked Enemies",
 				text="{0}% reduced Critical Hit Chance against Shocked Enemies"
 			}
 		},
@@ -17715,6 +18848,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted with [Critical|Critical Hits]",
 				text="{0}% increased Magnitude of Damaging Ailments inflicted with Critical Hits"
 			},
 			[2]={
@@ -17728,6 +18862,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted with [Critical|Critical Hits]",
 				text="{0}% reduced Magnitude of Damaging Ailments inflicted with Critical Hits"
 			}
 		},
@@ -17744,6 +18879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Poison] inflicted with [Critical|Critical Hits]",
 				text="{0}% increased Magnitude of Poison inflicted with Critical Hits"
 			},
 			[2]={
@@ -17757,6 +18893,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Poison] inflicted with [Critical|Critical Hits]",
 				text="{0}% reduced Magnitude of Poison inflicted with Critical Hits"
 			}
 		},
@@ -17773,6 +18910,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance per Power Charge",
 				text="{0}% increased Critical Hit Chance per Power Charge"
 			},
 			[2]={
@@ -17786,6 +18924,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance per Power Charge",
 				text="{0}% reduced Critical Hit Chance per Power Charge"
 			}
 		},
@@ -17802,6 +18941,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance per Inspiration Charge",
 				text="{0}% increased Critical Hit Chance per Inspiration Charge"
 			},
 			[2]={
@@ -17815,6 +18955,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance per Inspiration Charge",
 				text="{0}% reduced Critical Hit Chance per Inspiration Charge"
 			}
 		},
@@ -17831,6 +18972,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Critical|Critical Hit] Chance against Blinded Enemies",
 				text="{0}% increased Critical Hit Chance against Blinded Enemies"
 			},
 			[2]={
@@ -17844,6 +18986,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Critical|Critical Hit] Chance against Blinded Enemies",
 				text="{0}% reduced Critical Hit Chance against Blinded Enemies"
 			}
 		},
@@ -17867,6 +19010,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [CriticalDamageBonus|Critical Damage Bonus] for each blade",
 				text="{0:+d}% to Critical Damage Bonus for each blade"
 			}
 		},
@@ -17883,6 +19027,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]",
 				text="{0}% increased Critical Damage Bonus per Power Charge"
 			},
 			[2]={
@@ -17896,6 +19041,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [CriticalDamageBonus|Critical Damage Bonus] per [Charges|Power Charge]",
 				text="{0}% reduced Critical Damage Bonus per Power Charge"
 			}
 		},
@@ -17912,6 +19058,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Always reload when switching to this [Ammunition]",
 				text="Always reload when switching to this Ammunition"
 			}
 		},
@@ -17935,6 +19082,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Cruelty granted by this Skill",
 				text="{0}% increased Effect of Cruelty granted by this Skill"
 			},
 			[2]={
@@ -17948,6 +19096,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Cruelty granted by this Skill",
 				text="{0}% reduced Effect of Cruelty granted by this Skill"
 			}
 		},
@@ -17964,6 +19113,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Crush for 2 seconds on Hit",
 				text="{0}% chance to Crush for 2 seconds on Hit"
 			},
 			[2]={
@@ -17973,6 +19123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Crush for 2 seconds on Hit",
 				text="Crush for 2 seconds on Hit"
 			}
 		},
@@ -17989,6 +19140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[CullingStrike|Culling Strike] against [Frozen] enemies",
 				text="Culling Strike against Frozen enemies"
 			}
 		},
@@ -18016,6 +19168,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Curse] applies after {0} second delay",
 				text="Curse applies after {0} second delay"
 			},
 			[2]={
@@ -18029,6 +19182,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] applies after {0} seconds delay",
 				text="Curse applies after {0} seconds delay"
 			}
 		},
@@ -18049,6 +19203,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains 1 Stage every {0} seconds while Channelling",
 				text="Gains 1 Stage every {0} seconds while Channelling"
 			}
 		},
@@ -18065,6 +19220,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages",
 				text="Maximum {0} Stages"
 			}
 		},
@@ -18081,6 +19237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius per Stage",
 				text="{0:+d} to radius per Stage"
 			}
 		},
@@ -18101,6 +19258,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose 1 Stage every {0} seconds while not Channelling",
 				text="Lose 1 Stage every {0} seconds while not Channelling"
 			}
 		},
@@ -18117,6 +19275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Spell|Spells] cast by Apparition deal {0}% more Damage",
 				text="Spells cast by Apparition deal {0}% more Damage"
 			},
 			[2]={
@@ -18130,6 +19289,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Spell|Spells] cast by Apparition deal {0}% less Damage",
 				text="Spells cast by Apparition deal {0}% less Damage"
 			}
 		},
@@ -18146,6 +19306,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% increased Damage if you've lost an Endurance Charge in the past 8 seconds",
 				text="Deals {0}% increased Damage if you've lost an Endurance Charge in the past 8 seconds"
 			},
 			[2]={
@@ -18159,6 +19320,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% reduced Damage if you've lost an Endurance Charge in the past 8 seconds",
 				text="Deals {0}% reduced Damage if you've lost an Endurance Charge in the past 8 seconds"
 			}
 		},
@@ -18175,6 +19337,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage for each 200 Mana you have Spent [Recently]",
 				text="{0}% increased Damage for each 200 Mana you have Spent Recently"
 			},
 			[2]={
@@ -18188,6 +19351,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage for each 200 Mana you have Spent [Recently]",
 				text="{0}% reduced Damage for each 200 Mana you have Spent Recently"
 			}
 		},
@@ -18204,6 +19368,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill deals {0}% increased Damage with Hits for each time it has Chained",
 				text="This Skill deals {0}% increased Damage with Hits for each time it has Chained"
 			}
 		},
@@ -18220,6 +19385,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with [HitDamage|Hits] against Enemies that are on Full Life",
 				text="{0}% increased Damage with Hits against Enemies that are on Full Life"
 			},
 			[2]={
@@ -18233,6 +19399,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage with [HitDamage|Hits] against Enemies that are on Full Life",
 				text="{0}% reduced Damage with Hits against Enemies that are on Full Life"
 			}
 		},
@@ -18249,6 +19416,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy",
 				text="{0}% increased Damage with Hits per Freeze, Shock or Ignite on Enemy"
 			},
 			[2]={
@@ -18262,6 +19430,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy",
 				text="{0}% reduced Damage with Hits per Freeze, Shock or Ignite on Enemy"
 			}
 		},
@@ -18278,6 +19447,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage while Leeching Life",
 				text="{0}% increased Damage while Leeching Life"
 			},
 			[2]={
@@ -18291,6 +19461,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage while Leeching Life",
 				text="{0}% reduced Damage while Leeching Life"
 			}
 		},
@@ -18307,6 +19478,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage while Leeching Mana",
 				text="{0}% increased Damage while Leeching Mana"
 			},
 			[2]={
@@ -18320,6 +19492,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage while Leeching Mana",
 				text="{0}% reduced Damage while Leeching Mana"
 			}
 		},
@@ -18336,6 +19509,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage from Hits against targets affected by the Aura is taken from Totem's Life before the target",
 				text="{0}% of Damage from Hits against targets affected by the Aura is taken from Totem's Life before the target"
 			}
 		},
@@ -18352,6 +19526,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with Hits per [Curse] on Enemy",
 				text="{0}% increased Damage with Hits per Curse on Enemy"
 			},
 			[2]={
@@ -18365,6 +19540,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage with Hits per [Curse] on Enemy",
 				text="{0}% reduced Damage with Hits per Curse on Enemy"
 			}
 		},
@@ -18381,6 +19557,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with [HitDamage|Hits] against Enemies that are on [LowLife|Low Life]",
 				text="{0}% increased Damage with Hits against Enemies that are on Low Life"
 			}
 		},
@@ -18397,6 +19574,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DamagingAilments|Damaging Ailments] deal damage {0}% faster",
 				text="Damaging Ailments deal damage {0}% faster"
 			}
 		},
@@ -18413,6 +19591,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% Chance to fire an additional [Projectile] per [Chaos] damage over time [Debuff] on the Enemy",
 				text="{0}% Chance to fire an additional Projectile per Chaos damage over time Debuff on the Enemy"
 			}
 		},
@@ -18429,6 +19608,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per [Curse] applied",
 				text="{0}% more Damage per Curse applied"
 			}
 		},
@@ -18445,6 +19625,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Debuff Duration per [Curse] applied",
 				text="{0}% increased Debuff Duration per Curse applied"
 			}
 		},
@@ -18465,6 +19646,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Phasing for {0} seconds",
 				text="Grants Phasing for {0} seconds"
 			}
 		},
@@ -18481,6 +19663,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals no Elemental Damage",
 				text="Deals no Elemental Damage"
 			}
 		},
@@ -18497,6 +19680,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Affected Minions have {0}% increased [Attack] Speed",
 				text="Affected Minions have {0}% increased Attack Speed"
 			},
 			[2]={
@@ -18510,6 +19694,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Affected Minions have {0}% reduced [Attack] Speed",
 				text="Affected Minions have {0}% reduced Attack Speed"
 			}
 		},
@@ -18526,6 +19711,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Affected Minions have {0}% increased Cast Speed",
 				text="Affected Minions have {0}% increased Cast Speed"
 			},
 			[2]={
@@ -18539,6 +19725,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Affected Minions have {0}% reduced Cast Speed",
 				text="Affected Minions have {0}% reduced Cast Speed"
 			}
 		},
@@ -18555,6 +19742,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more Damage with Hits per affected Minion",
 				text="Deals {0}% more Damage with Hits per affected Minion"
 			},
 			[2]={
@@ -18568,6 +19756,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% less Damage with Hits per affected Minion",
 				text="Deals {0}% less Damage with Hits per affected Minion"
 			}
 		},
@@ -18584,6 +19773,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can affect {0} Minions",
 				text="Can affect {0} Minions"
 			}
 		},
@@ -18600,6 +19790,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Affected Minions have {0}% increased Movement Speed",
 				text="Affected Minions have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -18613,6 +19804,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Affected Minions have {0}% reduced Movement Speed",
 				text="Affected Minions have {0}% reduced Movement Speed"
 			}
 		},
@@ -18629,6 +19821,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Debilitate Enemies for 1 second on Hit",
 				text="Debilitate Enemies for 1 second on Hit"
 			},
 			[2]={
@@ -18638,6 +19831,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Debilitate Enemies for 1 second on Hit",
 				text="{0}% chance to Debilitate Enemies for 1 second on Hit"
 			}
 		},
@@ -18654,6 +19848,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] causes [Debuff|Debuffs] on you to expire {0}% faster",
 				text="Buff causes Debuffs on you to expire {0}% faster"
 			},
 			[2]={
@@ -18667,6 +19862,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] causes [Debuff|Debuffs] on you to expire {0}% slower",
 				text="Buff causes Debuffs on you to expire {0}% slower"
 			}
 		},
@@ -18683,6 +19879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to spawn an additional Corpse",
 				text="{0}% chance to spawn an additional Corpse"
 			}
 		},
@@ -18699,6 +19896,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Corpse spawned has {0}% chance to be a Forgotten Corpse",
 				text="Each Corpse spawned has {0}% chance to be a Forgotten Corpse"
 			}
 		},
@@ -18715,6 +19913,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of {0} corpses allowed",
 				text="Maximum of {0} corpses allowed"
 			}
 		},
@@ -18731,6 +19930,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to destroy [Corpse|Corpses] on kill",
 				text="{0}% chance to destroy Corpses on kill"
 			}
 		},
@@ -18747,6 +19947,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% increased Damage if the Corpse is Ignited",
 				text="Explosion deals {0}% increased Damage if the Corpse is Ignited"
 			},
 			[2]={
@@ -18760,6 +19961,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosion deals {0}% reduced Damage if the Corpse is Ignited",
 				text="Explosion deals {0}% reduced Damage if the Corpse is Ignited"
 			}
 		},
@@ -18780,6 +19982,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0}% of maximum Life for each Mine Detonated",
 				text="Recover {0}% of maximum Life for each Mine Detonated"
 			}
 		},
@@ -18800,6 +20003,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{1:+d} to number of Maximum Stages",
 				text="{1:+d} to number of Maximum Stages"
 			},
 			[2]={
@@ -18813,6 +20017,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0}% of Damage as extra [Fire|Fire] Damage per Stage\nMaximum {1} Stages",
 				text="Gain {0}% of Damage as extra Fire Damage per Stage\nMaximum {1} Stages"
 			}
 		},
@@ -18830,6 +20035,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Only one Mine of this type can Detonate in each Detonation Sequence",
 				text="Only one Mine of this type can Detonate in each Detonation Sequence"
 			}
 		},
@@ -18846,6 +20052,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to deal Damage without removing Charges",
 				text="{0}% chance to deal Damage without removing Charges"
 			},
 			[2]={
@@ -18855,6 +20062,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals Damage without removing Charges",
 				text="Deals Damage without removing Charges"
 			}
 		},
@@ -18871,6 +20079,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage if three different Charge types removed",
 				text="{0}% increased Damage if three different Charge types removed"
 			},
 			[2]={
@@ -18884,6 +20093,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage if three different Charge types removed",
 				text="{0}% reduced Damage if three different Charge types removed"
 			}
 		},
@@ -18900,6 +20110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for an additional Shockwave",
 				text="{0}% chance for an additional Shockwave"
 			}
 		},
@@ -18916,6 +20127,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Beam Width Per Intensity\n33% less branching angle per Intensity",
 				text="{0:+d} to Beam Width Per Intensity\n33% less branching angle per Intensity"
 			}
 		},
@@ -18932,6 +20144,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits per Intensity",
 				text="{0}% more Damage with Hits per Intensity"
 			},
 			[2]={
@@ -18945,6 +20158,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits per Intensity",
 				text="{0}% less Damage with Hits per Intensity"
 			}
 		},
@@ -18961,6 +20175,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased branching angle",
 				text="{0}% increased branching angle"
 			},
 			[2]={
@@ -18974,6 +20189,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced branching angle",
 				text="{0}% reduced branching angle"
 			}
 		},
@@ -18990,6 +20206,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires an additional [Projectile|Projectile] for every 2 prior Mines in Detonation Sequence",
 				text="Fires an additional Projectile for every 2 prior Mines in Detonation Sequence"
 			}
 		},
@@ -19006,6 +20223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires an additional [Projectile|Projectile] for every 4 prior Mines in Detonation Sequence",
 				text="Fires an additional Projectile for every 4 prior Mines in Detonation Sequence"
 			}
 		},
@@ -19022,6 +20240,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires an additional [Projectile|Projectile] for each prior Mine in Detonation Sequence",
 				text="Fires an additional Projectile for each prior Mine in Detonation Sequence"
 			}
 		},
@@ -19042,6 +20261,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cooldown is {0} seconds",
 				text="Cooldown is {0} seconds"
 			}
 		},
@@ -19062,6 +20282,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="100% of Physical Damage Converted to other Damage Types matching the Brand Gem's Tags",
 				text="100% of Physical Damage Converted to other Damage Types matching the Brand Gem's Tags"
 			}
 		},
@@ -19078,6 +20299,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Run speed is affected by movement speed modifiers instead of [Attack] speed modifiers",
 				text="Run speed is affected by movement speed modifiers instead of Attack speed modifiers"
 			}
 		},
@@ -19206,6 +20428,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Estimated off hand [Critical|Critical] Chance from Hit Chance@{0:+d}%",
 				text="Estimated off hand Critical Chance from Hit Chance@{0:+d}%"
 			},
 			[2]={
@@ -19227,6 +20450,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Estimated off hand [Critical|Critical] Chance from Hit Chance@{0:+d}% - {1:+d}%",
 				text="Estimated off hand Critical Chance from Hit Chance@{0:+d}% - {1:+d}%"
 			}
 		},
@@ -19244,6 +20468,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not [HitDamage|Hit], but inflicts [Bleeding] as though [HitDamage|Hitting] enemies",
 				text="Does not Hit, but inflicts Bleeding as though Hitting enemies"
 			}
 		},
@@ -19260,6 +20485,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not [HitDamage|Hit], but [Chill|Chills] enemies as though [HitDamage|Hitting] them",
 				text="Does not Hit, but Chills enemies as though Hitting them"
 			}
 		},
@@ -19276,6 +20502,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not [HitDamage|Hit], but [Ignite|Ignites] enemies as though [HitDamage|Hitting] them",
 				text="Does not Hit, but Ignites enemies as though Hitting them"
 			}
 		},
@@ -19292,6 +20519,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not [HitDamage|Hit], but [Poison|Poisons] enemies as though [HitDamage|Hitting] them",
 				text="Does not Hit, but Poisons enemies as though Hitting them"
 			}
 		},
@@ -19308,6 +20536,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applied [Curse|Curses] have {0}% increased [BuffMagnitude|Magnitudes]",
 				text="Applied Curses have {0}% increased Magnitudes"
 			},
 			[2]={
@@ -19321,6 +20550,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Applied [Curse|Curses] have {0}% reduced [BuffMagnitude|Magnitudes]",
 				text="Applied Curses have {0}% reduced Magnitudes"
 			}
 		},
@@ -19337,6 +20567,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Applied [Curse|Curses] have {0}% more [BuffMagnitude|Magnitudes]",
 				text="Applied Curses have {0}% more Magnitudes"
 			},
 			[2]={
@@ -19350,6 +20581,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Applied [Curse|Curses] have {0}% less [BuffMagnitude|Magnitudes]",
 				text="Applied Curses have {0}% less Magnitudes"
 			}
 		},
@@ -19397,6 +20629,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuff can have up to {0} layers of Damage",
 				text="Debuff can have up to {0} layers of Damage"
 			}
 		},
@@ -19413,6 +20646,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burning Debuff can have a maximum of {0} stages",
 				text="Burning Debuff can have a maximum of {0} stages"
 			}
 		},
@@ -19429,6 +20663,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Ascended Sentinel of Absolution\nAscended Sentinel does not count towards the regular limit",
 				text="Maximum {0} Ascended Sentinel of Absolution\nAscended Sentinel does not count towards the regular limit"
 			},
 			[2]={
@@ -19438,6 +20673,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Ascended Sentinels of Absolution\nAscended Sentinels do not count towards the regular limit",
 				text="Maximum {0} Ascended Sentinels of Absolution\nAscended Sentinels do not count towards the regular limit"
 			}
 		},
@@ -19454,6 +20690,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Ascended Sentinel of Dominance\nAscended Sentinel does not count towards the regular limits",
 				text="Maximum {0} Ascended Sentinel of Dominance\nAscended Sentinel does not count towards the regular limits"
 			},
 			[2]={
@@ -19463,6 +20700,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Ascended Sentinels of Dominance\nAscended Sentinels do not count towards the regular limits",
 				text="Maximum {0} Ascended Sentinels of Dominance\nAscended Sentinels do not count towards the regular limits"
 			}
 		},
@@ -19575,6 +20813,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Mine Detonates Instantly\nMines get {0}% more Detonation Speed for each prior Mine in Detonation Sequence",
 				text="First Mine Detonates Instantly\nMines get {0}% more Detonation Speed for each prior Mine in Detonation Sequence"
 			},
 			[2]={
@@ -19588,6 +20827,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Mine Detonates Instantly\nMines get {0}% less Detonation Speed for each prior Mine in Detonation Sequence",
 				text="First Mine Detonates Instantly\nMines get {0}% less Detonation Speed for each prior Mine in Detonation Sequence"
 			}
 		},
@@ -19604,6 +20844,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Strike Skills used by Mirage Saviours cannot target additional Enemies",
 				text="Strike Skills used by Mirage Saviours cannot target additional Enemies"
 			}
 		},
@@ -19620,6 +20861,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to [Melee] Strike Range also apply to this Skill's Area radius",
 				text="Modifiers to Melee Strike Range also apply to this Skill's Area radius"
 			}
 		},
@@ -19660,6 +20902,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers either Flames of Judgement or Storm of Judgement,\nalternating between the two",
 				text="Triggers either Flames of Judgement or Storm of Judgement,\nalternating between the two"
 			}
 		},
@@ -19676,6 +20919,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Cannot be Cast or Triggered while Elusive\nGrants Elusive",
 				text="Cannot be Cast or Triggered while Elusive\nGrants Elusive"
 			}
 		},
@@ -19692,6 +20936,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minimum 1 second between gaining Stages",
 				text="Minimum 1 second between gaining Stages"
 			}
 		},
@@ -19715,6 +20960,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff expiry rate cannot be modified",
 				text="Buff expiry rate cannot be modified"
 			}
 		},
@@ -19742,6 +20988,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[OverflowingChalice|Overflowing Chalice] duration@{0}s",
 				text="Overflowing Chalice duration@{0}s"
 			},
 			[2]={
@@ -19755,6 +21002,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[OverflowingChalice|Overflowing Chalice] duration@{0}s",
 				text="Overflowing Chalice duration@{0}s"
 			}
 		},
@@ -19775,6 +21023,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Orbs jump every {0} seconds",
 				text="Orbs jump every {0} seconds"
 			}
 		},
@@ -19791,6 +21040,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cooldown does not recover during Buff effect",
 				text="Cooldown does not recover during Buff effect"
 			}
 		},
@@ -19849,6 +21099,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Become Flame-Touched",
 				text="Become Flame-Touched"
 			}
 		},
@@ -19865,6 +21116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggers a Supported Spell from Linked target's location when they Hit an Enemy",
 				text="Triggers a Supported Spell from Linked target's location when they Hit an Enemy"
 			}
 		},
@@ -19881,6 +21133,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Your Triggered Spells Trigger twice, once from each Triggerbot's location\nThe additional Trigger ignores Cooldowns",
 				text="Your Triggered Spells Trigger twice, once from each Triggerbot's location\nThe additional Trigger ignores Cooldowns"
 			}
 		},
@@ -19897,6 +21150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Insanity",
 				text="Grants Insanity"
 			}
 		},
@@ -19913,6 +21167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Monsters from the Breach do not grant Experience or drop Items",
 				text="Monsters from the Breach do not grant Experience or drop Items"
 			}
 		},
@@ -19929,6 +21184,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased penalty to [Accuracy] Rating at range",
 				text="{0}% increased penalty to Accuracy Rating at range"
 			},
 			[2]={
@@ -19942,6 +21198,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced penalty to [Accuracy] Rating at range",
 				text="{0}% reduced penalty to Accuracy Rating at range"
 			},
 			[3]={
@@ -19951,6 +21208,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="No penalty to [Accuracy] Rating at range",
 				text="No penalty to Accuracy Rating at range"
 			}
 		},
@@ -19967,6 +21225,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased beam width",
 				text="{0}% increased beam width"
 			},
 			[2]={
@@ -19980,6 +21239,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced beam width",
 				text="{0}% reduced beam width"
 			}
 		},
@@ -19996,6 +21256,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage while Channelling",
 				text="{0}% more Damage while Channelling"
 			},
 			[2]={
@@ -20009,6 +21270,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage while Channelling",
 				text="{0}% less Damage while Channelling"
 			}
 		},
@@ -20025,6 +21287,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beam deals {0}% more Damage with Hits per Stage after the first",
 				text="Beam deals {0}% more Damage with Hits per Stage after the first"
 			}
 		},
@@ -20041,6 +21304,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain an additional Stage when Hitting a Normal or Magic Enemy",
 				text="{0}% chance to gain an additional Stage when Hitting a Normal or Magic Enemy"
 			}
 		},
@@ -20057,6 +21321,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains an additional Stage when Hitting a Rare or Unique Enemy",
 				text="Gains an additional Stage when Hitting a Rare or Unique Enemy"
 			}
 		},
@@ -20073,6 +21338,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies",
 				text="Gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies"
 			},
 			[2]={
@@ -20082,6 +21348,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies",
 				text="{0}% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies"
 			}
 		},
@@ -20098,6 +21365,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Critical|Critical Hit] Chance against Enemies that are on Full Life",
 				text="{0}% more Critical Hit Chance against Enemies that are on Full Life"
 			}
 		},
@@ -20114,6 +21382,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed while Dual Wielding",
 				text="{0}% more Attack Speed while Dual Wielding"
 			}
 		},
@@ -20134,6 +21403,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Aftershock|Aftershock] deals {0} to {1} Added [Attack|Attack] [Physical|Physical] Damage",
 				text="Aftershock deals {0} to {1} Added Attack Physical Damage"
 			}
 		},
@@ -20151,6 +21421,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initial Slam has {0}% increased Area of Effect",
 				text="Initial Slam has {0}% increased Area of Effect"
 			},
 			[2]={
@@ -20164,6 +21435,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Initial Slam has {0}% reduced Area of Effect",
 				text="Initial Slam has {0}% reduced Area of Effect"
 			}
 		},
@@ -20180,6 +21452,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with [HitDamage|Hits] for each Spike",
 				text="{0}% more Damage with Hits for each Spike"
 			},
 			[2]={
@@ -20193,6 +21466,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with [HitDamage|Hits] for each Spike",
 				text="{0}% less Damage with Hits for each Spike"
 			}
 		},
@@ -20216,6 +21490,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elemental Damage cannot be Reflected",
 				text="Elemental Damage cannot be Reflected"
 			}
 		},
@@ -20232,6 +21507,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Elemental Damage per Inspiration Charge",
 				text="{0}% more Elemental Damage per Inspiration Charge"
 			},
 			[2]={
@@ -20245,6 +21521,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Elemental Damage per Inspiration Charge",
 				text="{0}% less Elemental Damage per Inspiration Charge"
 			}
 		},
@@ -20261,6 +21538,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="80% more Area Radius against Enemies affected by an Ailment of the chosen Element",
 				text="80% more Area Radius against Enemies affected by an Ailment of the chosen Element"
 			}
 		},
@@ -20277,6 +21555,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="10% more Damage with Hits per Elemental Ailment on the Enemy",
 				text="10% more Damage with Hits per Elemental Ailment on the Enemy"
 			}
 		},
@@ -20297,6 +21576,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Freeze] with\n[HitDamage|Hits] from Skills",
 				text="Gains {0} Energy per Power of enemies you Freeze with\nHits from Skills"
 			}
 		},
@@ -20317,6 +21597,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Ignite] with [HitDamage|Hits] from Skills, modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the [Ignite] will deal",
 				text="Gains {0} Energy per Power of enemies you Ignite with Hits from Skills, modified by the percentage of the enemy's Ailment Threshold the Ignite will deal"
 			}
 		},
@@ -20337,6 +21618,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you [Shock] with\n[HitDamage|Hits] from Skills",
 				text="Gains {0} Energy per Power of enemies you Shock with\nHits from Skills"
 			}
 		},
@@ -20353,6 +21635,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage Penetrates {0}% Elemental Resistances",
 				text="Damage Penetrates {0}% Elemental Resistances"
 			}
 		},
@@ -20369,6 +21652,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Elusive from this Skill",
 				text="{0}% increased Effect of Elusive from this Skill"
 			},
 			[2]={
@@ -20382,6 +21666,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Elusive from this Skill",
 				text="{0}% reduced Effect of Elusive from this Skill"
 			}
 		},
@@ -20402,6 +21687,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d}% more Damage for each previous Ember fired in sequence",
 				text="{0:+d}% more Damage for each previous Ember fired in sequence"
 			},
 			[2]={
@@ -20415,6 +21701,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each previous Ember fired in sequence",
 				text="{0}% more Damage for each previous Ember fired in sequence"
 			},
 			[3]={
@@ -20432,6 +21719,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% less Damage for each previous Ember fired in sequence",
 				text="{0}% less Damage for each previous Ember fired in sequence"
 			}
 		},
@@ -20453,6 +21741,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} seconds to Cooldown while you have Glorious Madness",
 				text="+{0} seconds to Cooldown while you have Glorious Madness"
 			}
 		},
@@ -20477,6 +21766,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [Empowered] Skill's attack time is added to this skill's cooldown, to a maximum of {1} seconds",
 				text="{0}% of Empowered Skill's attack time is added to this skill's cooldown, to a maximum of {1} seconds"
 			}
 		},
@@ -20494,6 +21784,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] deal {0}% increased Damage",
 				text="Empowered Attacks deal {0}% increased Damage"
 			},
 			[2]={
@@ -20507,6 +21798,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] deal {0}% reduced Damage",
 				text="Empowered Attacks deal {0}% reduced Damage"
 			}
 		},
@@ -20523,6 +21815,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Grants {0} additional Endurance Charge",
 				text="Grants {0} additional Endurance Charge"
 			},
 			[2]={
@@ -20532,6 +21825,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0} additional Endurance Charges",
 				text="Grants {0} additional Endurance Charges"
 			}
 		},
@@ -20548,6 +21842,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuffed Enemies are also Chilled",
 				text="Debuffed Enemies are also Chilled"
 			}
 		},
@@ -20564,6 +21859,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Frozen become Covered in Frost for 4 seconds as they Unfreeze",
 				text="Enemies Frozen become Covered in Frost for 4 seconds as they Unfreeze"
 			}
 		},
@@ -20580,6 +21876,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Taunted by this Warcry are Intimidated",
 				text="Enemies Taunted by this Warcry are Intimidated"
 			}
 		},
@@ -20596,6 +21893,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Shocked by this Skill have {0}% increased Movement Speed",
 				text="Enemies Shocked by this Skill have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -20613,6 +21911,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies Shocked by this Skill have {0}% reduced Movement Speed",
 				text="Enemies Shocked by this Skill have {0}% reduced Movement Speed"
 			}
 		},
@@ -20629,6 +21928,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Shocked take {0}% increased Physical Damage",
 				text="Enemies Shocked take {0}% increased Physical Damage"
 			},
 			[2]={
@@ -20642,6 +21942,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies Shocked take {0}% reduced Physical Damage",
 				text="Enemies Shocked take {0}% reduced Physical Damage"
 			}
 		},
@@ -20665,6 +21966,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Overwhelm|Overwhelm] {0}% [Physical|Physical] Damage Reduction",
 				text="Overwhelm {0}% Physical Damage Reduction"
 			}
 		},
@@ -20681,6 +21983,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Energy] gained",
 				text="{0}% increased Energy gained"
 			},
 			[2]={
@@ -20694,6 +21997,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Energy] gained",
 				text="{0}% reduced Energy gained"
 			}
 		},
@@ -20710,6 +22014,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [EnergyShield|Energy Shield] Regeneration rate",
 				text="{0}% increased Energy Shield Regeneration rate"
 			},
 			[2]={
@@ -20723,6 +22028,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [EnergyShield|Energy Shield] Regeneration rate",
 				text="{0}% reduced Energy Shield Regeneration rate"
 			}
 		},
@@ -20739,6 +22045,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ensnared Enemies take {0}% increased Spell Damage",
 				text="Ensnared Enemies take {0}% increased Spell Damage"
 			},
 			[2]={
@@ -20752,6 +22059,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ensnared Enemies take {0}% reduced Spell Damage",
 				text="Ensnared Enemies take {0}% reduced Spell Damage"
 			}
 		},
@@ -20768,6 +22076,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Leaves a Lingering Blade in the ground for every Projectile fired",
 				text="Leaves a Lingering Blade in the ground for every Projectile fired"
 			},
 			[2]={
@@ -20777,6 +22086,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Leaves a Lingering Blades in the ground for every {0} Projectiles fired",
 				text="Leaves a Lingering Blades in the ground for every {0} Projectiles fired"
 			}
 		},
@@ -20793,6 +22103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% increased [Evasion] Rating and [Armour]",
 				text="Buff grants {0}% increased Evasion Rating and Armour"
 			},
 			[2]={
@@ -20806,6 +22117,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% reduced [Evasion] Rating and [Armour]",
 				text="Buff grants {0}% reduced Evasion Rating and Armour"
 			}
 		},
@@ -20822,6 +22134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased angle per stage, up to 300%",
 				text="{0}% increased angle per stage, up to 300%"
 			}
 		},
@@ -20838,6 +22151,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Final wave always Ignites",
 				text="Final wave always Ignites"
 			}
 		},
@@ -20854,6 +22168,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum stages",
 				text="{0} maximum stages"
 			}
 		},
@@ -20874,6 +22189,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius per stage, up to {1:+d}",
 				text="{0:+d} to radius per stage, up to {1:+d}"
 			}
 		},
@@ -20895,6 +22211,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Final wave deals {0}% more Damage with Hits",
 				text="Final wave deals {0}% more Damage with Hits"
 			},
 			[2]={
@@ -20912,6 +22229,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Final wave deals {0}% less Damage with Hits",
 				text="Final wave deals {0}% less Damage with Hits"
 			},
 			[3]={
@@ -20925,6 +22243,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Final wave deals {0}% more Damage with Hits",
 				text="Final wave deals {0}% more Damage with Hits"
 			}
 		},
@@ -20942,6 +22261,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Explosive Arrows stuck in an Enemy",
 				text="Maximum {0} Explosive Arrows stuck in an Enemy"
 			}
 		},
@@ -20965,6 +22285,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Extra Targets can be found {0}% further away",
 				text="Extra Targets can be found {0}% further away"
 			}
 		},
@@ -20981,6 +22302,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Inflicts [CriticalWeakness|Critical Weakness] on Hit",
 				text="Inflicts Critical Weakness on Hit"
 			},
 			[2]={
@@ -20990,6 +22312,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0} stacks of [CriticalWeakness|Critical Weakness] on Hit",
 				text="Inflicts {0} stacks of Critical Weakness on Hit"
 			}
 		},
@@ -21006,6 +22329,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Shard Spiral angle during flight",
 				text="{0}% increased Shard Spiral angle during flight"
 			},
 			[2]={
@@ -21019,6 +22343,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Shard Spiral angle during flight",
 				text="{0}% reduced Shard Spiral angle during flight"
 			}
 		},
@@ -21035,6 +22360,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Shard Spiral Frequency during flight",
 				text="{0}% increased Shard Spiral Frequency during flight"
 			},
 			[2]={
@@ -21048,6 +22374,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Shard Spiral Frequency during flight",
 				text="{0}% reduced Shard Spiral Frequency during flight"
 			}
 		},
@@ -21064,6 +22391,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bleeding inflicted by this Skill deals Damage {0}% faster",
 				text="Bleeding inflicted by this Skill deals Damage {0}% faster"
 			}
 		},
@@ -21092,6 +22420,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Recover {0} Life and {1} Mana over {2} second per [Corpse] [Consume|Consumed]",
 				text="Recover {0} Life and {1} Mana over {2} second per Corpse Consumed"
 			},
 			[2]={
@@ -21113,6 +22442,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0} Life and {1} Mana over {2} seconds per [Corpse] [Consume|Consumed]",
 				text="Recover {0} Life and {1} Mana over {2} seconds per Corpse Consumed"
 			}
 		},
@@ -21131,6 +22461,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains 1 [Energy] per {0} Mana spent",
 				text="Gains 1 Energy per {0} Mana spent"
 			}
 		},
@@ -21147,6 +22478,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[FinalStrike|Final Strike] targets {0} additional nearby enemy",
 				text="Final Strike targets {0} additional nearby enemy"
 			},
 			[2]={
@@ -21156,6 +22488,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[FinalStrike|Final Strike] targets {0} additional nearby enemies",
 				text="Final Strike targets {0} additional nearby enemies"
 			}
 		},
@@ -21176,6 +22509,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Additional Debuff stages add {0}% of Damage",
 				text="Additional Debuff stages add {0}% of Damage"
 			}
 		},
@@ -21192,6 +22526,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Total Fire Resistance penalty from all Beams cannot exceed {0:+d}%",
 				text="Total Fire Resistance penalty from all Beams cannot exceed {0:+d}%"
 			}
 		},
@@ -21208,6 +22543,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuff applies {0:+d}% Fire Resistance per stage",
 				text="Debuff applies {0:+d}% Fire Resistance per stage"
 			}
 		},
@@ -21224,6 +22560,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased beam length",
 				text="{0}% increased beam length"
 			},
 			[2]={
@@ -21237,6 +22574,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced beam length",
 				text="{0}% reduced beam length"
 			}
 		},
@@ -21253,6 +22591,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to Fire Damage over Time Multiplier",
 				text="{0:+d}% to Fire Damage over Time Multiplier"
 			}
 		},
@@ -21269,6 +22608,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles gain Radius as they travel farther, up to {0:+d} Radius",
 				text="Projectiles gain Radius as they travel farther, up to {0:+d} Radius"
 			}
 		},
@@ -21285,6 +22625,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Final Impact deals {0}% more Damage with Hits",
 				text="Final Impact deals {0}% more Damage with Hits"
 			},
 			[2]={
@@ -21298,6 +22639,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Final Impact deals {0}% less  Damage with Hits",
 				text="Final Impact deals {0}% less  Damage with Hits"
 			}
 		},
@@ -21314,6 +22656,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Impact has {0}% more Area of Effect",
 				text="First Impact has {0}% more Area of Effect"
 			},
 			[2]={
@@ -21327,6 +22670,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="First Impact has {0}% less Area of Effect",
 				text="First Impact has {0}% less Area of Effect"
 			}
 		},
@@ -21343,6 +22687,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Impact deals {0}% more Damage with Hits",
 				text="First Impact deals {0}% more Damage with Hits"
 			},
 			[2]={
@@ -21356,6 +22701,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="First Impact deals {0}% less  Damage with Hits",
 				text="First Impact deals {0}% less  Damage with Hits"
 			}
 		},
@@ -21372,6 +22718,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts Fire Exposure on Enemies entering the wall, lowering their Total Fire Resistance by {0}%",
 				text="Inflicts Fire Exposure on Enemies entering the wall, lowering their Total Fire Resistance by {0}%"
 			}
 		},
@@ -21388,6 +22735,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill's Duration cannot be modified",
 				text="This Skill's Duration cannot be modified"
 			}
 		},
@@ -21404,6 +22752,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Burning Damage",
 				text="{0}% more Burning Damage"
 			},
 			[2]={
@@ -21417,6 +22766,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Burning Damage",
 				text="{0}% less Burning Damage"
 			}
 		},
@@ -21437,6 +22787,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds",
 				text="Hits on Ignited Enemies create Burning Ground, no more than once every {0} seconds"
 			}
 		},
@@ -21453,6 +22804,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burning Ground deals {0}% of Fire Damage per second of Ignite affecting Enemy",
 				text="Burning Ground deals {0}% of Fire Damage per second of Ignite affecting Enemy"
 			}
 		},
@@ -21469,6 +22821,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Ignite] inflicted by [Projectile|Projectiles] which have passed through the Wall",
 				text="{0}% more Magnitude of Ignite inflicted by Projectiles which have passed through the Wall"
 			},
 			[2]={
@@ -21482,6 +22835,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Ignite] inflicted by [Projectile|Projectiles] which have passed through the Wall",
 				text="{0}% less Magnitude of Ignite inflicted by Projectiles which have passed through the Wall"
 			}
 		},
@@ -21498,6 +22852,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per Stage",
 				text="{0}% more Area of Effect per Stage"
 			},
 			[2]={
@@ -21511,6 +22866,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect per Stage",
 				text="{0}% less Area of Effect per Stage"
 			}
 		},
@@ -21527,6 +22883,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits per 10 Life Reserved by this Skill",
 				text="{0}% more Damage with Hits per 10 Life Reserved by this Skill"
 			},
 			[2]={
@@ -21540,6 +22897,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits per 10 Life Reserved by this Skill",
 				text="{0}% less Damage with Hits per 10 Life Reserved by this Skill"
 			}
 		},
@@ -21560,6 +22918,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to Radius per 1% Life Reserved by this Skill",
 				text="{0:+d} to Radius per 1% Life Reserved by this Skill"
 			}
 		},
@@ -21576,6 +22935,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Stages",
 				text="{0} maximum Stages"
 			}
 		},
@@ -21592,6 +22952,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Starts with {0} additional Stages",
 				text="Starts with {0} additional Stages"
 			}
 		},
@@ -21608,6 +22969,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to Cast Speed apply to the rotation speed of the Flames",
 				text="Modifiers to Cast Speed apply to the rotation speed of the Flames"
 			}
 		},
@@ -21624,6 +22986,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Has {0} Flames",
 				text="Has {0} Flames"
 			}
 		},
@@ -21640,6 +23003,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Burning Enemies",
 				text="{0}% more Damage with Hits against Burning Enemies"
 			},
 			[2]={
@@ -21653,6 +23017,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Burning Enemies",
 				text="{0}% less Damage with Hits against Burning Enemies"
 			}
 		},
@@ -21669,6 +23034,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Flask|Flask] Charges used",
 				text="{0}% increased Flask Charges used"
 			},
 			[2]={
@@ -21686,6 +23052,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Flask|Flask] Charges used",
 				text="{0}% reduced Flask Charges used"
 			}
 		},
@@ -21702,6 +23069,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes {0} Charge from your Mana [Flask]",
 				text="Consumes {0} Charge from your Mana Flask"
 			},
 			[2]={
@@ -21711,6 +23079,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes {0} Charges from your Mana [Flask]",
 				text="Consumes {0} Charges from your Mana Flask"
 			}
 		},
@@ -21727,6 +23096,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Bleeding] inflicted",
 				text="{0}% more Magnitude of Bleeding inflicted"
 			},
 			[2]={
@@ -21740,6 +23110,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Bleeding] inflicted",
 				text="{0}% less Magnitude of Bleeding inflicted"
 			}
 		},
@@ -21760,6 +23131,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Inflict [Exposure|Cold Exposure] for {0} second on [HitDamage|Hit]",
 				text="Inflict Cold Exposure for {0} second on Hit"
 			},
 			[2]={
@@ -21769,6 +23141,7 @@ return {
 						[2]=4000
 					}
 				},
+				rawText="Inflicts [Exposure|Cold Exposure] on [HitDamage|Hit]",
 				text="Inflicts Cold Exposure on Hit"
 			},
 			[3]={
@@ -21782,6 +23155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict [Exposure|Cold Exposure] for {0} seconds on [HitDamage|Hit]",
 				text="Inflict Cold Exposure for {0} seconds on Hit"
 			}
 		},
@@ -21798,6 +23172,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage, if Charges were consumed from a Sulphur [Flask]",
 				text="Enemies Killed by their Hits have {0}% chance to Explode, dealing 10% of their Life as Physical Damage, if Charges were consumed from a Sulphur Flask"
 			}
 		},
@@ -21818,6 +23193,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Inflict [Exposure|Fire Exposure] for {0} second on [HitDamage|Hit]",
 				text="Inflict Fire Exposure for {0} second on Hit"
 			},
 			[2]={
@@ -21827,6 +23203,7 @@ return {
 						[2]=4000
 					}
 				},
+				rawText="Inflicts [Exposure|Fire Exposure] on [HitDamage|Hit]",
 				text="Inflicts Fire Exposure on Hit"
 			},
 			[3]={
@@ -21840,6 +23217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict [Exposure|Fire Exposure] for {0} seconds on [HitDamage|Hit]",
 				text="Inflict Fire Exposure for {0} seconds on Hit"
 			}
 		},
@@ -21860,6 +23238,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Inflicts [Exposure|Lightning Exposure] for {0} second on [HitDamage|Hit]",
 				text="Inflicts Lightning Exposure for {0} second on Hit"
 			},
 			[2]={
@@ -21869,6 +23248,7 @@ return {
 						[2]=4000
 					}
 				},
+				rawText="Inflicts [Exposure|Lightning Exposure] on [HitDamage|Hit]",
 				text="Inflicts Lightning Exposure on Hit"
 			},
 			[3]={
@@ -21882,6 +23262,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [Exposure|Lightning Exposure] for {0} seconds on [HitDamage|Hit]",
 				text="Inflicts Lightning Exposure for {0} seconds on Hit"
 			}
 		},
@@ -21898,6 +23279,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Added Chaos Damage equal to {0}% of [Flask|Flask's] Recovery Amount if Charges were consumed from a Life [Flask]",
 				text="Added Chaos Damage equal to {0}% of Flask's Recovery Amount if Charges were consumed from a Life Flask"
 			}
 		},
@@ -21918,6 +23300,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} Added [Cold|Cold] Damage if Charges were consumed from a Sapphire [Flask|Flask]",
 				text="Deals {0} to {1} Added Cold Damage if Charges were consumed from a Sapphire Flask"
 			}
 		},
@@ -21939,6 +23322,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0} to {1} Added Lightning Damage if Charges were consumed from a Topaz [Flask]",
 				text="Deals {0} to {1} Added Lightning Damage if Charges were consumed from a Topaz Flask"
 			}
 		},
@@ -21956,6 +23340,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="{0}% more Magnitude of Poison inflicted"
 			},
 			[2]={
@@ -21969,6 +23354,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="{0}% less Magnitude of Poison inflicted"
 			}
 		},
@@ -21985,6 +23371,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Ignite|Ignite] inflicted if Charges were consumed from a Ruby [Flask]",
 				text="{0}% increased Magnitude of Ignite inflicted if Charges were consumed from a Ruby Flask"
 			},
 			[2]={
@@ -21998,6 +23385,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Ignite|Ignite] inflicted if Charges were consumed from a Ruby [Flask]",
 				text="{0}% reduced Magnitude of Ignite inflicted if Charges were consumed from a Ruby Flask"
 			}
 		},
@@ -22014,6 +23402,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% increased Movement Speed",
 				text="Buff grants {0}% increased Movement Speed"
 			},
 			[2]={
@@ -22027,6 +23416,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% reduced Movement Speed",
 				text="Buff grants {0}% reduced Movement Speed"
 			}
 		},
@@ -22043,6 +23433,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased teleport range",
 				text="{0}% increased teleport range"
 			}
 		},
@@ -22059,6 +23450,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Hits Fortify",
 				text="Melee Hits Fortify"
 			}
 		},
@@ -22075,6 +23467,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Hits Fortify at Close Range",
 				text="Melee Hits Fortify at Close Range"
 			}
 		},
@@ -22091,6 +23484,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Guard] gained",
 				text="{0}% more Guard gained"
 			},
 			[2]={
@@ -22104,6 +23498,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Guard] gained",
 				text="{0}% less Guard gained"
 			}
 		},
@@ -22120,6 +23515,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Frozen by this Skill have {0:+d}% to Cold Resistance",
 				text="Enemies Frozen by this Skill have {0:+d}% to Cold Resistance"
 			}
 		},
@@ -22136,6 +23532,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Freeze|Freezes] inflicted last an additional 1 second",
 				text="Freezes inflicted last an additional 1 second"
 			},
 			[2]={
@@ -22149,6 +23546,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Freeze|Freezes] inflicted last an additional {0} seconds",
 				text="Freezes inflicted last an additional {0} seconds"
 			}
 		},
@@ -22169,6 +23567,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Freeze|Freezing] an Enemy [Chill|Chills] Enemies in {0} meter radius",
 				text="Freezing an Enemy Chills Enemies in {0} meter radius"
 			}
 		},
@@ -22185,6 +23584,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles continuously gain Damage, up to {0}% more Damage by the time they dissipate",
 				text="Projectiles continuously gain Damage, up to {0}% more Damage by the time they dissipate"
 			},
 			[2]={
@@ -22198,6 +23598,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles continuously lose Damage, up to {0}% less Damage by the time they dissipate",
 				text="Projectiles continuously lose Damage, up to {0}% less Damage by the time they dissipate"
 			}
 		},
@@ -22214,6 +23615,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Damage per Frenzy Charge",
 				text="{0}% more Attack Damage per Frenzy Charge"
 			},
 			[2]={
@@ -22227,6 +23629,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Damage per Frenzy Charge",
 				text="{0}% less Attack Damage per Frenzy Charge"
 			}
 		},
@@ -22243,6 +23646,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed per Frenzy Charge",
 				text="{0}% more Attack Speed per Frenzy Charge"
 			},
 			[2]={
@@ -22256,6 +23660,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed per Frenzy Charge",
 				text="{0}% less Attack Speed per Frenzy Charge"
 			}
 		},
@@ -22272,6 +23677,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Activation Frequency if 75% of Attached Duration expired",
 				text="{0}% more Activation Frequency if 75% of Attached Duration expired"
 			}
 		},
@@ -22288,6 +23694,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can explode from 1 Frostbolt Projectile",
 				text="Can explode from 1 Frostbolt Projectile"
 			},
 			[2]={
@@ -22297,6 +23704,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can explode from up to {0} Frostbolt Projectiles",
 				text="Can explode from up to {0} Frostbolt Projectiles"
 			}
 		},
@@ -22317,6 +23725,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Base Duration per Stage",
 				text="{0:+d} seconds to Base Duration per Stage"
 			}
 		},
@@ -22337,6 +23746,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] every {0} seconds",
 				text="Fires Projectiles every {0} seconds"
 			}
 		},
@@ -22353,6 +23763,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Duration per Stage",
 				text="{0}% increased Duration per Stage"
 			}
 		},
@@ -22369,6 +23780,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Projectile Frequency while Channelling",
 				text="{0}% more Projectile Frequency while Channelling"
 			}
 		},
@@ -22385,6 +23797,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Projectile Frequency per Stage",
 				text="{0}% increased Projectile Frequency per Stage"
 			}
 		},
@@ -22401,6 +23814,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages",
 				text="Maximum {0} Stages"
 			}
 		},
@@ -22417,6 +23831,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage dealt to you or Allies in Area with Hits by Enemies in Area is taken from Frost Shield's Life before your Life or [EnergyShield|Energy Shield]",
 				text="{0}% of Damage dealt to you or Allies in Area with Hits by Enemies in Area is taken from Frost Shield's Life before your Life or Energy Shield"
 			}
 		},
@@ -22433,6 +23848,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage dealt to you or Allies in Area with Hits by Enemies outside Area is taken from Frost Shield's Life before your Life or [EnergyShield|Energy Shield]",
 				text="{0}% of Damage dealt to you or Allies in Area with Hits by Enemies outside Area is taken from Frost Shield's Life before your Life or Energy Shield"
 			}
 		},
@@ -22453,6 +23869,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You gain {0:+d}% to Spell [Critical|Critical Hit] Chance per Stage while in Area",
 				text="You gain {0:+d}% to Spell Critical Hit Chance per Stage while in Area"
 			}
 		},
@@ -22469,6 +23886,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Frost Shield has {0} maximum Life per Stage",
 				text="Frost Shield has {0} maximum Life per Stage"
 			}
 		},
@@ -22489,6 +23907,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Frost Shield Regenerates {0}% of its maximum Life per second",
 				text="Frost Shield Regenerates {0}% of its maximum Life per second"
 			}
 		},
@@ -22505,6 +23924,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages",
 				text="Maximum {0} Stages"
 			}
 		},
@@ -22525,6 +23945,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains 1 Stage every {0} seconds while you are losing [EnergyShield|Energy Shield]",
 				text="Gains 1 Stage every {0} seconds while you are losing Energy Shield"
 			}
 		},
@@ -22548,6 +23969,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] gain {0}% increased [Projectile|Projectile] Speed per second",
 				text="Projectiles gain {0}% increased Projectile Speed per second"
 			},
 			[2]={
@@ -22561,6 +23983,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Projectile|Projectiles] gain {0}% reduced [Projectile|Projectile] Speed per second",
 				text="Projectiles gain {0}% reduced Projectile Speed per second"
 			}
 		},
@@ -22577,6 +24000,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Projectile|Projectile] Speed",
 				text="{0}% more Projectile Speed"
 			},
 			[2]={
@@ -22590,6 +24014,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Projectile|Projectile] Speed",
 				text="{0}% less Projectile Speed"
 			}
 		},
@@ -22606,6 +24031,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% chance to Summon an additional Statue without consuming a Cooldown use",
 				text="{}% chance to Summon an additional Statue without consuming a Cooldown use"
 			}
 		},
@@ -22622,6 +24048,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies [Frozen|Frozen] by this Skill take {0}% increased damage",
 				text="Enemies Frozen by this Skill take {0}% increased damage"
 			},
 			[2]={
@@ -22631,6 +24058,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies [Frozen|Frozen] by this Skill take {0}% reduced damage",
 				text="Enemies Frozen by this Skill take {0}% reduced damage"
 			}
 		},
@@ -22647,6 +24075,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fully Breaks [Armour] when inflicting a [HeavyStun|Heavy Stun]",
 				text="Fully Breaks Armour when inflicting a Heavy Stun"
 			}
 		},
@@ -22667,6 +24096,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fully Broken [Armour] lasts {0:+d} seconds",
 				text="Fully Broken Armour lasts {0:+d} seconds"
 			}
 		},
@@ -22687,6 +24117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits remove {0} seconds from Duration of Fully Broken [Armour] on Enemy",
 				text="Hits remove {0} seconds from Duration of Fully Broken Armour on Enemy"
 			}
 		},
@@ -22703,6 +24134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain 1 Rage on use",
 				text="{0}% chance to gain 1 Rage on use"
 			}
 		},
@@ -22719,6 +24151,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Volatility] on use while this skill is [Empowered]",
 				text="Gain {0} Volatility on use while this skill is Empowered"
 			}
 		},
@@ -22735,6 +24168,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain Elusive on [Critical|Critical Hit] with this Skill",
 				text="{0}% chance to gain Elusive on Critical Hit with this Skill"
 			},
 			[2]={
@@ -22744,6 +24178,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain Elusive on [Critical|Critical Hit] with this Skill",
 				text="Gain Elusive on Critical Hit with this Skill"
 			}
 		},
@@ -22764,6 +24199,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Melee] Hits Fortify for {0} seconds",
 				text="Melee Hits Fortify for {0} seconds"
 			}
 		},
@@ -22780,6 +24216,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy",
 				text="Buff grants {0}% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy"
 			}
 		},
@@ -22796,6 +24233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% chance to gain a Frenzy Charge when you Hit a Unique Enemy",
 				text="Buff grants {0}% chance to gain a Frenzy Charge when you Hit a Unique Enemy"
 			}
 		},
@@ -22812,6 +24250,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons",
 				text="{0}% chance to gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons"
 			},
 			[2]={
@@ -22821,6 +24260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons",
 				text="Gain a Frenzy Charge on Killing Blow against Enemies with at least 5 Poisons"
 			}
 		},
@@ -22837,6 +24277,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a [Charges|Power Charge] on [KillingBlow|Killing Blow]",
 				text="{0}% chance to gain a Power Charge on Killing Blow"
 			}
 		},
@@ -22860,6 +24301,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain 1 [Rage|Rage] on [HitDamage|Hit]",
 				text="{0}% chance to gain 1 Rage on Hit"
 			}
 		},
@@ -22876,6 +24318,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits for which the highest Damage Type is Elemental cause you to gain 25 [Affinity] of other Elements per second for 2 seconds",
 				text="Hits for which the highest Damage Type is Elemental cause you to gain 25 Affinity of other Elements per second for 2 seconds"
 			}
 		},
@@ -22892,6 +24335,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to gain an Inspiration Charge when you Spend Mana on Upfront Costs or Effects of this Skill",
 				text="{0}% chance to gain an Inspiration Charge when you Spend Mana on Upfront Costs or Effects of this Skill"
 			},
 			[2]={
@@ -22901,6 +24345,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain an Inspiration Charge when you Spend Mana on Upfront Costs or Effects of this Skill",
 				text="Gain an Inspiration Charge when you Spend Mana on Upfront Costs or Effects of this Skill"
 			}
 		},
@@ -22917,6 +24362,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} [Rage] on [HitDamage|Hit]",
 				text="Gain {0} Rage on Hit"
 			}
 		},
@@ -22944,6 +24390,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fires a beam every {0} second",
 				text="Fires a beam every {0} second"
 			},
 			[2]={
@@ -22957,6 +24404,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires a beam every {0} seconds",
 				text="Fires a beam every {0} seconds"
 			}
 		},
@@ -22973,6 +24421,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Field gains {0}% more Damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy when created",
 				text="Field gains {0}% more Damage with Hits per 5% Shock Effect on Enemy when created"
 			},
 			[2]={
@@ -22986,6 +24435,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Field gains {0}% less Damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy when created",
 				text="Field gains {0}% less Damage with Hits per 5% Shock Effect on Enemy when created"
 			}
 		},
@@ -23002,6 +24452,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Field gains {0:+d} to Radius per 10% [Shock|Shock] Effect on Enemy when created",
 				text="Field gains {0:+d} to Radius per 10% Shock Effect on Enemy when created"
 			},
 			[2]={
@@ -23015,6 +24466,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Field gains {0:+d} to Radius per 10% [Shock|Shock] Effect on Enemy when created",
 				text="Field gains {0:+d} to Radius per 10% Shock Effect on Enemy when created"
 			}
 		},
@@ -23031,6 +24483,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% more [Fire] damage",
 				text="Grants {0}% more Fire damage"
 			},
 			[2]={
@@ -23044,6 +24497,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% less [Fire] damage",
 				text="Grants {0}% less Fire damage"
 			}
 		},
@@ -23060,6 +24514,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% more Magnitude of Damaging Ailments inflicted"
 			},
 			[2]={
@@ -23073,6 +24528,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% less Magnitude of Damaging Ailments inflicted"
 			}
 		},
@@ -23089,6 +24545,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] per Stage",
 				text="{0}% more Magnitude of Damaging Ailments per Stage"
 			},
 			[2]={
@@ -23102,6 +24559,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] per Stage",
 				text="{0}% less Magnitude of Damaging Ailments per Stage"
 			}
 		},
@@ -23118,6 +24576,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Mark|Marked] enemy deals {0}% more damage",
 				text="Marked enemy deals {0}% more damage"
 			},
 			[2]={
@@ -23135,6 +24594,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Mark|Marked] enemy deals {0}% less damage",
 				text="Marked enemy deals {0}% less damage"
 			}
 		},
@@ -23155,6 +24615,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Maximum [Energy|Energy] is {0}",
 				text="Maximum Energy is {0}"
 			},
 			[2]={
@@ -23168,6 +24629,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Maximum [Energy|Energy] is {0}\nTrigger all Socketed [Spell|Spells] and loses all [Energy|Energy] on reaching maximum [Energy|Energy]",
 				text="Maximum Energy is {0}\nTrigger all Socketed Spells and loses all Energy on reaching maximum Energy"
 			},
 			[3]={
@@ -23181,6 +24643,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Triggers all Socketed [Spell|Spells] and loses all [Energy|Energy] on reaching maximum [Energy|Energy]",
 				text="Triggers all Socketed Spells and loses all Energy on reaching maximum Energy"
 			}
 		},
@@ -23198,6 +24661,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bursts occur {0}% faster",
 				text="Bursts occur {0}% faster"
 			},
 			[2]={
@@ -23211,6 +24675,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Bursts occur {0}% slower",
 				text="Bursts occur {0}% slower"
 			}
 		},
@@ -23227,6 +24692,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [Bleeding|Bleeding] on [HitDamage|Hit]",
 				text="Inflicts Bleeding on Hit"
 			}
 		},
@@ -23243,6 +24709,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Knockback|Knocks Back] Enemies",
 				text="Knocks Back Enemies"
 			}
 		},
@@ -23259,6 +24726,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Maim|Maim] on [HitDamage|Hit]",
 				text="Maim on Hit"
 			}
 		},
@@ -23279,6 +24747,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Adds {0} to {1} Physical Damage against Bleeding Enemies",
 				text="Adds {0} to {1} Physical Damage against Bleeding Enemies"
 			}
 		},
@@ -23300,6 +24769,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Glorious Madness inflicts a random Touched Debuff every second",
 				text="Glorious Madness inflicts a random Touched Debuff every second"
 			},
 			[2]={
@@ -23313,6 +24783,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Glorious Madness inflicts a random Touched Debuff every {0} seconds",
 				text="Glorious Madness inflicts a random Touched Debuff every {0} seconds"
 			}
 		},
@@ -23329,6 +24800,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Buff Effect",
 				text="{0}% increased Buff Effect"
 			},
 			[2]={
@@ -23342,6 +24814,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Buff Effect",
 				text="{0}% reduced Buff Effect"
 			}
 		},
@@ -23358,6 +24831,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles deal {0}% more Damage with Hits per Intensity",
 				text="Projectiles deal {0}% more Damage with Hits per Intensity"
 			},
 			[2]={
@@ -23371,6 +24845,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles deal {0}% less Damage with Hits per Intensity",
 				text="Projectiles deal {0}% less Damage with Hits per Intensity"
 			}
 		},
@@ -23402,6 +24877,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Gains {0:+d}% more Radius per second, up to a maximum of {1:+d}%",
 				text="Gains {0:+d}% more Radius per second, up to a maximum of {1:+d}%"
 			},
 			[2]={
@@ -23419,6 +24895,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0}% more Radius per second, up to a maximum of {1}%",
 				text="Gains {0}% more Radius per second, up to a maximum of {1}%"
 			}
 		},
@@ -23437,6 +24914,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased angle",
 				text="{0}% increased angle"
 			},
 			[2]={
@@ -23450,6 +24928,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced angle",
 				text="{0}% reduced angle"
 			}
 		},
@@ -23466,6 +24945,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Freeze] enemies that are [PrimedFreeze|Primed for Freeze]",
 				text="Freeze enemies that are Primed for Freeze"
 			}
 		},
@@ -23486,6 +24966,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage if destroyed within 0.5 seconds by something other than you",
 				text="{0}% less damage if destroyed within 0.5 seconds by something other than you"
 			},
 			[2]={
@@ -23495,6 +24976,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage if not destroyed withint 0.5 seconds by something other than you",
 				text="{0}% more damage if not destroyed withint 0.5 seconds by something other than you"
 			}
 		},
@@ -23511,6 +24993,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Hazard|Hazards] created by this Skill rearm after being triggered",
 				text="Hazards created by this Skill rearm after being triggered"
 			},
 			[2]={
@@ -23520,6 +25003,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Hazard|Hazards] created by this Skill have {0}% chance to rearm after they are triggered",
 				text="Hazards created by this Skill have {0}% chance to rearm after they are triggered"
 			}
 		},
@@ -23536,6 +25020,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Virulence when you Poison an Enemy",
 				text="Grants Virulence when you Poison an Enemy"
 			}
 		},
@@ -23552,6 +25037,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% more [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="Buff grants {0}% more Magnitude of Poison inflicted"
 			},
 			[2]={
@@ -23565,6 +25051,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% less [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="Buff grants {0}% less Magnitude of Poison inflicted"
 			}
 		},
@@ -23581,6 +25068,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Fire] damage",
 				text="Buff grants {0}% increased Fire damage"
 			},
 			[2]={
@@ -23594,6 +25082,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Fire] damage",
 				text="Buff grants {0}% reduced Fire damage"
 			}
 		},
@@ -23610,6 +25099,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Physical] damage",
 				text="Buff grants {0}% increased Physical damage"
 			},
 			[2]={
@@ -23623,6 +25113,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Physical] damage",
 				text="Buff grants {0}% reduced Physical damage"
 			}
 		},
@@ -23639,6 +25130,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Cold] damage",
 				text="Buff grants {0}% increased Cold damage"
 			},
 			[2]={
@@ -23652,6 +25144,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Cold] damage",
 				text="Buff grants {0}% reduced Cold damage"
 			}
 		},
@@ -23668,6 +25161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon a Sentinel of Purity when you Kill an Enemy",
 				text="Summon a Sentinel of Purity when you Kill an Enemy"
 			}
 		},
@@ -23684,6 +25178,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Summon a Sentinel of Purity when you Hit a Rare or Unique Enemy",
 				text="{0}% chance to Summon a Sentinel of Purity when you Hit a Rare or Unique Enemy"
 			},
 			[2]={
@@ -23693,6 +25188,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summon a Sentinel of Purity when you Hit a Rare or Unique Enemy",
 				text="Summon a Sentinel of Purity when you Hit a Rare or Unique Enemy"
 			}
 		},
@@ -23709,6 +25205,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% more Physical Damage",
 				text="Buff grants {0}% more Physical Damage"
 			},
 			[2]={
@@ -23722,6 +25219,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% less Physical Damage",
 				text="Buff grants {0}% less Physical Damage"
 			}
 		},
@@ -23738,6 +25236,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased [Lightning] damage",
 				text="Buff grants {0}% increased Lightning damage"
 			},
 			[2]={
@@ -23751,6 +25250,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced [Lightning] damage",
 				text="Buff grants {0}% reduced Lightning damage"
 			}
 		},
@@ -23767,6 +25267,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hexes from Supported Skills Transfer to all Enemies in range {0} when Hexed Enemy dies",
 				text="Hexes from Supported Skills Transfer to all Enemies in range {0} when Hexed Enemy dies"
 			}
 		},
@@ -23783,6 +25284,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per 1 second of remaining duration on removed [Curse]",
 				text="{0}% more Damage per 1 second of remaining duration on removed Curse"
 			},
 			[2]={
@@ -23796,6 +25298,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per 1 second of remaining duration on removed [Curse]",
 				text="{0}% less Damage per 1 second of remaining duration on removed Curse"
 			}
 		},
@@ -23812,6 +25315,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits if Enemy is Hexed\nRemoves a Hex after Damaging",
 				text="{0}% more Damage with Hits if Enemy is Hexed\nRemoves a Hex after Damaging"
 			}
 		},
@@ -23828,6 +25332,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hindered Enemies deal {}% increased Chaos Damage",
 				text="Hindered Enemies deal {}% increased Chaos Damage"
 			},
 			[2]={
@@ -23841,6 +25346,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Hindered Enemies deal {}% reduced Chaos Damage",
 				text="Hindered Enemies deal {}% reduced Chaos Damage"
 			}
 		},
@@ -23857,6 +25363,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hindered Enemies take {0}% increased Chaos Damage",
 				text="Hindered Enemies take {0}% increased Chaos Damage"
 			}
 		},
@@ -23873,6 +25380,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Damage with [HitDamage|Hits] against [Chill|Chilled] Enemies",
 				text="{0}% increased Damage with Hits against Chilled Enemies"
 			},
 			[2]={
@@ -23886,6 +25394,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Damage with [HitDamage|Hits] against [Chill|Chilled] Enemies",
 				text="{0}% reduced Damage with Hits against Chilled Enemies"
 			}
 		},
@@ -23902,6 +25411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Stun] buildup",
 				text="{0}% increased Stun buildup"
 			},
 			[2]={
@@ -23915,6 +25425,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Stun] buildup",
 				text="{0}% reduced Stun buildup"
 			}
 		},
@@ -23931,6 +25442,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits Stun Enemies with Fully Broken [Armour] as if dealing {0}% more Damage",
 				text="Hits Stun Enemies with Fully Broken Armour as if dealing {0}% more Damage"
 			},
 			[2]={
@@ -23944,6 +25456,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Hits Stun Enemies with Fully Broken [Armour] as if dealing {0}% more Damage",
 				text="Hits Stun Enemies with Fully Broken Armour as if dealing {0}% more Damage"
 			}
 		},
@@ -23960,6 +25473,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for [HitDamage|Hits] to cause [Daze|Daze Buildup]",
 				text="{0}% chance for Hits to cause Daze Buildup"
 			}
 		},
@@ -23976,6 +25490,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits grant Cruelty",
 				text="Hits grant Cruelty"
 			}
 		},
@@ -23992,6 +25507,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits ignore Enemy Monster Resistances",
 				text="Hits ignore Enemy Monster Resistances"
 			}
 		},
@@ -24008,6 +25524,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[HitDamage|Hits] ignore Enemy Monster [Physical|Physical] Damage Reduction",
 				text="Hits ignore Enemy Monster Physical Damage Reduction"
 			}
 		},
@@ -24024,6 +25541,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0}% of Physical Damage as Extra Fire Damage while using Totem is linked to Searing Bond",
 				text="Gains {0}% of Physical Damage as Extra Fire Damage while using Totem is linked to Searing Bond"
 			}
 		},
@@ -24040,6 +25558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased teleport range",
 				text="{0}% increased teleport range"
 			}
 		},
@@ -24060,6 +25579,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Holy Relic's Nova Skill grants {0} Life regenerated per second to Allies",
 				text="Holy Relic's Nova Skill grants {0} Life regenerated per second to Allies"
 			}
 		},
@@ -24076,6 +25596,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Holy Relic's Nova Skill grants {0} Life regenerated per second to Minions",
 				text="Holy Relic's Nova Skill grants {0} Life regenerated per second to Minions"
 			}
 		},
@@ -24096,6 +25617,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] per second@{0}",
 				text="Attacks per second@{0}"
 			}
 		},
@@ -24123,6 +25645,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Casts per second@{0}",
 				text="Casts per second@{0}"
 			}
 		},
@@ -24150,6 +25673,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulses every {0} seconds while Frozen, Shocked, Brittle or Sapped",
 				text="Pulses every {0} seconds while Frozen, Shocked, Brittle or Sapped"
 			}
 		},
@@ -24170,6 +25694,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can only be Hit once every {0} second",
 				text="Can only be Hit once every {0} second"
 			},
 			[2]={
@@ -24183,6 +25708,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can only be Hit once every {0} seconds",
 				text="Can only be Hit once every {0} seconds"
 			}
 		},
@@ -24199,6 +25725,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Stage deals {0}% more Damage",
 				text="First Stage deals {0}% more Damage"
 			},
 			[2]={
@@ -24212,6 +25739,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="First Stage deals {0}% less Damage",
 				text="First Stage deals {0}% less Damage"
 			}
 		},
@@ -24228,6 +25756,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more area of effect if [IceCrystalShatter|Shattered]",
 				text="{0}% more area of effect if Shattered"
 			}
 		},
@@ -24244,6 +25773,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage if [IceCrystalShatter|Shattered]",
 				text="{0}% more damage if Shattered"
 			}
 		},
@@ -24264,6 +25794,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage if destroyed within 0.5 seconds by something other than you",
 				text="{0}% less damage if destroyed within 0.5 seconds by something other than you"
 			},
 			[2]={
@@ -24273,6 +25804,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage if not destroyed withint 0.5 seconds by something other than you",
 				text="{0}% more damage if not destroyed withint 0.5 seconds by something other than you"
 			}
 		},
@@ -24293,6 +25825,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area",
 				text="{0}% increased Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% increased Cooldown Recovery Rate for each Rare or Unique Enemy in Area"
 			},
 			[2]={
@@ -24314,6 +25847,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% reduced Cooldown Recovery Rate for each Rare or Unique Enemy in Area",
 				text="{0}% reduced Cooldown Recovery Rate for each Normal or Magic Enemy in Area\n{1}% reduced Cooldown Recovery Rate for each Rare or Unique Enemy in Area"
 			}
 		},
@@ -24331,6 +25865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Travels {0}% increased distance before changing forms",
 				text="Travels {0}% increased distance before changing forms"
 			},
 			[2]={
@@ -24348,6 +25883,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Travels {0}% reduced distance before changing forms",
 				text="Travels {0}% reduced distance before changing forms"
 			}
 		},
@@ -24368,6 +25904,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Raising your shield infuses it with magma for {0} second",
 				text="Raising your shield infuses it with magma for {0} second"
 			},
 			[2]={
@@ -24381,6 +25918,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Raising your shield infuses it with magma for {0} seconds",
 				text="Raising your shield infuses it with magma for {0} seconds"
 			}
 		},
@@ -24404,6 +25942,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies [Ignite|Ignited] by this Skill have {0:+d}% to Fire [Resistances|Resistance]",
 				text="Enemies Ignited by this Skill have {0:+d}% to Fire Resistance"
 			}
 		},
@@ -24420,6 +25959,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuff deals {0}% more Damage per Stage",
 				text="Debuff deals {0}% more Damage per Stage"
 			}
 		},
@@ -24440,6 +25980,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Elemental Damage taken per Endurance Charge removed",
 				text="{0}% more Elemental Damage taken per Endurance Charge removed"
 			},
 			[2]={
@@ -24453,6 +25994,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Elemental Damage taken per Endurance Charge removed",
 				text="{0}% less Elemental Damage taken per Endurance Charge removed"
 			}
 		},
@@ -24469,6 +26011,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles which have Split deal {0}% more Damage",
 				text="Projectiles which have Split deal {0}% more Damage"
 			},
 			[2]={
@@ -24482,6 +26025,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles which have Split deal {0}% less Damage",
 				text="Projectiles which have Split deal {0}% less Damage"
 			}
 		},
@@ -24498,6 +26042,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Impale] [BuffMagnitude|Magnitude]",
 				text="{0}% increased Impale Magnitude"
 			},
 			[2]={
@@ -24511,6 +26056,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Impale] [BuffMagnitude|Magnitude]",
 				text="{0}% reduced Impale Magnitude"
 			}
 		},
@@ -24527,6 +26073,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Impale] Enemies on [HitDamage|Hit]",
 				text="{0}% chance to Impale Enemies on Hit"
 			},
 			[2]={
@@ -24536,6 +26083,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Impale] Enemies on [HitDamage|Hit]",
 				text="Impale Enemies on Hit"
 			}
 		},
@@ -24552,6 +26100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Cold Damage taken",
 				text="{0}% more Cold Damage taken"
 			},
 			[2]={
@@ -24565,6 +26114,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Cold Damage taken",
 				text="{0}% less Cold Damage taken"
 			}
 		},
@@ -24581,6 +26131,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Fire Damage taken",
 				text="{0}% more Fire Damage taken"
 			},
 			[2]={
@@ -24594,6 +26145,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Fire Damage taken",
 				text="{0}% less Fire Damage taken"
 			}
 		},
@@ -24610,6 +26162,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Lightning Damage taken",
 				text="{0}% more Lightning Damage taken"
 			},
 			[2]={
@@ -24623,6 +26176,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Lightning Damage taken",
 				text="{0}% less Lightning Damage taken"
 			}
 		},
@@ -24639,6 +26193,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Explosion applies Uncharged Debuff on Hit",
 				text="Explosion applies Uncharged Debuff on Hit"
 			},
 			[2]={
@@ -24648,6 +26203,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion has {0}% chance to apply Uncharged Debuff on Hit",
 				text="Explosion has {0}% chance to apply Uncharged Debuff on Hit"
 			}
 		},
@@ -24664,6 +26220,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Debuff deals {0}% of Damage per Charge",
 				text="Debuff deals {0}% of Damage per Charge"
 			}
 		},
@@ -24680,6 +26237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more [Fire] Damage per 1 [Power] of exploding [Corpse]",
 				text="Deals {0}% more Fire Damage per 1 Power of exploding Corpse"
 			}
 		},
@@ -24696,6 +26254,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [Exposure] on [HitDamage|Hit]",
 				text="Inflicts Exposure on Hit"
 			}
 		},
@@ -24716,6 +26275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure] on [Cold] [Critical|Critical Hit]@{0}s",
 				text="Exposure on Cold Critical Hit@{0}s"
 			}
 		},
@@ -24736,6 +26296,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure] on [Ignite]@{0}s",
 				text="Exposure on Ignite@{0}s"
 			}
 		},
@@ -24756,6 +26317,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure] on [Shock]@{0}s",
 				text="Exposure on Shock@{0}s"
 			}
 		},
@@ -24772,6 +26334,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict [Exposure] on [HitDamage|Hit]",
 				text="{0}% chance to inflict Exposure on Hit"
 			},
 			[2]={
@@ -24781,6 +26344,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflict [Exposure] on [HitDamage|Hit]",
 				text="Inflict Exposure on Hit"
 			}
 		},
@@ -24798,6 +26362,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance per [Power] to spawn a [Cold] [Remnant] on\n[Freeze|Freezing] a target",
 				text="{0:+d}% chance per Power to spawn a Cold Remnant on\nFreezing a target"
 			},
 			[2]={
@@ -24807,6 +26372,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance per [Power] to spawn a [Cold] [Remnant] on\n[Freeze|Freezing] a target",
 				text="{0}% chance per Power to spawn a Cold Remnant on\nFreezing a target"
 			}
 		},
@@ -24824,6 +26390,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to spawn a [Fire] [Remnant] on\n[Ignite|Igniting] a non-Ignited target",
 				text="{0:+d}% chance to spawn a Fire Remnant on\nIgniting a non-Ignited target"
 			},
 			[2]={
@@ -24833,6 +26400,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to spawn a [Fire] [Remnant] on\n[Ignite|Igniting] a non-Ignited target",
 				text="{0}% chance to spawn a Fire Remnant on\nIgniting a non-Ignited target"
 			}
 		},
@@ -24850,6 +26418,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to spawn a [Lightning] [Remnant] on\n[Shock|Shocking] a non-Shocked target",
 				text="{0:+d}% chance to spawn a Lightning Remnant on\nShocking a non-Shocked target"
 			},
 			[2]={
@@ -24859,6 +26428,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to spawn a [Lightning] [Remnant] on\n[Shock|Shocking] a non-Shocked target",
 				text="{0}% chance to spawn a Lightning Remnant on\nShocking a non-Shocked target"
 			}
 		},
@@ -24875,6 +26445,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Inspiration Charge Duration",
 				text="{0}% increased Inspiration Charge Duration"
 			},
 			[2]={
@@ -24888,6 +26459,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Inspiration Charge Duration",
 				text="{0}% reduced Inspiration Charge Duration"
 			}
 		},
@@ -24908,6 +26480,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chaos] damage per second@{0}",
 				text="Chaos damage per second@{0}"
 			}
 		},
@@ -24928,6 +26501,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chaos] damage per second@{0}",
 				text="Chaos damage per second@{0}"
 			}
 		},
@@ -24948,6 +26522,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Cold] damage per second@{0}",
 				text="Cold damage per second@{0}"
 			}
 		},
@@ -24968,6 +26543,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Cold] damage per second@{0}",
 				text="Cold damage per second@{0}"
 			}
 		},
@@ -24988,6 +26564,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Fire] damage per second@{0}",
 				text="Fire damage per second@{0}"
 			}
 		},
@@ -25008,6 +26585,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Fire] damage per second@{0}",
 				text="Fire damage per second@{0}"
 			}
 		},
@@ -25028,6 +26606,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Lightning] damage per second@{0}",
 				text="Lightning damage per second@{0}"
 			}
 		},
@@ -25048,6 +26627,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Lightning] damage per second@{0}",
 				text="Lightning damage per second@{0}"
 			}
 		},
@@ -25068,6 +26648,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Physical] damage per second@{0}",
 				text="Physical damage per second@{0}"
 			}
 		},
@@ -25088,6 +26669,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Physical] damage per second@{0}",
 				text="Physical damage per second@{0}"
 			}
 		},
@@ -25108,6 +26690,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Intimidate nearby Enemies for {0} seconds",
 				text="Intimidate nearby Enemies for {0} seconds"
 			}
 		},
@@ -25124,6 +26707,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Attack|Attacks] with this Skill count as Exerted",
 				text="Attacks with this Skill count as Exerted"
 			}
 		},
@@ -25147,6 +26731,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[KillingBlow|Killing Blows] [Consume] [Corpse|Corpses] to Recover {0}% of maximum Life",
 				text="Killing Blows Consume Corpses to Recover {0}% of maximum Life"
 			}
 		},
@@ -25163,6 +26748,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles gain {0}% increased Area of Effect after Forking",
 				text="Projectiles gain {0}% increased Area of Effect after Forking"
 			}
 		},
@@ -25179,6 +26765,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers which would cause projectiles to Fork instead cause them to change direction additional times",
 				text="Modifiers which would cause projectiles to Fork instead cause them to change direction additional times"
 			}
 		},
@@ -25195,6 +26782,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Knockback|Knock Enemies Back] with [HitDamage|Hits] at [CloseRange|Close Range]",
 				text="{0}% chance to Knock Enemies Back with Hits at Close Range"
 			}
 		},
@@ -25211,6 +26799,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits against Bleeding enemies",
 				text="{0}% more Damage with Hits against Bleeding enemies"
 			},
 			[2]={
@@ -25224,6 +26813,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits against Bleeding enemies",
 				text="{0}% less Damage with Hits against Bleeding enemies"
 			}
 		},
@@ -25240,6 +26830,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles deal up to {0}% increased Damage at the start of their movement, lowering this bonus as they travel farther",
 				text="Projectiles deal up to {0}% increased Damage at the start of their movement, lowering this bonus as they travel farther"
 			},
 			[2]={
@@ -25253,6 +26844,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles deal up to {0}% reduced Damage at the start of their movement, lowering this penalty as they travel farther",
 				text="Projectiles deal up to {0}% reduced Damage at the start of their movement, lowering this penalty as they travel farther"
 			}
 		},
@@ -25269,6 +26861,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits after the first on each Enemy deal {0}% more Damage",
 				text="Hits after the first on each Enemy deal {0}% more Damage"
 			},
 			[2]={
@@ -25282,6 +26875,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Hits after the first on each Enemy deal {0}% less Damage",
 				text="Hits after the first on each Enemy deal {0}% less Damage"
 			}
 		},
@@ -25298,6 +26892,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Clusters have {0}% increased Projectile targeting range",
 				text="Clusters have {0}% increased Projectile targeting range"
 			},
 			[2]={
@@ -25311,6 +26906,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Clusters have {0}% reduced Projectile targeting range",
 				text="Clusters have {0}% reduced Projectile targeting range"
 			}
 		},
@@ -25327,6 +26923,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[LifeLeech|Life Leech] recovers based on this Skill's [ElementalDamage|Elemental] damage as well as [Physical] damage",
 				text="Life Leech recovers based on this Skill's Elemental damage as well as Physical damage"
 			}
 		},
@@ -25350,6 +26947,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Lightning Ailments",
 				text="{0}% increased Effect of Lightning Ailments"
 			},
 			[2]={
@@ -25363,6 +26961,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Lightning Ailments",
 				text="{0}% reduced Effect of Lightning Ailments"
 			}
 		},
@@ -25379,6 +26978,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Hit an additional Enemy",
 				text="Hit an additional Enemy"
 			},
 			[2]={
@@ -25388,6 +26988,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Hit an additional Enemy",
 				text="{0}% chance to Hit an additional Enemy"
 			}
 		},
@@ -25404,6 +27005,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy",
 				text="{0}% more damage with Hits per 5% Shock Effect on Enemy"
 			},
 			[2]={
@@ -25417,6 +27019,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage with [HitDamage|Hits] per 5% [Shock|Shock] Effect on Enemy",
 				text="{0}% less damage with Hits per 5% Shock Effect on Enemy"
 			}
 		},
@@ -25433,6 +27036,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% Chance for an additional Burst on first impact",
 				text="{0}% Chance for an additional Burst on first impact"
 			}
 		},
@@ -25449,6 +27053,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stronger Pulses deal {0}% more Damage with Hits",
 				text="Stronger Pulses deal {0}% more Damage with Hits"
 			},
 			[2]={
@@ -25462,6 +27067,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Stronger Pulses deal {0}% less Damage with Hits",
 				text="Stronger Pulses deal {0}% less Damage with Hits"
 			}
 		},
@@ -25478,6 +27084,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stronger Pulses have {0:+d} to Radius",
 				text="Stronger Pulses have {0:+d} to Radius"
 			}
 		},
@@ -25498,6 +27105,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Strikes {0} Areas",
 				text="Strikes {0} Areas"
 			},
 			[2]={
@@ -25515,6 +27123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Strikes {0} Areas every {1} seconds",
 				text="Strikes {0} Areas every {1} seconds"
 			}
 		},
@@ -25536,6 +27145,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] lasts {0} second",
 				text="Shocked Ground lasts {0} second"
 			},
 			[2]={
@@ -25549,6 +27159,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[ShockedGround|Shocked Ground] lasts {0} seconds",
 				text="Shocked Ground lasts {0} seconds"
 			}
 		},
@@ -25572,6 +27183,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lose all Inspiration Charges after Spending {0} total Mana on Upfront Costs and Effects of this Skill",
 				text="Lose all Inspiration Charges after Spending {0} total Mana on Upfront Costs and Effects of this Skill"
 			}
 		},
@@ -25588,6 +27200,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0:+d}% to maximum [Block] Chance",
 				text="Buff grants {0:+d}% to maximum Block Chance"
 			}
 		},
@@ -25604,6 +27217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosions deal {0}% more Damage with Hits per Energy after the first",
 				text="Explosions deal {0}% more Damage with Hits per Energy after the first"
 			},
 			[2]={
@@ -25617,6 +27231,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosions deal {0}% less Damage with Hits per Energy after the first",
 				text="Explosions deal {0}% less Damage with Hits per Energy after the first"
 			}
 		},
@@ -25633,6 +27248,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to Detonate for Double Damage instead of Chaining",
 				text="{0}% chance to Detonate for Double Damage instead of Chaining"
 			}
 		},
@@ -25649,6 +27265,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Effect of Maim",
 				text="{0}% increased Effect of Maim"
 			},
 			[2]={
@@ -25662,6 +27279,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Effect of Maim",
 				text="{0}% reduced Effect of Maim"
 			}
 		},
@@ -25678,6 +27296,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Maim|Maim] on [HitDamage|Hit]",
 				text="{0}% chance to Maim on Hit"
 			},
 			[2]={
@@ -25687,6 +27306,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Maim|Maim] on [HitDamage|Hit]",
 				text="Maim on Hit"
 			}
 		},
@@ -25830,6 +27450,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Secondary Debuff deals {0}% of the total remaining Expected Poison Damage of all Poisons on the dying Enemy per second as Chaos Damage",
 				text="Secondary Debuff deals {0}% of the total remaining Expected Poison Damage of all Poisons on the dying Enemy per second as Chaos Damage"
 			}
 		},
@@ -25846,6 +27467,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain {0} Mana per Enemy Hit",
 				text="Gain {0} Mana per Enemy Hit"
 			},
 			[2]={
@@ -25859,6 +27481,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Lose {0} Mana per Enemy Hit",
 				text="Lose {0} Mana per Enemy Hit"
 			}
 		},
@@ -25875,6 +27498,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased Mana Regeneration Rate",
 				text="Buff grants {0}% increased Mana Regeneration Rate"
 			},
 			[2]={
@@ -25888,6 +27512,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced Mana Regeneration Rate",
 				text="Buff grants {0}% reduced Mana Regeneration Rate"
 			}
 		},
@@ -25908,6 +27533,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Effects of Mana Tempest linger for {0} second after leaving the Tempest",
 				text="Effects of Mana Tempest linger for {0} second after leaving the Tempest"
 			},
 			[2]={
@@ -25921,6 +27547,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Effects of Mana Tempest linger for {0} seconds after leaving the Tempest",
 				text="Effects of Mana Tempest linger for {0} seconds after leaving the Tempest"
 			}
 		},
@@ -25937,6 +27564,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals base Lightning Damage equal to {0}% of missing Unreserved Mana\n+6 to length per 25% of Unreserved maximum Mana you have",
 				text="Deals base Lightning Damage equal to {0}% of missing Unreserved Mana\n+6 to length per 25% of Unreserved maximum Mana you have"
 			}
 		},
@@ -25953,6 +27581,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill will Trigger once a total of {0} Mana has been Spent on Bow [Attack|Attacks] not Supported by Manaforged Arrows",
 				text="This Skill will Trigger once a total of {0} Mana has been Spent on Bow Attacks not Supported by Manaforged Arrows"
 			}
 		},
@@ -25969,6 +27598,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack] gains {0}% of Damage as [Chaos]",
 				text="Empowered Attack gains {0}% of Damage as Chaos"
 			}
 		},
@@ -25992,6 +27622,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can have up to {0} Crab Barriers",
 				text="Can have up to {0} Crab Barriers"
 			}
 		},
@@ -26008,6 +27639,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Sentinels of Absolution",
 				text="Maximum {0} Summoned Sentinels of Absolution"
 			}
 		},
@@ -26024,6 +27656,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can queue up to {0} uses",
 				text="Can queue up to {0} uses"
 			}
 		},
@@ -26040,6 +27673,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Steel Shards",
 				text="Maximum {0} Steel Shards"
 			}
 		},
@@ -26056,6 +27690,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain [Guard] equal to {0}% of your maximum life per [Jade] consumed",
 				text="Gain Guard equal to {0}% of your maximum life per Jade consumed"
 			}
 		},
@@ -26072,6 +27707,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Corpses Spawned have {0}% increased Maximum Life",
 				text="Corpses Spawned have {0}% increased Maximum Life"
 			},
 			[2]={
@@ -26085,6 +27721,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Corpses Spawned have {0}% reduced Maximum Life",
 				text="Corpses Spawned have {0}% reduced Maximum Life"
 			}
 		},
@@ -26101,6 +27738,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Lingering Blades can be left in the ground at a time",
 				text="Maximum {0} Lingering Blades can be left in the ground at a time"
 			}
 		},
@@ -26121,6 +27759,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} to Maximum Heat",
 				text="{0:+d} to Maximum Heat"
 			},
 			[2]={
@@ -26134,6 +27773,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Heat",
 				text="Maximum {0} Heat"
 			}
 		},
@@ -26151,6 +27791,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} Field",
 				text="Limit {0} Field"
 			},
 			[2]={
@@ -26160,6 +27801,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fields",
 				text="Limit {0} Fields"
 			}
 		},
@@ -26176,6 +27818,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Saviour",
 				text="Maximum {0} Summoned Mirage Saviour"
 			},
 			[2]={
@@ -26185,6 +27828,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Saviours",
 				text="Maximum {0} Summoned Mirage Saviours"
 			}
 		},
@@ -26209,6 +27853,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Maximum {0} caught Projectiles",
 				text="Maximum {0} caught Projectiles"
 			},
 			[2]={
@@ -26226,6 +27871,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Maximum {0} caught Projectiles\nCreates up to {0} caught Projectiles immediately",
 				text="Maximum {0} caught Projectiles\nCreates up to {0} caught Projectiles immediately"
 			},
 			[3]={
@@ -26243,6 +27889,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Maximum {0} caught Projectiles\nCreates up to {0} caught Projectiles immediately\nCreates {2} caught Projectiles per second",
 				text="Maximum {0} caught Projectiles\nCreates up to {0} caught Projectiles immediately\nCreates {2} caught Projectiles per second"
 			}
 		},
@@ -26261,6 +27908,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Double",
 				text="Maximum {0} Summoned Double"
 			},
 			[2]={
@@ -26270,6 +27918,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Doubles",
 				text="Maximum {0} Summoned Doubles"
 			}
 		},
@@ -26286,6 +27935,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Sharpshooter\nSummons {0} Mirage Sharpshooter which uses this Skill\nMirage Sharpshooters fire at your target when you use Ice Shot",
 				text="Maximum {0} Summoned Mirage Sharpshooter\nSummons {0} Mirage Sharpshooter which uses this Skill\nMirage Sharpshooters fire at your target when you use Ice Shot"
 			},
 			[2]={
@@ -26295,6 +27945,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Sharpshooters\nSummons {0} Mirage Sharpshooters which use this Skill\nMirage Sharpshooters fire at your target when you use Ice Shot",
 				text="Maximum {0} Summoned Mirage Sharpshooters\nSummons {0} Mirage Sharpshooters which use this Skill\nMirage Sharpshooters fire at your target when you use Ice Shot"
 			}
 		},
@@ -26311,6 +27962,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} to maximum [VerisiumInfusion|Verisium Infusions]",
 				text="+{0} to maximum Verisium Infusions"
 			}
 		},
@@ -26327,6 +27979,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Virulence",
 				text="Maximum {0} Virulence"
 			}
 		},
@@ -26343,6 +27996,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="{0}% more Energy Shield Recharge Rate"
 			},
 			[2]={
@@ -26356,6 +28010,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [ESRechargeRate|Energy Shield Recharge Rate]",
 				text="{0}% less Energy Shield Recharge Rate"
 			}
 		},
@@ -26372,6 +28027,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Targets {0} additional nearby Enemy",
 				text="Targets {0} additional nearby Enemy"
 			},
 			[2]={
@@ -26381,6 +28037,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Targets {0} additional nearby Enemies",
 				text="Targets {0} additional nearby Enemies"
 			}
 		},
@@ -26401,6 +28058,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per [Power] of enemies you\nkill with [Melee] [Attack|Attacks]",
 				text="Gains {0} Energy per Power of enemies you\nkill with Melee Attacks"
 			}
 		},
@@ -26417,6 +28075,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mines cannot be Re-armed",
 				text="Mines cannot be Re-armed"
 			}
 		},
@@ -26433,6 +28092,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill has {0}% increased [Critical|Critical Hit] Chance per Power Charge if used by a Mine",
 				text="This Skill has {0}% increased Critical Hit Chance per Power Charge if used by a Mine"
 			},
 			[2]={
@@ -26446,6 +28106,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="This Skill has {0}% reduced [Critical|Critical Hit] Chance per Power Charge if used by a Mine",
 				text="This Skill has {0}% reduced Critical Hit Chance per Power Charge if used by a Mine"
 			}
 		},
@@ -26462,6 +28123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mine Detonation is Instant",
 				text="Mine Detonation is Instant"
 			}
 		},
@@ -26478,6 +28140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mines have {0}% increased Detonation Speed",
 				text="Mines have {0}% increased Detonation Speed"
 			},
 			[2]={
@@ -26491,6 +28154,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Mines have {0}% reduced Detonation Speed",
 				text="Mines have {0}% reduced Detonation Speed"
 			}
 		},
@@ -26507,6 +28171,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Projectile|Projectile] Speed per Frenzy Charge if used by a Mine",
 				text="{0}% increased Projectile Speed per Frenzy Charge if used by a Mine"
 			},
 			[2]={
@@ -26520,6 +28185,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Projectile|Projectile] Speed per Frenzy Charge if used by a Mine",
 				text="{0}% reduced Projectile Speed per Frenzy Charge if used by a Mine"
 			}
 		},
@@ -26536,6 +28202,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Mine Throwing Speed per Frenzy Charge",
 				text="{0}% increased Mine Throwing Speed per Frenzy Charge"
 			},
 			[2]={
@@ -26549,6 +28216,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Mine Throwing Speed per Frenzy Charge",
 				text="{0}% reduced Mine Throwing Speed per Frenzy Charge"
 			}
 		},
@@ -26569,6 +28237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Cold Damage per Frenzy Charge",
 				text="{0} to {1} Cold Damage per Frenzy Charge"
 			}
 		},
@@ -26590,6 +28259,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Adds {0} to {1} Cold Damage against Chilled Enemies",
 				text="Adds {0} to {1} Cold Damage against Chilled Enemies"
 			}
 		},
@@ -26611,6 +28281,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0} to {1} added Lightning Damage",
 				text="Aura grants {0} to {1} added Lightning Damage"
 			}
 		},
@@ -26628,6 +28299,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minimum of {0} Power",
 				text="Minimum of {0} Power"
 			}
 		},
@@ -26648,6 +28320,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Base Physical Damage per 15 [Strength]",
 				text="{0} to {1} Base Physical Damage per 15 Strength"
 			}
 		},
@@ -26673,6 +28346,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% additional [Physical] Damage Reduction",
 				text="Minions have {0}% additional Physical Damage Reduction"
 			}
 		},
@@ -26689,6 +28363,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0:+d}% Chance to [Block]",
 				text="Minions have {0:+d}% Chance to Block"
 			}
 		},
@@ -26705,6 +28380,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% increased Burning Damage",
 				text="Minions deal {0}% increased Burning Damage"
 			},
 			[2]={
@@ -26718,6 +28394,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% reduced Burning Damage",
 				text="Minions deal {0}% reduced Burning Damage"
 			}
 		},
@@ -26734,6 +28411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] gain {0}% chance to deal Double Damage",
 				text="Minions gain {0}% chance to deal Double Damage"
 			}
 		},
@@ -26750,6 +28428,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% chance to [Taunt] on Hit",
 				text="Minions have {0}% chance to Taunt on Hit"
 			}
 		},
@@ -26766,6 +28445,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions have {0}% increased Cooldown Recovery Rate",
 				text="Minions have {0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -26779,6 +28459,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions have {0}% reduced Cooldown Recovery Rate",
 				text="Minions have {0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -26795,6 +28476,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% increased Damage while on Full Life",
 				text="Minions deal {0}% increased Damage while on Full Life"
 			},
 			[2]={
@@ -26808,6 +28490,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% reduced Damage while on Full Life",
 				text="Minions deal {0}% reduced Damage while on Full Life"
 			}
 		},
@@ -26824,6 +28507,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions take {0}% increased Fire Damage",
 				text="Minions take {0}% increased Fire Damage"
 			},
 			[2]={
@@ -26837,6 +28521,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions take {0}% reduced Fire Damage",
 				text="Minions take {0}% reduced Fire Damage"
 			}
 		},
@@ -26857,6 +28542,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions Regenerate {0}% of maximum Life per second",
 				text="Minions Regenerate {0}% of maximum Life per second"
 			}
 		},
@@ -26873,6 +28559,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions' [Attack|Attacks] have {0}% chance to Maim Enemies on Hit",
 				text="Minions' Attacks have {0}% chance to Maim Enemies on Hit"
 			}
 		},
@@ -26889,6 +28576,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0:+d}% to all [MaximumResistances|Maximum Elemental Resistances]",
 				text="Minions have {0:+d}% to all Maximum Elemental Resistances"
 			}
 		},
@@ -26905,6 +28593,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% increased [Melee] Damage",
 				text="Minions deal {0}% increased Melee Damage"
 			},
 			[2]={
@@ -26918,6 +28607,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% reduced [Melee] Damage",
 				text="Minions deal {0}% reduced Melee Damage"
 			}
 		},
@@ -26934,6 +28624,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions are Created with maximum Frenzy Charges",
 				text="Minions are Created with maximum Frenzy Charges"
 			},
 			[2]={
@@ -26943,6 +28634,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance for Minions to be Created with maximum Frenzy Charges",
 				text="{0}% chance for Minions to be Created with maximum Frenzy Charges"
 			}
 		},
@@ -26959,6 +28651,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% increased effect of [Rage]",
 				text="Minions have {0}% increased effect of Rage"
 			},
 			[2]={
@@ -26972,6 +28665,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Minion|Minions] have {0}% reduced effect of [Rage]",
 				text="Minions have {0}% reduced effect of Rage"
 			}
 		},
@@ -26988,6 +28682,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions have {0}% increased Area of Effect",
 				text="Minions have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -27001,6 +28696,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions have {0}% reduced Area of Effect",
 				text="Minions have {0}% reduced Area of Effect"
 			}
 		},
@@ -27017,6 +28713,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% reduced [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="Minions have {0}% reduced Enemy Stun Threshold"
 			},
 			[2]={
@@ -27030,6 +28727,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Minion|Minions] have {0}% increased [EnemyStunThreshold|Enemy Stun Threshold]",
 				text="Minions have {0}% increased Enemy Stun Threshold"
 			}
 		},
@@ -27050,6 +28748,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Minions can't be Damaged for {} second after being Summoned",
 				text="Minions can't be Damaged for {} second after being Summoned"
 			},
 			[2]={
@@ -27063,6 +28762,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions can't be Damaged for {} seconds after being Summoned",
 				text="Minions can't be Damaged for {} seconds after being Summoned"
 			}
 		},
@@ -27079,6 +28779,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Minions have {0}% chance to Intimidate Enemies for 4 seconds on Hit",
 				text="Minions have {0}% chance to Intimidate Enemies for 4 seconds on Hit"
 			},
 			[2]={
@@ -27088,6 +28789,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions Intimidate Enemies for 4 seconds on Hit",
 				text="Minions Intimidate Enemies for 4 seconds on Hit"
 			}
 		},
@@ -27104,6 +28806,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] gain {0}% of [Physical|Physical] Damage as [Chaos|Chaos] Damage",
 				text="Minions gain {0}% of Physical Damage as Chaos Damage"
 			}
 		},
@@ -27120,6 +28823,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Minions have {0}% chance to inflict Exposure on Hit matching the highest Damage type taken by Enemy",
 				text="Minions have {0}% chance to inflict Exposure on Hit matching the highest Damage type taken by Enemy"
 			},
 			[2]={
@@ -27129,6 +28833,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions inflict Exposure on Hit matching the highest Damage type taken by Enemy",
 				text="Minions inflict Exposure on Hit matching the highest Damage type taken by Enemy"
 			}
 		},
@@ -27145,6 +28850,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions take Chaos Damage equal to {0}% of their maximum Life over one second when Raised",
 				text="Minions take Chaos Damage equal to {0}% of their maximum Life over one second when Raised"
 			}
 		},
@@ -27161,6 +28867,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirage Archer fires {0} additional [Projectile|Projectiles]",
 				text="Mirage Archer fires {0} additional Projectiles"
 			}
 		},
@@ -27185,6 +28892,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Buff can take additional Damage equal to {1}% of your [Armour]",
 				text="Buff can take additional Damage equal to {1}% of your Armour"
 			},
 			[2]={
@@ -27202,6 +28910,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage from Hits is taken from the Buff before your Life or Energy Shield\nBuff can take Damage equal to {1}% of your Armour, up to a maximum of {2}",
 				text="{0}% of Damage from Hits is taken from the Buff before your Life or Energy Shield\nBuff can take Damage equal to {1}% of your Armour, up to a maximum of {2}"
 			}
 		},
@@ -27224,6 +28933,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Reflects {0}% of Damage taken from Buff as Fire Damage when Buff expires or is depleted",
 				text="Reflects {0}% of Damage taken from Buff as Fire Damage when Buff expires or is depleted"
 			},
 			[2]={
@@ -27237,6 +28947,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflects {0}% of Damage taken from Buff as Fire Damage each second,\nor when Buff expires or is depleted",
 				text="Reflects {0}% of Damage taken from Buff as Fire Damage each second,\nor when Buff expires or is depleted"
 			}
 		},
@@ -27254,6 +28965,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflected Damage Penetrates {0}% of Enemy Fire Resistance",
 				text="Reflected Damage Penetrates {0}% of Enemy Fire Resistance"
 			}
 		},
@@ -27270,6 +28982,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles can Chain when impacting the ground\nProjectiles do not change direction when Chaining",
 				text="Projectiles can Chain when impacting the ground\nProjectiles do not change direction when Chaining"
 			}
 		},
@@ -27286,6 +28999,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Elemental Damage taken",
 				text="{0}% more Elemental Damage taken"
 			},
 			[2]={
@@ -27299,6 +29013,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Elemental Damage taken",
 				text="{0}% less Elemental Damage taken"
 			}
 		},
@@ -27315,6 +29030,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Physical Damage taken",
 				text="{0}% more Physical Damage taken"
 			},
 			[2]={
@@ -27328,6 +29044,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Physical Damage taken",
 				text="{0}% less Physical Damage taken"
 			}
 		},
@@ -27352,6 +29069,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% more Physical Damage taken per Endurance Charge removed",
 				text="{0}% more Physical Damage taken per Endurance Charge removed"
 			},
 			[2]={
@@ -27369,6 +29087,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% less Physical Damage taken per Endurance Charge removed",
 				text="{0}% less Physical Damage taken per Endurance Charge removed"
 			},
 			[3]={
@@ -27386,6 +29105,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% less Physical Damage taken per Endurance Charge removed",
 				text="{0}% less Physical Damage taken per Endurance Charge removed"
 			}
 		},
@@ -27403,6 +29123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Projectile spread",
 				text="{0}% increased Projectile spread"
 			},
 			[2]={
@@ -27416,6 +29137,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Projectile spread",
 				text="{0}% reduced Projectile spread"
 			}
 		},
@@ -27433,6 +29155,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Skills have {0}% increased [Projectile] speed",
 				text="Empowered Skills have {0}% increased Projectile speed"
 			},
 			[2]={
@@ -27442,6 +29165,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] Skills fire 2 additional [Projectile|Projectiles]\n[Empowered] Skills have {0}% increased [Projectile] speed",
 				text="Empowered Skills fire 2 additional Projectiles\nEmpowered Skills have {0}% increased Projectile speed"
 			}
 		},
@@ -27458,6 +29182,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Ignite]",
 				text="Cannot Ignite"
 			}
 		},
@@ -27474,6 +29199,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot [Shock]",
 				text="Cannot Shock"
 			}
 		},
@@ -27490,6 +29216,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Elusive from this Skill also grants {0:+d}% to [CriticalDamageBonus|Critical Damage Bonus] for\nSkills Supported by Nightblade",
 				text="Elusive from this Skill also grants {0:+d}% to Critical Damage Bonus for\nSkills Supported by Nightblade"
 			}
 		},
@@ -27506,6 +29233,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] inflicted",
 				text="{0}% increased Magnitude of Non-Damaging Ailments inflicted"
 			},
 			[2]={
@@ -27519,6 +29247,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [NonDamagingAilments|Non-Damaging Ailments] inflicted",
 				text="{0}% reduced Magnitude of Non-Damaging Ailments inflicted"
 			}
 		},
@@ -27535,6 +29264,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot have more than {0} Ancestral Warrior Totems active",
 				text="Cannot have more than {0} Ancestral Warrior Totems active"
 			}
 		},
@@ -27551,6 +29281,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Spell|Spells] [Gain] {0}% of damage as [Cold|Cold] Damage",
 				text="Empowered Spells Gain {0}% of damage as Cold Damage"
 			}
 		},
@@ -27578,6 +29309,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered] [Spell|Spells] [Gain] {0:+d}% of damage as [Lightning|Lightning] Damage",
 				text="Empowered Spells Gain {0:+d}% of damage as Lightning Damage"
 			},
 			[2]={
@@ -27591,6 +29323,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Spell|Spells] [Gain] {0}% of damage as [Lightning|Lightning] Damage",
 				text="Empowered Spells Gain {0}% of damage as Lightning Damage"
 			}
 		},
@@ -27608,6 +29341,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Conversion|Converts] {0}% of [Physical] Damage to a random [ElementalDamage|Element]",
 				text="Converts {0}% of Physical Damage to a random Element"
 			}
 		},
@@ -27638,6 +29372,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Chain|Chaining] creates an additional [Projectile]",
 				text="Chaining creates an additional Projectile"
 			},
 			[2]={
@@ -27647,6 +29382,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain|Chaining] creates {0} additional [Projectile|Projectiles]",
 				text="Chaining creates {0} additional Projectiles"
 			}
 		},
@@ -27670,6 +29406,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Inflicts an additional [Impale]",
 				text="Inflicts an additional Impale"
 			},
 			[2]={
@@ -27679,6 +29416,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0} additional [Impale|Impales]",
 				text="Inflicts {0} additional Impales"
 			}
 		},
@@ -27695,6 +29433,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Arrows in the ground",
 				text="Maximum {0} Arrows in the ground"
 			}
 		},
@@ -27711,6 +29450,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Fissures branch once",
 				text="Fissures branch once"
 			},
 			[2]={
@@ -27720,6 +29460,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissures branch {0} times",
 				text="Fissures branch {0} times"
 			}
 		},
@@ -27736,6 +29477,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Sentinel of Purity",
 				text="Maximum {0} Summoned Sentinel of Purity"
 			},
 			[2]={
@@ -27745,6 +29487,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Sentinels of Purity",
 				text="Maximum {0} Summoned Sentinels of Purity"
 			}
 		},
@@ -27761,6 +29504,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes up to 1 corpse",
 				text="Consumes up to 1 corpse"
 			},
 			[2]={
@@ -27770,6 +29514,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes up to {0} corpses",
 				text="Consumes up to {0} corpses"
 			}
 		},
@@ -27793,6 +29538,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Effigy",
 				text="Maximum {0} Summoned Effigy"
 			},
 			[2]={
@@ -27802,6 +29548,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Effigy",
 				text="Maximum {0} Summoned Effigy"
 			}
 		},
@@ -27818,6 +29565,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Agony Crawler",
 				text="Maximum {0} Summoned Agony Crawler"
 			},
 			[2]={
@@ -27827,6 +29575,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Agony Crawler",
 				text="Maximum {0} Summoned Agony Crawler"
 			}
 		},
@@ -27843,6 +29592,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Limit] {0} [Mark|Marked] target",
 				text="Limit {0} Marked target"
 			},
 			[2]={
@@ -27852,6 +29602,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} [Mark|Marked] targets",
 				text="Limit {0} Marked targets"
 			}
 		},
@@ -27868,6 +29619,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Archer",
 				text="Maximum {0} Summoned Mirage Archer"
 			},
 			[2]={
@@ -27877,6 +29629,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Mirage Archers",
 				text="Maximum {0} Summoned Mirage Archers"
 			}
 		},
@@ -27893,6 +29646,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Reaper",
 				text="Maximum {0} Summoned Reaper"
 			},
 			[2]={
@@ -27902,6 +29656,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Reapers",
 				text="Maximum {0} Summoned Reapers"
 			}
 		},
@@ -27918,6 +29673,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Summoned Holy Relic",
 				text="Maximum {0} Summoned Holy Relic"
 			},
 			[2]={
@@ -27927,6 +29683,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Summoned Holy Relics",
 				text="Maximum {0} Summoned Holy Relics"
 			}
 		},
@@ -27964,6 +29721,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem|Totems] placed per use@{0}",
 				text="Totems placed per use@{0}"
 			}
 		},
@@ -28107,6 +29865,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Strikes every {0} second while Channelling a [Lightning] Skill near the Orb",
 				text="Strikes every {0} second while Channelling a Lightning Skill near the Orb"
 			},
 			[2]={
@@ -28120,6 +29879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Strikes every {0} seconds while Channelling a [Lightning] Skill near the Orb",
 				text="Strikes every {0} seconds while Channelling a Lightning Skill near the Orb"
 			}
 		},
@@ -28136,6 +29896,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Orb|Orb] expires after firing {0} bolts",
 				text="Orb expires after firing {0} bolts"
 			}
 		},
@@ -28152,6 +29913,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Orbs",
 				text="Limit {0} Orbs"
 			}
 		},
@@ -28168,6 +29930,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits Overwhelm {0}% of Physical Damage Reduction while at maximum Fortification",
 				text="Hits Overwhelm {0}% of Physical Damage Reduction while at maximum Fortification"
 			}
 		},
@@ -28184,6 +29947,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased distance between Firing Points",
 				text="{0}% increased distance between Firing Points"
 			},
 			[2]={
@@ -28197,6 +29961,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced distance between Firing Points",
 				text="{0}% reduced distance between Firing Points"
 			}
 		},
@@ -28213,6 +29978,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+1 to Explosion Radius per Energy\nPulse deals 50% more Damage with Hits",
 				text="+1 to Explosion Radius per Energy\nPulse deals 50% more Damage with Hits"
 			}
 		},
@@ -28229,6 +29995,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Up to {0:+d} to Energy spread radius, scaled by distance from Brand",
 				text="Up to {0:+d} to Energy spread radius, scaled by distance from Brand"
 			}
 		},
@@ -28245,6 +30012,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Penetrate {0}% Fire Resistance per 100 [Dexterity]",
 				text="Penetrate {0}% Fire Resistance per 100 Dexterity"
 			}
 		},
@@ -28261,6 +30029,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge when a Mine is Detonated targeting an Enemy",
 				text="{0}% chance to gain a Frenzy Charge when a Mine is Detonated targeting an Enemy"
 			},
 			[2]={
@@ -28270,6 +30039,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Gain a Frenzy Charge when a Mine is Detonated targeting an Enemy",
 				text="Gain a Frenzy Charge when a Mine is Detonated targeting an Enemy"
 			}
 		},
@@ -28286,6 +30056,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy",
 				text="{0}% chance to gain a Frenzy Charge when your Trap is triggered by an Enemy"
 			},
 			[2]={
@@ -28295,6 +30066,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Gain a Frenzy Charge when your Trap is triggered by an Enemy",
 				text="Gain a Frenzy Charge when your Trap is triggered by an Enemy"
 			}
 		},
@@ -28311,6 +30083,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge when a Mine is Detonated targeting an Enemy",
 				text="{0}% chance to gain a Power Charge when a Mine is Detonated targeting an Enemy"
 			},
 			[2]={
@@ -28320,6 +30093,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Gain a Power Charge when a Mine is Detonated targeting an Enemy",
 				text="Gain a Power Charge when a Mine is Detonated targeting an Enemy"
 			}
 		},
@@ -28336,6 +30110,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain a Power Charge when your Trap is triggered by an Enemy",
 				text="{0}% chance to gain a Power Charge when your Trap is triggered by an Enemy"
 			},
 			[2]={
@@ -28345,6 +30120,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Gain a Power Charge when your Trap is triggered by an Enemy",
 				text="Gain a Power Charge when your Trap is triggered by an Enemy"
 			}
 		},
@@ -28361,6 +30137,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemy Action Speed is reduced by {0}% every 0.3 seconds",
 				text="Enemy Action Speed is reduced by {0}% every 0.3 seconds"
 			}
 		},
@@ -28381,6 +30158,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Summoned Phantasm grants you Phantasmal Might\nEach Phantasmal Might Buff grants {0} to {1} Added Spell Physical Damage",
 				text="Each Summoned Phantasm grants you Phantasmal Might\nEach Phantasmal Might Buff grants {0} to {1} Added Spell Physical Damage"
 			}
 		},
@@ -28398,6 +30176,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="do not replace the Buff when you use a Skill",
 				text="do not replace the Buff when you use a Skill"
 			},
 			[2]={
@@ -28407,6 +30186,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance not to replace the Buff when you use a Skill",
 				text="{0}% chance not to replace the Buff when you use a Skill"
 			}
 		},
@@ -28427,6 +30207,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Releases {0} waves",
 				text="Releases {0} waves"
 			},
 			[2]={
@@ -28444,6 +30225,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Releases {0} waves every {1} seconds",
 				text="Releases {0} waves every {1} seconds"
 			}
 		},
@@ -28461,6 +30243,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% additional Physical Damage Reduction per Crab Barrier",
 				text="Grants {0}% additional Physical Damage Reduction per Crab Barrier"
 			}
 		},
@@ -28477,6 +30260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Chaos Damage taken while Incubating",
 				text="{0}% increased Chaos Damage taken while Incubating"
 			},
 			[2]={
@@ -28490,6 +30274,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Chaos Damage taken while Incubating",
 				text="{0}% reduced Chaos Damage taken while Incubating"
 			}
 		},
@@ -28510,6 +30295,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stores {0}% of Expected [Poison] damage, up to {1}\nDeals [Physical] damage equal to the stored [Poison]",
 				text="Stores {0}% of Expected Poison damage, up to {1}\nDeals Physical damage equal to the stored Poison"
 			}
 		},
@@ -28527,6 +30313,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You have {0}% increased Movement Speed while Infecting",
 				text="You have {0}% increased Movement Speed while Infecting"
 			},
 			[2]={
@@ -28540,6 +30327,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="You have {0}% reduced Movement Speed while Infecting",
 				text="You have {0}% reduced Movement Speed while Infecting"
 			}
 		},
@@ -28556,6 +30344,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals [Physical|Physical] Damage equal to {0}% of Plague on Triggering Enemy",
 				text="Deals Physical Damage equal to {0}% of Plague on Triggering Enemy"
 			}
 		},
@@ -28572,6 +30361,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Has up to {0}% more Area of Effect at maximum Plague",
 				text="Has up to {0}% more Area of Effect at maximum Plague"
 			}
 		},
@@ -28588,6 +30378,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered when an Enemy Dies with Plague on it",
 				text="This Skill is Triggered when an Enemy Dies with Plague on it"
 			}
 		},
@@ -28604,6 +30395,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage when [Plant|Overgrown]",
 				text="{0}% more damage when Overgrown"
 			}
 		},
@@ -28620,6 +30412,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="{0}% increased Magnitude of Poison inflicted"
 			},
 			[2]={
@@ -28633,6 +30426,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Poison] inflicted",
 				text="{0}% reduced Magnitude of Poison inflicted"
 			}
 		},
@@ -28657,6 +30451,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metre to base explosion radius",
 				text="Stored Poison adds up to {1} metre to base explosion radius"
 			},
 			[2]={
@@ -28674,6 +30469,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] adds up to {1} metres to base explosion radius",
 				text="Stored Poison adds up to {1} metres to base explosion radius"
 			}
 		},
@@ -28695,6 +30491,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stored [Poison|Poison] grants up to {1}% more explosion Damage",
 				text="Stored Poison grants up to {1}% more explosion Damage"
 			}
 		},
@@ -28716,6 +30513,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to travel to Winding Pier instead while on a Ley Fishing Line",
 				text="{0}% chance to travel to Winding Pier instead while on a Ley Fishing Line"
 			}
 		},
@@ -28732,6 +30530,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] maximum [EnergyShield|Energy Shield]@{0}",
 				text="Totem maximum Energy Shield@{0}"
 			}
 		},
@@ -28748,6 +30547,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] maximum Life@{0}",
 				text="Totem maximum Life@{0}"
 			}
 		},
@@ -28764,6 +30564,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Primary Projectile has {0:+d}% chance to Impale Enemies on Hit",
 				text="Primary Projectile has {0:+d}% chance to Impale Enemies on Hit"
 			},
 			[2]={
@@ -28773,6 +30574,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Primary Projectile Impales Enemies on Hit",
 				text="Primary Projectile Impales Enemies on Hit"
 			}
 		},
@@ -28793,6 +30595,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Arrows fire Beams every {0} second",
 				text="Arrows fire Beams every {0} second"
 			},
 			[2]={
@@ -28806,6 +30609,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrows fire Beams every {0} seconds",
 				text="Arrows fire Beams every {0} seconds"
 			}
 		},
@@ -28822,6 +30626,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Projectile [Attack] Damage while in Blood Stance",
 				text="{0}% increased Projectile Attack Damage while in Blood Stance"
 			},
 			[2]={
@@ -28835,6 +30640,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Projectile [Attack] Damage while in Blood Stance",
 				text="{0}% reduced Projectile Attack Damage while in Blood Stance"
 			}
 		},
@@ -28855,6 +30661,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Projectiles can Split without hitting a target",
 				text="Projectiles can Split without hitting a target"
 			},
 			[2]={
@@ -28868,6 +30675,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Projectiles can Split from hitting terrain",
 				text="Projectiles can Split from hitting terrain"
 			},
 			[3]={
@@ -28881,6 +30689,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Projectiles Split at end of flight",
 				text="Projectiles Split at end of flight"
 			}
 		},
@@ -28898,6 +30707,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile] chance to [Chain] from terrain@{0}%",
 				text="Projectile chance to Chain from terrain@{0}%"
 			}
 		},
@@ -28915,6 +30725,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0}% chance to [Chain] from terrain",
 				text="+{0}% chance to Chain from terrain"
 			},
 			[2]={
@@ -28924,6 +30735,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile] additional [Chain] chance from terrain@{0}%",
 				text="Projectile additional Chain chance from terrain@{0}%"
 			}
 		},
@@ -28940,6 +30752,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance not to Pierce Enemies",
 				text="{0}% chance not to Pierce Enemies"
 			},
 			[2]={
@@ -28949,6 +30762,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot Pierce Enemies",
 				text="Cannot Pierce Enemies"
 			}
 		},
@@ -28965,6 +30779,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles that have Pierced deal {0}% increased Damage with Hits",
 				text="Projectiles that have Pierced deal {0}% increased Damage with Hits"
 			},
 			[2]={
@@ -28978,6 +30793,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles that have Pierced deal {0}% reduced Damage with Hits",
 				text="Projectiles that have Pierced deal {0}% reduced Damage with Hits"
 			}
 		},
@@ -28994,6 +30810,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] deal {0}% increased Damage with Hits for each remaining [Chain]",
 				text="Projectiles deal {0}% increased Damage with Hits for each remaining Chain"
 			},
 			[2]={
@@ -29007,6 +30824,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Projectile|Projectiles] deal {0}% reduced Damage with Hits for each remaining [Chain]",
 				text="Projectiles deal {0}% reduced Damage with Hits for each remaining Chain"
 			}
 		},
@@ -29023,6 +30841,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles can only collide with Drenched targets",
 				text="Projectiles can only collide with Drenched targets"
 			}
 		},
@@ -29046,6 +30865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Projectile|Projectile] Speed while in Sand Stance",
 				text="{0}% increased Projectile Speed while in Sand Stance"
 			},
 			[2]={
@@ -29059,6 +30879,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Projectile|Projectile] Speed while in Sand Stance",
 				text="{0}% reduced Projectile Speed while in Sand Stance"
 			}
 		},
@@ -29082,6 +30903,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] cannot [Fork]",
 				text="Projectiles cannot Fork"
 			}
 		},
@@ -29098,6 +30920,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Projectile|Projectiles] cannot [Split]",
 				text="Projectiles cannot Split"
 			}
 		},
@@ -29114,6 +30937,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles deal {0}% increased Damage with Hits to nearby Enemies",
 				text="Projectiles deal {0}% increased Damage with Hits to nearby Enemies"
 			},
 			[2]={
@@ -29127,6 +30951,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles deal {0}% reduced Damage with Hits to nearby Enemies",
 				text="Projectiles deal {0}% reduced Damage with Hits to nearby Enemies"
 			}
 		},
@@ -29143,6 +30968,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles Fork when they pass through a Flame Wall",
 				text="Projectiles Fork when they pass through a Flame Wall"
 			}
 		},
@@ -29159,6 +30985,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] in a circle",
 				text="Fires Projectiles in a circle"
 			}
 		},
@@ -29175,6 +31002,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles Pierce all Targets within {0} units",
 				text="Projectiles Pierce all Targets within {0} units"
 			}
 		},
@@ -29191,6 +31019,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Fires a Payload Arrow into the air\n[Projectile|Projectiles] Fire from where the Payload Arrow lands",
 				text="Fires a Payload Arrow into the air\nProjectiles Fire from where the Payload Arrow lands"
 			}
 		},
@@ -29211,6 +31040,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Feeding Frenzy lasts {0} second",
 				text="Feeding Frenzy lasts {0} second"
 			},
 			[2]={
@@ -29224,6 +31054,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Feeding Frenzy lasts {0} seconds",
 				text="Feeding Frenzy lasts {0} seconds"
 			}
 		},
@@ -29240,6 +31071,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%",
 				text="Exposure lowers the Total Elemental Resistance matching highest Damage taken by {0}%"
 			}
 		},
@@ -29256,6 +31088,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="Also create Consecrated Ground around you",
 				text="Also create Consecrated Ground around you"
 			},
 			[2]={
@@ -29265,6 +31098,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to also create Consecrated Ground around you",
 				text="{0}% chance to also create Consecrated Ground around you"
 			}
 		},
@@ -29285,6 +31119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Plant|Overgrown] Pustules grow as though dealt {0} [Poison] damage per second",
 				text="Overgrown Pustules grow as though dealt {0} Poison damage per second"
 			}
 		},
@@ -29305,6 +31140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage",
 				text="{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage"
 			}
 		},
@@ -29322,6 +31158,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Sacrifices {0}% of Rage to create a Ragestorm, if you have at least 10 Rage",
 				text="Sacrifices {0}% of Rage to create a Ragestorm, if you have at least 10 Rage"
 			}
 		},
@@ -29342,6 +31179,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ragestorm deals {0}% more Damage per {1} Rage Sacrificed",
 				text="Ragestorm deals {0}% more Damage per {1} Rage Sacrificed"
 			},
 			[2]={
@@ -29359,6 +31197,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ragestorm deals {0}% less Damage per {1} Rage Sacrificed",
 				text="Ragestorm deals {0}% less Damage per {1} Rage Sacrificed"
 			}
 		},
@@ -29380,6 +31219,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ragestorm has {0:+d} to Radius per {1} Rage sacrificed",
 				text="Ragestorm has {0:+d} to Radius per {1} Rage sacrificed"
 			}
 		},
@@ -29397,6 +31237,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ragestorm Hits {0}% more Frequently",
 				text="Ragestorm Hits {0}% more Frequently"
 			},
 			[2]={
@@ -29410,6 +31251,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ragestorm Hits {0}% less Frequently",
 				text="Ragestorm Hits {0}% less Frequently"
 			}
 		},
@@ -29426,6 +31268,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Ragestorm",
 				text="Maximum {0} Ragestorm"
 			},
 			[2]={
@@ -29435,6 +31278,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Ragestorms",
 				text="Maximum {0} Ragestorms"
 			}
 		},
@@ -29451,6 +31295,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ragestorm moves with {0}% increased speed",
 				text="Ragestorm moves with {0}% increased speed"
 			},
 			[2]={
@@ -29464,6 +31309,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ragestorm moves with {0}% reduced speed",
 				text="Ragestorm moves with {0}% reduced speed"
 			}
 		},
@@ -29484,6 +31330,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} second",
 				text="Can Hit each enemy only once every {0} second"
 			},
 			[2]={
@@ -29497,6 +31344,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} seconds",
 				text="Can Hit each enemy only once every {0} seconds"
 			}
 		},
@@ -29513,6 +31361,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to fire an additional sequence of arrows",
 				text="{0}% chance to fire an additional sequence of arrows"
 			}
 		},
@@ -29529,6 +31378,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrows fall {0}% faster",
 				text="Arrows fall {0}% faster"
 			},
 			[2]={
@@ -29542,6 +31392,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Arrows fall {0}% slower",
 				text="Arrows fall {0}% slower"
 			}
 		},
@@ -29558,6 +31409,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased effect of Empowerment on Raised Zombies",
 				text="{0}% increased effect of Empowerment on Raised Zombies"
 			},
 			[2]={
@@ -29571,6 +31423,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% reduced effect of Empowerment on Raised Zombies",
 				text="{0}% reduced effect of Empowerment on Raised Zombies"
 			}
 		},
@@ -29587,6 +31440,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} to maximum Stages",
 				text="+{0} to maximum Stages"
 			}
 		},
@@ -29611,6 +31465,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Brands gain {0}% increased Attachment Range",
 				text="Brands gain {0}% increased Attachment Range"
 			},
 			[2]={
@@ -29624,6 +31479,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Brands gain {0}% reduced Attachment Range",
 				text="Brands gain {0}% reduced Attachment Range"
 			}
 		},
@@ -29644,6 +31500,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0}% of maximum Life when you Stun an Enemy",
 				text="Recover {0}% of maximum Life when you Stun an Enemy"
 			}
 		},
@@ -29661,6 +31518,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0}% of maximum Life [NonStackingEffect|over four seconds] on [CullingStrike|Culling] an Enemy",
 				text="Recover {0}% of maximum Life over four seconds on Culling an Enemy"
 			},
 			[2]={
@@ -29670,6 +31528,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0}% of maximum Life [NonStackingEffect|over four seconds] on [CullingStrike|Culling] an Enemy",
 				text="Recover {0}% of maximum Life over four seconds on Culling an Enemy"
 			}
 		},
@@ -29686,6 +31545,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {}% of maximum Mana [NonStackingEffect|over four seconds] on [CullingStrike|Culling] an Enemy",
 				text="Recover {}% of maximum Mana over four seconds on Culling an Enemy"
 			}
 		},
@@ -29706,6 +31566,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Recover {0}% of maximum Life when you use this Skill",
 				text="Recover {0}% of maximum Life when you use this Skill"
 			}
 		},
@@ -29729,6 +31590,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Penetrates {0}% Chaos Resistance",
 				text="Penetrates {0}% Chaos Resistance"
 			}
 		},
@@ -29766,6 +31628,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to refresh Bleeding Duration on Hit",
 				text="{0}% chance to refresh Bleeding Duration on Hit"
 			}
 		},
@@ -29789,6 +31652,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Remnant|Remnants] from this Skill have {0}% increased effect",
 				text="Remnants from this Skill have {0}% increased effect"
 			},
 			[2]={
@@ -29802,6 +31666,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Remnant|Remnants] from this Skill have {0}% reduced effect",
 				text="Remnants from this Skill have {0}% reduced effect"
 			}
 		},
@@ -29818,6 +31683,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Consume|Consumes] [Freeze|Freeze] from Enemies when [Ignite|Igniting] them",
 				text="Consumes Freeze from Enemies when Igniting them"
 			}
 		},
@@ -29841,6 +31707,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Movement Speed while mounted",
 				text="{0}% increased Movement Speed while mounted"
 			},
 			[2]={
@@ -29854,6 +31721,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Movement Speed while mounted",
 				text="{0}% reduced Movement Speed while mounted"
 			}
 		},
@@ -29870,6 +31738,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Movement Speed Penalty from\nusing Skills while mounted",
 				text="{0}% increased Movement Speed Penalty from\nusing Skills while mounted"
 			},
 			[2]={
@@ -29883,6 +31752,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Movement Speed Penalty from\nusing Skills while mounted",
 				text="{0}% reduced Movement Speed Penalty from\nusing Skills while mounted"
 			}
 		},
@@ -29899,6 +31769,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Mana per second while an Enemy is affected",
 				text="Regenerate {0} Mana per second while an Enemy is affected"
 			}
 		},
@@ -29915,6 +31786,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes one Cooldown Use per Statue Summoned",
 				text="Consumes one Cooldown Use per Statue Summoned"
 			}
 		},
@@ -29931,6 +31803,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes have {0}% more Area of Effect for each time they have been Improved",
 				text="Runes have {0}% more Area of Effect for each time they have been Improved"
 			},
 			[2]={
@@ -29944,6 +31817,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Runes have {0}% less Area of Effect for each time they have been Improved",
 				text="Runes have {0}% less Area of Effect for each time they have been Improved"
 			}
 		},
@@ -29960,6 +31834,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes have {}% increased Area of Effect for each time they've been Improved",
 				text="Runes have {}% increased Area of Effect for each time they've been Improved"
 			},
 			[2]={
@@ -29973,6 +31848,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Runes have {}% reduced Area of Effect for each time they've been Improved",
 				text="Runes have {}% reduced Area of Effect for each time they've been Improved"
 			}
 		},
@@ -29993,6 +31869,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Runes deal {0}% more Damage with Hits for each time they have been Improved",
 				text="Runes deal {0}% more Damage with Hits for each time they have been Improved"
 			},
 			[2]={
@@ -30010,6 +31887,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Runes deal {0}% less Damage with Hits for each time they have been Improved",
 				text="Runes deal {0}% less Damage with Hits for each time they have been Improved"
 			},
 			[3]={
@@ -30023,6 +31901,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Runes deal {0}% more Damage with Hits for each time they have been Improved",
 				text="Runes deal {0}% more Damage with Hits for each time they have been Improved"
 			}
 		},
@@ -30040,6 +31919,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="A Rune is Improved for each {0} Mana Spent",
 				text="A Rune is Improved for each {0} Mana Spent"
 			}
 		},
@@ -30056,6 +31936,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Runes can be improved once",
 				text="Runes can be improved once"
 			},
 			[2]={
@@ -30065,6 +31946,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Runes can be improved {0} times",
 				text="Runes can be improved {0} times"
 			}
 		},
@@ -30081,6 +31963,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Minion|Minions] have {0}% increased maximum Life",
 				text="Minions have {0}% increased maximum Life"
 			},
 			[2]={
@@ -30094,6 +31977,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Minion|Minions] have {0}% reduced maximum Life",
 				text="Minions have {0}% reduced maximum Life"
 			}
 		},
@@ -30117,6 +32001,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave deals {0}% more Damage",
 				text="Shockwave deals {0}% more Damage"
 			},
 			[2]={
@@ -30130,6 +32015,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shockwave deals {0}% less Damage",
 				text="Shockwave deals {0}% less Damage"
 			}
 		},
@@ -30146,6 +32032,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} stages",
 				text="Maximum {0} stages"
 			}
 		},
@@ -30166,6 +32053,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Collapse deals {0:+d}% more damage per additional stage",
 				text="Collapse deals {0:+d}% more damage per additional stage"
 			},
 			[2]={
@@ -30179,6 +32067,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Collapse deals {0}% more damage per additional stage",
 				text="Collapse deals {0}% more damage per additional stage"
 			},
 			[3]={
@@ -30196,6 +32085,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Collapse deals {0}% less damage per additional stage",
 				text="Collapse deals {0}% less damage per additional stage"
 			}
 		},
@@ -30213,6 +32103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} to radius per additional stage",
 				text="{0:+d} to radius per additional stage"
 			}
 		},
@@ -30229,6 +32120,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Agony Crawler has {0}% increased [Attack] Speed per Virulence you have",
 				text="Agony Crawler has {0}% increased Attack Speed per Virulence you have"
 			},
 			[2]={
@@ -30242,6 +32134,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Agony Crawler has {0}% reduced [Attack] Speed per Virulence you have",
 				text="Agony Crawler has {0}% reduced Attack Speed per Virulence you have"
 			}
 		},
@@ -30258,6 +32151,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Agony Crawler deals {0}% increased Physical Damage per Virulence you have",
 				text="Agony Crawler deals {0}% increased Physical Damage per Virulence you have"
 			},
 			[2]={
@@ -30271,6 +32165,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Agony Crawler deals {0}% reduced Physical Damage per Virulence you have",
 				text="Agony Crawler deals {0}% reduced Physical Damage per Virulence you have"
 			}
 		},
@@ -30291,6 +32186,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Agony Crawler has {0} to {1} Added Physical Damage per Virulence you have",
 				text="Agony Crawler has {0} to {1} Added Physical Damage per Virulence you have"
 			}
 		},
@@ -30378,6 +32274,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summoned Sentinels have {0}% increased Cooldown Recovery Rate",
 				text="Summoned Sentinels have {0}% increased Cooldown Recovery Rate"
 			},
 			[2]={
@@ -30391,6 +32288,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Summoned Sentinels have {0}% reduced Cooldown Recovery Rate",
 				text="Summoned Sentinels have {0}% reduced Cooldown Recovery Rate"
 			}
 		},
@@ -30407,6 +32305,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Share Charges with Allies in your Presence",
 				text="Share Charges with Allies in your Presence"
 			}
 		},
@@ -30423,6 +32322,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[KillingBlow|Killing Blows] [Shatter] enemies as though [Freeze|Frozen]",
 				text="Killing Blows Shatter enemies as though Frozen"
 			}
 		},
@@ -30439,6 +32339,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion deals {0}% more Damage to attached target",
 				text="Explosion deals {0}% more Damage to attached target"
 			},
 			[2]={
@@ -30452,6 +32353,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Explosion deals {0}% less Damage to attached target",
 				text="Explosion deals {0}% less Damage to attached target"
 			}
 		},
@@ -30468,6 +32370,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles deal up to {0}% more Damage with Hits per Steel Shard consumed at the start of their movement, lowering this bonus as they travel farther",
 				text="Projectiles deal up to {0}% more Damage with Hits per Steel Shard consumed at the start of their movement, lowering this bonus as they travel farther"
 			},
 			[2]={
@@ -30477,6 +32380,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Projectiles deal up to {0}% less Damage with Hits per Steel Shard consumed at the start of their movement, lowering this penalty as they travel farther",
 				text="Projectiles deal up to {0}% less Damage with Hits per Steel Shard consumed at the start of their movement, lowering this penalty as they travel farther"
 			}
 		},
@@ -30493,6 +32397,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Central wave has {0}% more Area of Effect",
 				text="Central wave has {0}% more Area of Effect"
 			},
 			[2]={
@@ -30506,6 +32411,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Central wave has {0}% less Area of Effect",
 				text="Central wave has {0}% less Area of Effect"
 			}
 		},
@@ -30526,6 +32432,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less damage if destroyed within 0.5 seconds by something other than you",
 				text="{0}% less damage if destroyed within 0.5 seconds by something other than you"
 			},
 			[2]={
@@ -30535,6 +32442,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more damage if not destroyed withint 0.5 seconds by something other than you",
 				text="{0}% more damage if not destroyed withint 0.5 seconds by something other than you"
 			}
 		},
@@ -30551,6 +32459,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage if destroyed by your Skills",
 				text="{0}% more Damage if destroyed by your Skills"
 			},
 			[2]={
@@ -30564,6 +32473,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage if destroyed by your Skills",
 				text="{0}% less Damage if destroyed by your Skills"
 			}
 		},
@@ -30580,6 +32490,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Shock|Shock] inflicted",
 				text="{0}% increased Magnitude of Shock inflicted"
 			},
 			[2]={
@@ -30593,6 +32504,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Shock|Shock] inflicted",
 				text="{0}% reduced Magnitude of Shock inflicted"
 			}
 		},
@@ -30609,6 +32521,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [BuffMagnitude|Magnitude] of [Shock|Shocks] inflicted with [Critical|Critical Hits]",
 				text="{0}% increased Magnitude of Shocks inflicted with Critical Hits"
 			},
 			[2]={
@@ -30622,6 +32535,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [BuffMagnitude|Magnitude] of [Shock|Shocks] inflicted with [Critical|Critical Hits]",
 				text="{0}% reduced Magnitude of Shocks inflicted with Critical Hits"
 			}
 		},
@@ -30638,6 +32552,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to Maximum Effect of Shock",
 				text="{0:+d}% to Maximum Effect of Shock"
 			}
 		},
@@ -30654,6 +32569,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Ring has {0}% chance to Shock",
 				text="Ring has {0}% chance to Shock"
 			},
 			[2]={
@@ -30663,6 +32579,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring always Shocks",
 				text="Ring always Shocks"
 			}
 		},
@@ -30679,6 +32596,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ring Shocks as if dealing {0}% more Damage",
 				text="Ring Shocks as if dealing {0}% more Damage"
 			},
 			[2]={
@@ -30692,6 +32610,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ring Shocks as if dealing {0}% less Damage",
 				text="Ring Shocks as if dealing {0}% less Damage"
 			}
 		},
@@ -30708,6 +32627,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shocked Ground causes {0}% increased Damage taken",
 				text="Shocked Ground causes {0}% increased Damage taken"
 			},
 			[2]={
@@ -30721,6 +32641,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shocked Ground causes {0}% reduced Damage taken",
 				text="Shocked Ground causes {0}% reduced Damage taken"
 			}
 		},
@@ -30741,6 +32662,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cone Area occurs {0}% farther forward",
 				text="Cone Area occurs {0}% farther forward"
 			}
 		},
@@ -30757,6 +32679,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes {0} smaller explosions",
 				text="Causes {0} smaller explosions"
 			}
 		},
@@ -30773,6 +32696,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage Penetrates {0}% of Branded Enemy's Fire Resistance",
 				text="Damage Penetrates {0}% of Branded Enemy's Fire Resistance"
 			}
 		},
@@ -30789,6 +32713,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damage Penetrates {0}% of Branded Enemy's Lightning Resistance",
 				text="Damage Penetrates {0}% of Branded Enemy's Lightning Resistance"
 			}
 		},
@@ -30809,6 +32734,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Brands refresh their Detached Duration by up to {0} seconds",
 				text="Brands refresh their Detached Duration by up to {0} seconds"
 			}
 		},
@@ -30829,6 +32755,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Brands refresh their Attached Duration by up to {0} seconds",
 				text="Brands refresh their Attached Duration by up to {0} seconds"
 			}
 		},
@@ -30845,6 +32772,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can be attached to your Summoned Reaper",
 				text="Can be attached to your Summoned Reaper"
 			}
 		},
@@ -30865,6 +32793,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Revived Skeletons are immune to Damage for {0} second after being Revived",
 				text="Revived Skeletons are immune to Damage for {0} second after being Revived"
 			},
 			[2]={
@@ -30878,6 +32807,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Revived Skeletons are immune to Damage for {0} seconds after being Revived",
 				text="Revived Skeletons are immune to Damage for {0} seconds after being Revived"
 			}
 		},
@@ -30894,6 +32824,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create an additional Fissure",
 				text="{0}% chance to create an additional Fissure"
 			}
 		},
@@ -30917,6 +32848,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased angle while in Sand Stance",
 				text="{0}% increased angle while in Sand Stance"
 			}
 		},
@@ -30933,6 +32865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Area of Effect angle",
 				text="{0}% increased Area of Effect angle"
 			},
 			[2]={
@@ -30946,6 +32879,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Area of Effect angle",
 				text="{0}% reduced Area of Effect angle"
 			}
 		},
@@ -30969,6 +32903,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect while in Sand Stance",
 				text="{0}% more Area of Effect while in Sand Stance"
 			},
 			[2]={
@@ -30978,6 +32913,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect while in Sand Stance",
 				text="{0}% less Area of Effect while in Sand Stance"
 			}
 		},
@@ -30998,6 +32934,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Oil] [Slow|Slows] enemy movement speed by {0}%",
 				text="Oil Slows enemy movement speed by {0}%"
 			}
 		},
@@ -31015,6 +32952,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Exposure] lowers Total [ElementalDamage|Elemental]\n[Resistances] by an additional {0}%",
 				text="Exposure lowers Total Elemental\nResistances by an additional {0}%"
 			},
 			[2]={
@@ -31024,6 +32962,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Oil] applies [Exposure], lowering Total\n[ElementalDamage|Elemental] [Resistances] by {0}%",
 				text="Oil applies Exposure, lowering Total\nElemental Resistances by {0}%"
 			}
 		},
@@ -31040,6 +32979,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% chance to Shock",
 				text="Aura grants {0}% chance to Shock"
 			}
 		},
@@ -31056,6 +32996,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura grants {0}% increased [Attack] and Cast Speed",
 				text="Aura grants {0}% increased Attack and Cast Speed"
 			},
 			[2]={
@@ -31069,6 +33010,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Aura grants {0}% reduced [Attack] and Cast Speed",
 				text="Aura grants {0}% reduced Attack and Cast Speed"
 			}
 		},
@@ -31085,6 +33027,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Dashes and [Strike|Strikes] additional valid targets",
 				text="Dashes and Strikes additional valid targets"
 			}
 		},
@@ -31101,6 +33044,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot gain [Rage] while using this Skill",
 				text="Cannot gain Rage while using this Skill"
 			}
 		},
@@ -31117,6 +33061,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Movement Speed",
 				text="{0}% more Movement Speed"
 			},
 			[2]={
@@ -31130,6 +33075,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Movement Speed",
 				text="{0}% less Movement Speed"
 			}
 		},
@@ -31160,6 +33106,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Curse] does not apply to enemies above level {0}",
 				text="Curse does not apply to enemies above level {0}"
 			}
 		},
@@ -31176,6 +33123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per Chain",
 				text="{0}% more Damage per Chain"
 			},
 			[2]={
@@ -31189,6 +33137,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per Chain",
 				text="{0}% less Damage per Chain"
 			}
 		},
@@ -31219,6 +33168,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Duration of Damaging Ailments",
 				text="{0}% increased Duration of Damaging Ailments"
 			},
 			[2]={
@@ -31232,6 +33182,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Duration of Damaging Ailments",
 				text="{0}% reduced Duration of Damaging Ailments"
 			}
 		},
@@ -31252,6 +33203,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} seconds additional Base Duration per 100 [Intelligence]",
 				text="{0} seconds additional Base Duration per 100 Intelligence"
 			}
 		},
@@ -31268,6 +33220,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported Skills have {}% increased Skill Effect Duration while Dead",
 				text="Supported Skills have {}% increased Skill Effect Duration while Dead"
 			},
 			[2]={
@@ -31281,6 +33234,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Supported Skills have {}% reduced Skill Effect Duration while Dead",
 				text="Supported Skills have {}% reduced Skill Effect Duration while Dead"
 			}
 		},
@@ -31302,6 +33256,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends up to {0} additional [Ward|Runic Ward]",
 				text="Spends up to {0} additional Runic Ward"
 			},
 			[2]={
@@ -31319,6 +33274,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends up to {0} [Ward|Runic Ward] to [Reviving|Revive] [Minion|Minions] with total maximum Life equal to {1} times the [Ward|Runic Ward] spent",
 				text="Spends up to {0} Runic Ward to Revive Minions with total maximum Life equal to {1} times the Runic Ward spent"
 			}
 		},
@@ -31351,6 +33307,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Culling a monster grants {2} [Charges|Frenzy Charges]",
 				text="Culling a monster grants {2} Frenzy Charges"
 			},
 			[2]={
@@ -31368,6 +33325,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charges]",
 				text="Normal and Magic monsters grant {0} Frenzy Charge\nRare monsters grant {1} Frenzy Charge\nUnique monsters grant {2} Frenzy Charges"
 			},
 			[3]={
@@ -31385,6 +33343,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charge]",
 				text="Normal and Magic monsters grant {0} Frenzy Charge\nRare monsters grant {1} Frenzy Charges\nUnique monsters grant {2} Frenzy Charge"
 			},
 			[4]={
@@ -31402,6 +33361,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charge]",
 				text="Normal and Magic monsters grant {0} Frenzy Charges\nRare monsters grant {1} Frenzy Charge\nUnique monsters grant {2} Frenzy Charge"
 			},
 			[5]={
@@ -31419,6 +33379,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charges]",
 				text="Normal and Magic monsters grant {0} Frenzy Charges\nRare monsters grant {1} Frenzy Charge\nUnique monsters grant {2} Frenzy Charges"
 			},
 			[6]={
@@ -31436,6 +33397,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charge]",
 				text="Normal and Magic monsters grant {0} Frenzy Charges\nRare monsters grant {1} Frenzy Charges\nUnique monsters grant {2} Frenzy Charge"
 			},
 			[7]={
@@ -31453,6 +33415,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charges]",
 				text="Normal and Magic monsters grant {0} Frenzy Charge\nRare monsters grant {1} Frenzy Charges\nUnique monsters grant {2} Frenzy Charges"
 			},
 			[8]={
@@ -31470,6 +33433,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Rarity|Normal and Magic] monsters grant {0} [Charges|Frenzy Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Frenzy Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Frenzy Charges]",
 				text="Normal and Magic monsters grant {0} Frenzy Charges\nRare monsters grant {1} Frenzy Charges\nUnique monsters grant {2} Frenzy Charges"
 			}
 		},
@@ -31488,6 +33452,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Grants Elusive when Used",
 				text="Grants Elusive when Used"
 			}
 		},
@@ -31504,6 +33469,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered by a Unique Item",
 				text="This Skill is Triggered by a Unique Item"
 			}
 		},
@@ -31520,6 +33486,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Summons {0} Hyena",
 				text="Summons {0} Hyena"
 			},
 			[2]={
@@ -31529,6 +33496,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summons {0} Hyenas",
 				text="Summons {0} Hyenas"
 			}
 		},
@@ -31549,6 +33517,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[JaggedGround|Jagged Ground] duration is {0} second",
 				text="Jagged Ground duration is {0} second"
 			},
 			[2]={
@@ -31562,6 +33531,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[JaggedGround|Jagged Ground] duration is {0} seconds",
 				text="Jagged Ground duration is {0} seconds"
 			}
 		},
@@ -31592,6 +33562,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased maximum travel distance",
 				text="{0}% increased maximum travel distance"
 			}
 		},
@@ -31636,6 +33607,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased travel distance",
 				text="{0}% increased travel distance"
 			}
 		},
@@ -31652,6 +33624,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is [Trigger|Triggered] by consuming a Primal Owl Feather when you Dodge Roll",
 				text="This Skill is Triggered by consuming a Primal Owl Feather when you Dodge Roll"
 			}
 		},
@@ -31668,6 +33641,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered by Snipe",
 				text="This Skill is Triggered by Snipe"
 			}
 		},
@@ -31684,6 +33658,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you Focus",
 				text="{0}% chance to Trigger this Spell when you Focus"
 			},
 			[2]={
@@ -31693,6 +33668,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you Focus",
 				text="Trigger this Spell when you Focus"
 			}
 		},
@@ -31709,6 +33685,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED]Skills used by Mirage Chieftains deal {0}% more Damage",
 				text="DNT-UNUSEDSkills used by Mirage Chieftains deal {0}% more Damage"
 			},
 			[2]={
@@ -31722,6 +33699,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[DNT-UNUSED]Skills used by Mirage Chieftains deal {0}% less Damage",
 				text="DNT-UNUSEDSkills used by Mirage Chieftains deal {0}% less Damage"
 			}
 		},
@@ -31742,6 +33720,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skills used by Mirage Saviours deal {0}% less Damage",
 				text="Skills used by Mirage Saviours deal {0}% less Damage"
 			}
 		},
@@ -31762,6 +33741,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Withered] duration@{0}s",
 				text="Withered duration@{0}s"
 			}
 		},
@@ -31778,6 +33758,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Summons {0} Wolf",
 				text="Summons {0} Wolf"
 			},
 			[2]={
@@ -31787,6 +33768,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summons {0} Wolves",
 				text="Summons {0} Wolves"
 			}
 		},
@@ -31803,6 +33785,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to cause an additional [Aftershock]",
 				text="{0}% chance to cause an additional Aftershock"
 			}
 		},
@@ -31819,6 +33802,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Inflicts {0} Withered Debuff the first time each Enemy enters the Area",
 				text="Inflicts {0} Withered Debuff the first time each Enemy enters the Area"
 			},
 			[2]={
@@ -31828,6 +33812,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts {0} Withered Debuffs the first time each Enemy enters the Area",
 				text="Inflicts {0} Withered Debuffs the first time each Enemy enters the Area"
 			}
 		},
@@ -31844,6 +33829,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to keep each caught Projectile fired with Whirling Blades",
 				text="{0}% chance to keep each caught Projectile fired with Whirling Blades"
 			}
 		},
@@ -31867,6 +33853,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Take {0} Chaos Damage",
 				text="Take {0} Chaos Damage"
 			}
 		},
@@ -31883,6 +33870,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Stages",
 				text="{0} maximum Stages"
 			}
 		},
@@ -31899,6 +33887,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires extra [Projectile|Projectiles] at up to {0} surrounding Enemies",
 				text="Fires extra Projectiles at up to {0} surrounding Enemies"
 			}
 		},
@@ -31915,6 +33904,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Spell|Spell] Damage for each stage",
 				text="{0}% more Spell Damage for each stage"
 			},
 			[2]={
@@ -31928,6 +33918,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Spell|Spell] Damage for each stage",
 				text="{0}% less Spell Damage for each stage"
 			}
 		},
@@ -31944,6 +33935,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Spears",
 				text="Creates {0} Spears"
 			}
 		},
@@ -31960,6 +33952,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Maim|Maims] from this Skill [Slow|Slow] an additional {0}%",
 				text="Maims from this Skill Slow an additional {0}%"
 			}
 		},
@@ -31980,6 +33973,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spirals through {0} rotations",
 				text="Spirals through {0} rotations"
 			}
 		},
@@ -31996,6 +33990,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Bounces up to {0} time",
 				text="Bounces up to {0} time"
 			},
 			[2]={
@@ -32005,6 +34000,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Bounces up to {0} times",
 				text="Bounces up to {0} times"
 			}
 		},
@@ -32025,6 +34021,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each [Projectile|Projectile] has between {0}% more and {0}% less [Projectile|Projectile] Speed",
 				text="Each Projectile has between {0}% more and {0}% less Projectile Speed"
 			}
 		},
@@ -32041,6 +34038,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to [Cascadable|Echo]",
 				text="{0}% chance to Echo"
 			}
 		},
@@ -32057,6 +34055,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spells deal {0}% increased Area Damage while in Blood Stance",
 				text="Spells deal {0}% increased Area Damage while in Blood Stance"
 			},
 			[2]={
@@ -32070,6 +34069,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Spells deal {0}% reduced Area Damage while in Blood Stance",
 				text="Spells deal {0}% reduced Area Damage while in Blood Stance"
 			}
 		},
@@ -32086,6 +34086,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spells have {0}% increased Area of Effect while in Sand Stance",
 				text="Spells have {0}% increased Area of Effect while in Sand Stance"
 			},
 			[2]={
@@ -32099,6 +34100,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Spells have {0}% reduced Area of Effect while in Sand Stance",
 				text="Spells have {0}% reduced Area of Effect while in Sand Stance"
 			}
 		},
@@ -32122,6 +34124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Spell's Cast Speed cannot be modified",
 				text="This Spell's Cast Speed cannot be modified"
 			}
 		},
@@ -32159,6 +34162,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Spell is Triggered by a Crafted Modifier",
 				text="This Spell is Triggered by a Crafted Modifier"
 			}
 		},
@@ -32179,6 +34183,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% to {1}% of your [Intelligence] as [Fire] Damage",
 				text="{0}% to {1}% of your Intelligence as Fire Damage"
 			}
 		},
@@ -32200,6 +34205,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% to {1}% of your [Intelligence] as [Cold] Damage",
 				text="{0}% to {1}% of your Intelligence as Cold Damage"
 			}
 		},
@@ -32221,6 +34227,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% to {1}% of your [Intelligence] as [Lightning] Damage",
 				text="{0}% to {1}% of your Intelligence as Lightning Damage"
 			}
 		},
@@ -32242,6 +34249,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} Base [Spell|Spell] [Physical|Physical] Damage per 1% [Shield|Shield] Quality",
 				text="{0} to {1} Base Spell Physical Damage per 1% Shield Quality"
 			}
 		},
@@ -32309,6 +34317,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0}% chance to fire 8 additional [Projectile|Projectiles] in a circle",
 				text="+{0}% chance to fire 8 additional Projectiles in a circle"
 			}
 		},
@@ -32325,6 +34334,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% chance to fire 2 additional [Projectile|Projectiles]",
 				text="{0:+d}% chance to fire 2 additional Projectiles"
 			}
 		},
@@ -32341,6 +34351,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Visage frequency",
 				text="{0}% more Visage frequency"
 			},
 			[2]={
@@ -32354,6 +34365,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Visage frequency",
 				text="{0}% less Visage frequency"
 			}
 		},
@@ -32370,6 +34382,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Hinder] enemies on Hit",
 				text="{0}% chance to Hinder enemies on Hit"
 			},
 			[2]={
@@ -32379,6 +34392,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Hinder] enemies on Hit",
 				text="Hinder enemies on Hit"
 			}
 		},
@@ -32399,6 +34413,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0} [Energy] per 0.1 seconds of base\ncast time of [Spell|Spells] you cast",
 				text="Gains {0} Energy per 0.1 seconds of base\ncast time of Spells you cast"
 			}
 		},
@@ -32415,6 +34430,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill's Mana Reservation is the total of the Mana Reservations of Supported Skills, and cannot be further modified",
 				text="This Skill's Mana Reservation is the total of the Mana Reservations of Supported Skills, and cannot be further modified"
 			}
 		},
@@ -32431,6 +34447,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Can inflict up to 1 Spider's Web on an Enemy",
 				text="Can inflict up to 1 Spider's Web on an Enemy"
 			},
 			[2]={
@@ -32440,6 +34457,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can inflict up to {0} Spider's Webs on an Enemy",
 				text="Can inflict up to {0} Spider's Webs on an Enemy"
 			}
 		},
@@ -32456,6 +34474,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create an additional Fissure",
 				text="{0}% chance to create an additional Fissure"
 			}
 		},
@@ -32472,6 +34491,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shattering Spikes deal {0}% more damage",
 				text="Shattering Spikes deal {0}% more damage"
 			},
 			[2]={
@@ -32485,6 +34505,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shattering Spikes deal {0}% less damage",
 				text="Shattering Spikes deal {0}% less damage"
 			}
 		},
@@ -32501,6 +34522,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissures deal {0}% more Damage",
 				text="Fissures deal {0}% more Damage"
 			},
 			[2]={
@@ -32514,6 +34536,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Fissures deal {0}% less Damage",
 				text="Fissures deal {0}% less Damage"
 			}
 		},
@@ -32530,6 +34553,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Fissure Length",
 				text="{0}% increased Fissure Length"
 			},
 			[2]={
@@ -32543,6 +34567,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Fissure Length",
 				text="{0}% reduced Fissure Length"
 			}
 		},
@@ -32559,6 +34584,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Creates {0} fissure",
 				text="Creates {0} fissure"
 			},
 			[2]={
@@ -32568,6 +34594,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} fissures",
 				text="Creates {0} fissures"
 			}
 		},
@@ -32584,6 +34611,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spikes deal {0}% more Damage",
 				text="Spikes deal {0}% more Damage"
 			},
 			[2]={
@@ -32597,6 +34625,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Spikes deal {0}% less Damage",
 				text="Spikes deal {0}% less Damage"
 			}
 		},
@@ -32613,6 +34642,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Minions {}% increased [Critical|Critical Hit] Chance",
 				text="Grants Minions {}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -32626,6 +34656,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants Minions {}% reduced [Critical|Critical Hit] Chance",
 				text="Grants Minions {}% reduced Critical Hit Chance"
 			}
 		},
@@ -32642,6 +34673,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Minions {:+d}% to [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Grants Minions {:+d}% to Critical Damage Bonus"
 			}
 		},
@@ -32665,6 +34697,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirage Warriors have {0}% increased Movement Speed",
 				text="Mirage Warriors have {0}% increased Movement Speed"
 			},
 			[2]={
@@ -32678,6 +34711,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Mirage Warriors have {0}% reduced Movement Speed",
 				text="Mirage Warriors have {0}% reduced Movement Speed"
 			}
 		},
@@ -32694,6 +34728,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect after Splitting",
 				text="{0}% more Area of Effect after Splitting"
 			},
 			[2]={
@@ -32707,6 +34742,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect after Splitting",
 				text="{0}% less Area of Effect after Splitting"
 			}
 		},
@@ -32723,6 +34759,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beams deal {0}% more Damage",
 				text="Beams deal {0}% more Damage"
 			},
 			[2]={
@@ -32736,6 +34773,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Beams deal {0}% less Damage",
 				text="Beams deal {0}% less Damage"
 			}
 		},
@@ -32752,6 +34790,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beams deal {0}% more Damage while Moving",
 				text="Beams deal {0}% more Damage while Moving"
 			},
 			[2]={
@@ -32765,6 +34804,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Beams deal {0}% less Damage while Moving",
 				text="Beams deal {0}% less Damage while Moving"
 			}
 		},
@@ -32781,6 +34821,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Beam Targets",
 				text="{0} maximum Beam Targets"
 			}
 		},
@@ -32797,6 +34838,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Stealth",
 				text="{0}% increased Stealth"
 			},
 			[2]={
@@ -32810,6 +34852,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Stealth",
 				text="{0}% reduced Stealth"
 			}
 		},
@@ -32826,6 +34869,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes up to 1 Steel Shard",
 				text="Consumes up to 1 Steel Shard"
 			},
 			[2]={
@@ -32835,6 +34879,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes up to {0} Steel Shards",
 				text="Consumes up to {0} Steel Shards"
 			}
 		},
@@ -32851,6 +34896,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance not to consume Steel Shards",
 				text="{0}% chance not to consume Steel Shards"
 			},
 			[2]={
@@ -32860,6 +34906,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Does not consume Steel Shards",
 				text="Does not consume Steel Shards"
 			}
 		},
@@ -32876,6 +34923,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflected Damage is dealt with {0}% increased Area of Effect",
 				text="Reflected Damage is dealt with {0}% increased Area of Effect"
 			},
 			[2]={
@@ -32889,6 +34937,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Reflected Damage is dealt with {0}% reduced Area of Effect",
 				text="Reflected Damage is dealt with {0}% reduced Area of Effect"
 			}
 		},
@@ -32905,6 +34954,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Reflected Damage increased by {0}%",
 				text="Reflected Damage increased by {0}%"
 			},
 			[2]={
@@ -32918,6 +34968,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Reflected Damage reduced by {0}%",
 				text="Reflected Damage reduced by {0}%"
 			}
 		},
@@ -32938,6 +34989,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% of maximum Life Regenerated per second",
 				text="Infusion grants {0}% of maximum Life Regenerated per second"
 			}
 		},
@@ -32954,6 +35006,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Energy Blades have {0}% increased [Attack] Speed",
 				text="Energy Blades have {0}% increased Attack Speed"
 			},
 			[2]={
@@ -32967,6 +35020,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Energy Blades have {0}% reduced [Attack] Speed",
 				text="Energy Blades have {0}% reduced Attack Speed"
 			}
 		},
@@ -32983,6 +35037,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Attack|Attacks] with Energy Blades Penetrate {0}% Lightning Resistance",
 				text="Attacks with Energy Blades Penetrate {0}% Lightning Resistance"
 			}
 		},
@@ -32999,6 +35054,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Energy Blades grant {0}% chance to Shock",
 				text="Energy Blades grant {0}% chance to Shock"
 			}
 		},
@@ -33015,6 +35071,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Energy Blades have {0}% increased [Critical|Critical Hit] Chance",
 				text="Energy Blades have {0}% increased Critical Hit Chance"
 			},
 			[2]={
@@ -33028,6 +35085,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Energy Blades have {0}% reduced [Critical|Critical Hit] Chance",
 				text="Energy Blades have {0}% reduced Critical Hit Chance"
 			}
 		},
@@ -33044,6 +35102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Energy Blades grant {0}% of Lightning Damage with [Attack|Attacks] Converted to Chaos Damage",
 				text="Energy Blades grant {0}% of Lightning Damage with Attacks Converted to Chaos Damage"
 			}
 		},
@@ -33060,6 +35119,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% increased Explosion Area of Effect",
 				text="{}% increased Explosion Area of Effect"
 			},
 			[2]={
@@ -33073,6 +35133,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{}% reduced Explosion Area of Effect",
 				text="{}% reduced Explosion Area of Effect"
 			}
 		},
@@ -33089,6 +35150,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exploding Orbs deal {0}% of Skill Damage for each 0.4 seconds of remaining Duration",
 				text="Exploding Orbs deal {0}% of Skill Damage for each 0.4 seconds of remaining Duration"
 			}
 		},
@@ -33105,6 +35167,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% increased Area of Effect while Channelling",
 				text="{}% increased Area of Effect while Channelling"
 			},
 			[2]={
@@ -33118,6 +35181,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{}% reduced Area of Effect while Channelling",
 				text="{}% reduced Area of Effect while Channelling"
 			}
 		},
@@ -33134,6 +35198,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% chance for Lightning to Strike the Marker when Cast",
 				text="{}% chance for Lightning to Strike the Marker when Cast"
 			}
 		},
@@ -33150,6 +35215,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Each Arrow can fire {0} Beam",
 				text="Each Arrow can fire {0} Beam"
 			},
 			[2]={
@@ -33159,6 +35225,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Arrow can fire {0} Beams",
 				text="Each Arrow can fire {0} Beams"
 			}
 		},
@@ -33175,6 +35242,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of {0} active Bolts",
 				text="Maximum of {0} active Bolts"
 			}
 		},
@@ -33198,6 +35266,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Stun Duration against Enemies that are on Full Life",
 				text="{0}% increased Stun Duration against Enemies that are on Full Life"
 			},
 			[2]={
@@ -33211,6 +35280,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Stun Duration against Enemies that are on Full Life",
 				text="{0}% reduced Stun Duration against Enemies that are on Full Life"
 			}
 		},
@@ -33227,6 +35297,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When you Hit an Enemy with an Arrow from this Skill, Summons a Mirage Archer which uses this Skill",
 				text="When you Hit an Enemy with an Arrow from this Skill, Summons a Mirage Archer which uses this Skill"
 			}
 		},
@@ -33243,6 +35314,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="When you deal a [Critical|Critical Hit] with The Saviour, Summon a Mirage Warrior which uses that [Attack] Skill",
 				text="When you deal a Critical Hit with The Saviour, Summon a Mirage Warrior which uses that Attack Skill"
 			}
 		},
@@ -33259,6 +35331,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Spider grants {0}% increased [Attack] Speed",
 				text="Each Spider grants {0}% increased Attack Speed"
 			},
 			[2]={
@@ -33272,6 +35345,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Each Spider grants {0}% reduced [Attack] Speed",
 				text="Each Spider grants {0}% reduced Attack Speed"
 			}
 		},
@@ -33288,6 +35362,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwaves have {}% increased Area of Effect",
 				text="Shockwaves have {}% increased Area of Effect"
 			},
 			[2]={
@@ -33301,6 +35376,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shockwaves have {}% reduced Area of Effect",
 				text="Shockwaves have {}% reduced Area of Effect"
 			}
 		},
@@ -33317,6 +35393,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave has {}% increased Area of Effect",
 				text="Wave has {}% increased Area of Effect"
 			},
 			[2]={
@@ -33330,6 +35407,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Wave has {}% reduced Area of Effect",
 				text="Wave has {}% reduced Area of Effect"
 			}
 		},
@@ -33346,6 +35424,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave has {0}% increased delay between Areas",
 				text="Wave has {0}% increased delay between Areas"
 			},
 			[2]={
@@ -33359,6 +35438,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Wave has {0}% reduced delay between Areas",
 				text="Wave has {0}% reduced delay between Areas"
 			}
 		},
@@ -33375,6 +35455,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Wave cannot stop before Damaging {0} Areas",
 				text="Wave cannot stop before Damaging {0} Areas"
 			}
 		},
@@ -33407,6 +35488,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to throw up to 1 additional Trap or Mine",
 				text="{0}% chance to throw up to 1 additional Trap or Mine"
 			}
 		},
@@ -33423,6 +35505,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to throw up to 2 additional Traps or Mines",
 				text="{0}% chance to throw up to 2 additional Traps or Mines"
 			}
 		},
@@ -33439,6 +35522,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to throw up to 3 additional Traps or Mines",
 				text="{0}% chance to throw up to 3 additional Traps or Mines"
 			}
 		},
@@ -33455,6 +35539,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to throw an additional Trap",
 				text="{0}% chance to throw an additional Trap"
 			}
 		},
@@ -33478,6 +35563,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported Skills [Daze|Daze] Enemies",
 				text="Supported Skills Daze Enemies"
 			}
 		},
@@ -33502,6 +35588,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum Mana expenditure required to gain {1}s of [ArcaneSurge|Arcane Surge]@{0}%",
 				text="Maximum Mana expenditure required to gain {1}s of Arcane Surge@{0}%"
 			}
 		},
@@ -33530,6 +35617,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Aura Lasts {0} seconds",
 				text="Aura Lasts {0} seconds"
 			}
 		},
@@ -33546,6 +35634,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% more Magnitude of Damaging Ailments inflicted"
 			},
 			[2]={
@@ -33559,6 +35648,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% less Magnitude of Damaging Ailments inflicted"
 			}
 		},
@@ -33575,6 +35665,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="This Skill has a {0}% chance to Trigger Shockwave Skill on Hit",
 				text="This Skill has a {0}% chance to Trigger Shockwave Skill on Hit"
 			},
 			[2]={
@@ -33584,6 +35675,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill will Trigger Shockwave Skill on Hit",
 				text="This Skill will Trigger Shockwave Skill on Hit"
 			}
 		},
@@ -33643,6 +35735,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage",
 				text="{0}% more Damage"
 			},
 			[2]={
@@ -33656,6 +35749,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage",
 				text="{0}% less Damage"
 			}
 		},
@@ -33676,6 +35770,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Requires {0} [Combo|Combo] to use",
 				text="Requires {0} Combo to use"
 			}
 		},
@@ -33693,6 +35788,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="More duration when consuming a [Charges|Power Charge]@{0}%",
 				text="More duration when consuming a Power Charge@{0}%"
 			},
 			[2]={
@@ -33706,6 +35802,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Less duration when consuming a [Charges|Power Charge]@{0}%",
 				text="Less duration when consuming a Power Charge@{0}%"
 			}
 		},
@@ -33722,6 +35819,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased cooldown recovery rate",
 				text="{0}% increased cooldown recovery rate"
 			},
 			[2]={
@@ -33735,6 +35833,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced cooldown recovery rate",
 				text="{0}% reduced cooldown recovery rate"
 			}
 		},
@@ -33755,6 +35854,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Stunned by this Skill are also [Crushed] for {0} seconds",
 				text="Enemies Stunned by this Skill are also Crushed for {0} seconds"
 			}
 		},
@@ -33817,6 +35917,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits for each Poison on the Enemy, up to {1}",
 				text="{0}% more Damage with Hits for each Poison on the Enemy, up to {1}"
 			},
 			[2]={
@@ -33834,6 +35935,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% less Damage with Hits for each Poison on the Enemy, up to {1}",
 				text="{0}% less Damage with Hits for each Poison on the Enemy, up to {1}"
 			}
 		},
@@ -33876,6 +35978,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[KillingBlow|Killing Blows] against [Rarity|Rare Monsters] grant one\nof their [MonsterModifiers|Modifiers] for {0} seconds",
 				text="Killing Blows against Rare Monsters grant one\nof their Modifiers for {0} seconds"
 			}
 		},
@@ -33913,6 +36016,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to refresh Duration of granted Modifier by up to 5 seconds when you Hit a Rare or Unique Enemy",
 				text="{0}% chance to refresh Duration of granted Modifier by up to 5 seconds when you Hit a Rare or Unique Enemy"
 			}
 		},
@@ -33929,6 +36033,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum more [Attack|Attack] Damage to enemies 7m+ away@{0}%",
 				text="Maximum more Attack Damage to enemies 7m+ away@{0}%"
 			}
 		},
@@ -33945,6 +36050,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Attack] Speed",
 				text="{0}% more Attack Speed"
 			},
 			[2]={
@@ -33958,6 +36064,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Attack] Speed",
 				text="{0}% less Attack Speed"
 			}
 		},
@@ -33992,6 +36099,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Phantasms last {0} seconds",
 				text="Phantasms last {0} seconds"
 			}
 		},
@@ -34008,6 +36116,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Grenade] Skills deal {0}% more Damage",
 				text="Grenade Skills deal {0}% more Damage"
 			},
 			[2]={
@@ -34021,6 +36130,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Grenade] Skills deal {0}% less Damage",
 				text="Grenade Skills deal {0}% less Damage"
 			}
 		},
@@ -34041,6 +36151,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0}% more Area of Effect per second, up to a maximum of {1}%",
 				text="Gains {0}% more Area of Effect per second, up to a maximum of {1}%"
 			}
 		},
@@ -34079,6 +36190,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Freeze|Freeze] Buildup",
 				text="{0}% more Freeze Buildup"
 			},
 			[2]={
@@ -34092,6 +36204,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Freeze|Freeze] Buildup",
 				text="{0}% less Freeze Buildup"
 			}
 		},
@@ -34116,6 +36229,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Ignite] inflicted",
 				text="{0}% more Magnitude of Ignite inflicted"
 			},
 			[2]={
@@ -34129,6 +36243,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Ignite] inflicted",
 				text="{0}% less Magnitude of Ignite inflicted"
 			}
 		},
@@ -34145,6 +36260,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Ignite|Ignite] inflicted",
 				text="{0}% more Magnitude of Ignite inflicted"
 			},
 			[2]={
@@ -34158,6 +36274,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Ignite|Ignite] inflicted",
 				text="{0}% less Magnitude of Ignite inflicted"
 			}
 		},
@@ -34192,6 +36309,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Increased [Critical|Critical Hit] Chance gained per second without [Critical|Critically Hitting]@{0}% (max {1}%)",
 				text="Increased Critical Hit Chance gained per second without Critically Hitting@{0}% (max {1}%)"
 			}
 		},
@@ -34213,6 +36331,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="More [CriticalDamageBonus|Critical Damage Bonus] gained per second without [Critical|Critically Hitting]@{0}% (max {1}%)",
 				text="More Critical Damage Bonus gained per second without Critically Hitting@{0}% (max {1}%)"
 			},
 			[2]={
@@ -34230,6 +36349,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Less [CriticalDamageBonus|Critical Damage Bonus] gained per second without [Critical|Critically Hitting]@{0}% (max {1}%)",
 				text="Less Critical Damage Bonus gained per second without Critically Hitting@{0}% (max {1}%)"
 			}
 		},
@@ -34255,6 +36375,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Jagged Ground created by this Skill has {}% more Area of Effect",
 				text="Jagged Ground created by this Skill has {}% more Area of Effect"
 			},
 			[2]={
@@ -34268,6 +36389,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Jagged Ground created by this Skill has {}% less Area of Effect",
 				text="Jagged Ground created by this Skill has {}% less Area of Effect"
 			}
 		},
@@ -34302,6 +36424,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Lifetap lasts {0} second",
 				text="Lifetap lasts {0} second"
 			},
 			[2]={
@@ -34315,6 +36438,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Lifetap lasts {0} seconds",
 				text="Lifetap lasts {0} seconds"
 			}
 		},
@@ -34331,6 +36455,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain Lifetap after Spending a total of {0} Life on Upfront Costs and Effects of this Skill",
 				text="Gain Lifetap after Spending a total of {0} Life on Upfront Costs and Effects of this Skill"
 			}
 		},
@@ -34347,6 +36472,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum more [Pinned|Pin] Buildup against enemies within 2m@{0}%",
 				text="Maximum more Pin Buildup against enemies within 2m@{0}%"
 			}
 		},
@@ -34363,6 +36489,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Physical Damage",
 				text="{0}% more Physical Damage"
 			},
 			[2]={
@@ -34376,6 +36503,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Physical Damage",
 				text="{0}% less Physical Damage"
 			}
 		},
@@ -34392,6 +36520,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies Maimed by this Skill take {0}% increased Physical Damage",
 				text="Enemies Maimed by this Skill take {0}% increased Physical Damage"
 			},
 			[2]={
@@ -34405,6 +36534,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Enemies Maimed by this Skill take {0}% reduced Physical Damage",
 				text="Enemies Maimed by this Skill take {0}% reduced Physical Damage"
 			}
 		},
@@ -34428,6 +36558,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Mine Throwing Speed",
 				text="{0}% more Mine Throwing Speed"
 			},
 			[2]={
@@ -34441,6 +36572,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Mine Throwing Speed",
 				text="{0}% less Mine Throwing Speed"
 			}
 		},
@@ -34461,6 +36593,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} to {1} added Fire Damage against Burning Enemies",
 				text="{0} to {1} added Fire Damage against Burning Enemies"
 			}
 		},
@@ -34478,6 +36611,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% more Damage with Hits to Enemies that are Near you",
 				text="Minions deal {0}% more Damage with Hits to Enemies that are Near you"
 			},
 			[2]={
@@ -34491,6 +36625,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% less Damage with Hits to Enemies that are Near you",
 				text="Minions deal {0}% less Damage with Hits to Enemies that are Near you"
 			}
 		},
@@ -34507,6 +36642,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions take {0}% more Damage",
 				text="Minions take {0}% more Damage"
 			},
 			[2]={
@@ -34520,6 +36656,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions take {0}% less Damage",
 				text="Minions take {0}% less Damage"
 			}
 		},
@@ -34544,6 +36681,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions deal {0}% more Elemental Damage",
 				text="Minions deal {0}% more Elemental Damage"
 			},
 			[2]={
@@ -34557,6 +36695,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Minions deal {0}% less Elemental Damage",
 				text="Minions deal {0}% less Elemental Damage"
 			}
 		},
@@ -34573,6 +36712,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirage Archer uses this Skill with {0}% more [Attack] Speed",
 				text="Mirage Archer uses this Skill with {0}% more Attack Speed"
 			},
 			[2]={
@@ -34586,6 +36726,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Mirage Archer uses this Skill with {0}% less [Attack] Speed",
 				text="Mirage Archer uses this Skill with {0}% less Attack Speed"
 			}
 		},
@@ -34606,6 +36747,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mirage Archer lasts {0} seconds",
 				text="Mirage Archer lasts {0} seconds"
 			}
 		},
@@ -34630,6 +36772,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="More damage after moving {0} metre@{1}%",
 				text="More damage after moving {0} metre@{1}%"
 			},
 			[2]={
@@ -34647,6 +36790,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="More damage after moving {0} metres@{1}%",
 				text="More damage after moving {0} metres@{1}%"
 			}
 		},
@@ -34668,6 +36812,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Intimidate] duration on enemies entering [Presence|Presence]@{0}s",
 				text="Intimidate duration on enemies entering Presence@{0}s"
 			}
 		},
@@ -34702,6 +36847,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Vortex lasts {0} second",
 				text="Vortex lasts {0} second"
 			},
 			[2]={
@@ -34715,6 +36861,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Vortex lasts {0} seconds",
 				text="Vortex lasts {0} seconds"
 			}
 		},
@@ -34731,6 +36878,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Also fires [Projectile|Projectiles] from up to {0} point on each side of you",
 				text="Also fires Projectiles from up to {0} point on each side of you"
 			},
 			[2]={
@@ -34740,6 +36888,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Also fires [Projectile|Projectiles] from up to {0} points on each side of you",
 				text="Also fires Projectiles from up to {0} points on each side of you"
 			}
 		},
@@ -34756,6 +36905,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Causes [Daze|Daze] buildup equal to {0}% of [Physical|Physical] damage dealt",
 				text="Causes Daze buildup equal to {0}% of Physical damage dealt"
 			}
 		},
@@ -34779,6 +36929,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per [Charges|Power Charge]",
 				text="{0}% more Damage per Power Charge"
 			},
 			[2]={
@@ -34792,6 +36943,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per [Charges|Power Charge]",
 				text="{0}% less Damage per Power Charge"
 			}
 		},
@@ -34808,6 +36960,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Increased [Accuracy] Rating granted to you@{0}%",
 				text="Increased Accuracy Rating granted to you@{0}%"
 			}
 		},
@@ -34824,6 +36977,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -34837,6 +36991,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -34857,6 +37012,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 [Rage|Rage] on [Melee|Melee] [HitDamage|Hit], no more than once every {0} seconds",
 				text="Gain 1 Rage on Melee Hit, no more than once every {0} seconds"
 			}
 		},
@@ -34892,6 +37048,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Mana per second for 4 seconds when this Skill Shocks an enemy",
 				text="Regenerate {0} Mana per second for 4 seconds when this Skill Shocks an enemy"
 			}
 		},
@@ -34908,6 +37065,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each prior Mine in Detonation Sequence",
 				text="{0}% more Damage for each prior Mine in Detonation Sequence"
 			},
 			[2]={
@@ -34921,6 +37079,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage for each prior Mine in Detonation Sequence",
 				text="{0}% less Damage for each prior Mine in Detonation Sequence"
 			}
 		},
@@ -34952,6 +37111,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain Onslaught for {1} seconds when you Hit a Unique Enemy",
 				text="{0}% chance to gain Onslaught for {1} seconds when you Hit a Unique Enemy"
 			}
 		},
@@ -34981,6 +37141,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0}% chance to grant Onslaught for {2} seconds on\ndealing a Killing Blow",
 				text="{0}% chance to grant Onslaught for {2} seconds on\ndealing a Killing Blow"
 			}
 		},
@@ -35031,6 +37192,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Grants Combat Rush on Hit\nCombat Rush lasts {0} second or until you use a Travel Skill",
 				text="Grants Combat Rush on Hit\nCombat Rush lasts {0} second or until you use a Travel Skill"
 			},
 			[2]={
@@ -35044,6 +37206,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants Combat Rush on Hit\nCombat Rush lasts {0} seconds or until you use a Travel Skill",
 				text="Grants Combat Rush on Hit\nCombat Rush lasts {0} seconds or until you use a Travel Skill"
 			}
 		},
@@ -35060,6 +37223,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Combat Rush grants {0}% more [Attack] Speed to Travel Skills that are not Supported by Close Combat",
 				text="Combat Rush grants {0}% more Attack Speed to Travel Skills that are not Supported by Close Combat"
 			},
 			[2]={
@@ -35073,6 +37237,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Combat Rush grants {0}% less [Attack] Speed to Travel Skills that are not Supported by Close Combat",
 				text="Combat Rush grants {0}% less Attack Speed to Travel Skills that are not Supported by Close Combat"
 			}
 		},
@@ -35089,6 +37254,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals up to {0}% more [Melee] Damage to Enemies, based on proximity",
 				text="Deals up to {0}% more Melee Damage to Enemies, based on proximity"
 			}
 		},
@@ -35109,6 +37275,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area Damage with Hits per Intensity\n{1}% more Area of Effect per Intensity",
 				text="{0}% more Area Damage with Hits per Intensity\n{1}% more Area of Effect per Intensity"
 			},
 			[2]={
@@ -35126,6 +37293,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% less Area Damage with Hits per Intensity\n{1}% more Area of Effect per Intensity",
 				text="{0}% less Area Damage with Hits per Intensity\n{1}% more Area of Effect per Intensity"
 			},
 			[3]={
@@ -35143,6 +37311,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% more Area Damage with Hits per Intensity\n{1}% less Area of Effect per Intensity",
 				text="{0}% more Area Damage with Hits per Intensity\n{1}% less Area of Effect per Intensity"
 			},
 			[4]={
@@ -35164,6 +37333,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area Damage with Hits per Intensity\n{1}% less Area of Effect per Intensity",
 				text="{0}% less Area Damage with Hits per Intensity\n{1}% less Area of Effect per Intensity"
 			}
 		},
@@ -35181,6 +37351,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased delay between affected Areas",
 				text="{0}% increased delay between affected Areas"
 			},
 			[2]={
@@ -35194,6 +37365,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced delay between affected Areas",
 				text="{0}% reduced delay between affected Areas"
 			}
 		},
@@ -35210,6 +37382,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect",
 				text="{0}% more Area of Effect"
 			},
 			[2]={
@@ -35223,6 +37396,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Area of Effect",
 				text="{0}% less Area of Effect"
 			}
 		},
@@ -35261,6 +37435,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Initial Effect has {0}% more Area of Effect",
 				text="Initial Effect has {0}% more Area of Effect"
 			},
 			[2]={
@@ -35274,6 +37449,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Initial Effect has {0}% less Area of Effect",
 				text="Initial Effect has {0}% less Area of Effect"
 			}
 		},
@@ -35290,6 +37466,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="First Echo has {0}% more Area of Effect",
 				text="First Echo has {0}% more Area of Effect"
 			},
 			[2]={
@@ -35303,6 +37480,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="First Echo has {0}% less Area of Effect",
 				text="First Echo has {0}% less Area of Effect"
 			}
 		},
@@ -35319,6 +37497,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Second Echo has {0}% more Area of Effect",
 				text="Second Echo has {0}% more Area of Effect"
 			},
 			[2]={
@@ -35332,6 +37511,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Second Echo has {0}% less Area of Effect",
 				text="Second Echo has {0}% less Area of Effect"
 			}
 		},
@@ -35348,6 +37528,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Third Echo has {0}% more Area of Effect",
 				text="Third Echo has {0}% more Area of Effect"
 			},
 			[2]={
@@ -35361,6 +37542,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Third Echo has {0}% less Area of Effect",
 				text="Third Echo has {0}% less Area of Effect"
 			}
 		},
@@ -35405,6 +37587,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% more Chaos Damage",
 				text="Infusion grants {0}% more Chaos Damage"
 			},
 			[2]={
@@ -35418,6 +37601,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Infusion grants {0}% less Chaos Damage",
 				text="Infusion grants {0}% less Chaos Damage"
 			}
 		},
@@ -35434,6 +37618,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% more Cold Damage",
 				text="Infusion grants {0}% more Cold Damage"
 			},
 			[2]={
@@ -35447,6 +37632,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Infusion grants {0}% less Cold Damage",
 				text="Infusion grants {0}% less Cold Damage"
 			}
 		},
@@ -35467,6 +37653,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Infusion lasts {0} second after you finish Channelling",
 				text="Infusion lasts {0} second after you finish Channelling"
 			},
 			[2]={
@@ -35480,6 +37667,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion lasts {0} seconds after you finish Channelling",
 				text="Infusion lasts {0} seconds after you finish Channelling"
 			}
 		},
@@ -35496,6 +37684,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% more Fire Damage",
 				text="Infusion grants {0}% more Fire Damage"
 			},
 			[2]={
@@ -35509,6 +37698,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Infusion grants {0}% less Fire Damage",
 				text="Infusion grants {0}% less Fire Damage"
 			}
 		},
@@ -35525,6 +37715,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% more Lightning Damage",
 				text="Infusion grants {0}% more Lightning Damage"
 			},
 			[2]={
@@ -35538,6 +37729,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Infusion grants {0}% less Lightning Damage",
 				text="Infusion grants {0}% less Lightning Damage"
 			}
 		},
@@ -35554,6 +37746,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Infusion grants {0}% more Physical Damage",
 				text="Infusion grants {0}% more Physical Damage"
 			},
 			[2]={
@@ -35567,6 +37760,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Infusion grants {0}% less Physical Damage",
 				text="Infusion grants {0}% less Physical Damage"
 			}
 		},
@@ -35587,6 +37781,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Physical Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Physical Damage from Hits"
 			}
 		},
@@ -35607,6 +37802,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Chaos Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Chaos Damage from Hits"
 			}
 		},
@@ -35627,6 +37823,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Cold Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Cold Damage from Hits"
 			}
 		},
@@ -35647,6 +37844,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Fire Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Fire Damage from Hits"
 			}
 		},
@@ -35667,6 +37865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Lightning Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Lightning Damage from Hits"
 			}
 		},
@@ -35683,6 +37882,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [Ignite] inflicted",
 				text="{0}% more Magnitude of Ignite inflicted"
 			},
 			[2]={
@@ -35696,6 +37896,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [Ignite] inflicted",
 				text="{0}% less Magnitude of Ignite inflicted"
 			}
 		},
@@ -35719,6 +37920,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% more Magnitude of Damaging Ailments inflicted"
 			},
 			[2]={
@@ -35732,6 +37934,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [BuffMagnitude|Magnitude] of [DamagingAilments|Damaging Ailments] inflicted",
 				text="{0}% less Magnitude of Damaging Ailments inflicted"
 			}
 		},
@@ -35777,6 +37980,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Weapon [ElementalDamage|Elemental Damage]",
 				text="{0}% more Weapon Elemental Damage"
 			},
 			[2]={
@@ -35790,6 +37994,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Weapon [ElementalDamage|Elemental Damage]",
 				text="{0}% less Weapon Elemental Damage"
 			}
 		},
@@ -35806,6 +38011,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill can only be used with Axes or Swords",
 				text="This Skill can only be used with Axes or Swords"
 			}
 		},
@@ -35822,6 +38028,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill can only be used with Bows",
 				text="This Skill can only be used with Bows"
 			}
 		},
@@ -35838,6 +38045,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill can only be used with Claws or Daggers",
 				text="This Skill can only be used with Claws or Daggers"
 			}
 		},
@@ -35854,6 +38062,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill can only be used with Maces, Sceptres or Staves",
 				text="This Skill can only be used with Maces, Sceptres or Staves"
 			}
 		},
@@ -35870,6 +38079,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill can only be used with Bows or Wands",
 				text="This Skill can only be used with Bows or Wands"
 			}
 		},
@@ -35890,6 +38100,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% fissure branching chance",
 				text="{0}% fissure branching chance"
 			}
 		},
@@ -35906,6 +38117,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% fissure branching chance",
 				text="{0}% fissure branching chance"
 			}
 		},
@@ -35922,6 +38134,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% fissure branching chance per Endurance Charge",
 				text="{0:+d}% fissure branching chance per Endurance Charge"
 			}
 		},
@@ -35938,6 +38151,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="While [Channelling] each strike of the anvil [Empowered|Empowers] your next [Melee] [Attack]\n[Empowered] [Attack|Attacks] [Trigger] Combust on [HitDamage|Hit]",
 				text="While Channelling each strike of the anvil Empowers your next Melee Attack\nEmpowered Attacks Trigger Combust on Hit"
 			},
 			[2]={
@@ -35947,6 +38161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While [Channelling] each strike of the anvil [Empowered|Empowers] your next {0} [Melee] [Attack|Attacks]\n[Empowered] [Attack|Attacks] [Trigger] Combust on [HitDamage|Hit]",
 				text="While Channelling each strike of the anvil Empowers your next {0} Melee Attacks\nEmpowered Attacks Trigger Combust on Hit"
 			}
 		},
@@ -35963,6 +38178,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave deals {0}% more Damage per [HitDamage|Hit] taken by Bell",
 				text="Shockwave deals {0}% more Damage per Hit taken by Bell"
 			},
 			[2]={
@@ -35976,6 +38192,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Shockwave deals {0}% less Damage per [HitDamage|Hit] taken by Bell",
 				text="Shockwave deals {0}% less Damage per Hit taken by Bell"
 			}
 		},
@@ -35992,6 +38209,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ensnared Enemies take {0}% increased Projectile Damage from [Attack] Hits",
 				text="Ensnared Enemies take {0}% increased Projectile Damage from Attack Hits"
 			},
 			[2]={
@@ -36005,6 +38223,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ensnared Enemies take {0}% reduced Projectile Damage from [Attack] Hits",
 				text="Ensnared Enemies take {0}% reduced Projectile Damage from Attack Hits"
 			}
 		},
@@ -36025,6 +38244,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Tethered enemies have their movement speed [Slow|Slowed] by {0}%",
 				text="Tethered enemies have their movement speed Slowed by {0}%"
 			}
 		},
@@ -36041,6 +38261,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Snares apply {0}% more Movement Speed to Unique and Rare Enemies",
 				text="Snares apply {0}% more Movement Speed to Unique and Rare Enemies"
 			},
 			[2]={
@@ -36054,6 +38275,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Snares apply {0}% less Movement Speed to Unique and Rare Enemies",
 				text="Snares apply {0}% less Movement Speed to Unique and Rare Enemies"
 			}
 		},
@@ -36070,6 +38292,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Snares per Enemy",
 				text="Maximum {0} Snares per Enemy"
 			}
 		},
@@ -36100,6 +38323,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Modifiers to [Thorns] damage apply to this Skill's [Spell] damage",
 				text="Modifiers to Thorns damage apply to this Skill's Spell damage"
 			}
 		},
@@ -36172,6 +38396,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to leave [ShockedGround|Shocked Ground] when [Detonator|Detonating] Spears",
 				text="{0}% chance to leave Shocked Ground when Detonating Spears"
 			}
 		},
@@ -36188,6 +38413,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants {0}% increased Life Regeneration Rate",
 				text="Buff grants {0}% increased Life Regeneration Rate"
 			},
 			[2]={
@@ -36201,6 +38427,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants {0}% reduced Life Regeneration Rate",
 				text="Buff grants {0}% reduced Life Regeneration Rate"
 			}
 		},
@@ -36221,6 +38448,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Deals Damage every {0} second",
 				text="Deals Damage every {0} second"
 			},
 			[2]={
@@ -36234,6 +38462,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals Damage every {0} seconds",
 				text="Deals Damage every {0} seconds"
 			}
 		},
@@ -36261,6 +38490,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Enemies in range are [Hinder|Hindered]",
 				text="Enemies in range are Hindered"
 			}
 		},
@@ -36277,6 +38507,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Tornado has {0}% increased Movement Speed",
 				text="Tornado has {0}% increased Movement Speed"
 			},
 			[2]={
@@ -36290,6 +38521,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Tornado has {0}% reduced Movement Speed",
 				text="Tornado has {0}% reduced Movement Speed"
 			}
 		},
@@ -36317,6 +38549,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem] duration@{0}s",
 				text="Totem duration@{0}s"
 			}
 		},
@@ -36333,6 +38566,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Totems Explode on Death, dealing {0}% of their Life as Physical Damage",
 				text="Totems Explode on Death, dealing {0}% of their Life as Physical Damage"
 			}
 		},
@@ -36353,6 +38587,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Totem|Totems] Regenerate {0}% of maximum Life per second",
 				text="Totems Regenerate {0}% of maximum Life per second"
 			}
 		},
@@ -36376,6 +38611,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Traps from this skill are triggered by your Warcries",
 				text="Traps from this skill are triggered by your Warcries"
 			}
 		},
@@ -36392,6 +38628,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d}% to [CriticalDamageBonus|Critical Damage Bonus] per Power Charge when used by Traps",
 				text="{0:+d}% to Critical Damage Bonus per Power Charge when used by Traps"
 			}
 		},
@@ -36408,6 +38645,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Trap Spread",
 				text="{0}% increased Trap Spread"
 			},
 			[2]={
@@ -36421,6 +38659,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Trap Spread",
 				text="{0}% reduced Trap Spread"
 			}
 		},
@@ -36437,6 +38676,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Trap Throwing Speed per Frenzy Charge",
 				text="{0}% increased Trap Throwing Speed per Frenzy Charge"
 			},
 			[2]={
@@ -36450,6 +38690,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Trap Throwing Speed per Frenzy Charge",
 				text="{0}% reduced Trap Throwing Speed per Frenzy Charge"
 			}
 		},
@@ -36466,6 +38707,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased Trap Trigger Radius per Power Charge",
 				text="{0}% increased Trap Trigger Radius per Power Charge"
 			},
 			[2]={
@@ -36479,6 +38721,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced Trap Trigger Radius per Power Charge",
 				text="{0}% reduced Trap Trigger Radius per Power Charge"
 			}
 		},
@@ -36495,6 +38738,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Attack] Speed per Trauma",
 				text="{0}% increased Attack Speed per Trauma"
 			},
 			[2]={
@@ -36508,6 +38752,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Attack] Speed per Trauma",
 				text="{0}% reduced Attack Speed per Trauma"
 			}
 		},
@@ -36532,6 +38777,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Take {2} Physical Damage per Trauma when you gain Trauma",
 				text="Take {2} Physical Damage per Trauma when you gain Trauma"
 			},
 			[2]={
@@ -36553,6 +38799,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Trauma the first time this [Attack] Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {1} second",
 				text="Gain 1 Trauma the first time this Attack Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {1} second"
 			},
 			[3]={
@@ -36574,6 +38821,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Trauma the first time this [Attack] Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {1} seconds",
 				text="Gain 1 Trauma the first time this Attack Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {1} seconds"
 			},
 			[4]={
@@ -36595,6 +38843,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Trauma the first time this [Attack] Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {0} second",
 				text="Gain 1 Trauma the first time this Attack Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {0} second"
 			},
 			[5]={
@@ -36616,6 +38865,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Trauma the first time this [Attack] Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {0} seconds",
 				text="Gain 1 Trauma the first time this Attack Hits an Enemy\nTake {2} Physical Damage per Trauma when you gain Trauma\nTrauma lasts {0} seconds"
 			}
 		},
@@ -36634,6 +38884,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per Trauma",
 				text="{0}% more Damage per Trauma"
 			},
 			[2]={
@@ -36647,6 +38898,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage per Trauma",
 				text="{0}% less Damage per Trauma"
 			}
 		},
@@ -36663,6 +38915,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Pulse has {0}% increased Area of Effect per 0.1s of Stun Duration, up to 400%",
 				text="Pulse has {0}% increased Area of Effect per 0.1s of Stun Duration, up to 400%"
 			},
 			[2]={
@@ -36676,6 +38929,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Pulse has {0}% reduced Area of Effect per 0.1s of Stun Duration",
 				text="Pulse has {0}% reduced Area of Effect per 0.1s of Stun Duration"
 			}
 		},
@@ -36692,6 +38946,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill after Spending a total of 200 Mana",
 				text="{0}% chance to Trigger this Skill after Spending a total of 200 Mana"
 			},
 			[2]={
@@ -36701,6 +38956,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill after Spending a total of 200 Mana",
 				text="Trigger this Skill after Spending a total of 200 Mana"
 			}
 		},
@@ -36717,6 +38973,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Deals {0}% more Damage with Hits against Branded Enemy",
 				text="Deals {0}% more Damage with Hits against Branded Enemy"
 			},
 			[2]={
@@ -36730,6 +38987,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Deals {0}% less Damage with Hits against Branded Enemy",
 				text="Deals {0}% less Damage with Hits against Branded Enemy"
 			}
 		},
@@ -36746,6 +39004,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Hit a Rare or Unique Enemy with an [Attack]",
 				text="Trigger this Skill when you Hit a Rare or Unique Enemy with an Attack"
 			}
 		},
@@ -36762,6 +39021,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Block",
 				text="{0}% chance to Trigger this Skill when you Block"
 			},
 			[2]={
@@ -36771,6 +39031,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Block",
 				text="Trigger this Skill when you Block"
 			}
 		},
@@ -36787,6 +39048,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger when you [Attack] with a Bow",
 				text="{0}% chance to Trigger when you Attack with a Bow"
 			},
 			[2]={
@@ -36796,6 +39058,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this [Attack] when you [Attack] with a Bow",
 				text="Trigger this Attack when you Attack with a Bow"
 			}
 		},
@@ -36812,6 +39075,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Consume a corpse",
 				text="{0}% chance to Trigger this Skill when you Consume a corpse"
 			},
 			[2]={
@@ -36821,6 +39085,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Consume a corpse",
 				text="Trigger this Skill when you Consume a corpse"
 			}
 		},
@@ -36837,6 +39102,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to [Trigger] when you [HeavyStun|Heavy Stun] an enemy",
 				text="{0}% chance to Trigger when you Heavy Stun an enemy"
 			},
 			[2]={
@@ -36846,6 +39112,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Trigger|Triggers] when you [HeavyStun|Heavy Stun] an enemy",
 				text="Triggers when you Heavy Stun an enemy"
 			}
 		},
@@ -36862,6 +39129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Hit a Rare or Unique Enemy and have no Mark",
 				text="Trigger this Skill when you Hit a Rare or Unique Enemy and have no Mark"
 			}
 		},
@@ -36878,6 +39146,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Skill when you Hit a Frozen Enemy",
 				text="{0}% chance to Trigger this Skill when you Hit a Frozen Enemy"
 			},
 			[2]={
@@ -36887,6 +39156,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Skill when you Hit a Frozen Enemy",
 				text="Trigger this Skill when you Hit a Frozen Enemy"
 			}
 		},
@@ -36903,6 +39173,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Consume a Void Charge to Trigger this Skill when you fire Arrows with a Non-Triggered Skill",
 				text="{0}% chance to Consume a Void Charge to Trigger this Skill when you fire Arrows with a Non-Triggered Skill"
 			},
 			[2]={
@@ -36912,6 +39183,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consume a Void Charge to Trigger this Skill when you fire Arrows with a Non-Triggered Skill",
 				text="Consume a Void Charge to Trigger this Skill when you fire Arrows with a Non-Triggered Skill"
 			}
 		},
@@ -36928,6 +39200,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to Trigger this Spell when you [Attack] with a Non-Vaal Slam Skill near an Enemy",
 				text="{0}% chance to Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy"
 			},
 			[2]={
@@ -36937,6 +39210,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when you [Attack] with a Non-Vaal Slam Skill near an Enemy",
 				text="Trigger this Spell when you Attack with a Non-Vaal Slam Skill near an Enemy"
 			}
 		},
@@ -36953,6 +39227,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Trigger this Spell when Intuitive Link's target Hits an Enemy, from the target's location",
 				text="Trigger this Spell when Intuitive Link's target Hits an Enemy, from the target's location"
 			}
 		},
@@ -36969,6 +39244,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="Supported Skills have a {0}% chance to Trigger Prismatic Burst on Hit",
 				text="Supported Skills have a {0}% chance to Trigger Prismatic Burst on Hit"
 			},
 			[2]={
@@ -36978,6 +39254,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Supported Skills will Trigger Prismatic Burst on Hit",
 				text="Supported Skills will Trigger Prismatic Burst on Hit"
 			}
 		},
@@ -37008,6 +39285,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered by Arcanist Brand, from the Brand's location",
 				text="This Skill is Triggered by Arcanist Brand, from the Brand's location"
 			}
 		},
@@ -37024,6 +39302,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Spell is Triggered by [Attack|Attacks] Exerted by Battlemage's Cry",
 				text="This Spell is Triggered by Attacks Exerted by Battlemage's Cry"
 			}
 		},
@@ -37048,6 +39327,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Triggered on reaching maximum Energy",
 				text="Triggered on reaching maximum Energy"
 			},
 			[2]={
@@ -37065,6 +39345,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Triggered by an Invocation Skill\nConsumes {2} Energy when Triggered",
 				text="Triggered by an Invocation Skill\nConsumes {2} Energy when Triggered"
 			}
 		},
@@ -37083,6 +39364,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is Triggered by the Item granting it",
 				text="This Skill is Triggered by the Item granting it"
 			}
 		},
@@ -37099,6 +39381,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="This Skill is used by Mirage Warriors Summoned by General's Cry\nThis Skill counts as Triggered",
 				text="This Skill is used by Mirage Warriors Summoned by General's Cry\nThis Skill counts as Triggered"
 			}
 		},
@@ -37115,6 +39398,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of [Physical] damage [Conversion|Converted] to a random [ElementalDamage|Element]",
 				text="{0}% of Physical damage Converted to a random Element"
 			}
 		},
@@ -37135,6 +39419,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="+{0} seconds to base use time when [Shapeshift|Shapeshifting]",
 				text="+{0} seconds to base use time when Shapeshifting"
 			}
 		},
@@ -37151,6 +39436,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Animates up to {0} Weapons",
 				text="Animates up to {0} Weapons"
 			}
 		},
@@ -37167,6 +39453,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You take {0}% more Damage from Hits and count as Frozen",
 				text="You take {0}% more Damage from Hits and count as Frozen"
 			},
 			[2]={
@@ -37180,6 +39467,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="You take {0}% less Damage from Hits and count as Frozen",
 				text="You take {0}% less Damage from Hits and count as Frozen"
 			}
 		},
@@ -37196,6 +39484,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Ice breaks after you take {0} Damaging Hit or Duration expires",
 				text="Ice breaks after you take {0} Damaging Hit or Duration expires"
 			},
 			[2]={
@@ -37205,6 +39494,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ice breaks after you take {0} Damaging Hits or Duration expires",
 				text="Ice breaks after you take {0} Damaging Hits or Duration expires"
 			}
 		},
@@ -37221,6 +39511,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Has 10 blades",
 				text="Has 10 blades"
 			}
 		},
@@ -37237,6 +39528,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage Taken while Channelling",
 				text="{0}% more Damage Taken while Channelling"
 			},
 			[2]={
@@ -37250,6 +39542,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage Taken while Channelling",
 				text="{0}% less Damage Taken while Channelling"
 			}
 		},
@@ -37266,6 +39559,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Base Circle Radius is 10\n{0:+d} to Circle Radius per Stage\nChannelling stops when Total Circle Radius reaches 90",
 				text="Base Circle Radius is 10\n{0:+d} to Circle Radius per Stage\nChannelling stops when Total Circle Radius reaches 90"
 			}
 		},
@@ -37286,6 +39580,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants [CullingStrike|Culling Strike] with Cleave\nBuff grants {0}% more Cleave Area of Effect\nBuff grants {1}% more Cleave Damage with Hits to Enemies that are on [LowLife|Low Life]",
 				text="Buff grants Culling Strike with Cleave\nBuff grants {0}% more Cleave Area of Effect\nBuff grants {1}% more Cleave Damage with Hits to Enemies that are on Low Life"
 			}
 		},
@@ -37303,6 +39598,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ongoing effect ends after {0} Aftershocks",
 				text="Ongoing effect ends after {0} Aftershocks"
 			}
 		},
@@ -37323,6 +39619,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Explosion radius is {0} metre per Stage",
 				text="Explosion radius is {0} metre per Stage"
 			},
 			[2]={
@@ -37336,6 +39633,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Explosion radius is {0} metres per Stage",
 				text="Explosion radius is {0} metres per Stage"
 			}
 		},
@@ -37352,6 +39650,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Modifiers to number of Projectiles do not apply to\nthis Skill when used by Mirage Sharpshooters",
 				text="Modifiers to number of Projectiles do not apply to\nthis Skill when used by Mirage Sharpshooters"
 			}
 		},
@@ -37368,6 +39667,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0:+d} to maximum Blood Charges",
 				text="Grants {0:+d} to maximum Blood Charges"
 			}
 		},
@@ -37384,6 +39684,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants up to maximum Blood Charges",
 				text="Grants up to maximum Blood Charges"
 			}
 		},
@@ -37400,6 +39701,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Warcry|Warcries] can [Empowered|Empower] this [Attack] as though it was not a Vaal Skill",
 				text="Warcries can Empower this Attack as though it was not a Vaal Skill"
 			}
 		},
@@ -37420,6 +39722,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Strikes an Enemy every {0} second",
 				text="Strikes an Enemy every {0} second"
 			},
 			[2]={
@@ -37433,6 +39736,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Strikes an Enemy every {0} seconds",
 				text="Strikes an Enemy every {0} seconds"
 			}
 		},
@@ -37449,6 +39753,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ascended Sentinels deal {0}% more Damage",
 				text="Ascended Sentinels deal {0}% more Damage"
 			},
 			[2]={
@@ -37462,6 +39767,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ascended Sentinels deal {0}% less Damage",
 				text="Ascended Sentinels deal {0}% less Damage"
 			}
 		},
@@ -37478,6 +39784,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Ascended Sentinels take {0}% more Damage",
 				text="Ascended Sentinels take {0}% more Damage"
 			},
 			[2]={
@@ -37491,6 +39798,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Ascended Sentinels take {0}% less Damage",
 				text="Ascended Sentinels take {0}% less Damage"
 			}
 		},
@@ -37507,6 +39815,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure erupts {0} times",
 				text="Fissure erupts {0} times"
 			}
 		},
@@ -37523,6 +39832,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Grants {0}% more [BuffMagnitude|Magnitude] of [Bleeding] you inflict",
 				text="Grants {0}% more Magnitude of Bleeding you inflict"
 			},
 			[2]={
@@ -37536,6 +39846,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Grants {0}% less [BuffMagnitude|Magnitude] of [Bleeding] you inflict",
 				text="Grants {0}% less Magnitude of Bleeding you inflict"
 			}
 		},
@@ -37552,6 +39863,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[VerisiumInfusion|Verisium Infusions] do not expire",
 				text="Verisium Infusions do not expire"
 			}
 		},
@@ -37569,6 +39881,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [VerisiumInfusion|Verisium Infusion] duration",
 				text="{0}% increased Verisium Infusion duration"
 			},
 			[2]={
@@ -37578,6 +39891,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [VerisiumInfusion|Verisium Infusion] duration",
 				text="{0}% increased Verisium Infusion duration"
 			},
 			[3]={
@@ -37591,6 +39905,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [VerisiumInfusion|Verisium Infusion] duration",
 				text="{0}% reduced Verisium Infusion duration"
 			}
 		},
@@ -37607,6 +39922,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Generates {0} [VerisiumInfusion|Verisium Infusion]",
 				text="Generates {0} Verisium Infusion"
 			},
 			[2]={
@@ -37616,6 +39932,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Generates {0} [VerisiumInfusion|Verisium Infusions]",
 				text="Generates {0} Verisium Infusions"
 			}
 		},
@@ -37646,6 +39963,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="1 Volley",
 				text="1 Volley"
 			},
 			[2]={
@@ -37655,6 +39973,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} Volleys",
 				text="{0} Volleys"
 			}
 		},
@@ -37671,6 +39990,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Creates {0} Spikes",
 				text="Creates {0} Spikes"
 			}
 		},
@@ -37701,6 +40021,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chills from Hits always reduce Action Speed by at least {0}%",
 				text="Chills from Hits always reduce Action Speed by at least {0}%"
 			}
 		},
@@ -37808,6 +40129,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Damages {0} nearby Enemies when you gain Stages",
 				text="Damages {0} nearby Enemies when you gain Stages"
 			}
 		},
@@ -37856,6 +40178,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gains {0}% more Area of Effect per second, up to a maximum of {1}%",
 				text="Gains {0}% more Area of Effect per second, up to a maximum of {1}%"
 			}
 		},
@@ -37877,6 +40200,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Storm Hits an Enemy every {0} Seconds",
 				text="Storm Hits an Enemy every {0} Seconds"
 			}
 		},
@@ -37893,6 +40217,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="Does not cause [Stun] buildup",
 				text="Does not cause Stun buildup"
 			},
 			[2]={
@@ -37902,6 +40227,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Stun] buildup",
 				text="{0}% more Stun buildup"
 			},
 			[3]={
@@ -37915,6 +40241,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less [Stun] buildup",
 				text="{0}% less Stun buildup"
 			}
 		},
@@ -37984,6 +40311,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Mine Detonation Time is {0} seconds",
 				text="Mine Detonation Time is {0} seconds"
 			}
 		},
@@ -38000,6 +40328,7 @@ return {
 						[2]=-100
 					}
 				},
+				rawText="No movement speed penalty while using this skill",
 				text="No movement speed penalty while using this skill"
 			},
 			[2]={
@@ -38009,6 +40338,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more movement speed penalty while using this skill",
 				text="{0}% more movement speed penalty while using this skill"
 			},
 			[3]={
@@ -38022,6 +40352,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less movement speed penalty while using this skill",
 				text="{0}% less movement speed penalty while using this skill"
 			}
 		},
@@ -38066,6 +40397,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="You can apply an additional [Curse]",
 				text="You can apply an additional Curse"
 			},
 			[2]={
@@ -38075,6 +40407,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="You can apply {0} additional [Curse|Curses]",
 				text="You can apply {0} additional Curses"
 			}
 		},
@@ -38098,6 +40431,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain] count@{0}",
 				text="Chain count@{0}"
 			}
 		},
@@ -38114,6 +40448,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Chain] count@{0}",
 				text="Chain count@{0}"
 			}
 		},
@@ -38165,6 +40500,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="gain Onslaught for 4 seconds on Hit",
 				text="gain Onslaught for 4 seconds on Hit"
 			},
 			[2]={
@@ -38174,6 +40510,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to gain Onslaught for 4 seconds on Hit",
 				text="{0}% chance to gain Onslaught for 4 seconds on Hit"
 			}
 		},
@@ -38197,6 +40534,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Poison Cloud [Limit]@{0}",
 				text="Poison Cloud Limit@{0}"
 			}
 		},
@@ -38227,6 +40565,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Regenerate {0} Life over 1 second",
 				text="Regenerate {0} Life over 1 second"
 			}
 		},
@@ -38264,6 +40603,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Hits Break {0} [Armour|Armour]",
 				text="Hits Break {0} Armour"
 			}
 		},
@@ -38284,6 +40624,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts Spider's Webs and Hinder every {0} Seconds",
 				text="Inflicts Spider's Webs and Hinder every {0} Seconds"
 			}
 		},
@@ -38304,6 +40645,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Beams Hit Enemies every {0} second",
 				text="Beams Hit Enemies every {0} second"
 			},
 			[2]={
@@ -38317,6 +40659,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Beams Hit Enemies every {0} seconds",
 				text="Beams Hit Enemies every {0} seconds"
 			}
 		},
@@ -38337,6 +40680,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage",
 				text="{0}% of Damage from Hits is taken from the Buff before Life or Energy Shield\nBuff can take {1} Damage"
 			}
 		},
@@ -38379,6 +40723,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="While Channelling this Skill, you take {0}% less Physical Damage from Hits",
 				text="While Channelling this Skill, you take {0}% less Physical Damage from Hits"
 			}
 		},
@@ -38395,6 +40740,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to create a Charged Slam",
 				text="{0}% chance to create a Charged Slam"
 			}
 		},
@@ -38439,6 +40785,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Skill has {0}% more Trap and Mine Throwing Time",
 				text="Skill has {0}% more Trap and Mine Throwing Time"
 			},
 			[2]={
@@ -38452,6 +40799,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Skill has {0}% less Trap and Mine Throwing Time",
 				text="Skill has {0}% less Trap and Mine Throwing Time"
 			}
 		},
@@ -38468,6 +40816,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Projectiles change direction {0} time\nProjectiles can Hit targets each time they change direction",
 				text="Projectiles change direction {0} time\nProjectiles can Hit targets each time they change direction"
 			},
 			[2]={
@@ -38477,6 +40826,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectiles change direction {0} times\nProjectiles can Hit targets each time they change direction",
 				text="Projectiles change direction {0} times\nProjectiles can Hit targets each time they change direction"
 			}
 		},
@@ -38493,6 +40843,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage with Hits per Stage",
 				text="{0}% more Damage with Hits per Stage"
 			},
 			[2]={
@@ -38506,6 +40857,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage with Hits per Stage",
 				text="{0}% less Damage with Hits per Stage"
 			}
 		},
@@ -38522,6 +40874,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0} maximum Stages",
 				text="{0} maximum Stages"
 			}
 		},
@@ -38538,6 +40891,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Spore Pod fires {0} Thorn Arrows",
 				text="Each Spore Pod fires {0} Thorn Arrows"
 			}
 		},
@@ -38554,6 +40908,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Thorn Arrows deal {0}% more Damage with Hits",
 				text="Thorn Arrows deal {0}% more Damage with Hits"
 			},
 			[2]={
@@ -38567,6 +40922,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Thorn Arrows deal {0}% less Damage with Hits",
 				text="Thorn Arrows deal {0}% less Damage with Hits"
 			}
 		},
@@ -38583,6 +40939,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{}% increased Orb Movement Speed",
 				text="{}% increased Orb Movement Speed"
 			},
 			[2]={
@@ -38596,6 +40953,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{}% reduced Orb Movement Speed",
 				text="{}% reduced Orb Movement Speed"
 			}
 		},
@@ -38612,6 +40970,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum of {0} Orbs at a time",
 				text="Maximum of {0} Orbs at a time"
 			}
 		},
@@ -38628,6 +40987,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Consumes up to 1 corpse",
 				text="Consumes up to 1 corpse"
 			},
 			[2]={
@@ -38637,6 +40997,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes up to {0} corpses",
 				text="Consumes up to {0} corpses"
 			}
 		},
@@ -38653,6 +41014,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Limit] {0} Fissures",
 				text="Limit {0} Fissures"
 			}
 		},
@@ -38669,6 +41031,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fissure travels {0}% faster",
 				text="Fissure travels {0}% faster"
 			},
 			[2]={
@@ -38682,6 +41045,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Fissure travels {0}% slower",
 				text="Fissure travels {0}% slower"
 			}
 		},
@@ -38698,6 +41062,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Maximum {0} Volcano",
 				text="Maximum {0} Volcano"
 			},
 			[2]={
@@ -38707,6 +41072,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Volcanos",
 				text="Maximum {0} Volcanos"
 			}
 		},
@@ -38723,6 +41089,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per Stage",
 				text="{0}% more Damage per Stage"
 			}
 		},
@@ -38743,6 +41110,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] every {0} second",
 				text="Fires Projectiles every {0} second"
 			},
 			[2]={
@@ -38756,6 +41124,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Fires [Projectile|Projectiles] every {0} seconds",
 				text="Fires Projectiles every {0} seconds"
 			}
 		},
@@ -38772,6 +41141,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Channelling ends when reaching {0} Stages",
 				text="Channelling ends when reaching {0} Stages"
 			}
 		},
@@ -38792,6 +41162,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0:+d} seconds to Base Duration per Stage",
 				text="{0:+d} seconds to Base Duration per Stage"
 			}
 		},
@@ -38808,6 +41179,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage for each Cast of this Spell currently waiting",
 				text="{0}% more Damage for each Cast of this Spell currently waiting"
 			},
 			[2]={
@@ -38821,6 +41193,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage for each Cast of this Spell currently waiting",
 				text="{0}% less Damage for each Cast of this Spell currently waiting"
 			}
 		},
@@ -38844,6 +41217,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Knocks back and Interrupts Enemies in a smaller Area",
 				text="Knocks back and Interrupts Enemies in a smaller Area"
 			}
 		},
@@ -38860,6 +41234,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants Added [Attack] Damage equal to {0}% of the Damage of your Main\nHand Weapon per 5 Power, up to a maximum of 20%",
 				text="Buff grants Added Attack Damage equal to {0}% of the Damage of your Main\nHand Weapon per 5 Power, up to a maximum of 20%"
 			}
 		},
@@ -38876,6 +41251,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff causes your Hits to Overwhelm {0}% Physical Damage Reduction per 5 Power, up to 30%",
 				text="Buff causes your Hits to Overwhelm {0}% Physical Damage Reduction per 5 Power, up to 30%"
 			}
 		},
@@ -38896,6 +41272,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0:+d} to [Armour] per 5 Power, up to a maximum of {1:+d}",
 				text="Buff grants {0:+d} to Armour per 5 Power, up to a maximum of {1:+d}"
 			}
 		},
@@ -38913,6 +41290,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0:+d} [Melee] Strike Range per 5 Power, up to a maximum of +6",
 				text="Buff grants {0:+d} Melee Strike Range per 5 Power, up to a maximum of +6"
 			}
 		},
@@ -38929,6 +41307,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Covers Enemies in Ash, causing {0}% increased Fire Damage taken per 5 Power, up to 20%",
 				text="Covers Enemies in Ash, causing {0}% increased Fire Damage taken per 5 Power, up to 20%"
 			}
 		},
@@ -38945,6 +41324,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Gain 1 Endurance Charge per {0} Power",
 				text="Gain 1 Endurance Charge per {0} Power"
 			}
 		},
@@ -38965,6 +41345,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Summons Mirage Warriors from {0} corpses per 5 Power, minimum 1 corpse\nMaximum {1} Summoned Mirage Warriors",
 				text="Summons Mirage Warriors from {0} corpses per 5 Power, minimum 1 corpse\nMaximum {1} Summoned Mirage Warriors"
 			}
 		},
@@ -38982,6 +41363,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff grants {0}% increased [Critical|Critical Hit] Chance per 5 power, up to a maximum of 30%",
 				text="Buff grants {0}% increased Critical Hit Chance per 5 power, up to a maximum of 30%"
 			},
 			[2]={
@@ -38995,6 +41377,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff grants {0}% reduced [Critical|Critical Hit] Chance per 5 power",
 				text="Buff grants {0}% reduced Critical Hit Chance per 5 power"
 			}
 		},
@@ -39011,6 +41394,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff makes Increases and Reductions to Spell Damage also apply to [Attack|Attacks] at {0}% of their value per 5 power, up to a maximum of 150%",
 				text="Buff makes Increases and Reductions to Spell Damage also apply to Attacks at {0}% of their value per 5 power, up to a maximum of 150%"
 			}
 		},
@@ -39027,6 +41411,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff has {0}% more Effect on your Minions",
 				text="Buff has {0}% more Effect on your Minions"
 			},
 			[2]={
@@ -39040,6 +41425,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Buff has {0}% less Effect on your Minions",
 				text="Buff has {0}% less Effect on your Minions"
 			}
 		},
@@ -39060,6 +41446,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] one [Attack] per enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Empowers one Attack per enemy Power in\nrange, counting up to {1} Power"
 			},
 			[2]={
@@ -39073,6 +41460,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] one [Attack] per {0} enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Empowers one Attack per {0} enemy Power in\nrange, counting up to {1} Power"
 			}
 		},
@@ -39098,6 +41486,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Attack] you perform",
 				text="Empowers the next Melee Attack you perform"
 			},
 			[2]={
@@ -39115,6 +41504,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Attack] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Attack you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[3]={
@@ -39132,6 +41522,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Attack] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Attack you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[4]={
@@ -39149,6 +41540,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Attack|Attacks] you perform",
 				text="Empowers the next {0} Melee Attacks you perform"
 			},
 			[5]={
@@ -39166,6 +41558,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Attack|Attacks] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Attacks you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[6]={
@@ -39183,6 +41576,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Attack|Attacks] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Attacks you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[7]={
@@ -39200,6 +41594,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Strike] [Attack] you perform",
 				text="Empowers the next Melee Strike Attack you perform"
 			},
 			[8]={
@@ -39217,6 +41612,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Strike] [Attack] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Strike Attack you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[9]={
@@ -39234,6 +41630,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Strike] [Attack] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Strike Attack you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[10]={
@@ -39251,6 +41648,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Strike] [Attack|Attacks] you perform",
 				text="Empowers the next {0} Melee Strike Attacks you perform"
 			},
 			[11]={
@@ -39268,6 +41666,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Strike] [Attack|Attacks] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Strike Attacks you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[12]={
@@ -39285,6 +41684,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Strike] [Attack|Attacks] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Strike Attacks you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[13]={
@@ -39302,6 +41702,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Slam] [Attack] you perform",
 				text="Empowers the next Melee Slam Attack you perform"
 			},
 			[14]={
@@ -39319,6 +41720,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Slam] [Attack] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Slam Attack you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[15]={
@@ -39336,6 +41738,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Melee] [Slam] [Attack] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Melee Slam Attack you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[16]={
@@ -39353,6 +41756,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Slam] [Attack|Attacks] you perform",
 				text="Empowers the next {0} Melee Slam Attacks you perform"
 			},
 			[17]={
@@ -39370,6 +41774,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Slam] [Attack|Attacks] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Slam Attacks you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[18]={
@@ -39387,6 +41792,7 @@ return {
 						[2]=2
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Melee] [Slam] [Attack|Attacks] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Melee Slam Attacks you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[19]={
@@ -39404,6 +41810,7 @@ return {
 						[2]=3
 					}
 				},
+				rawText="Buff is removed to [Empowered|Empower] the next [Melee] [Attack] you perform\n[Attack|Attacks] [Exert|Exerted] by this Skill cannot be [Exert|Exerted] by other Skills",
 				text="Buff is removed to Empower the next Melee Attack you perform\nAttacks Exerted by this Skill cannot be Exerted by other Skills"
 			},
 			[20]={
@@ -39421,6 +41828,7 @@ return {
 						[2]=3
 					}
 				},
+				rawText="Buff is removed after [Empowered|Empower] the next {0} [Melee] [Attack|Attacks] you perform\n[Attack|Attacks] [Empowered] by this Skill cannot be [Empowered] by other Skills",
 				text="Buff is removed after Empower the next {0} Melee Attacks you perform\nAttacks Empowered by this Skill cannot be Empowered by other Skills"
 			},
 			[21]={
@@ -39438,6 +41846,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Attack] you perform",
 				text="Empowers the next Attack you perform"
 			},
 			[22]={
@@ -39455,6 +41864,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Attack] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Attack you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[23]={
@@ -39472,6 +41882,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next [Attack] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next Attack you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			},
 			[24]={
@@ -39489,6 +41900,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Attack|Attacks] you perform",
 				text="Empowers the next {0} Attacks you perform"
 			},
 			[25]={
@@ -39506,6 +41918,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Attack|Attacks] you perform, plus an additional [Attack] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Attacks you perform, plus an additional Attack per Endurance Charge consumed"
 			},
 			[26]={
@@ -39523,6 +41936,7 @@ return {
 						[2]=4
 					}
 				},
+				rawText="[Empowered|Empowers] the next {0} [Attack|Attacks] you perform, plus an additional {1} [Attack|Attacks] per [Charges|Endurance Charge] consumed",
 				text="Empowers the next {0} Attacks you perform, plus an additional {1} Attacks per Endurance Charge consumed"
 			}
 		},
@@ -39541,6 +41955,7 @@ return {
 						[2]=1
 					}
 				},
+				rawText="Exerted Strikes target {0} additional Enemy",
 				text="Exerted Strikes target {0} additional Enemy"
 			},
 			[2]={
@@ -39550,6 +41965,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted Strikes target {0} additional Enemies",
 				text="Exerted Strikes target {0} additional Enemies"
 			}
 		},
@@ -39566,6 +41982,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal {0}% more Damage per affected Ally, to a maximum of 25%",
 				text="Exerted Attacks deal {0}% more Damage per affected Ally, to a maximum of 25%"
 			}
 		},
@@ -39582,6 +41999,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal {0}% more Damage",
 				text="Exerted Attacks deal {0}% more Damage"
 			},
 			[2]={
@@ -39595,6 +42013,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal {0}% less Damage",
 				text="Exerted Attacks deal {0}% less Damage"
 			}
 		},
@@ -39611,6 +42030,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal {0}% more Damage per previous [Attack] Exerted by this Warcry",
 				text="Exerted Attacks deal {0}% more Damage per previous Attack Exerted by this Warcry"
 			},
 			[2]={
@@ -39624,6 +42044,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal {0}% less Damage per previous [Attack] Exerted by this Warcry",
 				text="Exerted Attacks deal {0}% less Damage per previous Attack Exerted by this Warcry"
 			}
 		},
@@ -39640,6 +42061,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] have {0}% increased Area of Effect",
 				text="Exerted Attacks have {0}% increased Area of Effect"
 			},
 			[2]={
@@ -39653,6 +42075,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Exerted [Attack|Attacks] have {0}% reduced Area of Effect",
 				text="Exerted Attacks have {0}% reduced Area of Effect"
 			}
 		},
@@ -39669,6 +42092,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] have {0}% increased Area of Effect per previous [Attack] Exerted by this Warcry",
 				text="Exerted Attacks have {0}% increased Area of Effect per previous Attack Exerted by this Warcry"
 			},
 			[2]={
@@ -39682,6 +42106,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Exerted [Attack|Attacks] have {0}% reduced Area of Effect per previous [Attack] Exerted by this Warcry",
 				text="Exerted Attacks have {0}% reduced Area of Effect per previous Attack Exerted by this Warcry"
 			}
 		},
@@ -39698,6 +42123,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] Trigger a Supported Spell with their first [Melee] Hit",
 				text="Exerted Attacks Trigger a Supported Spell with their first Melee Hit"
 			}
 		},
@@ -39714,6 +42140,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] Trigger Combust the first time they deal a [Melee] Hit",
 				text="Exerted Attacks Trigger Combust the first time they deal a Melee Hit"
 			}
 		},
@@ -39734,6 +42161,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] have {0:+d}% to [Critical|Critical Hit] Chance",
 				text="Empowered Attacks have {0:+d}% to Critical Hit Chance"
 			}
 		},
@@ -39750,6 +42178,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] have {0:+d}% to [CriticalDamageBonus|Critical Damage Bonus]",
 				text="Exerted Attacks have {0:+d}% to Critical Damage Bonus"
 			}
 		},
@@ -39766,6 +42195,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] deal Double Damage",
 				text="Exerted Attacks deal Double Damage"
 			}
 		},
@@ -39782,6 +42212,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] deal {0}% increased Damage",
 				text="Empowered Attacks deal {0}% increased Damage"
 			},
 			[2]={
@@ -39795,6 +42226,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] deal {0}% reduced Damage",
 				text="Empowered Attacks deal {0}% reduced Damage"
 			}
 		},
@@ -39811,6 +42243,7 @@ return {
 						[2]=100
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] Knock Enemies Back on Hit",
 				text="Empowered Attacks Knock Enemies Back on Hit"
 			},
 			[2]={
@@ -39820,6 +42253,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowered Attacks] have a {0}% chance to Knock Enemies Back on Hit",
 				text="Empowered Attacks have a {0}% chance to Knock Enemies Back on Hit"
 			}
 		},
@@ -39836,6 +42270,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Exerted [Attack|Attacks] [Overwhelm|Overwhelm] {0}% of [Physical|Physical] Damage Reduction",
 				text="Exerted Attacks Overwhelm {0}% of Physical Damage Reduction"
 			}
 		},
@@ -39867,6 +42302,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="Stores {0:+d}% of mitigated [Physical] damage",
 				text="Stores {0:+d}% of mitigated Physical damage"
 			},
 			[2]={
@@ -39884,6 +42320,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Stores {0}% of mitigated [Physical] damage, up to {1}",
 				text="Stores {0}% of mitigated Physical damage, up to {1}"
 			}
 		},
@@ -39902,6 +42339,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Drenched Enemies have Cold and Lightning Exposure, lowering Total Resistances by {0}%",
 				text="Drenched Enemies have Cold and Lightning Exposure, lowering Total Resistances by {0}%"
 			}
 		},
@@ -39918,6 +42356,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments\n100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped\n100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle",
 				text="100% of Physical Damage Converted to Cold Damage while Sphere has no Ailments\n100% of Physical Damage Converted to Lightning Damage while sphere is Shocked or Sapped\n100% of Physical Damage Converted to Cold Damage while Sphere is Frozen or Brittle"
 			}
 		},
@@ -39934,6 +42373,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased rotation speed",
 				text="{0}% increased rotation speed"
 			},
 			[2]={
@@ -39947,6 +42387,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced rotation speed",
 				text="{0}% reduced rotation speed"
 			}
 		},
@@ -39967,6 +42408,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Rotates {0} times",
 				text="Rotates {0} times"
 			}
 		},
@@ -39983,6 +42425,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% increased [Evasion] Rating while Moving",
 				text="{0}% increased Evasion Rating while Moving"
 			},
 			[2]={
@@ -39996,6 +42439,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% reduced [Evasion] Rating while Moving",
 				text="{0}% reduced Evasion Rating while Moving"
 			}
 		},
@@ -40012,6 +42456,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more [Knockback] distance per stage",
 				text="{0}% more Knockback distance per stage"
 			}
 		},
@@ -40028,6 +42473,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage to enemies within 1.5 metres of you, scaling down to no bonus at 4 metres or further",
 				text="{0}% more Damage to enemies within 1.5 metres of you, scaling down to no bonus at 4 metres or further"
 			},
 			[2]={
@@ -40041,6 +42487,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="{0}% less Damage to enemies within 1.5 metres of you, scaling down to no bonus at 4 metres or further",
 				text="{0}% less Damage to enemies within 1.5 metres of you, scaling down to no bonus at 4 metres or further"
 			}
 		},
@@ -40057,6 +42504,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Maximum {0} Stages",
 				text="Maximum {0} Stages"
 			}
 		},
@@ -40073,6 +42521,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to apply an additional Withered Debuff when inflicting Withered",
 				text="{0}% chance to apply an additional Withered Debuff when inflicting Withered"
 			}
 		},
@@ -40089,6 +42538,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance to apply an additional Withered Debuff if you Cast this Spell yourself",
 				text="{0}% chance to apply an additional Withered Debuff if you Cast this Spell yourself"
 			}
 		},
@@ -40105,6 +42555,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Chance to inflict [Withered] on [Chaos] [HitDamage|Hit]@{0}%",
 				text="Chance to inflict Withered on Chaos Hit@{0}%"
 			}
 		},
@@ -40128,6 +42579,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict [Withered] on Hit",
 				text="{0}% chance to inflict Withered on Hit"
 			},
 			[2]={
@@ -40137,6 +42589,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts [Withered] on Hit",
 				text="Inflicts Withered on Hit"
 			}
 		},
@@ -40153,6 +42606,7 @@ return {
 						[2]=99
 					}
 				},
+				rawText="{0}% chance to inflict Withered for 2 seconds on Hit",
 				text="{0}% chance to inflict Withered for 2 seconds on Hit"
 			},
 			[2]={
@@ -40162,6 +42616,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Inflicts Withered for 2 seconds on Hit",
 				text="Inflicts Withered for 2 seconds on Hit"
 			}
 		},
@@ -40178,6 +42633,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% chance not to remove Buff on Skill use",
 				text="{0}% chance not to remove Buff on Skill use"
 			},
 			[2]={
@@ -40187,6 +42643,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Buff is not removed on Skill use",
 				text="Buff is not removed on Skill use"
 			}
 		},
@@ -40207,6 +42664,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} second",
 				text="Can Hit each enemy only once every {0} second"
 			},
 			[2]={
@@ -40220,6 +42678,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Can Hit each enemy only once every {0} seconds",
 				text="Can Hit each enemy only once every {0} seconds"
 			}
 		},
@@ -40236,6 +42695,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Wolves are permanent and not-reviving. Maximum number of wolves {0}. If you already have maximum wolves it will heal a wolf with the lowest health instead of summoning a new one.",
 				text="DNT-UNUSED Wolves are permanent and not-reviving. Maximum number of wolves {0}. If you already have maximum wolves it will heal a wolf with the lowest health instead of summoning a new one."
 			}
 		},
@@ -40252,6 +42712,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[DNT-UNUSED] Summons {0} additonal wolves per each Endurance charge consumed",
 				text="DNT-UNUSED Summons {0} additonal wolves per each Endurance charge consumed"
 			}
 		},
@@ -40272,6 +42733,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Cannot perform a magma-infused block for\n{0} second after magma dissipates",
 				text="Cannot perform a magma-infused block for\n{0} second after magma dissipates"
 			},
 			[2]={
@@ -40285,6 +42747,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Cannot perform a magma-infused block for\n{0} seconds after magma dissipates",
 				text="Cannot perform a magma-infused block for\n{0} seconds after magma dissipates"
 			}
 		},
@@ -40301,6 +42764,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Projectile changes direction {0} times",
 				text="Projectile changes direction {0} times"
 			}
 		},
@@ -40317,6 +42781,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Mine applies {0}% increased [Critical|Critical Hit] Chance to Hits against Enemies near it, up to a maximum of 500%",
 				text="Each Mine applies {0}% increased Critical Hit Chance to Hits against Enemies near it, up to a maximum of 500%"
 			},
 			[2]={
@@ -40330,6 +42795,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Each Mine applies {0}% reduced [Critical|Critical Hit] Chance to Hits against Enemies near it, up to a maximum of 500%",
 				text="Each Mine applies {0}% reduced Critical Hit Chance to Hits against Enemies near it, up to a maximum of 500%"
 			}
 		},
@@ -40346,6 +42812,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Mine applies {0}% increased Damage Taken to Enemies near it, up\nto a maximum of 150%",
 				text="Each Mine applies {0}% increased Damage Taken to Enemies near it, up\nto a maximum of 150%"
 			},
 			[2]={
@@ -40359,6 +42826,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Each Mine applies {0}% reduced Damage Taken to Enemies near it, up\nto a maximum of 150%",
 				text="Each Mine applies {0}% reduced Damage Taken to Enemies near it, up\nto a maximum of 150%"
 			}
 		},
@@ -40387,6 +42855,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Mine Adds {0} to {1} Fire Damage to Hits against Enemies near it, up\nto a maximum of {2} to {3}",
 				text="Each Mine Adds {0} to {1} Fire Damage to Hits against Enemies near it, up\nto a maximum of {2} to {3}"
 			}
 		},
@@ -40406,6 +42875,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Each Mine applies {0}% chance to deal Double Damage to Hits against Enemies near it, up to a maximum of 100%",
 				text="Each Mine applies {0}% chance to deal Double Damage to Hits against Enemies near it, up to a maximum of 100%"
 			}
 		},
@@ -40422,6 +42892,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Raised Zombies' Slam [Attack] has {0}% increased Area of Effect",
 				text="Raised Zombies' Slam Attack has {0}% increased Area of Effect"
 			},
 			[2]={
@@ -40435,6 +42906,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Raised Zombies' Slam [Attack] has {0}% reduced Area of Effect",
 				text="Raised Zombies' Slam Attack has {0}% reduced Area of Effect"
 			}
 		},
@@ -40451,6 +42923,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Raised Zombies' Slam [Attack] has {0}% increased Cooldown Recovery Rate",
 				text="Raised Zombies' Slam Attack has {0}% increased Cooldown Recovery Rate"
 			}
 		},
@@ -40467,6 +42940,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions are Aggressive",
 				text="Minions are Aggressive"
 			}
 		},
@@ -40483,6 +42957,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Minions are Defensive",
 				text="Minions are Defensive"
 			}
 		},
@@ -40499,6 +42974,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Must be active in both [WeaponSets|Weapon Sets]",
 				text="Must be active in both Weapon Sets"
 			}
 		},
@@ -40523,6 +42999,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] [Gain] {0:+d}% of Damage as [Fire|Fire] Damage per 5 [Power|Power] of enemies in range, up to {1:+d}%",
 				text="Empowered Attacks Gain {0:+d}% of Damage as Fire Damage per 5 Power of enemies in range, up to {1:+d}%"
 			},
 			[2]={
@@ -40540,6 +43017,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack|Attacks] [Gain] {0}% of Damage as [Fire|Fire] Damage per 5 [Power|Power] of enemies in range, up to {1}%",
 				text="Empowered Attacks Gain {0}% of Damage as Fire Damage per 5 Power of enemies in range, up to {1}%"
 			}
 		},

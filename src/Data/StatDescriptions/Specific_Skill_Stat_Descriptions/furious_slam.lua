@@ -15,6 +15,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius@{0}m",
 				text="Shockwave radius@{0}m"
 			}
 		},
@@ -35,6 +36,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Shockwave radius is {0} metre",
 				text="Shockwave radius is {0} metre"
 			},
 			[2]={
@@ -48,6 +50,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Shockwave radius is {0} metres",
 				text="Shockwave radius is {0} metres"
 			}
 		},
@@ -68,6 +71,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[JaggedGround|Jagged Ground] duration is {0} second",
 				text="Jagged Ground duration is {0} second"
 			},
 			[2]={
@@ -81,6 +85,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[JaggedGround|Jagged Ground] duration is {0} seconds",
 				text="Jagged Ground duration is {0} seconds"
 			}
 		},
@@ -97,6 +102,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spends {0} [Rage] to perform enraged slam if possible",
 				text="Spends {0} Rage to perform enraged slam if possible"
 			}
 		},

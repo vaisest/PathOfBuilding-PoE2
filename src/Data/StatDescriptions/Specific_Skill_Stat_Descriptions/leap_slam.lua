@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Consumes [ArmourBreak|Fully Broken Armour] on enemies to cause {0}% more [Stun] buildup",
 				text="Consumes Fully Broken Armour on enemies to cause {0}% more Stun buildup"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="Consumes [ArmourBreak|Fully Broken Armour] on enemies to cause {0}% less [Stun] buildup",
 				text="Consumes Fully Broken Armour on enemies to cause {0}% less Stun buildup"
 			}
 		},

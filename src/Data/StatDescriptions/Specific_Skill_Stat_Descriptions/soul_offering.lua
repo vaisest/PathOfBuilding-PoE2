@@ -24,6 +24,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} second to Spike duration",
 				text="{0:+d} second to Spike duration"
 			},
 			[2]={
@@ -41,6 +42,7 @@ return {
 						[2]=0
 					}
 				},
+				rawText="{0:+d} seconds to Spike duration",
 				text="{0:+d} seconds to Spike duration"
 			},
 			[3]={
@@ -58,6 +60,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spike duration is {0} second",
 				text="Spike duration is {0} second"
 			},
 			[4]={
@@ -75,6 +78,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Spike duration is {0} seconds",
 				text="Spike duration is {0} seconds"
 			}
 		},
@@ -99,6 +103,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Buff] grants you {0}% increased [Spell] damage",
 				text="Buff grants you {0}% increased Spell damage"
 			},
 			[2]={
@@ -112,6 +117,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Buff] grants you {0}% reduced [Spell] damage",
 				text="Buff grants you {0}% reduced Spell damage"
 			}
 		},

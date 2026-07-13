@@ -22,6 +22,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Converts [ChilledGround|Chilled Ground] within {0} metre",
 				text="Converts Chilled Ground within {0} metre"
 			},
 			[2]={
@@ -35,6 +36,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Converts [ChilledGround|Chilled Ground] within {0} metres",
 				text="Converts Chilled Ground within {0} metres"
 			}
 		},
@@ -55,6 +57,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="Oasis duration is {0} second",
 				text="Oasis duration is {0} second"
 			},
 			[2]={
@@ -68,6 +71,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Oasis duration is {0} seconds",
 				text="Oasis duration is {0} seconds"
 			}
 		},
@@ -84,6 +88,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Oasis grants {0}% of damage taken [Recoup|Recouped] as Life",
 				text="Oasis grants {0}% of damage taken Recouped as Life"
 			}
 		},
@@ -100,6 +105,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Oasis grants {0}% of damage taken [Recoup|Recouped] as Mana",
 				text="Oasis grants {0}% of damage taken Recouped as Mana"
 			}
 		},
@@ -120,6 +126,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Oasis grants {0} [Flask] charges per second",
 				text="Oasis grants {0} Flask charges per second"
 			}
 		},

@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Impact radius is {0} metre",
 				text="Impact radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Impact radius is {0} metres",
 				text="Impact radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Area of Effect per [Power] of killed target",
 				text="{0}% more Area of Effect per Power of killed target"
 			}
 		},
@@ -72,6 +75,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="{0}% more Damage per [Power] of killed target",
 				text="{0}% more Damage per Power of killed target"
 			}
 		},

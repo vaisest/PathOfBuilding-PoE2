@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Burst radius is {0} metre",
 				text="Burst radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Burst radius is {0} metres",
 				text="Burst radius is {0} metres"
 			}
 		},
@@ -60,6 +62,7 @@ return {
 						[2]=1000
 					}
 				},
+				rawText="[Poison] duration is {0} second",
 				text="Poison duration is {0} second"
 			},
 			[2]={
@@ -73,6 +76,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Poison] duration is {0} seconds",
 				text="Poison duration is {0} seconds"
 			}
 		},

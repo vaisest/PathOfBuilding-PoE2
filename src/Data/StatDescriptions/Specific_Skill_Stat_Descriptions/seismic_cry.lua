@@ -27,6 +27,7 @@ return {
 						[2]=10
 					}
 				},
+				rawText="Warcry radius is {0} metre",
 				text="Warcry radius is {0} metre"
 			},
 			[2]={
@@ -40,6 +41,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="Warcry radius is {0} metres",
 				text="Warcry radius is {0} metres"
 			}
 		},
@@ -56,6 +58,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% more damage",
 				text="Empowered Attack Aftershocks deal {0}% more damage"
 			},
 			[2]={
@@ -69,6 +72,7 @@ return {
 						[2]=-1
 					}
 				},
+				rawText="[Empowered] [Attack] [Aftershock|Aftershocks] deal {0}% less damage",
 				text="Empowered Attack Aftershocks deal {0}% less damage"
 			}
 		},
@@ -89,6 +93,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] one [Slam] per enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Empowers one Slam per enemy Power in\nrange, counting up to {1} Power"
 			},
 			[2]={
@@ -102,6 +107,7 @@ return {
 						[2]="#"
 					}
 				},
+				rawText="[Empowered|Empowers] one [Slam] per {0} enemy [Power] in\nrange, counting up to {1} [Power]",
 				text="Empowers one Slam per {0} enemy Power in\nrange, counting up to {1} Power"
 			}
 		},
