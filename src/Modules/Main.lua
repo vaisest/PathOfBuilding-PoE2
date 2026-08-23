@@ -1759,6 +1759,7 @@ function main:OpenNoteEditPopup(title, initial, onSave)
 			return insertMarkup("<" .. style.tag .. ">")
 		end)
 		controls["font" .. style.label].tooltipText = hoverText
+		controls["font" .. style.label].forceTooltip = true
 	end
 
 	controls.colorLabel = new("LabelControl", { "TOPLEFT", nil, "TOPLEFT" }, { 14, 114, 0, 16 }, "^7Colour")
@@ -1769,6 +1770,7 @@ function main:OpenNoteEditPopup(title, initial, onSave)
 			return insertMarkup(colorCodeToMarkupColour(colorCodes[code]))
 		end)
 		controls["color" .. code].tooltipText = hoverText
+		controls["color" .. code].forceTooltip = true
 	end
 
 	controls.edit = new("EditControl", nil, { 0, 198, 598, 120 }, initial or "", nil, "^%C\t\n", 960, function(buf)
