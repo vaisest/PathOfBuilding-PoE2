@@ -215,7 +215,7 @@ local function buildSkills(build, brackets)
 				if group.enabled ~= false and group.gemList and #group.gemList > 0 then
 					local activeIdx = tonumber(group.mainActiveSkill) or 1
 					local activeGem = group.gemList[activeIdx] or group.gemList[1]
-					local activeId = activeGem.gemData.gameId
+					local activeId = activeGem.gemData?.gameId
 					if activeId then
 						local entry = { id = activeId }
 						if interval then entry.level_interval = { interval[1], interval[2] } end
