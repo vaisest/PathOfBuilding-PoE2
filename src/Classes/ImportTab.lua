@@ -359,7 +359,15 @@ local ImportTabClass = newClass("ImportTab", "ControlHost", "Control", function(
 	self.controls.buildPlannerAuthorName = new("EditControl", {"LEFT",self.controls.buildPlannerBuildName,"RIGHT"}, {8, 0, 200, 20}, "Author", "Author name", nil, nil)
 	self.controls.buildPlannerDescLabel = new("LabelControl", {"TOPLEFT",self.controls.buildPlannerBuildName,"BOTTOMLEFT"}, {0, 8, 0, 16}, "^7Description:")
 	self.controls.buildPlannerDescription = new("EditControl", {"TOPLEFT",self.controls.buildPlannerDescLabel,"BOTTOMLEFT"}, {0, 8, 560, 64}, "", nil, "^%C\t\n", nil, nil, 16)
-	self.controls.poe2ExportPath = new("EditControl", {"TOPLEFT",self.controls.buildPlannerDescription,"BOTTOMLEFT"}, {0, 8, 408, 20}, main.userPath .. "../My Games/Path of Exile 2/BuildPlanner/" .. self.build.buildName .. ".build", "Path", nil, 260)
+	local location
+	if os.getenv("userprofile") then
+		location = os.getenv("userprofile"):gsub("\\", "/") .. "/Documents/My Games/Path of Exile 2/BuildPlanner/"
+		-- running on e.g. linux. in this case the user could've put their game just about anywhere, so
+		-- just default to saving near PoB instead of polluting home folders
+	else
+		location = main.userPath .. "../BuildPlanner/"
+	end
+	self.controls.poe2ExportPath = new("EditControl", { "TOPLEFT", self.controls.buildPlannerDescription, "BOTTOMLEFT" }, { 0, 8, 560, 20 }, location .. self.build.buildName .. ".build", "Path", nil, 260)
 	self.controls.poe2ExportSave = new("ButtonControl", {"TOPLEFT",self.controls.poe2ExportPath,"BOTTOMLEFT"}, {0, 8, 80, 20}, "Save", function()
 		local function doWrite()
 			local ok, err = BuildExportPoE2.WriteFile(self.build, self.controls.poe2ExportPath.buf, {

@@ -46,14 +46,6 @@ M.SlotMap = {
 	["Flask 2"]       = { inventory_id = "Flask2" },
 }
 
--- Default level brackets when the user hasn't set levelMin/Max on a set.
--- Indexed by total number of sets; falls back to a uniform split otherwise.
-local presetBrackets = {
-	[2] = { {1, 50},  {50, 100} },
-	[3] = { {1, 33},  {33, 66},  {66, 100} },
-	[4] = { {1, 30},  {30, 60},  {60, 90},  {90, 100} },
-}
-
 local function clampLevel(v)
 	v = tonumber(v)
 	if not v then return nil end
@@ -61,15 +53,6 @@ local function clampLevel(v)
 	if v < 0 then v = 0 end
 	if v > 100 then v = 100 end
 	return v
-end
-
-local function autoBracket(i, n)
-	if presetBrackets[n] then
-		return presetBrackets[n][i]
-	end
-	local lo = (i == 1) and 1 or (m_floor((i - 1) / n * 99) + 1)
-	local hi = (i == n) and 100 or m_floor(i / n * 99)
-	return { lo, hi }
 end
 
 -- bracketsFor(orderList, getEntry) -> { [orderIndex] = {min, max} | nil, ... } | nil
@@ -108,68 +91,6 @@ local function safeFilename(name)
 	name = (name and name ~= "") and name or "Unnamed"
 	name = s_gsub(name, "[\\/:%*%?\"<>|%c]", "-")
 	return name
-end
-
---- Compute a default (lo, hi) for a new loadout: the next 30-level chunk after
---- the highest existing levelMax found across tree specs, item sets and skill sets.
---- Returns (1, 30) when nothing has been tagged yet.
---- @param build table The build (must have treeTab/itemsTab/skillsTab).
---- @return number lo
---- @return number hi
-function M.NextLoadoutBracket(build)
-	local maxLvl = 0
-	local function consider(entry)
-		if entry and entry.levelMax and entry.levelMax > maxLvl then
-			maxLvl = entry.levelMax
-		end
-	end
-	if build.treeTab and build.treeTab.specList then
-		for _, spec in ipairs(build.treeTab.specList) do consider(spec) end
-	end
-	if build.itemsTab and build.itemsTab.itemSetOrderList then
-		for _, id in ipairs(build.itemsTab.itemSetOrderList) do
-			consider(build.itemsTab.itemSets[id])
-		end
-	end
-	if build.skillsTab and build.skillsTab.skillSetOrderList then
-		for _, id in ipairs(build.skillsTab.skillSetOrderList) do
-			consider(build.skillsTab.skillSets[id])
-		end
-	end
-	if maxLvl == 0 then return 1, 30 end
-	return maxLvl, m_min(maxLvl + 30, 100)
-end
-
---- Preset the new loadout's levelMin/levelMax to the next 30-level chunk
---- after the highest existing levelMax (e.g. [1,30] -> [30,60] -> [60,90] -> [90,100]).
---- If no existing entry has levels set, seeds the first existing entry to [1, 30]
---- so the new one fits a clean chain.
---- @param existingEntries table Array of entry objects (NOT including newEntry) with optional levelMin/levelMax.
---- @param newEntry table The entry to populate.
-function M.PresetNextLevels(existingEntries, newEntry)
-	local maxLvl = 0
-	local anyHas = false
-	for _, entry in ipairs(existingEntries or {}) do
-		if entry.levelMax then
-			anyHas = true
-			if entry.levelMax > maxLvl then maxLvl = entry.levelMax end
-		end
-	end
-	if not anyHas then
-		local first = existingEntries and existingEntries[1]
-		if first and not first.levelMin and not first.levelMax then
-			first.levelMin = 1
-			first.levelMax = 30
-			maxLvl = 30
-		end
-	end
-	if maxLvl == 0 then
-		newEntry.levelMin = 1
-		newEntry.levelMax = 30
-	else
-		newEntry.levelMin = maxLvl
-		newEntry.levelMax = m_min(maxLvl + 30, 100)
-	end
 end
 
 function M.DefaultDir()
@@ -342,65 +263,39 @@ local function stripBraces(s)
 	return (s:gsub("[{}]", ""))
 end
 
-local function titleCaseRarity(r)
-	if not r or r == "" then return "Item" end
-	return r:sub(1, 1):upper() .. r:sub(2):lower()
-end
-
--- Header for non-unique gear. Bold the item's name; for rares with a rolled
--- title (e.g. "Mire Spike"), put the base type on the next line. Examples:
---   <b>{Mire Spike}\nAncestral Tiara     (rare with a rolled title)
---   <b>{Magic Ultimate Mana Flask}        (magic)
---   <b>{Ancestral Tiara}                  (normal)
+-- Header for non-unique gear. Displays the item's name on two lines, coloured by rarity and shown in a larger text.
+-- Usually shows as:
+-- Item title
+-- Item base name
 local function itemHeader(item)
-	local title = item.title
-	local base = item.baseName
-	if title and title ~= "" and base and title ~= base then
-		return "<b>{" .. stripBraces(title) .. "}\n" .. stripBraces(base)
-	elseif title and title ~= "" then
-		return "<b>{" .. stripBraces(title) .. "}"
-	elseif base then
-		if item.rarity and item.rarity ~= "NORMAL" then
-			return "<b>{" .. titleCaseRarity(item.rarity) .. " " .. stripBraces(base) .. "}"
-		end
-		return "<b>{" .. stripBraces(base) .. "}"
-	end
-	return "<b>{" .. titleCaseRarity(item.rarity) .. "}"
+	local rarityCode = colorCodes[item.rarity]
+	local colorTag = colorCodeToMarkupColour(rarityCode)
+	local itemName = item.name:gsub(", ", "\n")
+	return string.format("%s{<b>{%s}}\n", colorTag, itemName)
 end
 
 -- Builds a styled hint for non-unique gear. Implicit/rune/enchant mods are
 -- italicised to set them apart from explicit mods, matching PoE convention.
 local function itemAdditionalText(item)
 	local parts = { itemHeader(item) }
-	local function appendItalic(modLines)
-		if not modLines then return end
-		for _, modLine in ipairs(modLines) do
-			if modLine.line and modLine.line ~= "" then
-				t_insert(parts, "<i>{" .. stripBraces(modLine.line) .. "}")
-			end
-		end
-	end
 	local function appendPlain(modLines)
 		if not modLines then return end
 		for _, modLine in ipairs(modLines) do
 			if modLine.line and modLine.line ~= "" then
-				t_insert(parts, stripBraces(modLine.line))
+				local formatted = itemLib.formatModLine(modLine, nil, true)
+				local colorCode = formatted:match("%^x%x%x%x%x%x%x")
+				formatted = formatted:gsub("%^x%x%x%x%x%x%x", "")
+				local line = string.format("%s{%s}", colorCodeToMarkupColour(colorCode), stripBraces(formatted))
+				t_insert(parts, line)
 			end
 		end
 	end
-	appendItalic(item.enchantModLines)
-	appendItalic(item.runeModLines)
-	appendItalic(item.implicitModLines)
+	appendPlain(item.enchantModLines)
+	appendPlain(item.runeModLines)
+	appendPlain(item.implicitModLines)
 	appendPlain(item.explicitModLines)
 	local text = t_concat(parts, "\n")
-	if #text > 600 then text = text:sub(1, 597) .. "..." end
 	return text
-end
-
-local function uniqueNameOf(item)
-	-- For UNIQUE/RELIC items, Item.lua stores the first line of the unique
-	-- entry (the GGG Words-table key) in self.title; fall back to .name.
-	return item.title or item.name
 end
 
 local function buildItems(build)
@@ -420,13 +315,17 @@ local function buildItems(build)
 						slot_x = mapping.slot_x,
 					}
 					if interval then entry.level_interval = { interval[1], interval[2] } end
-					if item and (item.rarity == "UNIQUE" or item.rarity == "RELIC") then
-						local name = uniqueNameOf(item)
-						if name and name ~= "" and name ~= "?" then
-							entry.unique_name = name
+					-- the unique_name field shows a larger header when you don't have the matching unique
+					-- equipped in the slot, but since we show the full item name in the additional
+					-- text, it doesn't really do anything useful here
+					if item then
+						entry.additional_text = itemAdditionalText(item)
+						if slotEntry.note then
+							entry.additional_text ..= "\n\n" .. slotEntry.note
 						end
+					else
+						entry.additional_text = slotEntry.note
 					end
-					entry.additional_text = slotEntry.note or (item and itemAdditionalText(item))
 
 					t_insert(out, entry)
 				end

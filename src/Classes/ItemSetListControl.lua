@@ -28,8 +28,7 @@ local ItemSetListClass = newClass("ItemSetListControl", "ListControl", function(
 		return self.selValue ~= nil
 	end
 	self.controls.new = new("ButtonControl", {"RIGHT",self.controls.rename,"LEFT"}, {-4, 0, 60, 18}, "New", function()
-		local newSet = itemsTab:NewItemSet()
-		self:RenameSet(newSet, true)
+		self:CreateItemSet()
 	end)
 end)
 
@@ -41,6 +40,9 @@ function ItemSetListClass:CreateItemSet()
 	end)
 	controls.save = new("ButtonControl", nil, { -45, 70, 80, 20 }, "Save", function()
 		self.itemSetService:NewItemSet(controls.edit.buf)
+		if self.levelRange then
+			self.levelRange:LoadSet(self.itemsTab.activeItemSet)
+		end
 		main:ClosePopup()
 	end)
 	controls.save.enabled = false
@@ -144,6 +146,9 @@ function ItemSetListClass:OnSelDelete(index, itemSetId)
 			"Are you sure you want to delete '" ..
 			(itemSet.title or "Default") .. "'?\nThis will not delete any items used by the set.", "Delete", function()
 				self.itemSetService:DeleteItemSet(itemSetId, index)
+				if self.levelRange then
+					self.levelRange:LoadSet(self.itemsTab.activeItemSet)
+				end
 				self.selIndex = nil
 				self.selValue = nil
 			end)
