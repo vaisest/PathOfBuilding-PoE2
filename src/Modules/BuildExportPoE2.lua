@@ -1,9 +1,9 @@
 -- Path of Building
 --
 -- Module: Build Export (Path of Exile 2 BuildPlanner)
--- Serialises the current build into a .build JSON file the in-game
--- BuildPlanner can load. See: https://www.pathofexile.com/developer/docs/game
---
+-- Serialises one loadout of the current build into a .build JSON file the
+-- in-game BuildPlanner can load.
+-- See: https://www.pathofexile.com/developer/docs/game
 
 local ipairs = ipairs
 local pairs = pairs
@@ -11,90 +11,21 @@ local tostring = tostring
 local tonumber = tonumber
 local t_insert = table.insert
 local t_concat = table.concat
-local m_floor = math.floor
-local m_min = math.min
-local m_max = math.max
+local t_sort = table.sort
 local s_format = string.format
-local s_gsub = string.gsub
 
 local dkjson = require "dkjson"
 
 local M = {}
 
--- PoB internal slot name -> { inventory_id, weapon_set? }
--- inventory_id values for slots other than Weapon1 are educated guesses; only
--- "Weapon1" is documented by GGG. Verify against a sample .build exported from
--- the live game before relying on these in shipped builds.
-M.SlotMap = {
-	["Weapon 1"]      = { inventory_id = "Weapon1" },
-	["Weapon 2"]      = { inventory_id = "Weapon2" },
-	["Weapon 1 Swap"] = { inventory_id = "Weapon1", weapon_set = 2 },
-	["Weapon 2 Swap"] = { inventory_id = "Weapon2", weapon_set = 2 },
-	["Helmet"]        = { inventory_id = "Helm" },
-	["Body Armour"]   = { inventory_id = "BodyArmour" },
-	["Gloves"]        = { inventory_id = "Gloves" },
-	["Boots"]         = { inventory_id = "Boots" },
-	["Amulet"]        = { inventory_id = "Amulet" },
-	["Ring 1"]        = { inventory_id = "Ring" },
-	["Ring 2"]        = { inventory_id = "Ring2" },
-	["Ring 3"]        = { inventory_id = "Ring3" },
-	["Belt"]          = { inventory_id = "Belt" },
-	["Charm 1"]       = { inventory_id = "Charm1" },
-	["Charm 2"]       = { inventory_id = "Charm2" },
-	["Charm 3"]       = { inventory_id = "Charm3" },
-	["Flask 1"]       = { inventory_id = "Flask1" },
-	["Flask 2"]       = { inventory_id = "Flask2" },
-}
-
-local function clampLevel(v)
-	v = tonumber(v)
-	if not v then return nil end
-	v = m_floor(v)
-	if v < 0 then v = 0 end
-	if v > 100 then v = 100 end
-	return v
-end
-
--- bracketsFor(orderList, getEntry) -> { [orderIndex] = {min, max} | nil, ... } | nil
--- Returns nil when there's only one set (caller should omit level_interval).
--- When some sets are explicitly tagged and others aren't, the untagged ones
--- intentionally return nil (no level_interval) — the loader treats them as
--- "applies at all levels", which is what a build-author usually means when
--- they tag a leveling loadout but leave the main build untagged.
-local function bracketsFor(orderList, getEntry)
-	local n = orderList and #orderList or 0
-	if n <= 1 then return nil end
-	local hasAnyExplicit = false
-	for _, id in ipairs(orderList) do
-		local entry = getEntry(id)
-		if entry and entry.levelMin and entry.levelMax then
-			hasAnyExplicit = true
-			break
-		end
-	end
-	local out = {}
-	for i, id in ipairs(orderList) do
-		local entry = getEntry(id)
-		local lo = entry and clampLevel(entry.levelMin)
-		local hi = entry and clampLevel(entry.levelMax)
-		if lo and hi then
-			if lo > hi then lo, hi = hi, lo end
-			out[i] = { lo, hi }
-		elseif hasAnyExplicit then
-			out[i] = nil
-		end
-	end
-	return out
-end
-
 local function safeFilename(name)
 	name = (name and name ~= "") and name or "Unnamed"
-	name = s_gsub(name, "[\\/:%*%?\"<>|%c]", "-")
+	name = name:gsub("[\\/:%*%?\"<>|%c]", "?")
 	return name
 end
 
 function M.DefaultDir()
-	local home = os.getenv("USERPROFILE") or os.getenv("HOME") or ""
+	local home = os.getenv("USERPROFILE") or (GetScriptPath() .. "/../") or ""
 	local sep = home:find("\\") and "\\" or "/"
 	return home .. sep .. "Documents" .. sep .. "My Games" .. sep
 	     .. "Path of Exile 2" .. sep .. "BuildPlanner" .. sep
@@ -104,8 +35,17 @@ function M.DefaultPath(build)
 	return M.DefaultDir() .. safeFilename(build.buildName) .. ".build"
 end
 
-local function buildAscendancy(build)
-	local spec = build.spec
+--- Insert a loadout name before the extension: "My Build.build" -> "My Build - Leveling.build"
+function M.LoadoutPath(basePath, loadoutName)
+	local suffix = " - " .. safeFilename(loadoutName)
+	local stem, ext = basePath:match("^(.*)(%.[^%./\\]*)$")
+	if stem then
+		return stem .. suffix .. ext
+	end
+	return basePath .. suffix
+end
+
+local function buildAscendancy(spec)
 	if not spec or not spec.tree or not spec.curClassId then return nil end
 	local class = spec.tree.classes[spec.curClassId]
 	if not class or not class.classes or not spec.curAscendClassId then return nil end
@@ -114,61 +54,21 @@ local function buildAscendancy(build)
 	return asc.internalId
 end
 
-local function buildPassives(build, brackets)
-	local specList = build.treeTab and build.treeTab.specList
-	if not specList then return {} end
-	-- Dedupe by node id: collect contributing intervals + node refs across specs.
-	-- "Always" (no interval) wins — if any contributing spec is untagged, the
-	-- merged entry has no level_interval. Otherwise the merged interval covers
-	-- the union span (min lo, max hi) of all contributing specs.
-	local merged = {}
-	local order = {}
-	for specIdx, spec in ipairs(specList) do
-		local interval = brackets and brackets[specIdx]
-		local notes = spec.nodeNotes or {}
-		for nodeId, node in pairs(spec.allocNodes) do
-			-- Skip cluster-jewel synthetic subgraph nodes; they aren't in the
-			-- vanilla PassiveSkills table the loader looks up.
-			if type(nodeId) == "number" and nodeId < 65536 then
-				local nodeTable = type(node) == "table" and node or nil
-				local note = notes[nodeId]
-				local existing = merged[nodeId]
-				if existing == nil then
-					merged[nodeId] = {
-						node = nodeTable,
-						interval = interval and { interval[1], interval[2] } or false,
-						note = (note and note ~= "") and note or nil,
-					}
-					t_insert(order, nodeId)
-				else
-					if not existing.node and nodeTable then existing.node = nodeTable end
-					-- First non-empty note wins.
-					if not existing.note and note and note ~= "" then existing.note = note end
-					if existing.interval == false then
-						-- Already "always" - nothing to do.
-					elseif interval == nil then
-						existing.interval = false
-					else
-						if interval[1] < existing.interval[1] then existing.interval[1] = interval[1] end
-						if interval[2] > existing.interval[2] then existing.interval[2] = interval[2] end
-					end
-				end
-			end
-		end
-	end
+local function buildPassives(spec)
 	local out = {}
-	for _, nodeId in ipairs(order) do
-		local m = merged[nodeId]
-		local idStr = (m.node and m.node.stringId)
-		if idStr then
-			if not m.interval and not m.note then
+	if not spec or not spec.allocNodes then return out end
+	local notes = spec.nodeNotes or {}
+	for nodeId, node in pairs(spec.allocNodes) do
+		local idStr = type(node) == "table" and node.stringId
+		-- Skip cluster-jewel synthetic subgraph nodes; they aren't in the
+		-- vanilla PassiveSkills table the loader looks up.
+		if idStr and type(nodeId) == "number" and nodeId < 65536 then
+			local note = notes[nodeId]
+			if note and note ~= "" then
+				t_insert(out, { id = idStr, additional_text = note })
+			else
 				-- Bare-string shorthand when there's nothing else to attach.
 				t_insert(out, idStr)
-			else
-				local entry = { id = idStr }
-				if m.interval then entry.level_interval = { m.interval[1], m.interval[2] } end
-				if m.note then entry.additional_text = m.note end
-				t_insert(out, entry)
 			end
 		end
 	end
@@ -202,51 +102,39 @@ local function gemAdditionalText(gem, isSupport)
 	return "Level " .. tostring(level)
 end
 
-local function buildSkills(build, brackets)
+local function buildSkills(skillSet)
 	local out = {}
-	local skillsTab = build.skillsTab
-	if not skillsTab or not skillsTab.skillSets then return out end
-	local orderList = skillsTab.skillSetOrderList or {}
-	for setIdx, setId in ipairs(orderList) do
-		local skillSet = skillsTab.skillSets[setId]
-		local interval = brackets and brackets[setIdx] or nil
-		if skillSet and skillSet.socketGroupList then
-			for _, group in ipairs(skillSet.socketGroupList) do
-				if group.enabled ~= false and group.gemList and #group.gemList > 0 then
-					local activeIdx = tonumber(group.mainActiveSkill) or 1
-					local activeGem = group.gemList[activeIdx] or group.gemList[1]
-					local activeId = activeGem.gemData?.gameId
-					if activeId then
-						local entry = { id = activeId }
-						if interval then entry.level_interval = { interval[1], interval[2] } end
-						local activeText = gemAdditionalText(activeGem, false)
-						if activeText then entry.additional_text = activeText end
-						local supports = {}
-						for gi, gem in ipairs(group.gemList) do
-							if gem ~= activeGem and gem.enabled ~= false then
-								local supId = gem.gemData.gameId
-								if supId then
-									local supText = gemAdditionalText(gem, true)
-									if not interval and not supText then
-										-- Bare-string shorthand when there's nothing else to attach.
-										t_insert(supports, supId)
-									else
-										local sup = { id = supId }
-										if interval then sup.level_interval = { interval[1], interval[2] } end
-										if supText then sup.additional_text = supText end
-										t_insert(supports, sup)
-									end
-								else
-									ConPrintf("[PoE2Export] skipping support gem with no id in group '%s'", tostring(group.label or "?"))
-								end
+	if not skillSet or not skillSet.socketGroupList then return out end
+	for _, group in ipairs(skillSet.socketGroupList) do
+		if group.enabled ~= false and group.gemList and #group.gemList > 0 then
+			local activeIdx = tonumber(group.mainActiveSkill) or 1
+			local activeGem = group.gemList[activeIdx] or group.gemList[1]
+			local activeId = activeGem.gemData?.gameId
+			if activeId then
+				local entry = { id = activeId }
+				local activeText = gemAdditionalText(activeGem, false)
+				if activeText then entry.additional_text = activeText end
+				local supports = {}
+				for _, gem in ipairs(group.gemList) do
+					if gem ~= activeGem and gem.enabled ~= false then
+						local supId = gem.gemData?.gameId
+						if supId then
+							local supText = gemAdditionalText(gem, true)
+							if supText then
+								t_insert(supports, { id = supId, additional_text = supText })
+							else
+								-- Bare-string shorthand when there's nothing else to attach.
+								t_insert(supports, supId)
 							end
+						else
+							ConPrintf("[PoE2Export] skipping support gem with no id in group '%s'", tostring(group.label or "?"))
 						end
-						if #supports > 0 then entry.support_skills = supports end
-						t_insert(out, entry)
-					else
-						ConPrintf("[PoE2Export] skipping active gem with no id in group '%s'", tostring(group.label or "?"))
 					end
 				end
+				if #supports > 0 then entry.support_skills = supports end
+				t_insert(out, entry)
+			else
+				ConPrintf("[PoE2Export] skipping active gem with no id in group '%s'", tostring(group.label or "?"))
 			end
 		end
 	end
@@ -283,10 +171,12 @@ local function itemAdditionalText(item)
 		for _, modLine in ipairs(modLines) do
 			if modLine.line and modLine.line ~= "" then
 				local formatted = itemLib.formatModLine(modLine, nil, true)
-				local colorCode = formatted:match("%^x%x%x%x%x%x%x")
-				formatted = formatted:gsub("%^x%x%x%x%x%x%x", "")
-				local line = string.format("%s{%s}", colorCodeToMarkupColour(colorCode), stripBraces(formatted))
-				t_insert(parts, line)
+				if formatted then
+					local colorCode = formatted:match("%^x%x%x%x%x%x%x")
+					formatted = formatted:gsub("%^x%x%x%x%x%x%x", "")
+					local line = string.format("%s{%s}", colorCodeToMarkupColour(colorCode), stripBraces(formatted))
+					t_insert(parts, line)
+				end
 			end
 		end
 	end
@@ -298,88 +188,93 @@ local function itemAdditionalText(item)
 	return text
 end
 
-local function buildItems(build)
+local function buildItems(itemsTab, itemSet)
 	local out = {}
-	local itemsTab = build.itemsTab
-	if not itemsTab or not itemsTab.itemSets then return out end
-	local orderList = itemsTab.itemSetOrderList or {}
-	for _, setId in ipairs(orderList) do
-		local itemSet = itemsTab.itemSets[setId]
-		if itemSet then
-			for pobSlotName, mapping in pairs(data.buildFileInventorySlotMap) do
-				local slotEntry = itemSet[pobSlotName]
-				if slotEntry and (slotEntry.selItemId or slotEntry.note) then
-					local item = itemsTab.items[slotEntry.selItemId]
-					local entry = {
-						inventory_id = mapping.id,
-						slot_x = mapping.slot_x,
-					}
-					if interval then entry.level_interval = { interval[1], interval[2] } end
-					-- the unique_name field shows a larger header when you don't have the matching unique
-					-- equipped in the slot, but since we show the full item name in the additional
-					-- text, it doesn't really do anything useful here
-					if item then
-						entry.additional_text = itemAdditionalText(item)
-						if slotEntry.note then
-							entry.additional_text ..= "\n\n" .. slotEntry.note
-						end
-					else
-						entry.additional_text = slotEntry.note
-					end
-
-					t_insert(out, entry)
+	if not itemsTab or not itemSet then return out end
+	for pobSlotName, mapping in pairs(data.buildFileInventorySlotMap) do
+		local slotEntry = itemSet[pobSlotName]
+		local item = slotEntry and slotEntry.selItemId and slotEntry.selItemId ~= 0
+			and itemsTab.items[slotEntry.selItemId]
+		local note = slotEntry and slotEntry.note ~= "" and slotEntry.note
+		if item or note then
+			local entry = {
+				inventory_id = mapping.id,
+				slot_x = mapping.slot_x,
+			}
+			-- the unique_name field shows a larger header when you don't have the matching unique
+			-- equipped in the slot, but since we show the full item name in the additional
+			-- text, it doesn't really do anything useful here
+			if item then
+				entry.additional_text = itemAdditionalText(item)
+				if note then
+					entry.additional_text = entry.additional_text .. "\n\n" .. note
 				end
+			else
+				entry.additional_text = note
 			end
+
+			t_insert(out, entry)
 		end
 	end
 	return out
 end
 
-local function getItemSet(itemsTab, id)
-	return itemsTab.itemSets[id]
+--- Resolve a selection into the actual spec/skill set/item set to export.
+--- Any field left unset falls back to whatever is currently active.
+--- selection = { specIndex = n, skillSetId = id, itemSetId = id }
+function M.ResolveSelection(build, selection)
+	selection = selection or {}
+	local treeTab, skillsTab, itemsTab = build.treeTab, build.skillsTab, build.itemsTab
+	local spec = treeTab and (treeTab.specList[selection.specIndex])
+	local skillSet = skillsTab and (skillsTab.skillSets[selection.skillSetId])
+	local itemSet = itemsTab and (itemsTab.itemSets[selection.itemSetId])
+	return spec, skillSet, itemSet
 end
-local function getSkillSet(skillsTab, id)
-	return skillsTab.skillSets[id]
+
+function M.GetLoadouts(build)
+	local out = {}
+	ConPrintf("%s, %s, %s", build.treeTab, build.skillsTab, build.itemsTab)
+	if not (build.treeTab and build.skillsTab and build.itemsTab) then return out end
+	build:SyncLoadouts(true)
+	for _, displayName in ipairs(build.controls.buildLoadouts.list) do
+		ConPrintf("%s", displayName)
+		if not displayName:find("^%^7%^7") then
+			local loadout = build:GetLoadoutByName(displayName)
+			local plainName = displayName:gsub(" {.-}$", "")
+			t_insert(out, {
+				name = plainName,
+				specIndex = loadout.specId,
+				skillSetId = loadout.skillSetId,
+				itemSetId = loadout.itemSetId,
+			})
+		end
+	end
+	return out
 end
 
 --- Build the in-memory table that will be JSON-encoded as the .build file.
 --- Exposed for testing.
-function M.BuildTable(build, metadata)
+function M.BuildTable(build, metadata, selection)
+	metadata = metadata or {}
+	local spec, skillSet, itemSet = M.ResolveSelection(build, selection)
 	local root = {
-		name = (build.buildName and build.buildName ~= "") and build.buildName or "Unnamed",
+		name = (metadata.name and metadata.name ~= "") and metadata.name
+			or ((build.buildName and build.buildName ~= "") and build.buildName or "Unnamed"),
 	}
-	local ascendancy = buildAscendancy(build)
+	local ascendancy = buildAscendancy(spec)
 	if ascendancy then root.ascendancy = ascendancy end
 	root.author = metadata.author
-	root.name = metadata.name
 	root.description = metadata.description
 
-	-- Bracket each section independently so users can tag tree/items/skills
-	-- with different level ranges without forcing the set counts to match.
-	local treeBrackets = nil
-	if build.treeTab and build.treeTab.specList and #build.treeTab.specList > 1 then
-		local pseudoOrder = {}
-		for i = 1, #build.treeTab.specList do pseudoOrder[i] = i end
-		treeBrackets = bracketsFor(pseudoOrder, function(i) return build.treeTab.specList[i] end)
-	end
-	local skillBrackets = nil
-	if build.skillsTab and build.skillsTab.skillSetOrderList then
-		skillBrackets = bracketsFor(build.skillsTab.skillSetOrderList, function(id) return getSkillSet(build.skillsTab, id) end)
-	end
-	local itemBrackets = nil
-	if build.itemsTab and build.itemsTab.itemSetOrderList then
-		itemBrackets = bracketsFor(build.itemsTab.itemSetOrderList, function(id) return getItemSet(build.itemsTab, id) end)
-	end
-
-	root.passives = buildPassives(build, treeBrackets)
-	root.skills = buildSkills(build, skillBrackets)
-	root.inventory_slots = buildItems(build, itemBrackets)
+	root.passives = buildPassives(spec)
+	root.skills = buildSkills(skillSet)
+	root.inventory_slots = buildItems(build.itemsTab, itemSet)
 	return root
 end
 
 --- Returns (jsonString, nil) on success, or (nil, errorMessage) on failure.
-function M.Export(build, metadata)
-	local root = M.BuildTable(build, metadata)
+function M.Export(build, metadata, selection)
+	local root = M.BuildTable(build, metadata, selection)
 	-- Force array-ness on the three top-level lists even when empty so the
 	-- loader sees `[]` instead of `{}`.
 	local state = { indent = true, level = 0 }
@@ -388,9 +283,9 @@ function M.Export(build, metadata)
 	return json
 end
 
---- Writes the exported build to disk. Returns (path, nil) on success.
-function M.WriteFile(build, path, metadata)
-	local json, err = M.Export(build, metadata)
+--- Writes one loadout to disk. Returns (path, nil) on success.
+function M.WriteFile(build, path, metadata, selection)
+	local json, err = M.Export(build, metadata, selection)
 	if not json then return nil, err end
 	-- Best-effort: ensure the target directory exists.
 	local dir = path:match("^(.*[/\\])")
@@ -402,4 +297,28 @@ function M.WriteFile(build, path, metadata)
 	return path
 end
 
+--- Write every loadout to "build - loadout.build"
+function M.WriteAllLoadouts(build, basePath, metadata, loadouts)
+	local written = {}
+	local errors = {}
+	loadouts = loadouts or M.GetLoadouts(build)
+	if #loadouts == 0 then
+		return written, { "This build has no passive trees to export." }
+	end
+	for _, loadout in ipairs(loadouts) do
+		local path = M.LoadoutPath(basePath, loadout.name)
+		local loadoutMeta = {
+			name = s_format("%s - %s", metadata and metadata.name or build.buildName, loadout.name),
+			author = metadata and metadata.author,
+			description = metadata and metadata.description,
+		}
+		local ok, err = M.WriteFile(build, path, loadoutMeta, loadout)
+		if ok then
+			t_insert(written, ok)
+		else
+			t_insert(errors, err)
+		end
+	end
+	return written, errors
+end
 return M
