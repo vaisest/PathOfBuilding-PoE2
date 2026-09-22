@@ -3,7 +3,8 @@
 			return {
 
 {
-name = "Fishing Rod",
+	name = "Fishing Rod",
+	id = "Metadata/Items/Weapons/TwoHandWeapon/FishingRods/FishingRod1",
 	type = "Fishing Rod",
 	quality = 20,
 	socketLimit = 4,

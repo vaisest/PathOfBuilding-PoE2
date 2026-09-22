@@ -96,7 +96,8 @@ directiveTable.base = function(state, args, out)
 	end
 	local hidden = (state.forceHide and not baseTypeId:match("Talisman") and not state.forceShow) or baseTypeId:find("Unique", 1, true) or displayName:find("Runemastered", 1, true)
 	out:write('{\n')
-	out:write(string.format('name = "%s",\n', displayName))
+	out:write(string.format('\tname = "%s",\n', displayName))
+	out:write(string.format('\tid = "%s",\n', baseTypeId))
 	out:write('\ttype = "', state.type, '",\n')
 	if state.subType and #state.subType > 0 then
 		out:write('\tsubType = "', state.subType, '",\n')

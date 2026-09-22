@@ -518,7 +518,7 @@ function TradeQueryGeneratorClass:InitMods()
 	self:GenerateModData(darknessMods, { ["RadiusJewel"] = true, ["AnyJewel"] = true }, { ["AnyJewel"] = "AnyJewel" })
 
 	-- implicit mods
-	for baseName, entries in pairsSortByKey(data.itemBases) do
+	for _, entries in pairsSortByKey(data.itemBases) do
 		for _, entry in ipairs(entries) do
 			if entry.implicit ~= nil and entry.type ~= "Transcendent Limb" then
 				local mod = { type = "Implicit" }

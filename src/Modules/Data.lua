@@ -1118,6 +1118,7 @@ end
 
 -- Build lists of item bases, separated by type
 data.itemBaseLists = { }
+data.itemBasesById = {}
 for name, baseList in pairs(data.itemBases) do
 	for _, base in ipairs(baseList) do
 		if not base.hidden then
@@ -1128,6 +1129,7 @@ for name, baseList in pairs(data.itemBases) do
 			data.itemBaseLists[type] = data.itemBaseLists[type] or {}
 			table.insert(data.itemBaseLists[type], { label = name:gsub(" %(.+%)", ""), name = name, base = base })
 		end
+		data.itemBasesById[base.id] = base
 	end
 end
 data.itemBaseTypeList = { }
