@@ -1104,6 +1104,8 @@ data.printMissingMinionSkills = function()
 	end
 end
 
+data.verisiumCrafts = require("Data.VerisiumCrafts")
+
 -- Item bases
 ---@type table<string, any[]>
 data.itemBases = { }
