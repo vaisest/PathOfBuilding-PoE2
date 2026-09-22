@@ -1374,7 +1374,7 @@ function ImportTabClass:ImportItem(itemData, slotName)
 			-- Hack for Two-Toned Boots
 			item.baseName = "Two-Toned Boots (Armour/Energy Shield)"
 		end
-		item.base = self.build.data.itemBases[item.baseName]
+		item.base = self.build.data.itemBases[item.baseName]?.[1]
 		if item.base then
 			item.type = item.base.type
 		else
@@ -1395,14 +1395,16 @@ function ImportTabClass:ImportItem(itemData, slotName)
 			itemData.implicitMods = { }
 			itemData.explicitMods = { }
 		end
-		for baseName, baseData in pairs(self.build.data.itemBases) do
-			local s, e = item.name:find(baseName, 1, true)
-			if s then
-				item.baseName = baseName
-				item.namePrefix = item.name:sub(1, s - 1)
-				item.nameSuffix = item.name:sub(e + 1)
-				item.type = baseData.type
-				break
+		for baseName, baseList in pairs(self.build.data.itemBases) do
+			for _, baseData in ipairs(baseList) do
+				local s, e = item.name:find(baseName, 1, true)
+				if s then
+					item.baseName = baseName
+					item.namePrefix = item.name:sub(1, s - 1)
+					item.nameSuffix = item.name:sub(e + 1)
+					item.type = baseData.type
+					break
+				end
 			end
 		end
 		if not item.baseName then
@@ -1415,7 +1417,7 @@ function ImportTabClass:ImportItem(itemData, slotName)
 				item.type = "Boots"
 			end
 		end
-		item.base = self.build.data.itemBases[item.baseName]
+		item.base = self.build.data.itemBases[item.baseName]?.[1]
 	end
 	if not item.base or not item.rarity then
 		return
@@ -1442,13 +1444,13 @@ function ImportTabClass:ImportItem(itemData, slotName)
 				if item.baseName == "Two-Toned Boots (Armour/Energy Shield)" then
 					-- Another hack for Two-Toned Boots
 					item.baseName = "Two-Toned Boots (Armour/Evasion)"
-					item.base = self.build.data.itemBases[item.baseName]
+					item.base = self.build.data.itemBases[item.baseName]?.[1]
 				end
 			elseif propertyName == "Energy Shield" then
 				if item.baseName == "Two-Toned Boots (Armour/Evasion)" then
 					-- Yet another hack for Two-Toned Boots
 					item.baseName = "Two-Toned Boots (Evasion/Energy Shield)"
-					item.base = self.build.data.itemBases[item.baseName]
+					item.base = self.build.data.itemBases[item.baseName]?.[1]
 				end
 			end
 			if propertyName == "Energy Shield" or propertyName == "Runic Ward" or propertyName == "Armour" or propertyName == "Evasion Rating" then

@@ -1,5 +1,5 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type Shield
 #socketLimit 3
@@ -26,4 +26,4 @@ return function(itemBases)
 
 #subType
 #base Metadata/Items/Armours/Shields/ShieldDemigods
-end
+}

@@ -518,55 +518,57 @@ function TradeQueryGeneratorClass:InitMods()
 	self:GenerateModData(darknessMods, { ["RadiusJewel"] = true, ["AnyJewel"] = true }, { ["AnyJewel"] = "AnyJewel" })
 
 	-- implicit mods
-	for baseName, entry in pairsSortByKey(data.itemBases) do
-		if entry.implicit ~= nil and entry.type ~= "Transcendent Limb" then
-			local mod = { type = "Implicit" }
-			for modLine in string.gmatch(entry.implicit, "([^".."\n".."]+)") do
-				t_insert(mod, modLine)
-			end
+	for baseName, entries in pairsSortByKey(data.itemBases) do
+		for _, entry in ipairs(entries) do
+			if entry.implicit ~= nil and entry.type ~= "Transcendent Limb" then
+				local mod = { type = "Implicit" }
+				for modLine in string.gmatch(entry.implicit, "([^" .. "\n" .. "]+)") do
+					t_insert(mod, modLine)
+				end
 
-			local found = false
-			for _, modLine in ipairs(mod) do
-				if modLine:find("Grants Skill:") then
+				local found = false
+				for _, modLine in ipairs(mod) do
+					if modLine:find("Grants Skill:") then
+						goto continue
+					end
+					for _, v in pairs(data.itemMods.Exclusive) do
+						if v[1] == modLine then
+							found = true
+							mod = v
+							mod.type = "Implicit"
+							-- it is possible for there to be multiple matches. For example "+(20-30) to
+							-- maximum Energy Shield" tends to match both the amulet implicit and some
+							-- other unique mod which is local energy shield instead. in that case it
+							-- incorrectly gets mapped to the local stat. this is however super rare as
+							-- it needs the ranges to match exactly.
+							break
+						end
+					end
+				end
+				if not found then
+					ConPrintf("unknown implicit mod: %s", mod[1])
 					goto continue
 				end
-				for _, v in pairs(data.itemMods.Exclusive) do
-					if v[1] == modLine then
-						found = true
-						mod = v
-						mod.type = "Implicit"
-						-- it is possible for there to be multiple matches. For example "+(20-30) to
-						-- maximum Energy Shield" tends to match both the amulet implicit and some
-						-- other unique mod which is local energy shield instead. in that case it
-						-- incorrectly gets mapped to the local stat. this is however super rare as
-						-- it needs the ranges to match exactly.
-						break
+
+				-- create trade type mask for base type
+				local maskOverride = {}
+				for tradeName, typeNames in pairs(tradeCategoryNames) do
+					for _, typeName in ipairs(typeNames) do
+						local entryName = entry.type
+						if entry.subType then
+							entryName = entryName .. ": " .. entry.subType
+						end
+						if typeName == entryName then
+							maskOverride[tradeName] = true;
+							break
+						end
 					end
 				end
-			end
-			if not found then
-				ConPrintf("unknown implicit mod: %s", mod[1])
-				goto continue
-			end
 
-			-- create trade type mask for base type
-			local maskOverride = {}
-			for tradeName, typeNames in pairs(tradeCategoryNames) do
-				for _, typeName in ipairs(typeNames) do
-					local entryName = entry.type
-					if entry.subType then
-							entryName = entryName..": "..entry.subType
-					end
-					if typeName == entryName then
-						maskOverride[tradeName] = true;
-						break
-					end
+				-- mask found process implicit mod this avoids processing unimplemented bases i.e. two handed axes.
+				if next(maskOverride) ~= nil then
+					self:ProcessMod(mod, regularItemMask, maskOverride)
 				end
-			end
-
-			-- mask found process implicit mod this avoids processing unimplemented bases i.e. two handed axes.
-			if next(maskOverride) ~= nil then
-				self:ProcessMod(mod, regularItemMask, maskOverride)
 			end
 		end
 		::continue::

@@ -1554,7 +1554,7 @@ function calcs.initEnv(build, mode, override, specEnv)
 						local name = info.oneHand and "Energy Blade One Handed" or "Energy Blade Two Handed"
 						local item = new("Item"):Item()
 						item.name = name
-						item.base = data.itemBases[name]
+						item.base = data.itemBases[name]?.[1]
 						item.baseName = name
 						item.classRequirementModLines = { }
 						item.buffModLines = { }

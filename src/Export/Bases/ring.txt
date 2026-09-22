@@ -1,7 +1,7 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type Ring
 #baseMatch BaseType Metadata/Items/Rings/AbstractRing
 #baseMatch BaseType Metadata/Items/Rings/RingDemigods
-end
+}

@@ -1,7 +1,7 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type TrapTool
 
 #baseMatch BaseType Metadata/Items/TrapTools/AbstractTrapTool
-end
+}

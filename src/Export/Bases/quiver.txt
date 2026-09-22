@@ -1,6 +1,6 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type Quiver
 #baseMatch BaseType Metadata/Items/Quivers/AbstractQuiver
-end
+}

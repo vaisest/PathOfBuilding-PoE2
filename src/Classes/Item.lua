@@ -519,8 +519,8 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 		-- Determine if "Unidentified" item
 		local unidentified = false
 		if self.rarity == "UNIQUE" then
-			local unidentifiedBase = data.itemBases[self.rawLines[l]]
-			local identifiedBase = data.itemBases[self.rawLines[l+1]]
+			local unidentifiedBase = data.itemBases[self.rawLines[l]]?.[1]
+			local identifiedBase = data.itemBases[self.rawLines[l+1]]?.[1]
 			if unidentifiedBase and not identifiedBase then
 				unidentified = true
 				self.name = "Unidentified item"
@@ -851,14 +851,14 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 						if self.baseName == "Two-Toned Boots (Armour/Energy Shield)" then
 							-- Another hack for Two-Toned Boots
 							self.baseName = "Two-Toned Boots (Armour/Evasion)"
-							self.base = data.itemBases[self.baseName]
+							self.base = data.itemBases[self.baseName]?.[1]
 						end
 					elseif specName == "Energy Shield" then
 						specName = "EnergyShield"
 						if self.baseName == "Two-Toned Boots (Armour/Evasion)" then
 							-- Yet another hack for Two-Toned Boots
 							self.baseName = "Two-Toned Boots (Evasion/Energy Shield)"
-							self.base = data.itemBases[self.baseName]
+							self.base = data.itemBases[self.baseName]?.[1]
 						end
 					elseif specName == "Runic Ward" then
 						specName = "Ward"
@@ -1033,18 +1033,20 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 					if self.name:match("Energy Blade") and itemClass then -- Special handling for energy blade base.
 						self.name = itemClass:match("One Hand") and "Energy Blade One Handed" or "Energy Blade Two Handed"
 					end
-					if data.itemBases[self.name] then
+					if data.itemBases[self.name]?.[1] then
 						baseName = self.name
 					else
 						local bestMatch = {length = -1}
 						-- Partial match (magic items with affixes)
-						for itemBaseName, baseData in pairs(data.itemBases) do
-							local s, e = self.name:find(itemBaseName, 1, true)
-							if s and e and (e-s > bestMatch.length) then
-								bestMatch.match = itemBaseName
-								bestMatch.length = e-s
-								bestMatch.e = e
-								bestMatch.s = s
+						for itemBaseName, baseList in pairs(data.itemBases) do
+							for _, baseData in ipairs(baseList) do
+								local s, e = self.name:find(itemBaseName, 1, true)
+								if s and e and (e-s > bestMatch.length) then
+									bestMatch.match = itemBaseName
+									bestMatch.length = e-s
+									bestMatch.e = e
+									bestMatch.s = s
+								end
 							end
 						end
 						if bestMatch.match then
@@ -1070,7 +1072,7 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 				if baseName == "Two-Toned Boots" then
 					baseName = "Two-Toned Boots (Armour/Energy Shield)"
 				end
-				local base = data.itemBases[baseName]
+				local base = data.itemBases[baseName]?.[1]
 				if base then
 					-- Items with variants can have multiple bases
 					self.baseLines[baseName] = {
@@ -1358,7 +1360,7 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 						foundExplicit = true
 					end
 				elseif mode == "GAME" then
-					if gameModeStage == "IMPLICIT" or gameModeStage == "EXPLICIT" or (gameModeStage == "FINDIMPLICIT" and (not data.itemBases[line]) and not (self.name == line) and not line:find("Two%-Toned") and not (self.base and (line == self.base.type or self.base.subType and line == self.base.subType .. " " .. self.base.type))) then
+					if gameModeStage == "IMPLICIT" or gameModeStage == "EXPLICIT" or (gameModeStage == "FINDIMPLICIT" and (not data.itemBases[line]?.[1]) and not (self.name == line) and not line:find("Two%-Toned") and not (self.base and (line == self.base.type or self.base.subType and line == self.base.subType .. " " .. self.base.type))) then
 						modLine.modList = { }
 						modLine.extra = line
 						t_insert(modLines, modLine)

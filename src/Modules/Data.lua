@@ -1105,21 +1105,29 @@ data.printMissingMinionSkills = function()
 end
 
 -- Item bases
+---@type table<string, any[]>
 data.itemBases = { }
 for _, type in pairs(itemTypes) do
-	LoadModule("Data/Bases/" .. type)(data.itemBases)
+	for _, v in ipairs(LoadModule("Data/Bases/" .. type)) do
+		if not data.itemBases[v.name] then
+			data.itemBases[v.name] = {}
+		end
+		table.insert(data.itemBases[v.name], v)
+	end
 end
 
 -- Build lists of item bases, separated by type
 data.itemBaseLists = { }
-for name, base in pairs(data.itemBases) do
-	if not base.hidden then
-		local type = base.type
-		if base.subType then
-			type = type .. ": " .. base.subType
+for name, baseList in pairs(data.itemBases) do
+	for _, base in ipairs(baseList) do
+		if not base.hidden then
+			local type = base.type
+			if base.subType then
+				type = type .. ": " .. base.subType
+			end
+			data.itemBaseLists[type] = data.itemBaseLists[type] or {}
+			table.insert(data.itemBaseLists[type], { label = name:gsub(" %(.+%)", ""), name = name, base = base })
 		end
-		data.itemBaseLists[type] = data.itemBaseLists[type] or { }
-		table.insert(data.itemBaseLists[type], { label = name:gsub(" %(.+%)",""), name = name, base = base })
 	end
 end
 data.itemBaseTypeList = { }

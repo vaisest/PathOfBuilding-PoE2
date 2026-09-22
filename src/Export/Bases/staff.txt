@@ -1,5 +1,5 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type Staff
 #socketLimit 4
@@ -10,4 +10,4 @@ return function(itemBases)
 #socketLimit 4
 #baseMatch Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaff%d+
 #baseMatch Metadata/Items/Weapons/TwoHandWeapons/Staves/FourQuarterstaffUnique
-end
+}

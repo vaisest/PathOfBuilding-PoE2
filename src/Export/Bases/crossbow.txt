@@ -1,7 +1,7 @@
 -- Item data (c) Grinding Gear Games
-return function(itemBases)
+return {
 
 #type Crossbow
 #socketLimit 4
 #baseMatch BaseType Metadata/Items/Weapons/TwoHandWeapons/Crossbows/AbstractCrossbow
-end
+}

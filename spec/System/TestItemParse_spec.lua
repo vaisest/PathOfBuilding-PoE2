@@ -235,7 +235,7 @@ describe("TestItemParse", function()
 		assert.are.equals(0, #item.grantedSkills)
 		assert.are.equals("Adds 39 to 62 Fire Damage", item.explicitModLines[1].line)
 
-		assert.are.equals("Grants Skill: Level (1-20) Volatile Dead", data.itemBases["Volatile Wand"].implicit)
+		assert.are.equals("Grants Skill: Level (1-20) Volatile Dead", data.itemBases["Volatile Wand"]?.[1].implicit)
 
 		item = new("Item"):Item([[
 			Item Class: Wands
@@ -264,7 +264,7 @@ describe("TestItemParse", function()
 	end)
 
 	it("Crafted base granted skill ranges stay implicit", function()
-		local base = data.itemBases["Volatile Wand"]
+		local base = data.itemBases["Volatile Wand"]?.[1]
 		local item = new("Item"):Item()
 		item.name = "Volatile Wand"
 		item.base = base
@@ -1580,7 +1580,7 @@ describe("TestAdvancedItemParse #item", function()
 		end)
 
 		it("does not scale unscalable base implicits", function()
-			local base = data.itemBases["Fists of Stone"]
+			local base = data.itemBases["Fists of Stone"]?.[1]
 			local item = new("Item"):Item("Rarity: Rare\nTest Subject\nFists of Stone\nCrafted: true\nImplicits: 2\n" .. base.implicit .. "\n100% increased Implicit Modifier magnitudes")
 			for _, modLine in ipairs(item.implicitModLines) do
 				assert.is_true(modLine.unscalable)
