@@ -686,6 +686,9 @@ local modNameList = {
 	["melee strike range with this weapon"] = "MeleeWeaponRange",
 	["metres to melee strike range"] = { "MeleeWeaponRangeMetre", "UnarmedRangeMetre" },
 	["metre to melee strike range"] = { "MeleeWeaponRangeMetre", "UnarmedRangeMetre" },
+	["metres to dodge roll distance"] = "DodgeRollDistance",
+	["metre to dodge roll distance"] = "DodgeRollDistance",
+	["energy"] = "EnergyGenerated", -- Meta gem Energy, "Meta Skills gain #% increased Energy"
 	["to deal double damage"] = "DoubleDamageChance",
 	["to deal triple damage"] = "TripleDamageChance",
 	["curse activation"] = "CurseActivation",
@@ -1332,6 +1335,7 @@ local preFlagList = {
 	["^prismatic skills [hd][ae][va][el] "] = { tag = { type = "SkillType", skillType = SkillType.RandomElement } },
 	["^retaliation skills [hd][ae][va][el] "] = { tag = { type = "SkillType", skillType = SkillType.Retaliation } },
 	["^meta skills [hd][ae][va][el] "] = { tag = { type = "SkillType", skillType = SkillType.Meta } },
+	["^meta skills gain "] = { tag = { type = "SkillType", skillType = SkillType.Meta } },
 	["^invocated skills [hd][ae][va][el] "] = { tag = { type = "Condition", var = "InvocationSkill" } },
 	["^invocated spells [hd][ae][va][el] "] = { keywordFlags = KeywordFlag.Spell, tag = { type = "Condition", var = "InvocationSkill" } },
 	["^slam skills [hd][ae][va][el] "] = { tag = { type = "SkillType", skillType = SkillType.Slam } },

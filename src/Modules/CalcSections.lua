@@ -585,6 +585,8 @@ return {
 	{ label = "Trigger Rate Cap", flag = "triggered", notFlagList = {"focused", "hasOverride"}, { format = "{2:output:TriggerRateCap}", { breakdown = "TriggerRateCap" }, { modName = "CooldownRecovery", modType = "INC", cfg = "skill", }, }, },
 	{ label = "Trigger Rate Cap", flagList = {"triggered", "hasOverride"}, notFlag = "focused", { format = "{2:output:TriggerRateCap}", { breakdown = "TriggerRateCap" }, { modName = "CooldownRecovery", modType = "OVERRIDE", cfg = "skill", }, }, },
 	{ label = "Trigger Rate Cap", flagList = {"triggered", "focused"}, { format = "{2:output:TriggerRateCap}", { breakdown = "TriggerRateCap" }, { modName = "FocusCooldownRecovery", modType = "INC", cfg = "skill", }, }, },
+	{ label = "Maximum Energy", haveOutput = "MaxEnergy", { format = "{0:output:MaxEnergy}", { breakdown = "MaxEnergy" }, }, },
+	{ label = "Energy per second", haveOutput = "EnergyPerSecond", { format = "{2:output:EnergyPerSecond}", { breakdown = "EnergyPerSecond" }, }, },
 	{ label = "Eff. Source Rate", flag = "triggered", notFlag = "focused", notFlag = "globalTrigger", { format = "{2:output:EffectiveSourceRate}", { breakdown = "EffectiveSourceRate" } }, },
 	{ label = "Skill Trigger Rate", flag = "triggered", notFlag = "focused", { format = "{2:output:SkillTriggerRate}", { breakdown = "SkillTriggerRate" }, { breakdown = "SimData" }, }, },
 	{ label = "Skill Trigger Rate", flagList = {"triggered", "focused"}, { format = "{2:output:SkillTriggerRate}", { breakdown = "SkillTriggerRate" }, { breakdown = "SimData" }, { modName = "FocusCooldownRecovery", modType = "INC", cfg = "skill", }, }, },
