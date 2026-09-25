@@ -441,10 +441,11 @@ end
 
 -- Pick the skill generating the most Energy per second. Unlike the PoE1 triggers
 -- this is not simply the fastest skill, since Energy gained scales with hit damage.
-local function findEnergySourceSkill(env, calcEnergy)
+local function findEnergySourceSkill(env, calcEnergy, sourceCond)
 	local source, bestEnergy, bestRate = nil, 0, 0
 	for _, skill in ipairs(env.player.activeSkillList) do
-		if not isTriggered(skill) and not skill.skillTypes[SkillType.OtherThingUsesSkill] and not skillFlagsOf(skill).disable then
+		if not isTriggered(skill) and not skill.skillTypes[SkillType.OtherThingUsesSkill] and not skillFlagsOf(skill).disable
+		   and (not sourceCond or sourceCond(skill)) then
 			local uuid = cacheSkillUUID(skill, env)
 			if not GlobalCache.cachedData[env.mode][uuid] or env.mode == "CALCULATOR" then
 				calcs.buildActiveSkill(env, env.mode, skill, uuid)
@@ -461,35 +462,50 @@ local function findEnergySourceSkill(env, calcEnergy)
 	return source, bestEnergy, bestRate
 end
 
--- Unmitigated Critical Hit damage, as used for ailments
-local function sumCritDamage(output)
-	local total = 0
-	for _, damageType in ipairs(dmgTypeList) do
-		total = total + (output[damageType .. "CritAverage"] or 0)
+-- Unmitigated damage of the given kind, as used for ailments.
+-- Attacks report it per weapon; dual wielding alternates between them.
+local function unmitigatedDamage(output, kind)
+	local function sumTypes(passOutput)
+		local total = 0
+		for _, damageType in ipairs(dmgTypeList) do
+			total = total + (passOutput[damageType .. kind] or 0)
+		end
+		return total
 	end
-	return total
+	if output.MainHand or output.OffHand then
+		local mainHand = sumTypes(output.MainHand or {})
+		local offHand = sumTypes(output.OffHand or {})
+		return (mainHand > 0 and offHand > 0) and (mainHand + offHand) / 2 or mainHand + offHand
+	end
+	return sumTypes(output)
 end
 
--- Energy gained per Critical Hit, and the rate at which the source crits
-local function calcCritEnergy(env, metaSkill, cachedData)
+local function getMonsterPower(env)
+	return env.modDB:Override(nil, "MonsterPower") or env.modDB:Sum("BASE", nil, "MonsterPower")
+end
+
+-- Energy gained per hit and the rate at which the source hits. Energy scales with the
+-- share of the enemy's Ailment Threshold the hit deals, so harder hits generate more.
+local function calcHitEnergy(env, cachedData, energyPerPower, onCrit)
 	local output = cachedData.Env.player.output
-	local critChance = output.CritChance or 0
-	if critChance <= 0 then
-		return nil
-	end
-	local critDamage
-	if output.MainHand or output.OffHand then
-		-- Attacks report damage per weapon; dual wielding alternates between them
-		local mainHand = sumCritDamage(output.MainHand or {})
-		local offHand = sumCritDamage(output.OffHand or {})
-		critDamage = (mainHand > 0 and offHand > 0) and (mainHand + offHand) / 2 or mainHand + offHand
+	local critChance = (output.CritChance or 0) / 100
+	local rate = cachedData.HitSpeed or cachedData.Speed or 0
+	local damage
+	if onCrit then
+		if critChance <= 0 then
+			return nil
+		end
+		rate = rate * critChance
+		damage = unmitigatedDamage(output, "CritAverage")
 	else
-		critDamage = sumCritDamage(output)
+		damage = unmitigatedDamage(output, "HitAverage") * (1 - critChance) + unmitigatedDamage(output, "CritAverage") * critChance
 	end
 	local ailmentThreshold = data.monsterAilmentThresholdTable[env.enemyLevel] * calcLib.mod(env.enemy.modDB, nil, "EnemyAilmentThreshold")
-	local monsterPower = env.modDB:Override(nil, "MonsterPower") or env.modDB:Sum("BASE", nil, "MonsterPower")
-	local energy = metaSkill.skillData.energyPerPowerOnCrit * monsterPower * critDamage / ailmentThreshold
-	return energy, (cachedData.HitSpeed or cachedData.Speed or 0) * critChance / 100
+	return energyPerPower * getMonsterPower(env) * damage / ailmentThreshold, rate
+end
+
+local function isMeleeAttack(skill)
+	return skill.skillTypes[SkillType.Melee] and skill.skillTypes[SkillType.Attack]
 end
 
 local function metaGemTriggerHandler(env, config)
@@ -514,22 +530,41 @@ local function metaGemTriggerHandler(env, config)
 
 	-- Energy gained per event, and how often that event happens
 	local source, energyPerEvent, eventRate
+	local metaData = metaSkill.skillData
+	-- Gems that gain Energy from our own hits need a skill to hit with
+	local needsSource = config.energySource == "crit" or config.energySource == "meleeHit"
 	if config.energySource == "crit" then
 		source, energyPerEvent, eventRate = findEnergySourceSkill(env, function(cachedData)
-			return calcCritEnergy(env, metaSkill, cachedData)
+			return calcHitEnergy(env, cachedData, metaData.energyPerPowerOnCrit, true)
 		end)
-		if not source then
-			actor.mainSkill.skillData.triggered = nil
-			actor.mainSkill.infoMessage2 = "DPS reported assuming Self-Cast"
-			actor.mainSkill.infoMessage = s_format("No %s Triggering Skill Found", config.triggerName)
-			actor.mainSkill.infoTrigger = ""
-			return
-		end
+	elseif config.energySource == "meleeHit" then
+		source, energyPerEvent, eventRate = findEnergySourceSkill(env, function(cachedData)
+			return calcHitEnergy(env, cachedData, metaData.energyPerPowerOnMeleeHit, false)
+		end, isMeleeAttack)
 	elseif config.energySource == "dodge" then
 		-- Energy gain only increments at whole metre breakpoints
 		local distance = m_floor(calcLib.val(env.modDB, "DodgeRollDistance"))
-		energyPerEvent = metaSkill.skillData.energyPerMetreDodgeRolling * distance
+		energyPerEvent = metaData.energyPerMetreDodgeRolling * distance
 		eventRate = env.modDB:Override(nil, "DodgeRollsPerSecond") or env.modDB:Sum("BASE", nil, "DodgeRollsPerSecond")
+	elseif config.energySource == "block" then
+		-- Blocking is not tied to a skill of ours, so it follows how often the enemy hits
+		-- Same enemy attack time CalcDefence uses for incoming hits
+		local enemySkillTime = (env.configInput.enemySpeed or env.configPlaceholder.enemySpeed or 700) / (1 + env.enemy.modDB:Sum("INC", nil, "Speed") / 100)
+		energyPerEvent = metaData.energyOnBlock
+		eventRate = 1000 / enemySkillTime * (actor.output.BlockChance or 0) / 100
+	elseif config.energySource == "meleeKill" then
+		energyPerEvent = metaData.energyPerPowerOnMeleeKill * getMonsterPower(env)
+		eventRate = env.modDB:Sum("BASE", nil, "Multiplier:MeleeKillsPerSecond")
+	elseif config.energySource == "charm" then
+		energyPerEvent = metaData.energyPerCharmCharge
+		eventRate = env.modDB:Sum("BASE", nil, "Multiplier:CharmChargesUsedPerSecond")
+	end
+	if needsSource and not source then
+		actor.mainSkill.skillData.triggered = nil
+		actor.mainSkill.infoMessage2 = "DPS reported assuming Self-Cast"
+		actor.mainSkill.infoMessage = s_format("No %s Triggering Skill Found", config.triggerName)
+		actor.mainSkill.infoTrigger = ""
+		return
 	end
 
 	energyPerEvent = energyPerEvent * energyInc * energyMore
@@ -567,16 +602,16 @@ local function metaGemTriggerHandler(env, config)
 		t_insert(breakdown.MaxEnergy, s_format("= %.0f ^8(maximum Energy)", maxEnergy))
 
 		breakdown.EnergyPerSecond = {}
-		if config.energySource == "crit" then
-			t_insert(breakdown.EnergyPerSecond, s_format("%.2f ^8(Energy per Critical Hit from %s)", energyPerEvent, source.activeEffect.grantedEffect.name))
-			t_insert(breakdown.EnergyPerSecond, s_format("^8(Monster Power x unmitigated Critical Hit damage / enemy Ailment Threshold)"))
+		if source then
+			t_insert(breakdown.EnergyPerSecond, s_format("%.2f ^8(Energy per %s from %s)", energyPerEvent, config.eventName, source.activeEffect.grantedEffect.name))
+			t_insert(breakdown.EnergyPerSecond, s_format("^8(Monster Power x unmitigated %s damage / enemy Ailment Threshold)", config.eventName))
 		else
-			t_insert(breakdown.EnergyPerSecond, s_format("%.2f ^8(Energy per dodge roll)", energyPerEvent))
+			t_insert(breakdown.EnergyPerSecond, s_format("%.2f ^8(Energy per %s)", energyPerEvent, config.eventName))
 		end
 		if effectiveEnergy < energyPerEvent then
 			t_insert(breakdown.EnergyPerSecond, s_format("%.2f ^8(capped at maximum Energy, the excess is discarded)", effectiveEnergy))
 		end
-		t_insert(breakdown.EnergyPerSecond, s_format("x %.2f ^8(%s per second)", eventRate, config.energySource == "crit" and "Critical Hits" or "dodge rolls"))
+		t_insert(breakdown.EnergyPerSecond, s_format("x %.2f ^8(%ss per second)", eventRate, config.eventName))
 		t_insert(breakdown.EnergyPerSecond, s_format("= %.2f ^8(Energy per second)", output.EnergyPerSecond))
 
 		breakdown.SkillTriggerRate = {
@@ -1669,10 +1704,28 @@ local configTable = {
 	end,
 	-- PoE2 Meta gems, keyed by the hidden support they apply to their socketed skills
 	["supportmetacastoncritplayer"] = function(env)
-		return { customHandler = metaGemTriggerHandler, energySource = "crit" }
+		return { customHandler = metaGemTriggerHandler, energySource = "crit", eventName = "Critical Hit" }
 	end,
 	["supportmetacastondodgeplayer"] = function(env)
-		return { customHandler = metaGemTriggerHandler, energySource = "dodge" }
+		return { customHandler = metaGemTriggerHandler, energySource = "dodge", eventName = "dodge roll" }
+	end,
+	["supportmetacastfirespellonhitplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "meleeHit", eventName = "melee Hit" }
+	end,
+	["supportmetacastlightningspellonhitplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "meleeHit", eventName = "melee Hit" }
+	end,
+	["supportmetacastonblockplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "block", eventName = "Block" }
+	end,
+	["supportmetacastcurseonblockplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "block", eventName = "Block" }
+	end,
+	["supportmetacastonmeleekillplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "meleeKill", eventName = "melee Kill" }
+	end,
+	["supportmetacastoncharmuseplayer"] = function(env)
+		return { customHandler = metaGemTriggerHandler, energySource = "charm", eventName = "Charm Charge" }
 	end,
 	["supporttriggerelementalspellonblock"] = function(env) -- Svalinn Girded Tower Shield
 		skillFlagsOf(env.player.mainSkill).globalTrigger = true

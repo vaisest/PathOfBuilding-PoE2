@@ -730,6 +730,12 @@ local configSettings = {
 	{ var = "dodgeRollsPerSecond", type = "float", label = "Dodge Rolls per second:", ifSkill = "Cast on Dodge", defaultPlaceholderState = 1, apply = function(val, modList, enemyModList)
 		modList:NewMod("DodgeRollsPerSecond", "OVERRIDE", val, "Config")
 	end },
+	{ var = "multiplierMeleeKillsPerSecond", type = "float", label = "Melee Kills per second:", ifSkill = "Cast on Melee Kill", apply = function(val, modList, enemyModList)
+		modList:NewMod("Multiplier:MeleeKillsPerSecond", "BASE", val, "Config")
+	end },
+	{ var = "multiplierCharmChargesUsedPerSecond", type = "float", label = "Charm Charges used per second:", ifSkill = "Cast on Charm Use", apply = function(val, modList, enemyModList)
+		modList:NewMod("Multiplier:CharmChargesUsedPerSecond", "BASE", val, "Config")
+	end },
 	{ label = "Warcry Skills:", ifFlag = "UsesWarcryPower" },
 	{ var = "multiplierWarcryPower", type = "count", label = "Warcry Power:", ifFlag = "UsesWarcryPower", tooltip = "Power determines how strong your Warcry buffs will be, and is based on the total strength of nearby enemies.\nPower is assumed to be 20 if your target is a Boss, but you can override it here if necessary.\n\tEach Normal enemy grants 1 Power\n\tEach Magic enemy grants 2 Power\n\tEach Rare enemy grants 10 Power\n\tEach Unique enemy grants 20 Power", apply = function(val, modList, enemyModList)
 		modList:NewMod("WarcryPower", "OVERRIDE", val, "Config")

@@ -222,6 +222,26 @@ return function(mod, flag, skill)
 	skill("energyPerMetreDodgeRolling", nil),
 	div = 100,
 },
+["cast_fire_spell_on_hit_gain_X_centienergy_per_monster_power_on_hit"] = {
+	skill("energyPerPowerOnMeleeHit", nil),
+	div = 100,
+},
+["cast_lightning_spell_on_hit_gain_X_centienergy_per_monster_power_on_hit"] = {
+	skill("energyPerPowerOnMeleeHit", nil),
+	div = 100,
+},
+["cast_on_block_gain_X_centienergy_on_block"] = {
+	skill("energyOnBlock", nil),
+	div = 100,
+},
+["cast_on_melee_kill_gain_X_centienergy_per_monster_power_on_melee_kill"] = {
+	skill("energyPerPowerOnMeleeKill", nil),
+	div = 100,
+},
+["cast_on_using_charm_gain_X_centienergy_per_charm_charge_used_on_using_charm"] = {
+	skill("energyPerCharmCharge", nil),
+	div = 100,
+},
 ["base_skill_cost_life_instead_of_mana_%"] = {
 	mod("HybridManaAndLifeCost_Life", "BASE", nil),
 },
